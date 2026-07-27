@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学习卡片</title>
+<style>
+	*{box-sizing:border-box;margin:0;padding:0}
+	body{
+		min-height:100vh;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		padding:28px;
+		font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+		color:#2f2a24;
+		background:linear-gradient(135deg,#fbf7ec 0%,#eef5f8 100%);
+	}
+	main{width:100%;max-width:1000px}
+	.hero{text-align:center;margin-bottom:28px}
+	h1{font-size:clamp(28px,7vw,44px);font-weight:700;letter-spacing:.04em;margin-bottom:10px}
+	.sub{font-size:15px;color:#6f665b;line-height:1.7}
+	.subject+.subject{margin-top:34px}
+	.subject-head{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+	.subject-head::after{content:"";height:1px;flex:1;background:rgba(99,85,67,.2)}
+	.subject-title{flex:0 0 auto;font-size:20px;letter-spacing:0}
+	.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+	.card{
+		display:flex;
+		flex-direction:column;
+		min-height:170px;
+		padding:22px;
+		border:1px solid rgba(99,85,67,.16);
+		border-radius:8px;
+		text-decoration:none;
+		color:inherit;
+		background:rgba(255,253,248,.82);
+		box-shadow:0 18px 45px rgba(65,48,28,.12);
+		transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+	}
+	.card:hover{transform:translateY(-4px);box-shadow:0 24px 55px rgba(65,48,28,.18);border-color:rgba(99,85,67,.28)}
+	.icon{width:44px;height:44px;border-radius:8px;display:grid;place-items:center;margin-bottom:16px;font-size:22px;color:#fff}
+	.english .icon{background:#2f6d8c}.minjiao .icon{background:#3f7d56}.career .icon{background:#8a5d2b}.chinese .icon{background:#b33b30}
+	.card-title{font-size:19px;letter-spacing:0;white-space:nowrap;margin-bottom:9px}
+	p{font-size:14px;color:#6f665b;line-height:1.7}
+	.go{display:inline-block;margin-top:auto;padding-top:18px;font-size:13px;font-weight:700;color:#3f6d54}
+	@media(max-width:620px){
+		body{padding:20px 16px}
+		.grid{grid-template-columns:1fr}
+		.card{min-height:156px;padding:20px}
+		.card-title{font-size:18px}
+		.subject+.subject{margin-top:30px}
+	}
+</style>
+</head>
+<body>
+<main>
+	<section class="hero">
+		<h1>学习卡片</h1>
+		<p class="sub">选择科目开始复习，进度会保存在当前浏览器中。</p>
+	</section>
+
+	<section class="subject" aria-labelledby="english-title">
+		<div class="subject-head">
+			<h2 class="subject-title" id="english-title">英语</h2>
+		</div>
+		<div class="grid">
+			<a class="card minjiao" href="textbooks/minjiao/english/grade3b-words.html">
+				<div class="icon">闽</div>
+				<h3 class="card-title">闽教版英语 · 三年级下册</h3>
+				<p>闽教版三年级下册英语单词复习，支持汉译英、英译汉、发音和进度同步。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+
+			<a class="card minjiao" href="textbooks/minjiao/english/grade4a-words.html">
+				<div class="icon">闽</div>
+				<h3 class="card-title">闽教版英语 · 四年级上册</h3>
+				<p>闽教版四年级上册英语单词复习，支持汉译英、英译汉、发音和进度同步。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+
+			<a class="card english" href="textbooks/renai/english/grade7b-words.html">
+				<div class="icon">En</div>
+				<h3 class="card-title">仁爱版英语 · 七年级下册</h3>
+				<p>仁爱版七年级下册英语单词复习，支持汉译英、英译汉和发音。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+
+			<a class="card english" href="textbooks/renai/english/grade8s-words.html">
+				<div class="icon">En</div>
+				<h3 class="card-title">仁爱版英语 · 八年级上册</h3>
+				<p>仁爱版八年级上册英语单词与短语复习，支持汉译英、英译汉、发音和进度同步。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+
+			<a class="card career" href="other/en20260704.html">
+				<div class="icon">Job</div>
+				<h3 class="card-title">职业主题英语 · 专题</h3>
+				<p>从课堂图片整理的职业词汇与常用句型，支持双向练习、发音和进度同步。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+		</div>
+	</section>
+
+	<section class="subject" aria-labelledby="chinese-title">
+		<div class="subject-head">
+			<h2 class="subject-title" id="chinese-title">语文</h2>
+		</div>
+		<div class="grid">
+			<a class="card chinese" href="textbooks/pep/chinese/grade8a-required-recitations.html">
+				<div class="icon">背</div>
+				<h3 class="card-title">必背古诗文 · 八年级上册</h3>
+				<p>先读懂背景、正文和重点词，再通过分段遮挡与按掌握情况循环的轮次复习完成背诵。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+
+			<a class="card chinese" href="textbooks/pep/chinese/grade7b-characters.html">
+				<div class="icon">文</div>
+				<h3 class="card-title">语文生字词 · 七年级下册</h3>
+				<p>七年级下册语文生字词复习，支持字词、拼音双向练习。</p>
+				<span class="go">进入学习 →</span>
+			</a>
+		</div>
+	</section>
+</main>
+</body>
+</html>

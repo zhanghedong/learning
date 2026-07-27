@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>闽教版英语四年级上册 · 单词卡片</title>
+<style>
+  :root{
+    --paper:#f4f1ea;
+    --paper-2:#e8e3d6;
+    --ink:#26303a;
+    --ink-soft:#62707b;
+    --accent:#2f6d8c;        /* 蓝墨水 */
+    --accent-soft:#9cc0d1;
+    --line:#d8d2c4;
+    --good:#3f7d56;
+    --kai:"Kaiti SC","STKaiti",KaiTi,"楷体",serif;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans);background:var(--paper);color:var(--ink);
+    background-image:radial-gradient(rgba(47,109,140,.04) 1px,transparent 1px);
+    background-size:18px 18px;-webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;align-items:center;min-height:100%;padding:16px;
+  }
+  .wrap{width:100%;max-width:640px;display:flex;flex-direction:column;flex:1}
+  .home-link{align-self:flex-start;display:inline-flex;align-items:center;gap:5px;min-height:30px;
+    margin:0 2px 4px;padding:5px 9px;color:var(--accent);background:#fffdf8;border:1px solid var(--line);
+    border-radius:8px;text-decoration:none;font-size:12.5px;font-weight:500;transition:.15s}
+  .home-link:hover{border-color:var(--accent-soft);color:var(--ink)}
+  .home-link .arrow{font-size:16px;line-height:1}
+
+  header{margin:6px 2px 14px;display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .seal{font-family:var(--serif);font-weight:600;color:#fff;background:var(--accent);
+    width:40px;height:40px;border-radius:8px;display:grid;place-items:center;font-size:17px;line-height:1;
+    box-shadow:0 2px 0 rgba(0,0,0,.12) inset,0 2px 6px rgba(47,109,140,.3);flex:0 0 auto;letter-spacing:.5px}
+  h1{font-family:var(--serif);font-size:20px;font-weight:600;letter-spacing:.3px}
+  .sub{color:var(--ink-soft);font-size:12.5px;margin-top:3px}
+  .reset{flex:0 0 auto;font-size:12.5px;color:var(--accent);background:#fffdf8;
+    border:1px solid var(--accent-soft);border-radius:9px;padding:7px 12px;cursor:pointer;transition:.15s;white-space:nowrap}
+  .reset:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .reset:active{transform:translateY(1px)}
+  .tools{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;flex:0 0 auto}
+  .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(10px);
+    background:var(--ink);color:#fff;padding:10px 18px;border-radius:99px;font-size:13px;
+    opacity:0;transition:.25s;z-index:80;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .io-text{width:100%;height:118px;resize:vertical;font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:12px;line-height:1.5;border:1px solid var(--line);border-radius:10px;padding:10px;
+    background:#fff;color:var(--ink);margin-bottom:10px}
+  .dlg-note{font-size:12.5px;color:var(--ink-soft);line-height:1.6;margin-bottom:14px;min-height:1.2em}
+  .dlg-note.err{color:#b5362b}
+  .dlg-note.ok{color:var(--good)}
+
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin:4px 2px 0}
+  select,.btn{font-size:13px;color:var(--ink);background:#fffdf8;border:1px solid var(--line);
+    border-radius:9px;padding:8px 11px;cursor:pointer;transition:.15s;line-height:1.1;font-family:var(--sans)}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  select{appearance:none;-webkit-appearance:none;padding-right:26px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%2362707b'/></svg>");
+    background-repeat:no-repeat;background-position:right 10px center;flex:1;min-width:110px}
+  .btn:hover,select:hover{border-color:var(--accent-soft)}
+  .btn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .btn:active{transform:translateY(1px)}
+
+  .prog{display:flex;align-items:center;gap:10px;margin:14px 2px 0;font-size:12.5px;color:var(--ink-soft)}
+  .bar{flex:1;height:7px;background:var(--paper-2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+  .bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--good),#5aa074);transition:width .35s}
+  .chip{flex:0 0 auto;font-size:11.5px;font-weight:500;padding:3px 9px;border-radius:99px;
+    background:var(--paper-2);color:var(--ink-soft);border:1px solid var(--line);letter-spacing:.5px}
+  .chip.learn{background:#e8f0ec;color:var(--good);border-color:#bcd6c2}
+  .chip.review{background:#e7f0f5;color:var(--accent);border-color:var(--accent-soft)}
+  .chip.all{background:#eef0f6;color:#5a6280;border-color:#c8cfe0}
+
+  .stage{flex:1;display:flex;flex-direction:column;justify-content:center;margin:6px 0}
+  .card{position:relative;width:100%;aspect-ratio:5/4;max-height:46vh;perspective:1600px;cursor:pointer;user-select:none;margin:0 auto}
+  .inner{position:absolute;inset:0;transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+  .card.flip .inner{transform:rotateY(180deg)}
+  .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    background:#fffdf8;border:1px solid var(--line);border-radius:18px;
+    box-shadow:0 10px 30px rgba(40,60,80,.10),0 2px 0 rgba(0,0,0,.02);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;padding:30px 22px}
+  .face.back{transform:rotateY(180deg);pointer-events:none}
+  .card.flip .face.front{pointer-events:none}
+  .card.flip .face.back{pointer-events:auto}
+  #backContent{opacity:0;transition:opacity .15s ease .1s}
+  .card.flip #backContent{opacity:1}
+
+  .cn{font-family:var(--kai);font-size:clamp(30px,8.5vw,50px);font-weight:500;line-height:1.3;text-align:center;color:var(--ink);position:relative;z-index:2}
+  .cn.long{font-size:clamp(24px,6.6vw,40px)}
+  .cn.xlong{font-size:clamp(21px,5.6vw,34px);line-height:1.35}
+  .en{font-family:var(--serif);font-weight:600;line-height:1.12;text-align:center;color:var(--ink);
+    position:relative;z-index:2;padding-bottom:10px;border-bottom:2px solid var(--accent-soft);word-break:break-word}
+  .en1{font-size:clamp(46px,13vw,78px)} .en2{font-size:clamp(38px,10.5vw,64px)}
+  .en3{font-size:clamp(30px,8vw,52px)}  .en4{font-size:clamp(24px,6.2vw,40px)}
+  .en5{font-size:clamp(19px,5vw,31px)}
+  .spk{margin-top:14px;min-width:92px;min-height:42px;font-size:15px;line-height:1;background:#eef5f8;color:var(--accent);
+    border:1px solid var(--accent-soft);border-radius:99px;padding:9px 16px;cursor:pointer;z-index:3;transition:.15s;
+    display:inline-flex;align-items:center;justify-content:center;gap:6px}
+  .spk:hover{background:var(--accent);color:#fff}
+  .spk:active{transform:translateY(1px)}
+  .icon-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:30px;padding:0}
+  .flat-icon{display:block;width:18px;height:18px;flex:0 0 auto;color:currentColor;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .spk .flat-icon{width:17px;height:17px}
+  .complete-mark{display:inline-grid;place-items:center;width:34px;height:34px;margin-bottom:10px;border-radius:12px;background:var(--good);color:#fff;font-weight:700}
+  .sub-meaning{font-family:var(--kai);margin-top:16px;font-size:clamp(16px,4.5vw,22px);color:var(--ink-soft);text-align:center;z-index:2}
+
+  .hint{position:absolute;bottom:13px;font-size:11px;color:var(--ink-soft);z-index:2;letter-spacing:1px}
+  .tag{position:absolute;top:13px;left:15px;font-size:11px;color:var(--ink-soft);z-index:2}
+  .star{position:absolute;top:11px;right:14px;z-index:3;font-size:18px;color:var(--accent-soft)}
+  .star.on{color:var(--accent)}
+
+  .nav{display:flex;align-items:center;gap:10px;margin-top:14px}
+  .count{font-size:13px;color:var(--ink-soft);min-width:64px;text-align:center}
+  .nav .btn{flex:0 0 auto;width:46px;text-align:center;font-size:18px;padding:9px 0}
+  .mark{display:flex;gap:8px;flex:1}
+  .mark .btn{flex:1;font-weight:500;font-size:13.5px}
+  .btn.review{color:var(--accent);border-color:var(--accent-soft)}
+  .btn.review.on{background:var(--accent);color:#fff}
+  .btn.got{color:var(--good);border-color:#aacdb2}
+  .btn.got.on{background:var(--good);color:#fff;border-color:var(--good)}
+
+  .empty{text-align:center;color:var(--ink-soft);padding:50px 20px;font-size:14px;line-height:1.8}
+  footer{text-align:center;color:var(--ink-soft);font-size:11px;margin-top:16px;opacity:.85}
+
+  .modal{position:fixed;inset:0;background:rgba(38,48,58,.45);display:none;align-items:center;justify-content:center;padding:24px;z-index:50}
+  .modal.show{display:flex}
+  .dialog{background:#fffdf8;border:1px solid var(--line);border-radius:16px;max-width:340px;width:100%;padding:22px 20px;box-shadow:0 20px 50px rgba(30,50,70,.3)}
+  .dlg-title{font-family:var(--serif);font-size:19px;font-weight:600;margin-bottom:10px}
+  .dlg-body{font-size:13.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
+  .dlg-body b{color:var(--accent);font-weight:600}
+  .dlg-actions{display:flex;gap:10px}
+  .dlg-actions .btn{flex:1;padding:10px;font-size:14px}
+  .btn.danger{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:500}
+  .btn.danger:hover{background:#245770}
+  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:500}
+  .btn.primary:hover{background:#245770}
+  .ta{width:100%;height:120px;margin:4px 0 10px;padding:10px;border:1px solid var(--line);border-radius:10px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.5;color:var(--ink);
+    background:#fbfaf5;resize:vertical;word-break:break-all}
+  .ta:focus{outline:none;border-color:var(--accent-soft)}
+  .note{font-size:12px;color:var(--ink-soft);line-height:1.6;margin:2px 0 12px;min-height:1em}
+  .note.err{color:#c0392b}
+  .note.ok{color:var(--good)}
+  @media(max-width:520px){
+    header{flex-direction:column;align-items:stretch}
+    .brand{align-items:center}.brand>div:last-child{min-width:0}
+    h1{font-size:18px}
+    .tools{justify-content:flex-start;flex-wrap:nowrap}
+    .tools .reset{flex:1;padding:7px 6px}
+  }
+  @media(max-width:420px){.controls{gap:6px}.btn,select{padding:7px 9px;font-size:12.5px}.nav .btn{width:42px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="home-link" href="../../../index.html"><span class="arrow" aria-hidden="true">←</span><span>首页</span></a>
+  <header>
+    <div class="brand">
+      <div class="seal">EN</div>
+      <div>
+        <h1>闽教版英语 · 四年级上册</h1>
+        <div class="sub">翻面自动发音 · 进度本机保存</div>
+      </div>
+    </div>
+    <div class="tools">
+      <button class="reset" id="syncBtn" title="使用同步码跨设备同步进度">☁ 同步</button>
+      <button class="reset" id="copyBtn" title="复制学习进度到剪贴板">⧉ 复制</button>
+      <button class="reset" id="importBtn" title="从剪贴板导入进度">⇩ 导入</button>
+      <button class="reset" id="resetBtn" title="重置当前范围,重新学一遍">↺ 重置</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <select id="unitSel"></select>
+    <select id="lessonSel"></select>
+    <button class="btn" id="dirBtn" title="切换中英方向">汉译英</button>
+    <button class="btn" id="allBtn" title="浏览全部(含已掌握)">全部</button>
+    <button class="btn icon-btn" id="shuffleBtn" title="随机打乱"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 3h5v5"></path><path d="M4 20 21 3"></path><path d="M21 16v5h-5"></path><path d="M15 15l6 6"></path><path d="M4 4l5 5"></path></svg><span class="sr-only">随机</span></button>
+    <button class="btn icon-btn on" id="soundBtn" title="自动发音开关"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a8 8 0 0 1 0 10"></path></svg><span class="sr-only">发音</span></button>
+  </div>
+
+  <div class="prog">
+    <span class="chip" id="phaseChip">新学</span>
+    <span id="masterTxt">已掌握 0</span>
+    <div class="bar"><i id="barFill"></i></div>
+    <span id="totalTxt">共 0</span>
+  </div>
+
+  <div class="stage">
+    <div class="card" id="card">
+      <div class="inner">
+        <div class="face front">
+          <span class="tag" id="tagF"></span>
+          <span class="star" id="starF">★</span>
+          <div id="frontContent"></div>
+          <span class="hint">点击 / 空格 翻面</span>
+        </div>
+        <div class="face back">
+          <span class="tag" id="tagB"></span>
+          <span class="star" id="starB">★</span>
+          <div id="backContent"></div>
+          <span class="hint">再点一下翻回</span>
+        </div>
+      </div>
+    </div>
+    <div id="emptyMsg" class="empty" style="display:none"></div>
+
+    <div class="nav" id="navRow">
+      <button class="btn" id="prevBtn">‹</button>
+      <div class="mark">
+        <button class="btn review" id="reviewBtn">需复习</button>
+        <button class="btn got" id="gotBtn">已掌握</button>
+      </div>
+      <span class="count" id="counter">0 / 0</span>
+      <button class="btn" id="nextBtn">›</button>
+    </div>
+  </div>
+
+  <footer>键盘:空格翻面 · ← → 切换 · ↑已掌握 · ↓需复习</footer>
+</div>
+
+<div class="modal" id="modal">
+  <div class="dialog">
+    <div class="dlg-title">重新学习</div>
+    <div class="dlg-body" id="dlgBody"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="cancelReset">取消</button>
+      <button class="btn danger" id="confirmReset">确定重置</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="copyModal">
+  <div class="dialog">
+    <div class="dlg-title">导出学习进度</div>
+    <div class="dlg-body">下面是当前进度。点「复制」存到剪贴板,或长按全选手动复制,粘贴到另一台设备导入。</div>
+    <textarea id="copyText" class="ta" readonly></textarea>
+    <div class="note" id="copyNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="copyClose">关闭</button>
+      <button class="btn primary" id="copyDo">复制</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="importModal">
+  <div class="dialog">
+    <div class="dlg-title">导入学习进度</div>
+    <div class="dlg-body" id="importHint">把导出的进度文本粘贴到下面(已尝试自动读取剪贴板)。导入会<b>替换当前全部进度</b>。</div>
+    <textarea id="importText" class="ta" placeholder="在此粘贴进度文本…"></textarea>
+    <div class="note" id="importNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="importClose">取消</button>
+      <button class="btn primary" id="importDo">校验并导入</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ---------- 数据 [英文, 中文意思] ---------- */
+const DATA = [
+ {unit:"Unit 1", lessons:[
+  {lesson:"单词", words:[
+   ["see","看见"],["again","再次"],["grade","年级"],["our","我们的"],["classroom","教室"],["class","班级；课"],["chair","椅子"],["desk","书桌"],["look","瞧；看"],["blackboard","黑板"],["read","读；阅读"],["after","在……之后"],["tiger","老虎"]
+  ]},
+  {lesson:"短语", words:[
+   ["look at","看着"],["isn’t = is not","不是"]
+  ]}
+ ]},
+ {unit:"Unit 2", lessons:[
+  {lesson:"单词", words:[
+   ["that","那"],["cousin","表（堂）兄弟姐妹"],["from","来自"],["school","学校"],["playground","操场"],["big","大的"],["computer","电脑"],["room","房间"],["library","图书馆"]
+  ]}
+ ]},
+ {unit:"Unit 3", lessons:[
+  {lesson:"单词", words:[
+   ["have","有"],["farm","农场"],["dear","亲爱的"],["thirteen","十三"],["cow","奶牛"],["fourteen","十四"],["horse","马"],["fifteen","十五"],["sheep","绵羊"],["sixteen","十六"],["seventeen","十七"],["twenty","二十"],["eighteen","十八"],["very","非常"],["clever","聪明的"],["nineteen","十九"]
+  ]},
+  {lesson:"短语", words:[
+   ["how much","多少"]
+  ]}
+ ]},
+ {unit:"Unit 4", lessons:[
+  {lesson:"单词", words:[
+   ["thirty","三十"],["slow","慢的"],["sleep","睡觉"],["fifty","五十"],["winner","获胜者"],["forty","四十"],["begin","开始"]
+  ]},
+  {lesson:"短语", words:[
+   ["have a sleep","睡一觉"]
+  ]}
+ ]},
+ {unit:"Unit 5", lessons:[
+  {lesson:"单词", words:[
+   ["bus","公共汽车"],["full","满的；饱的"],["car","小轿车"],["when","什么时候"],["do","（放在动词前构成否定句或疑问句）"],["at","（指时间的某一点）"],["breakfast","早饭"],["to","向；朝着（方向或地点）"],["lunch","午饭"],["bed","床铺"]
+  ]},
+  {lesson:"短语", words:[
+   ["get into","上车（小轿车）"],["get up","起床"],["go to school","去上学"],["go to bed","去睡觉"]
+  ]}
+ ]},
+ {unit:"Unit 6", lessons:[
+  {lesson:"单词", words:[
+   ["milk","牛奶"],["bread","面包"],["tomato","西红柿"],["them","他们；它们（宾格）"],["welcome","欢迎"],["dinner","晚饭"],["beef","牛肉"],["potato","马铃薯"],["vegetable","蔬菜"],["some","一些"]
+  ]}
+ ]},
+ {unit:"Unit 7", lessons:[
+  {lesson:"单词", words:[
+   ["Christmas","圣诞节"],["robot","机器人"],["tree","树"],["email","电子邮件"],["merry","快乐的"]
+  ]}
+ ]},
+ {unit:"Unit 8", lessons:[
+  {lesson:"单词", words:[
+   ["spring","春天"],["festival","节日"],["Chinese","中国的"],["spend","度过"],["we","我们"],["make","制作"],["dumpling","饺子"],["family","家庭"],["watch","观看"],["TV","电视"],["get","得到"],["money","钱"],["fair","庙会"],["friend","朋友"],["say","说"]
+  ]},
+  {lesson:"短语", words:[
+   ["the Spring Festival","春节"]
+  ]}
+ ]}
+];
+
+/* ---------- 状态 ---------- */
+const LS_STATUS="minjiao_en_grade4a_words_status_v1", LS_PREF="minjiao_en_grade4a_words_pref_v1";
+let pref = load(LS_PREF,{unit:0,lesson:-1,dir:0,peekAll:false,sound:true});
+let status = load(LS_STATUS,{});
+let deck=[], idx=0, shuffled=false, phase="learn";
+
+function load(k,def){try{const v=JSON.parse(localStorage.getItem(k));return v==null?def:v}catch(e){return def}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function keyOf(w){return w.u+"|"+w.l+"|"+w.en}   // 含单元,避免不同单元同词冲突
+function saveStatus(){save(LS_STATUS,status)}
+const isGot=k=>status[k]==="got", isReview=k=>status[k]==="review", isNew=k=>!status[k];
+
+function flat(){const out=[];DATA.forEach((u,ui)=>u.lessons.forEach(ls=>ls.words.forEach(([en,cn])=>
+  out.push({en,cn,unit:u.unit,lesson:ls.lesson,u:ui,l:ls.lesson}))));return out;}
+const ALL=flat();
+
+/* ---------- 语音(浏览器 TTS) ---------- */
+let voices=[];
+function loadVoices(){try{voices=window.speechSynthesis.getVoices()||[]}catch(e){voices=[]}}
+if('speechSynthesis' in window){loadVoices();window.speechSynthesis.onvoiceschanged=loadVoices;}
+function speakable(s){
+  return s.replace(/\bDr\.?/g,"doctor").replace(/\bsb\.?/g," somebody ").replace(/\bsth\.?/g," something ")
+          .replace(/=/g," ").replace(/\.\.\./g," ").replace(/…/g," ").replace(/\//g," or ")
+          .replace(/\s+/g," ").trim();
+}
+function speak(text){
+  if(!('speechSynthesis' in window))return;
+  try{
+    window.speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(speakable(text));
+    u.lang="en-US"; u.rate=.9; u.pitch=1;
+    const v=voices.find(v=>/en[-_]US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));
+    if(v)u.voice=v;
+    window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+function speakCurrent(){if(deck.length)speak(deck[idx].en)}
+
+/* ---------- 下拉框 ---------- */
+const unitSel=document.getElementById("unitSel"), lessonSel=document.getElementById("lessonSel");
+function buildUnitSel(){
+  unitSel.innerHTML='<option value="-1">全部单元</option>'+DATA.map((u,i)=>`<option value="${i}">${u.unit}</option>`).join("");
+  unitSel.value=pref.unit;
+}
+function buildLessonSel(){
+  const ui=+unitSel.value;
+  if(ui<0){lessonSel.innerHTML='<option value="-1">——</option>';lessonSel.value="-1";lessonSel.disabled=true;return}
+  lessonSel.disabled=false;
+  lessonSel.innerHTML='<option value="-1">单词+短语</option>'+DATA[ui].lessons.map((ls,i)=>`<option value="${i}">${ls.lesson}</option>`).join("");
+  lessonSel.value = pref.lesson<=DATA[ui].lessons.length-1?pref.lesson:-1;
+}
+
+/* ---------- 范围 & 构建卡组 ---------- */
+function scopeList(){
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return ALL.slice();
+  if(li<0) return ALL.filter(w=>w.u===ui);
+  return ALL.filter(w=>w.u===ui && w.l===DATA[ui].lessons[li].lesson);
+}
+function buildDeck(resetIdx=true){
+  const list=scopeList();
+  const news=list.filter(w=>isNew(keyOf(w)));
+  const reviews=list.filter(w=>isReview(keyOf(w)));
+  let subset;
+  if(pref.peekAll){phase="all";subset=list;}
+  else if(news.length){phase="learn";subset=news;}
+  else if(reviews.length){phase="review";subset=reviews;}
+  else {phase="done";subset=[];}
+  if(shuffled) for(let i=subset.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[subset[i],subset[j]]=[subset[j],subset[i]]}
+  deck=subset; if(resetIdx) idx=0;
+  if(idx>deck.length-1) idx=Math.max(0,deck.length-1);
+}
+
+/* ---------- 渲染 ---------- */
+const card=document.getElementById("card");
+function enLen(s){const n=s.length;return n<=4?"en1":n<=7?"en2":n<=11?"en3":n<=18?"en4":"en5"}
+const soundIcon=off=>off
+  ? `<svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M19 9l-6 6"></path><path d="M13 9l6 6"></path></svg>`
+  : `<svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a8 8 0 0 1 0 10"></path></svg>`;
+const enHTML=w=>`<div class="en ${enLen(w.en)}">${w.en}</div><button class="spk" type="button">${soundIcon(false)} 发音</button><div class="sub-meaning">${w.cn}</div>`;
+function cnHTML(w){
+  const len=[...w.cn].length;
+  const cls=len>28?"cn xlong":(len>18?"cn long":"cn");
+  return `<div class="${cls}">${w.cn}</div>`;
+}
+const englishSide=()=>pref.dir===1?"front":"back";   // 英文在哪一面
+
+function render(){
+  const navRow=document.getElementById("navRow"), empty=document.getElementById("emptyMsg");
+  const inner=card.querySelector(".inner");
+  inner.style.transition="none"; card.classList.remove("flip"); void inner.offsetWidth; inner.style.transition="";
+
+  const scope=scopeList();
+  const done=scope.filter(w=>isGot(keyOf(w))).length;
+  const rev =scope.filter(w=>isReview(keyOf(w))).length;
+  document.getElementById("masterTxt").textContent= rev?`已掌握 ${done} · 待复习 ${rev}`:`已掌握 ${done}`;
+  document.getElementById("totalTxt").textContent="共 "+scope.length;
+  document.getElementById("barFill").style.width=scope.length?(done/scope.length*100)+"%":"0%";
+
+  const chip=document.getElementById("phaseChip");
+  const cm={learn:["新学","learn"],review:["复习","review"],all:["全部","all"],done:["完成","learn"]};
+  const [ct,cc]=cm[phase]||cm.learn; chip.textContent=ct; chip.className="chip "+cc;
+
+  if(!deck.length){
+    card.style.display="none";navRow.style.display="none";empty.style.display="block";
+    document.getElementById("counter").textContent="0 / 0";
+    empty.innerHTML = scope.length===0 ? "这个范围还没有词。"
+      : (pref.peekAll ? "全部模式没有可显示的词。" : "<span class=\"complete-mark\">✓</span><br>本范围全部掌握!<br>想再过一遍,点右上角「重置」。");
+    return;
+  }
+  card.style.display="block";navRow.style.display="flex";empty.style.display="none";
+
+  if(idx>=deck.length)idx=deck.length-1;
+  const w=deck[idx], k=keyOf(w);
+  pref.lastKey=k; pref.lastIdx=idx; save(LS_PREF,pref);
+
+  const f=document.getElementById("frontContent"), b=document.getElementById("backContent");
+  if(pref.dir===0){ f.innerHTML=cnHTML(w); b.innerHTML=enHTML(w); }   // 汉译英
+  else            { f.innerHTML=enHTML(w); b.innerHTML=cnHTML(w); }   // 英译汉
+
+  const tag=`${w.unit} · ${w.lesson}`;
+  document.getElementById("tagF").textContent=tag;
+  document.getElementById("tagB").textContent=tag;
+  document.getElementById("starF").classList.toggle("on",isGot(k));
+  document.getElementById("starB").classList.toggle("on",isGot(k));
+  document.getElementById("counter").textContent=`${idx+1} / ${deck.length}`;
+  document.getElementById("reviewBtn").classList.toggle("on",isReview(k));
+  document.getElementById("gotBtn").classList.toggle("on",isGot(k));
+
+  // 英译汉:英文在正面,渲染即朗读
+  if(pref.sound && englishSide()==="front") speak(w.en);
+}
+
+/* ---------- 交互 ---------- */
+card.addEventListener("click",e=>{
+  if(e.target.closest(".spk")){e.stopPropagation();speakCurrent();return}  // 点喇叭只发音
+  card.classList.toggle("flip");
+  const visible=card.classList.contains("flip")?"back":"front";
+  if(pref.sound && visible===englishSide()) speakCurrent();                // 翻到英文面自动发音
+});
+document.getElementById("prevBtn").onclick=e=>{e.stopPropagation();if(idx>0){idx--;render()}};
+document.getElementById("nextBtn").onclick=e=>{e.stopPropagation();if(idx<deck.length-1){idx++;render()}};
+
+function mark(state){
+  if(!deck.length)return;
+  const k=keyOf(deck[idx]);
+  status[k]=state; saveStatus();
+  if(idx<deck.length-1){idx++; render(); return;}
+  if(phase!=="all") buildDeck(true);
+  render();
+}
+document.getElementById("gotBtn").onclick=()=>mark("got");
+document.getElementById("reviewBtn").onclick=()=>mark("review");
+
+const dirBtn=document.getElementById("dirBtn");
+function refreshDir(){dirBtn.textContent=pref.dir===0?"汉译英":"英译汉";dirBtn.classList.toggle("on",pref.dir===1);}
+dirBtn.onclick=()=>{pref.dir=pref.dir?0:1;save(LS_PREF,pref);refreshDir();render()};
+
+const allBtn=document.getElementById("allBtn");
+allBtn.onclick=()=>{pref.peekAll=!pref.peekAll;save(LS_PREF,pref);allBtn.classList.toggle("on",pref.peekAll);buildDeck();render()};
+
+const soundBtn=document.getElementById("soundBtn");
+function refreshSound(){soundBtn.innerHTML=soundIcon(!pref.sound)+"<span class=\"sr-only\">发音</span>";soundBtn.classList.toggle("on",pref.sound);}
+soundBtn.onclick=()=>{pref.sound=!pref.sound;save(LS_PREF,pref);refreshSound();if(!pref.sound&&'speechSynthesis'in window)window.speechSynthesis.cancel();};
+
+document.getElementById("shuffleBtn").onclick=()=>{shuffled=!shuffled;
+  document.getElementById("shuffleBtn").classList.toggle("on",shuffled);buildDeck();render()};
+
+unitSel.onchange=()=>{pref.unit=unitSel.value;pref.lesson=-1;save(LS_PREF,pref);buildLessonSel();buildDeck();render()};
+lessonSel.onchange=()=>{pref.lesson=lessonSel.value;save(LS_PREF,pref);buildDeck();render()};
+
+/* ---------- 重置(二次确认) ---------- */
+const modal=document.getElementById("modal");
+function scopeName(){
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return "全部单元";
+  if(li<0) return DATA[ui].unit;
+  return DATA[ui].unit+" · "+DATA[ui].lessons[li].lesson;
+}
+document.getElementById("resetBtn").onclick=()=>{
+  document.getElementById("dlgBody").innerHTML=
+    `将清空 <b>${scopeName()}</b> 的「已掌握 / 需复习」记录,重新从头学一遍。<br>此操作不可撤销,确定吗?`;
+  modal.classList.add("show");
+};
+document.getElementById("cancelReset").onclick=()=>modal.classList.remove("show");
+modal.addEventListener("click",e=>{if(e.target===modal)modal.classList.remove("show")});
+document.getElementById("confirmReset").onclick=()=>{
+  scopeList().forEach(w=>{delete status[keyOf(w)]});
+  saveStatus(); modal.classList.remove("show");
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+/* ---------- 导出 / 导入进度 ---------- */
+function statusCounts(st){let g=0,r=0;for(const k in st){if(st[k]==="got")g++;else if(st[k]==="review")r++;}return{g,r}}
+function exportPayload(){return JSON.stringify({app:"minjiao-en-grade4a-words",version:1,exportedAt:new Date().toISOString(),status:status})}
+
+const copyModal=document.getElementById("copyModal"), copyText=document.getElementById("copyText"), copyNote=document.getElementById("copyNote");
+document.getElementById("copyBtn").onclick=()=>{
+  const c=statusCounts(status);
+  copyText.value=exportPayload();
+  copyNote.className="note"; copyNote.textContent=`含 已掌握 ${c.g} · 需复习 ${c.r} 条记录。`;
+  copyModal.classList.add("show");
+  setTimeout(()=>{copyText.focus();copyText.select();},50);
+};
+document.getElementById("copyClose").onclick=()=>copyModal.classList.remove("show");
+copyModal.addEventListener("click",e=>{if(e.target===copyModal)copyModal.classList.remove("show")});
+document.getElementById("copyDo").onclick=async()=>{
+  const txt=copyText.value;
+  let ok=false;
+  try{ if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(txt);ok=true;} }catch(e){}
+  if(!ok){ try{copyText.focus();copyText.select();ok=document.execCommand("copy");}catch(e){} }
+  copyNote.className="note "+(ok?"ok":"err");
+  copyNote.textContent=ok?"✓ 已复制到剪贴板。":"无法自动复制,请长按/全选上面文本手动复制。";
+};
+
+/* 校验进度文本:支持 {app,status} 包装 或 直接的 key→状态 映射 */
+function parseProgress(text){
+  let data;
+  try{ data=JSON.parse((text||"").trim()); }catch(e){ return {ok:false,msg:"✗ 不是有效的文本格式(JSON 解析失败)。"}; }
+  if(!data||typeof data!=="object"||Array.isArray(data)) return {ok:false,msg:"✗ 格式不对:不是进度数据。"};
+  if(data.app && data.app!=="minjiao-en-grade4a-words") return {ok:false,msg:`✗ 这份进度不属于闽教版英语四年级上册卡片(来源:${data.app})。`};
+  const st=(data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:data;
+  if(typeof st!=="object"||Array.isArray(st)) return {ok:false,msg:"✗ 格式不对:找不到进度记录。"};
+  const clean={};let g=0,r=0,bad=0;
+  for(const k in st){const v=st[k];
+    if(typeof k==="string"&&k&&(v==="got"||v==="review")){clean[k]=v;v==="got"?g++:r++;}else bad++;}
+  if(g+r===0) return {ok:false,msg:"✗ 没有可导入的有效记录。"};
+  return {ok:true,status:clean,g,r,bad};
+}
+
+const importModal=document.getElementById("importModal"), importText=document.getElementById("importText"),
+      importNote=document.getElementById("importNote"), importDo=document.getElementById("importDo");
+let pendingImport=null;
+function resetImportState(){pendingImport=null;importDo.textContent="校验并导入";importDo.className="btn primary";}
+importText.addEventListener("input",()=>{if(pendingImport){resetImportState();importNote.textContent="";importNote.className="note";}});
+
+document.getElementById("importBtn").onclick=async()=>{
+  importText.value=""; importNote.textContent=""; importNote.className="note"; resetImportState();
+  importModal.classList.add("show");
+  // 尝试自动读取剪贴板(本地文件/无权限时静默失败,用户可手动粘贴)
+  try{ if(navigator.clipboard&&navigator.clipboard.readText){const t=await navigator.clipboard.readText();if(t&&t.trim())importText.value=t.trim();} }catch(e){}
+  setTimeout(()=>importText.focus(),50);
+};
+document.getElementById("importClose").onclick=()=>importModal.classList.remove("show");
+importModal.addEventListener("click",e=>{if(e.target===importModal)importModal.classList.remove("show")});
+importDo.onclick=()=>{
+  if(!pendingImport){                       // 第一步:校验
+    const res=parseProgress(importText.value);
+    if(!res.ok){importNote.className="note err";importNote.textContent=res.msg;return;}
+    pendingImport=res;
+    const cur=statusCounts(status);
+    importNote.className="note ok";
+    importNote.innerHTML=`✓ 校验通过:含 已掌握 ${res.g} · 需复习 ${res.r}${res.bad?`(忽略 ${res.bad} 条无效)`:""}。<br>`+
+      `<span style="color:var(--ink-soft)">将<b style="color:#c0392b">替换</b>当前进度(已掌握 ${cur.g} · 需复习 ${cur.r})。再点一次确认。</span>`;
+    importDo.textContent="确定替换并导入";
+    importDo.className="btn danger";
+    return;
+  }
+  // 第二步:确认导入
+  status=pendingImport.status; saveStatus();
+  importModal.classList.remove("show"); resetImportState();
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  delete pref.lastKey;save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+document.addEventListener("keydown",e=>{
+  if(["INPUT","SELECT","TEXTAREA"].includes(e.target.tagName))return;
+  if(e.key==="Escape"){document.querySelectorAll(".modal.show").forEach(m=>m.classList.remove("show"));return}
+  if(document.querySelector(".modal.show"))return;
+  if(e.key===" "){e.preventDefault();card.click()}
+  else if(e.key==="ArrowLeft"){if(idx>0){idx--;render()}}
+  else if(e.key==="ArrowRight"){if(idx<deck.length-1){idx++;render()}}
+  else if(e.key==="ArrowUp"){mark("got")}
+  else if(e.key==="ArrowDown"){mark("review")}
+});
+
+/* ---------- 启动 ---------- */
+function restoreIdx(){
+  if(pref.lastKey){const i=deck.findIndex(w=>keyOf(w)===pref.lastKey);if(i>=0){idx=i;return}}
+  if(typeof pref.lastIdx==="number") idx=Math.min(Math.max(pref.lastIdx,0),Math.max(0,deck.length-1));
+}
+buildUnitSel();buildLessonSel();refreshDir();refreshSound();
+allBtn.classList.toggle("on",pref.peekAll);
+buildDeck();restoreIdx();render();
+</script>
+<script src="../../../assets/sync.js?v=1"></script>
+<script>
+ReviewSync.init({
+  deckKey:"textbooks/minjiao/english/grade4a-words",
+  app:"minjiao-en-grade4a-words",
+  title:"闽教版英语四年级上册单词",
+  getData:()=>({status:status,pref:pref}),
+  applyData:data=>{
+    status=(data&&data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:{};
+    pref=Object.assign({unit:0,lesson:-1,dir:0,peekAll:false,sound:true},(data&&data.pref&&typeof data.pref==="object"&&!Array.isArray(data.pref))?data.pref:{});
+    save(LS_STATUS,status);save(LS_PREF,pref);
+    shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+    buildUnitSel();buildLessonSel();refreshDir();refreshSound();
+    allBtn.classList.toggle("on",pref.peekAll);
+    buildDeck(true);restoreIdx();render();
+  }
+});
+</script>
+</body>
+</html>

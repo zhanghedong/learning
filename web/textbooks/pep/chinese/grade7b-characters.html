@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>七年级语文 · 生字词卡片</title>
+<style>
+  :root{
+    --paper:#f6f1e7;
+    --paper-2:#efe7d6;
+    --ink:#2b2622;
+    --ink-soft:#6f655a;
+    --seal:#b5362b;          /* 朱砂红 */
+    --seal-soft:#d98a82;
+    --grid:#d9a39c;          /* 田字格红线 */
+    --line:#ddd2bd;
+    --good:#3f7d56;
+    --good-bg:#e7f0e7;
+    --kai:"Kaiti SC","STKaiti",KaiTi,"楷体",serif;
+    --sans:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    background-image:radial-gradient(rgba(120,100,70,.04) 1px,transparent 1px);
+    background-size:18px 18px;
+    -webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;align-items:center;
+    min-height:100%;padding:16px;
+  }
+  .wrap{width:100%;max-width:640px;display:flex;flex-direction:column;flex:1}
+  .home-link{align-self:flex-start;display:inline-flex;align-items:center;gap:5px;min-height:30px;
+    margin:0 2px 4px;padding:5px 9px;color:var(--seal);background:#fffdf8;border:1px solid var(--line);
+    border-radius:8px;text-decoration:none;font-size:12.5px;font-weight:500;transition:.15s}
+  .home-link:hover{border-color:var(--seal-soft);color:var(--ink)}
+  .home-link .arrow{font-size:16px;line-height:1}
+
+  /* header */
+  header{margin:6px 2px 14px;display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .brand{display:flex;align-items:baseline;gap:10px}
+  .seal{
+    font-family:var(--kai);font-weight:700;color:#fff;background:var(--seal);
+    width:38px;height:38px;border-radius:7px;display:grid;place-items:center;
+    font-size:22px;line-height:1;box-shadow:0 2px 0 rgba(0,0,0,.15) inset, 0 2px 6px rgba(181,54,43,.3);
+    flex:0 0 auto;letter-spacing:-2px;
+  }
+  h1{font-family:var(--kai);font-size:21px;font-weight:600;letter-spacing:.5px}
+  .sub{color:var(--ink-soft);font-size:12.5px;margin-top:3px}
+
+  /* controls */
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin:4px 2px 0}
+  select,.btn{
+    font-family:var(--sans);font-size:13px;color:var(--ink);
+    background:#fffdf8;border:1px solid var(--line);border-radius:9px;
+    padding:8px 11px;cursor:pointer;transition:.15s;line-height:1.1;
+  }
+  select{appearance:none;-webkit-appearance:none;padding-right:26px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%236f655a'/></svg>");
+    background-repeat:no-repeat;background-position:right 10px center;flex:1;min-width:120px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .icon-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:30px;padding:0}
+  .flat-icon{display:block;width:18px;height:18px;flex:0 0 auto;color:currentColor;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .btn:hover,select:hover{border-color:var(--seal-soft)}
+  .btn.on{background:var(--seal);color:#fff;border-color:var(--seal)}
+  .btn:active{transform:translateY(1px)}
+  #dirBtn{white-space:nowrap}
+
+  /* progress */
+  .prog{display:flex;align-items:center;gap:10px;margin:14px 2px 0;font-size:12.5px;color:var(--ink-soft)}
+  .bar{flex:1;height:7px;background:var(--paper-2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+  .bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--good),#5aa074);transition:width .35s}
+
+  /* card */
+  .stage{flex:1;display:flex;flex-direction:column;justify-content:center;margin:6px 0}
+  .card{
+    position:relative;width:100%;aspect-ratio:5/4;max-height:46vh;
+    perspective:1600px;cursor:pointer;user-select:none;margin:0 auto;
+  }
+  .inner{position:absolute;inset:0;transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+  .card.flip .inner{transform:rotateY(180deg)}
+  .face{
+    position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    background:#fffdf8;border:1px solid var(--line);border-radius:18px;
+    box-shadow:0 10px 30px rgba(80,60,30,.10),0 2px 0 rgba(0,0,0,.02);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;
+  }
+  .face.back{transform:rotateY(180deg)}
+  /* 答案默认隐藏,翻面那一刻才淡入,避免切卡时被看到 */
+  #backContent{opacity:0;transition:opacity .15s ease .1s}
+  .card.flip #backContent{opacity:1}
+  /* 田字格 backdrop */
+  .grid-bg{display:none}
+  .grid-bg::before,.grid-bg::after{display:none}
+  .grid-bg::before{left:50%;top:0;bottom:0;width:1.2px;transform:translateX(-50%)}
+  .grid-bg::after{top:50%;left:0;right:0;height:1.2px;transform:translateY(-50%);background:repeating-linear-gradient(90deg,var(--grid) 0 6px,transparent 6px 12px)}
+
+  .word{font-family:var(--kai);position:relative;z-index:2;line-height:1.15;text-align:center;color:var(--ink);padding:0 12px}
+  .word.len1{font-size:clamp(70px,22vw,120px)}
+  .word.len2{font-size:clamp(54px,17vw,96px);letter-spacing:6px}
+  .word.len3{font-size:clamp(44px,13vw,76px);letter-spacing:4px}
+  .word.len4{font-size:clamp(38px,11vw,64px);letter-spacing:3px}
+  .word.lenL{font-size:clamp(30px,8vw,48px);letter-spacing:2px}
+  .pinyin{font-family:"Helvetica Neue","Segoe UI",Arial,"Liberation Sans",system-ui,sans-serif;
+    position:relative;z-index:2;color:var(--seal);
+    font-size:clamp(24px,7vw,36px);font-weight:600;letter-spacing:1px;text-align:center;padding:0 16px}
+  .pinyin .w{font-family:var(--kai);display:block;font-size:clamp(30px,9vw,50px);color:var(--ink);margin-bottom:14px;letter-spacing:4px}
+  .hint{position:absolute;bottom:13px;font-size:11px;color:var(--ink-soft);z-index:2;letter-spacing:1px}
+  .tag{position:absolute;top:13px;left:15px;font-size:11px;color:var(--ink-soft);z-index:2}
+  .star{position:absolute;top:11px;right:14px;z-index:3;font-size:18px;color:var(--seal-soft)}
+  .star.on{color:var(--seal)}
+
+  /* nav row */
+  .nav{display:flex;align-items:center;gap:10px;margin-top:14px}
+  .count{font-size:13px;color:var(--ink-soft);min-width:64px;text-align:center}
+  .nav .btn{flex:0 0 auto;width:46px;text-align:center;font-size:18px;padding:9px 0}
+  .mark{display:flex;gap:8px;flex:1}
+  .mark .btn{flex:1;font-weight:500;font-size:13.5px}
+  .btn.review{color:var(--seal);border-color:var(--seal-soft)}
+  .btn.review.on{background:var(--seal);color:#fff}
+  .btn.got{color:var(--good);border-color:#aacdb2}
+  .btn.got.on{background:var(--good);color:#fff;border-color:var(--good)}
+
+  .empty{text-align:center;color:var(--ink-soft);padding:50px 20px;font-size:14px;line-height:1.7}
+
+  footer{text-align:center;color:var(--ink-soft);font-size:11px;margin-top:16px;opacity:.8}
+
+  /* 重置按钮 */
+  .reset{flex:0 0 auto;font-family:var(--sans);font-size:12.5px;color:var(--seal);
+    background:#fffdf8;border:1px solid var(--seal-soft);border-radius:9px;
+    padding:7px 12px;cursor:pointer;transition:.15s;white-space:nowrap}
+  .reset:hover{background:var(--seal);color:#fff;border-color:var(--seal)}
+  .reset:active{transform:translateY(1px)}
+  .tools{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;flex:0 0 auto}
+
+  /* 阶段标签 */
+  .chip{flex:0 0 auto;font-size:11.5px;font-weight:500;padding:3px 9px;border-radius:99px;
+    background:var(--paper-2);color:var(--ink-soft);border:1px solid var(--line);letter-spacing:.5px}
+  .chip.learn{background:#eef3ec;color:var(--good);border-color:#bcd6c2}
+  .chip.review{background:#fbeae8;color:var(--seal);border-color:var(--seal-soft)}
+  .chip.all{background:#eef0f6;color:#5a6280;border-color:#c8cfe0}
+
+  /* 确认弹窗 */
+  .modal{position:fixed;inset:0;background:rgba(43,38,34,.45);display:none;
+    align-items:center;justify-content:center;padding:24px;z-index:50}
+  .modal.show{display:flex}
+  .dialog{background:#fffdf8;border:1px solid var(--line);border-radius:16px;
+    max-width:340px;width:100%;padding:22px 20px;box-shadow:0 20px 50px rgba(60,40,20,.3)}
+  .dlg-title{font-family:var(--kai);font-size:19px;font-weight:600;margin-bottom:10px}
+  .dlg-body{font-size:13.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
+  .dlg-body b{color:var(--seal);font-weight:600}
+  .dlg-actions{display:flex;gap:10px}
+  .dlg-actions .btn{flex:1;padding:10px;font-size:14px}
+  .btn.danger{background:var(--seal);color:#fff;border-color:var(--seal);font-weight:500}
+  .btn.danger:hover{background:#9c2c22}
+  .btn.primary{background:var(--seal);color:#fff;border-color:var(--seal);font-weight:500}
+  .btn.primary:hover{background:#9c2c22}
+  .ta{width:100%;height:120px;margin:4px 0 10px;padding:10px;border:1px solid var(--line);border-radius:10px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.5;color:var(--ink);
+    background:#fbfaf5;resize:vertical;word-break:break-all}
+  .ta:focus{outline:none;border-color:var(--seal-soft)}
+  .note{font-size:12px;color:var(--ink-soft);line-height:1.6;margin:2px 0 12px;min-height:1em}
+  .note.err{color:#c0392b}
+  .note.ok{color:var(--good)}
+  @media(max-width:520px){
+    header{flex-direction:column;align-items:stretch}
+    .tools{justify-content:flex-start;width:100%}
+  }
+  @media(max-width:420px){
+    .controls{gap:6px}.btn,select{padding:7px 9px;font-size:12.5px}
+    .nav .btn{width:42px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="home-link" href="../../../index.html"><span class="arrow" aria-hidden="true">←</span><span>首页</span></a>
+  <header>
+    <div class="brand">
+      <div class="seal">语</div>
+      <div>
+        <h1>七年级语文 · 生字词卡片</h1>
+        <div class="sub">点卡片翻面 · 进度自动保存在本机</div>
+      </div>
+    </div>
+    <div class="tools">
+      <button class="reset" id="syncBtn" title="使用同步码跨设备同步进度">☁ 同步</button>
+      <button class="reset" id="copyBtn" title="复制学习进度到剪贴板">⧉ 复制</button>
+      <button class="reset" id="importBtn" title="从剪贴板导入进度">⇩ 导入</button>
+      <button class="reset" id="resetBtn" title="重置当前范围,重新学一遍">↺ 重置</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <select id="unitSel"></select>
+    <select id="lessonSel"></select>
+    <button class="btn" id="dirBtn" title="切换拼音/汉字方向">拼音→汉字</button>
+    <button class="btn" id="allBtn" title="浏览全部(含已掌握)">全部</button>
+    <button class="btn icon-btn" id="shuffleBtn" title="随机打乱"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 3h5v5"></path><path d="M4 20 21 3"></path><path d="M21 16v5h-5"></path><path d="M15 15l6 6"></path><path d="M4 4l5 5"></path></svg><span class="sr-only">随机</span></button>
+  </div>
+
+  <div class="prog">
+    <span class="chip" id="phaseChip">新学</span>
+    <span id="masterTxt">已掌握 0</span>
+    <div class="bar"><i id="barFill"></i></div>
+    <span id="totalTxt">共 0</span>
+  </div>
+
+  <div class="stage">
+    <div class="card" id="card">
+      <div class="inner">
+        <div class="face front">
+          <div class="grid-bg"></div>
+          <span class="tag" id="tagF"></span>
+          <span class="star" id="starF">★</span>
+          <div id="frontContent"></div>
+          <span class="hint">点击 / 空格 翻面</span>
+        </div>
+        <div class="face back">
+          <div class="grid-bg"></div>
+          <span class="tag" id="tagB"></span>
+          <span class="star" id="starB">★</span>
+          <div id="backContent"></div>
+          <span class="hint">再点一下翻回</span>
+        </div>
+      </div>
+    </div>
+    <div id="emptyMsg" class="empty" style="display:none"></div>
+
+    <div class="nav" id="navRow">
+      <button class="btn" id="prevBtn">‹</button>
+      <div class="mark">
+        <button class="btn review" id="reviewBtn">需复习</button>
+        <button class="btn got" id="gotBtn">已掌握</button>
+      </div>
+      <span class="count" id="counter">0 / 0</span>
+      <button class="btn" id="nextBtn">›</button>
+    </div>
+  </div>
+
+  <footer>键盘:空格翻面 · ← → 切换 · ↑已掌握 · ↓需复习</footer>
+</div>
+
+<div class="modal" id="modal">
+  <div class="dialog">
+    <div class="dlg-title">重新学习</div>
+    <div class="dlg-body" id="dlgBody"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="cancelReset">取消</button>
+      <button class="btn danger" id="confirmReset">确定重置</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="copyModal">
+  <div class="dialog">
+    <div class="dlg-title">导出学习进度</div>
+    <div class="dlg-body">下面是当前进度。点「复制」存到剪贴板,或长按全选手动复制,粘贴到另一台设备导入。</div>
+    <textarea id="copyText" class="ta" readonly></textarea>
+    <div class="note" id="copyNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="copyClose">关闭</button>
+      <button class="btn primary" id="copyDo">复制</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="importModal">
+  <div class="dialog">
+    <div class="dlg-title">导入学习进度</div>
+    <div class="dlg-body" id="importHint">把导出的进度文本粘贴到下面(已尝试自动读取剪贴板)。导入会<b>替换当前全部进度</b>。</div>
+    <textarea id="importText" class="ta" placeholder="在此粘贴进度文本…"></textarea>
+    <div class="note" id="importNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="importClose">取消</button>
+      <button class="btn primary" id="importDo">校验并导入</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ---------- 数据 ---------- */
+const DATA = [
+ {unit:"第一单元", lessons:[
+  {lesson:"第1课《邓稼先》", words:[
+   ["元勋","yuán xūn"],["奠基","diàn jī"],["选聘","xuǎn pìn"],["谣言","yáo yán"],["昼夜","zhòu yè"],["昆仑","kūn lún"],["挚友","zhì yǒu"],["可歌可泣","kě gē kě qì"],["鲜为人知","xiǎn wéi rén zhī"],["至死不懈","zhì sǐ bù xiè"],["鞠躬尽瘁","jū gōng jìn cuì"],["当之无愧","dāng zhī wú kuì"],["家喻户晓","jiā yù hù xiǎo"],["锋芒毕露","fēng máng bì lù"],["妇孺皆知","fù rú jiē zhī"]
+  ]},
+  {lesson:"第2课《说和做》", words:[
+   ["梳头","shū tóu"],["抱歉","bào qiàn"],["秩序","zhì xù"],["深宵","shēn xiāo"],["伴侣","bàn lǚ"],["小楷","xiǎo kǎi"],["硕果","shuò guǒ"],["卓越","zhuó yuè"],["迭起","dié qǐ"],["澎湃","péng pài"],["大无畏","dà wú wèi"],["锲而不舍","qiè ér bù shě"],["目不窥园","mù bù kuī yuán"],["沥尽心血","lì jìn xīn xuè"],["心不在焉","xīn bù zài yān"],["慷慨淋漓","kāng kǎi lín lí"],["气冲斗牛","qì chōng dǒu niú"]
+  ]},
+  {lesson:"第3课《列夫·托尔斯泰》", words:[
+   ["颊","jiá"],["黝黑","yǒu hēi"],["粗糙","cū cāo"],["平庸","píng yōng"],["滞留","zhì liú"],["愚钝","yú dùn"],["器宇","qì yǔ"],["蒙昧","méng mèi"],["酒肆","jiǔ sì"],["缰绳","jiāng shéng"],["轩昂","xuān áng"],["胆怯","dǎn qiè"],["藏污纳垢","cáng wū nà gòu"],["鹤立鸡群","hè lì jī qún"],["正襟危坐","zhèng jīn wēi zuò"],["诚惶诚恐","chéng huáng chéng kǒng"],["黯然失色","àn rán shī sè"]
+  ]}
+ ]},
+ {unit:"第二单元", lessons:[
+  {lesson:"第5课《黄河颂》", words:[
+   ["巅","diān"],["劈","pī"],["气魄","qì pò"],["狂澜","kuáng lán"],["浊流","zhuó liú"],["宛转","wǎn zhuǎn"],["屏障","píng zhàng"],["哺育","bǔ yù"],["榜样","bǎng yàng"],["浩浩荡荡","hào hào dàng dàng"]
+  ]},
+  {lesson:"第6课《老山界》", words:[
+   ["攀谈","pān tán"],["峭壁","qiào bì"],["骨碌","gū lu"],["咀嚼","jǔ jué"],["呜咽","wū yè"],["督促","dū cù"],["灌输","guàn shū"],["苛捐杂税","kē juān zá shuì"],["酣然入梦","hān rán rù mèng"],["不可捉摸","bù kě zhuō mō"]
+  ]},
+  {lesson:"第7课《谁是最可爱的人》", words:[
+   ["摁","èn"],["掰","bāi"],["坚韧","jiān rèn"],["淳朴","chún pǔ"],["谦逊","qiān xùn"],["覆灭","fù miè"],["过瘾","guò yǐn"],["豁亮","huò liàng"],["犁耙","lí bà"]
+  ]},
+  {lesson:"第8课《土地的誓言》", words:[
+   ["碾","niǎn"],["誓言","shì yán"],["胸膛","xiōng táng"],["嗥鸣","háo míng"],["山涧","shān jiàn"],["高粱","gāo liang"],["斑斓","bān lán"],["缠绕","chán rào"],["亘古","gèn gǔ"],["默契","mò qì"],["田垄","tián lǒng"],["埋葬","mái zàng"],["镐头","gǎo tou"],["土壤","tǔ rǎng"],["禾稻","hé dào"],["丰饶","fēng ráo"],["污秽","wū huì"],["耻辱","chǐ rǔ"]
+  ]}
+ ]},
+ {unit:"第三单元", lessons:[
+  {lesson:"第10课《阿长与〈山海经〉》", words:[
+   ["搁","gē"],["掷","zhì"],["脐","qí"],["憎恶","zēng wù"],["菩萨","pú sà"],["竹竿","zhú gān"],["烦琐","fán suǒ"],["土匪","tǔ fěi"],["辫子","biàn zi"],["胸脯","xiōng pú"],["疮疤","chuāng bā"],["诘问","jié wèn"],["哀悼","āi dào"],["茉莉","mò lì"],["书斋","shū zhāi"],["霹雳","pī lì"],["震悚","zhèn sǒng"],["粗拙","cū zhuō"],["守寡","shǒu guǎ"]
+  ]},
+  {lesson:"第11课《山地回忆》", words:[
+   ["瘪","biě"],["玉黍","yù shǔ"],["袄襟","ǎo jīn"],["剪裁","jiǎn cái"],["包袱","bāo fu"],["盈余","yíng yú"],["破绽","pò zhàn"],["激荡","jī dàng"],["爬山越岭","pá shān yuè lǐng"]
+  ]},
+  {lesson:"第12课《台阶》", words:[
+   ["啃","kěn"],["蹦","bèng"],["撬","qiào"],["磕","kē"],["门槛","mén kǎn"],["厚道","hòu dao"],["糟糕","zāo gāo"],["醒悟","xǐng wù"],["晌午","shǎng wǔ"],["烦躁","fán zào"],["头颅","tóu lú"],["自言自语","zì yán zì yǔ"],["言外之意","yán wài zhī yì"],["微不足道","wēi bù zú dào"],["大庭广众","dà tíng guǎng zhòng"]
+  ]}
+ ]},
+ {unit:"第四单元", lessons:[
+  {lesson:"第14课《驿路梨花》", words:[
+   ["寨","zhài"],["撵","niǎn"],["扛","káng"],["驿路","yì lù"],["迷茫","mí máng"],["陡峭","dǒu qiào"],["露宿","lù sù"],["竹篾","zhú miè"],["简陋","jiǎn lòu"],["悠闲","yōu xián"],["修葺","xiū qì"],["晶莹","jīng yíng"],["折损","zhé sǔn"]
+  ]},
+  {lesson:"第15课《青春之光》", words:[
+   ["瓢泼","piáo pō"],["熟络","shú luò"],["心扉","xīn fēi"],["执拗","zhí niù"],["崎岖","qí qū"],["噩耗","è hào"],["毛坯","máo pī"],["心急如焚","xīn jí rú fén"],["直言不讳","zhí yán bù huì"],["围追堵截","wéi zhuī dǔ jié"]
+  ]},
+  {lesson:"第16课《有为有不为》", words:[
+   ["诉诸","sù zhū"],["屈膝","qū xī"],["贰臣","èr chén"],["笼统","lǒng tǒng"],["轮廓","lún kuò"],["得逞","dé chěng"],["制裁","zhì cái"],["毅然","yì rán"],["大逆不道","dà nì bù dào"],["闭目养神","bì mù yǎng shén"],["迷途知返","mí tú zhī fǎn"]
+  ]}
+ ]},
+ {unit:"第五单元", lessons:[
+  {lesson:"第18课《井冈翠竹》", words:[
+   ["深坳","shēn ào"],["梭镖","suō biāo"],["砍伐","kǎn fá"],["修长","xiū cháng"],["摇撼","yáo hàn"],["殷切","yīn qiè"],["功勋","gōng xūn"],["郁郁苍苍","yù yù cāng cāng"],["重重叠叠","chóng chóng dié dié"],["魂飞魄散","hún fēi pò sàn"],["绞尽脑汁","jiǎo jìn nǎo zhī"],["悬岩绝壁","xuán yán jué bì"],["幽谷荒滩","yōu gǔ huāng tān"]
+  ]},
+  {lesson:"第19课《紫藤萝瀑布》", words:[
+   ["瀑布","pù bù"],["迸溅","bèng jiàn"],["挑逗","tiǎo dòu"],["凝望","níng wàng"],["繁密","fán mì"],["笼罩","lǒng zhào"],["枯槐","kū huái"],["遗憾","yí hàn"],["忍俊不禁","rěn jùn bù jīn"],["仙露琼浆","xiān lù qióng jiāng"]
+  ]},
+  {lesson:"第20课《外国诗二首》", words:[
+   ["瞬息","shùn xī"],["怀恋","huái liàn"],["涉足","shè zú"],["萋萋","qī qī"],["幽寂","yōu jì"]
+  ]}
+ ]},
+ {unit:"第六单元", lessons:[
+  {lesson:"第22课《太空一日》", words:[
+   ["弧","hú"],["炽热","chì rè"],["俯瞰","fǔ kàn"],["模拟","mó nǐ"],["遨游","áo yóu"],["严谨","yán jǐn"],["稠密","chóu mì"],["概率","gài lǜ"],["烧灼","shāo zhuó"],["五脏六腑","wǔ zàng liù fǔ"],["千钧重负","qiān jūn zhòng fù"],["耐人寻味","nài rén xún wèi"],["惊心动魄","jīng xīn dòng pò"]
+  ]},
+  {lesson:"第23课《“蛟龙”探海》", words:[
+   ["蛟龙","jiāo lóng"],["憧憬","chōng jǐng"],["蹒跚","pán shān"],["蓦然","mò rán"],["矗立","chù lì"],["瞩目","zhǔ mù"],["突袭","tū xí"],["宏图","hóng tú"],["绘声绘色","huì shēng huì sè"],["淋漓尽致","lín lí jìn zhì"],["浩瀚无际","hào hàn wú jì"],["波澜起伏","bō lán qǐ fú"],["踌躇满志","chóu chú mǎn zhì"],["劈波斩浪","pī bō zhǎn làng"]
+  ]},
+  {lesson:"第24课《带上她的眼睛》", words:[
+   ["点缀","diǎn zhuì"],["漫步","màn bù"],["迟钝","chí dùn"],["蒙眬","méng lóng"],["闲暇","xián xiá"],["凸现","tū xiàn"],["拍摄","pāi shè"],["蔚蓝","wèi lán"],["合拢","hé lǒng"],["吟唱","yín chàng"],["孤零零","gū líng líng"],["不期而至","bù qī ér zhì"],["心有灵犀","xīn yǒu líng xī"],["天涯海角","tiān yá hǎi jiǎo"]
+  ]}
+ ]}
+];
+
+/* ---------- 状态 ---------- */
+const LS_MASTER="zwk_master_v1", LS_PREF="zwk_pref_v1", LS_STATUS="zwk_status_v2";
+let pref = load(LS_PREF,{unit:0,lesson:0,dir:0,peekAll:false});
+let deck=[], idx=0, shuffled=false, phase="learn";
+
+function load(k,def){try{const v=JSON.parse(localStorage.getItem(k));return v==null?def:v}catch(e){return def}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function keyOf(w){return w.l+"|"+w.word}
+
+/* status[key] = "got"(已掌握) | "review"(需复习);不存在 = 未学 */
+let status = load(LS_STATUS,null);
+if(status===null){                       // 从旧版 mastered 迁移:全部视为已掌握
+  status={};
+  const old=load(LS_MASTER,{});
+  for(const k in old) if(old[k]) status[k]="got";
+  save(LS_STATUS,status);
+}
+const isGot=k=>status[k]==="got";
+const isReview=k=>status[k]==="review";
+const isNew=k=>!status[k];
+function saveStatus(){save(LS_STATUS,status)}
+
+/* 把数据摊平,带上单元/课信息 */
+function flat(){
+  const out=[];
+  DATA.forEach((u,ui)=>u.lessons.forEach((ls,li)=>ls.words.forEach(([word,py])=>{
+    out.push({word,py,unit:u.unit,lesson:ls.lesson,u:ui,l:ls.lesson});
+  })));
+  return out;
+}
+const ALL=flat();
+
+/* ---------- 下拉框 ---------- */
+const unitSel=document.getElementById("unitSel"), lessonSel=document.getElementById("lessonSel");
+function buildUnitSel(){
+  unitSel.innerHTML='<option value="-1">全部单元</option>'+
+    DATA.map((u,i)=>`<option value="${i}">${u.unit}</option>`).join("");
+  unitSel.value=pref.unit;
+}
+function buildLessonSel(){
+  const ui=+unitSel.value;
+  if(ui<0){lessonSel.innerHTML='<option value="-1">——</option>';lessonSel.value="-1";lessonSel.disabled=true;return}
+  lessonSel.disabled=false;
+  lessonSel.innerHTML='<option value="-1">全部课文</option>'+
+    DATA[ui].lessons.map((ls,i)=>`<option value="${i}">${ls.lesson.replace(/《.*》/,m=>m)}</option>`).join("");
+  lessonSel.value = pref.lesson<=DATA[ui].lessons.length-1?pref.lesson:-1;
+}
+
+/* ---------- 当前范围 & 构建卡组 ---------- */
+function scopeList(){           // 当前单元/课范围内的全部词
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return ALL.slice();
+  if(li<0) return ALL.filter(w=>w.u===ui);
+  return ALL.filter(w=>w.u===ui && w.l===DATA[ui].lessons[li].lesson);
+}
+function buildDeck(resetIdx=true){
+  const list=scopeList();
+  const news=list.filter(w=>isNew(keyOf(w)));
+  const reviews=list.filter(w=>isReview(keyOf(w)));
+  // 决定本轮显示哪一组
+  let subset;
+  if(pref.peekAll){ phase="all"; subset=list; }
+  else if(news.length){ phase="learn"; subset=news; }      // 一轮没学完 → 未学的
+  else if(reviews.length){ phase="review"; subset=reviews; } // 学完了 → 只看需复习
+  else { phase="done"; subset=[]; }
+  if(shuffled) for(let i=subset.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[subset[i],subset[j]]=[subset[j],subset[i]]}
+  deck=subset; if(resetIdx) idx=0;
+  if(idx>deck.length-1) idx=Math.max(0,deck.length-1);
+}
+
+/* ---------- 渲染 ---------- */
+const card=document.getElementById("card");
+function render(){
+  const navRow=document.getElementById("navRow"), empty=document.getElementById("emptyMsg");
+  // 切换卡片时瞬间复位到正面(关掉动画),避免答案一闪而过
+  const inner=card.querySelector(".inner");
+  inner.style.transition="none";
+  card.classList.remove("flip");
+  void inner.offsetWidth;        // 强制重排,让复位立即生效
+  inner.style.transition="";
+
+  // 进度统计(按当前单元/课范围)
+  const scope=scopeList();
+  const done=scope.filter(w=>isGot(keyOf(w))).length;
+  const rev =scope.filter(w=>isReview(keyOf(w))).length;
+  document.getElementById("masterTxt").textContent= rev?`已掌握 ${done} · 待复习 ${rev}`:`已掌握 ${done}`;
+  document.getElementById("totalTxt").textContent="共 "+scope.length;
+  document.getElementById("barFill").style.width=scope.length?(done/scope.length*100)+"%":"0%";
+
+  // 阶段标签
+  const chip=document.getElementById("phaseChip");
+  const chipMap={learn:["新学","learn"],review:["复习","review"],all:["全部","all"],done:["完成","learn"]};
+  const [ctxt,ccls]=chipMap[phase]||chipMap.learn;
+  chip.textContent=ctxt; chip.className="chip "+ccls;
+
+  if(!deck.length){
+    card.style.display="none";navRow.style.display="none";empty.style.display="block";
+    document.getElementById("counter").textContent="0 / 0";
+    empty.innerHTML = scope.length===0
+      ? "这个范围还没有词。"
+      : (pref.peekAll
+          ? "全部模式没有可显示的词。"
+          : "🎉 本范围全部掌握!<br>想再过一遍,点右上角「重置」。");
+    return;
+  }
+  card.style.display="block";navRow.style.display="flex";empty.style.display="none";
+
+  if(idx>=deck.length)idx=deck.length-1;
+  const w=deck[idx], k=keyOf(w);
+  pref.lastKey=k; pref.lastIdx=idx; save(LS_PREF,pref);   // 记录进度,供刷新后续学
+  const lenClass=c=>c<=1?"len1":c===2?"len2":c===3?"len3":c===4?"len4":"lenL";
+
+  const f=document.getElementById("frontContent"), b=document.getElementById("backContent");
+  const wordHTML=`<div class="word ${lenClass(w.word.length)}">${w.word}</div>`;
+  const pinyinHTML=`<div class="pinyin">${w.py}</div>`;
+  f.innerHTML=pref.dir===0 ? pinyinHTML : wordHTML;
+  b.innerHTML=pref.dir===0 ? wordHTML : pinyinHTML;
+
+  const tag=`${w.unit.replace("第","").replace("单元","单元")} · ${w.lesson.match(/第\d+课/)[0]}`;
+  document.getElementById("tagF").textContent=tag;
+  document.getElementById("tagB").textContent=tag;
+  document.getElementById("starF").classList.toggle("on",isGot(k));
+  document.getElementById("starB").classList.toggle("on",isGot(k));
+
+  document.getElementById("counter").textContent=`${idx+1} / ${deck.length}`;
+  document.getElementById("reviewBtn").classList.toggle("on",isReview(k));
+  document.getElementById("gotBtn").classList.toggle("on",isGot(k));
+}
+
+/* ---------- 交互 ---------- */
+card.addEventListener("click",()=>card.classList.toggle("flip"));
+document.getElementById("prevBtn").onclick=e=>{e.stopPropagation();if(idx>0){idx--;render()}};
+document.getElementById("nextBtn").onclick=e=>{e.stopPropagation();if(idx<deck.length-1){idx++;render()}};
+
+function mark(state){ 
+  if(!deck.length)return;
+  const k=keyOf(deck[idx]);
+  status[k]=state; saveStatus();
+  if(idx<deck.length-1){idx++; render(); return;}
+  if(phase!=="all") buildDeck(true);
+  render();
+}
+document.getElementById("gotBtn").onclick=()=>mark("got");
+document.getElementById("reviewBtn").onclick=()=>mark("review");
+
+const dirBtn=document.getElementById("dirBtn");
+function refreshDir(){dirBtn.textContent=pref.dir===0?"拼音→汉字":"汉字→拼音";dirBtn.classList.toggle("on",pref.dir===1);}
+dirBtn.onclick=()=>{pref.dir=pref.dir?0:1;save(LS_PREF,pref);refreshDir();render()};
+
+const allBtn=document.getElementById("allBtn");
+allBtn.onclick=()=>{pref.peekAll=!pref.peekAll;save(LS_PREF,pref);
+  allBtn.classList.toggle("on",pref.peekAll);buildDeck();render()};
+
+document.getElementById("shuffleBtn").onclick=()=>{shuffled=!shuffled;
+  document.getElementById("shuffleBtn").classList.toggle("on",shuffled);buildDeck();render()};
+
+unitSel.onchange=()=>{pref.unit=unitSel.value;pref.lesson=-1;save(LS_PREF,pref);buildLessonSel();buildDeck();render()};
+lessonSel.onchange=()=>{pref.lesson=lessonSel.value;save(LS_PREF,pref);buildDeck();render()};
+
+/* ---------- 重置(二次确认) ---------- */
+const modal=document.getElementById("modal");
+function scopeName(){
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return "全部单元";
+  if(li<0) return DATA[ui].unit;
+  return DATA[ui].unit+" · "+DATA[ui].lessons[li].lesson.match(/第\d+课/)[0];
+}
+document.getElementById("resetBtn").onclick=()=>{
+  document.getElementById("dlgBody").innerHTML=
+    `将清空 <b>${scopeName()}</b> 的「已掌握 / 需复习」记录,重新从头学一遍。<br>此操作不可撤销,确定吗?`;
+  modal.classList.add("show");
+};
+document.getElementById("cancelReset").onclick=()=>modal.classList.remove("show");
+modal.addEventListener("click",e=>{if(e.target===modal)modal.classList.remove("show")});
+document.getElementById("confirmReset").onclick=()=>{
+  scopeList().forEach(w=>{delete status[keyOf(w)]});
+  saveStatus();
+  modal.classList.remove("show");
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+/* ---------- 导出 / 导入进度 ---------- */
+function statusCounts(st){let g=0,r=0;for(const k in st){if(st[k]==="got")g++;else if(st[k]==="review")r++;}return{g,r}}
+function exportPayload(){return JSON.stringify({app:"zwk",version:1,exportedAt:new Date().toISOString(),status:status})}
+
+const copyModal=document.getElementById("copyModal"), copyText=document.getElementById("copyText"), copyNote=document.getElementById("copyNote");
+document.getElementById("copyBtn").onclick=()=>{
+  const c=statusCounts(status);
+  copyText.value=exportPayload();
+  copyNote.className="note"; copyNote.textContent=`含 已掌握 ${c.g} · 需复习 ${c.r} 条记录。`;
+  copyModal.classList.add("show");
+  setTimeout(()=>{copyText.focus();copyText.select();},50);
+};
+document.getElementById("copyClose").onclick=()=>copyModal.classList.remove("show");
+copyModal.addEventListener("click",e=>{if(e.target===copyModal)copyModal.classList.remove("show")});
+document.getElementById("copyDo").onclick=async()=>{
+  const txt=copyText.value;
+  let ok=false;
+  try{ if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(txt);ok=true;} }catch(e){}
+  if(!ok){ try{copyText.focus();copyText.select();ok=document.execCommand("copy");}catch(e){} }
+  copyNote.className="note "+(ok?"ok":"err");
+  copyNote.textContent=ok?"✓ 已复制到剪贴板。":"无法自动复制,请长按/全选上面文本手动复制。";
+};
+
+/* 校验进度文本:支持 {app,status} 包装 或 直接的 key→状态 映射 */
+function parseProgress(text){
+  let data;
+  try{ data=JSON.parse((text||"").trim()); }catch(e){ return {ok:false,msg:"✗ 不是有效的文本格式(JSON 解析失败)。"}; }
+  if(!data||typeof data!=="object"||Array.isArray(data)) return {ok:false,msg:"✗ 格式不对:不是进度数据。"};
+  if(data.app && data.app!=="zwk") return {ok:false,msg:`✗ 这份进度不属于语文卡片(来源:${data.app})。`};
+  const st=(data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:data;
+  if(typeof st!=="object"||Array.isArray(st)) return {ok:false,msg:"✗ 格式不对:找不到进度记录。"};
+  const clean={};let g=0,r=0,bad=0;
+  for(const k in st){const v=st[k];
+    if(typeof k==="string"&&k&&(v==="got"||v==="review")){clean[k]=v;v==="got"?g++:r++;}else bad++;}
+  if(g+r===0) return {ok:false,msg:"✗ 没有可导入的有效记录。"};
+  return {ok:true,status:clean,g,r,bad};
+}
+
+const importModal=document.getElementById("importModal"), importText=document.getElementById("importText"),
+      importNote=document.getElementById("importNote"), importDo=document.getElementById("importDo");
+let pendingImport=null;
+function resetImportState(){pendingImport=null;importDo.textContent="校验并导入";importDo.className="btn primary";}
+importText.addEventListener("input",()=>{if(pendingImport){resetImportState();importNote.textContent="";importNote.className="note";}});
+
+document.getElementById("importBtn").onclick=async()=>{
+  importText.value=""; importNote.textContent=""; importNote.className="note"; resetImportState();
+  importModal.classList.add("show");
+  // 尝试自动读取剪贴板(本地文件/无权限时静默失败,用户可手动粘贴)
+  try{ if(navigator.clipboard&&navigator.clipboard.readText){const t=await navigator.clipboard.readText();if(t&&t.trim())importText.value=t.trim();} }catch(e){}
+  setTimeout(()=>importText.focus(),50);
+};
+document.getElementById("importClose").onclick=()=>importModal.classList.remove("show");
+importModal.addEventListener("click",e=>{if(e.target===importModal)importModal.classList.remove("show")});
+importDo.onclick=()=>{
+  if(!pendingImport){                       // 第一步:校验
+    const res=parseProgress(importText.value);
+    if(!res.ok){importNote.className="note err";importNote.textContent=res.msg;return;}
+    pendingImport=res;
+    const cur=statusCounts(status);
+    importNote.className="note ok";
+    importNote.innerHTML=`✓ 校验通过:含 已掌握 ${res.g} · 需复习 ${res.r}${res.bad?`(忽略 ${res.bad} 条无效)`:""}。<br>`+
+      `<span style="color:var(--ink-soft)">将<b style="color:#c0392b">替换</b>当前进度(已掌握 ${cur.g} · 需复习 ${cur.r})。再点一次确认。</span>`;
+    importDo.textContent="确定替换并导入";
+    importDo.className="btn danger";
+    return;
+  }
+  // 第二步:确认导入
+  status=pendingImport.status; saveStatus();
+  importModal.classList.remove("show"); resetImportState();
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  delete pref.lastKey;save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+document.addEventListener("keydown",e=>{
+  if(["INPUT","SELECT","TEXTAREA"].includes(e.target.tagName))return;
+  if(e.key==="Escape"){document.querySelectorAll(".modal.show").forEach(m=>m.classList.remove("show"));return}
+  if(document.querySelector(".modal.show"))return;
+  if(e.key===" "){e.preventDefault();card.classList.toggle("flip")}
+  else if(e.key==="ArrowLeft"){if(idx>0){idx--;render()}}
+  else if(e.key==="ArrowRight"){if(idx<deck.length-1){idx++;render()}}
+  else if(e.key==="ArrowUp"){mark("got")}
+  else if(e.key==="ArrowDown"){mark("review")}
+});
+
+/* ---------- 启动 ---------- */
+function restoreIdx(){           // 刷新后回到上次学到的位置
+  if(pref.lastKey){
+    const i=deck.findIndex(w=>keyOf(w)===pref.lastKey);
+    if(i>=0){idx=i;return}
+  }
+  if(typeof pref.lastIdx==="number") idx=Math.min(Math.max(pref.lastIdx,0),Math.max(0,deck.length-1));
+}
+buildUnitSel();buildLessonSel();refreshDir();
+allBtn.classList.toggle("on",pref.peekAll);
+buildDeck();restoreIdx();render();
+</script>
+<script src="../../../assets/sync.js?v=1"></script>
+<script>
+ReviewSync.init({
+  deckKey:"textbooks/pep/chinese/grade7b-characters",
+  app:"zwk",
+  title:"人教语文七下生字词",
+  getData:()=>({status:status,pref:pref}),
+  applyData:data=>{
+    status=(data&&data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:{};
+    pref=Object.assign({unit:0,lesson:0,dir:0,peekAll:false},(data&&data.pref&&typeof data.pref==="object"&&!Array.isArray(data.pref))?data.pref:{});
+    save(LS_STATUS,status);save(LS_PREF,pref);
+    shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+    buildUnitSel();buildLessonSel();refreshDir();
+    allBtn.classList.toggle("on",pref.peekAll);
+    buildDeck(true);restoreIdx();render();
+  }
+});
+</script>
+</body>
+</html>

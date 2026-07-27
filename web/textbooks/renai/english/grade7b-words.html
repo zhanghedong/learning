@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>七年级英语 · 单词卡片</title>
+<style>
+  :root{
+    --paper:#f4f1ea;
+    --paper-2:#e8e3d6;
+    --ink:#26303a;
+    --ink-soft:#62707b;
+    --accent:#2f6d8c;        /* 蓝墨水 */
+    --accent-soft:#9cc0d1;
+    --line:#d8d2c4;
+    --good:#3f7d56;
+    --kai:"Kaiti SC","STKaiti",KaiTi,"楷体",serif;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans);background:var(--paper);color:var(--ink);
+    background-image:radial-gradient(rgba(47,109,140,.04) 1px,transparent 1px);
+    background-size:18px 18px;-webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;align-items:center;min-height:100%;padding:16px;
+  }
+  .wrap{width:100%;max-width:640px;display:flex;flex-direction:column;flex:1}
+  .home-link{align-self:flex-start;display:inline-flex;align-items:center;gap:5px;min-height:30px;
+    margin:0 2px 4px;padding:5px 9px;color:var(--accent);background:#fffdf8;border:1px solid var(--line);
+    border-radius:8px;text-decoration:none;font-size:12.5px;font-weight:500;transition:.15s}
+  .home-link:hover{border-color:var(--accent-soft);color:var(--ink)}
+  .home-link .arrow{font-size:16px;line-height:1}
+
+  header{margin:6px 2px 14px;display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .seal{font-family:var(--serif);font-weight:600;color:#fff;background:var(--accent);
+    width:40px;height:40px;border-radius:8px;display:grid;place-items:center;font-size:17px;line-height:1;
+    box-shadow:0 2px 0 rgba(0,0,0,.12) inset,0 2px 6px rgba(47,109,140,.3);flex:0 0 auto;letter-spacing:.5px}
+  h1{font-family:var(--serif);font-size:20px;font-weight:600;letter-spacing:.3px}
+  .sub{color:var(--ink-soft);font-size:12.5px;margin-top:3px}
+  .reset{flex:0 0 auto;font-size:12.5px;color:var(--accent);background:#fffdf8;
+    border:1px solid var(--accent-soft);border-radius:9px;padding:7px 12px;cursor:pointer;transition:.15s;white-space:nowrap}
+  .reset:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .reset:active{transform:translateY(1px)}
+  .tools{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;flex:0 0 auto}
+  .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(10px);
+    background:var(--ink);color:#fff;padding:10px 18px;border-radius:99px;font-size:13px;
+    opacity:0;transition:.25s;z-index:80;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .io-text{width:100%;height:118px;resize:vertical;font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:12px;line-height:1.5;border:1px solid var(--line);border-radius:10px;padding:10px;
+    background:#fff;color:var(--ink);margin-bottom:10px}
+  .dlg-note{font-size:12.5px;color:var(--ink-soft);line-height:1.6;margin-bottom:14px;min-height:1.2em}
+  .dlg-note.err{color:#b5362b}
+  .dlg-note.ok{color:var(--good)}
+
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin:4px 2px 0}
+  select,.btn{font-size:13px;color:var(--ink);background:#fffdf8;border:1px solid var(--line);
+    border-radius:9px;padding:8px 11px;cursor:pointer;transition:.15s;line-height:1.1;font-family:var(--sans)}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  select{appearance:none;-webkit-appearance:none;padding-right:26px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%2362707b'/></svg>");
+    background-repeat:no-repeat;background-position:right 10px center;flex:1;min-width:110px}
+  .btn:hover,select:hover{border-color:var(--accent-soft)}
+  .btn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .btn:active{transform:translateY(1px)}
+
+  .prog{display:flex;align-items:center;gap:10px;margin:14px 2px 0;font-size:12.5px;color:var(--ink-soft)}
+  .bar{flex:1;height:7px;background:var(--paper-2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+  .bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--good),#5aa074);transition:width .35s}
+  .chip{flex:0 0 auto;font-size:11.5px;font-weight:500;padding:3px 9px;border-radius:99px;
+    background:var(--paper-2);color:var(--ink-soft);border:1px solid var(--line);letter-spacing:.5px}
+  .chip.learn{background:#e8f0ec;color:var(--good);border-color:#bcd6c2}
+  .chip.review{background:#e7f0f5;color:var(--accent);border-color:var(--accent-soft)}
+  .chip.all{background:#eef0f6;color:#5a6280;border-color:#c8cfe0}
+
+  .stage{flex:1;display:flex;flex-direction:column;justify-content:center;margin:6px 0}
+  .card{position:relative;width:100%;aspect-ratio:5/4;max-height:46vh;perspective:1600px;cursor:pointer;user-select:none;margin:0 auto}
+  .inner{position:absolute;inset:0;transition:transform .5s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+  .card.flip .inner{transform:rotateY(180deg)}
+  .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    background:#fffdf8;border:1px solid var(--line);border-radius:18px;
+    box-shadow:0 10px 30px rgba(40,60,80,.10),0 2px 0 rgba(0,0,0,.02);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;padding:30px 22px}
+  .face.back{transform:rotateY(180deg);pointer-events:none}
+  .card.flip .face.front{pointer-events:none}
+  .card.flip .face.back{pointer-events:auto}
+  #backContent{opacity:0;transition:opacity .15s ease .1s}
+  .card.flip #backContent{opacity:1}
+
+  .cn{font-family:var(--kai);font-size:clamp(30px,8.5vw,50px);font-weight:500;line-height:1.3;text-align:center;color:var(--ink);position:relative;z-index:2}
+  .cn.long{font-size:clamp(24px,6.6vw,40px)}
+  .cn.xlong{font-size:clamp(21px,5.6vw,34px);line-height:1.35}
+  .cn-pos{display:inline-block;margin-right:8px;font-family:var(--serif);font-size:.52em;font-weight:700;line-height:1;color:#245770;vertical-align:.18em;white-space:nowrap}
+  .en{font-family:var(--serif);font-weight:600;line-height:1.12;text-align:center;color:var(--ink);
+    position:relative;z-index:2;padding-bottom:10px;border-bottom:2px solid var(--accent-soft);word-break:break-word}
+  .en1{font-size:clamp(46px,13vw,78px)} .en2{font-size:clamp(38px,10.5vw,64px)}
+  .en3{font-size:clamp(30px,8vw,52px)}  .en4{font-size:clamp(24px,6.2vw,40px)}
+  .en5{font-size:clamp(19px,5vw,31px)}
+  .pos{margin-top:12px;font-family:var(--serif);font-size:clamp(22px,5.8vw,30px);font-weight:700;color:#245770;letter-spacing:0;z-index:2}
+  .spk{margin-top:14px;min-width:92px;min-height:42px;font-size:15px;line-height:1;background:#eef5f8;color:var(--accent);
+    border:1px solid var(--accent-soft);border-radius:99px;padding:9px 16px;cursor:pointer;z-index:3;transition:.15s;
+    display:inline-flex;align-items:center;justify-content:center;gap:6px}
+  .spk:hover{background:var(--accent);color:#fff}
+  .spk:active{transform:translateY(1px)}
+  .icon-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:30px;padding:0}
+  .flat-icon{display:block;width:18px;height:18px;flex:0 0 auto;color:currentColor;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .spk .flat-icon{width:17px;height:17px}
+  .complete-mark{display:inline-grid;place-items:center;width:34px;height:34px;margin-bottom:10px;border-radius:12px;background:var(--good);color:#fff;font-weight:700}
+  .sub-meaning{font-family:var(--kai);margin-top:16px;font-size:clamp(16px,4.5vw,22px);color:var(--ink-soft);text-align:center;z-index:2}
+  .sub-meaning .cn-pos{margin-right:6px;font-size:.78em;vertical-align:.08em}
+
+  .hint{position:absolute;bottom:13px;font-size:11px;color:var(--ink-soft);z-index:2;letter-spacing:1px}
+  .tag{position:absolute;top:13px;left:15px;font-size:11px;color:var(--ink-soft);z-index:2}
+  .star{position:absolute;top:11px;right:14px;z-index:3;font-size:18px;color:var(--accent-soft)}
+  .star.on{color:var(--accent)}
+
+  .nav{display:flex;align-items:center;gap:10px;margin-top:14px}
+  .count{font-size:13px;color:var(--ink-soft);min-width:64px;text-align:center}
+  .nav .btn{flex:0 0 auto;width:46px;text-align:center;font-size:18px;padding:9px 0}
+  .mark{display:flex;gap:8px;flex:1}
+  .mark .btn{flex:1;font-weight:500;font-size:13.5px}
+  .btn.review{color:var(--accent);border-color:var(--accent-soft)}
+  .btn.review.on{background:var(--accent);color:#fff}
+  .btn.got{color:var(--good);border-color:#aacdb2}
+  .btn.got.on{background:var(--good);color:#fff;border-color:var(--good)}
+
+  .empty{text-align:center;color:var(--ink-soft);padding:50px 20px;font-size:14px;line-height:1.8}
+  footer{text-align:center;color:var(--ink-soft);font-size:11px;margin-top:16px;opacity:.85}
+
+  .modal{position:fixed;inset:0;background:rgba(38,48,58,.45);display:none;align-items:center;justify-content:center;padding:24px;z-index:50}
+  .modal.show{display:flex}
+  .dialog{background:#fffdf8;border:1px solid var(--line);border-radius:16px;max-width:340px;width:100%;padding:22px 20px;box-shadow:0 20px 50px rgba(30,50,70,.3)}
+  .dlg-title{font-family:var(--serif);font-size:19px;font-weight:600;margin-bottom:10px}
+  .dlg-body{font-size:13.5px;color:var(--ink-soft);line-height:1.7;margin-bottom:18px}
+  .dlg-body b{color:var(--accent);font-weight:600}
+  .dlg-actions{display:flex;gap:10px}
+  .dlg-actions .btn{flex:1;padding:10px;font-size:14px}
+  .btn.danger{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:500}
+  .btn.danger:hover{background:#245770}
+  .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:500}
+  .btn.primary:hover{background:#245770}
+  .ta{width:100%;height:120px;margin:4px 0 10px;padding:10px;border:1px solid var(--line);border-radius:10px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.5;color:var(--ink);
+    background:#fbfaf5;resize:vertical;word-break:break-all}
+  .ta:focus{outline:none;border-color:var(--accent-soft)}
+  .note{font-size:12px;color:var(--ink-soft);line-height:1.6;margin:2px 0 12px;min-height:1em}
+  .note.err{color:#c0392b}
+  .note.ok{color:var(--good)}
+  @media(max-width:520px){
+    header{flex-direction:column;align-items:stretch}
+    .tools{justify-content:flex-start;width:100%}
+  }
+  @media(max-width:420px){.controls{gap:6px}.btn,select{padding:7px 9px;font-size:12.5px}.nav .btn{width:42px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="home-link" href="../../../index.html"><span class="arrow" aria-hidden="true">←</span><span>首页</span></a>
+  <header>
+    <div class="brand">
+      <div class="seal">EN</div>
+      <div>
+        <h1>七年级英语 · 单词卡片</h1>
+        <div class="sub">翻面自动发音 · 进度本机保存</div>
+      </div>
+    </div>
+    <div class="tools">
+      <button class="reset" id="syncBtn" title="使用同步码跨设备同步进度">☁ 同步</button>
+      <button class="reset" id="copyBtn" title="复制学习进度到剪贴板">⧉ 复制</button>
+      <button class="reset" id="importBtn" title="从剪贴板导入进度">⇩ 导入</button>
+      <button class="reset" id="resetBtn" title="重置当前范围,重新学一遍">↺ 重置</button>
+    </div>
+  </header>
+
+  <div class="controls">
+    <select id="unitSel"></select>
+    <select id="lessonSel"></select>
+    <button class="btn" id="dirBtn" title="切换中英方向">汉译英</button>
+    <button class="btn" id="allBtn" title="浏览全部(含已掌握)">全部</button>
+    <button class="btn icon-btn" id="shuffleBtn" title="随机打乱"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 3h5v5"></path><path d="M4 20 21 3"></path><path d="M21 16v5h-5"></path><path d="M15 15l6 6"></path><path d="M4 4l5 5"></path></svg><span class="sr-only">随机</span></button>
+    <button class="btn icon-btn on" id="soundBtn" title="自动发音开关"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a8 8 0 0 1 0 10"></path></svg><span class="sr-only">发音</span></button>
+  </div>
+
+  <div class="prog">
+    <span class="chip" id="phaseChip">新学</span>
+    <span id="masterTxt">已掌握 0</span>
+    <div class="bar"><i id="barFill"></i></div>
+    <span id="totalTxt">共 0</span>
+  </div>
+
+  <div class="stage">
+    <div class="card" id="card">
+      <div class="inner">
+        <div class="face front">
+          <span class="tag" id="tagF"></span>
+          <span class="star" id="starF">★</span>
+          <div id="frontContent"></div>
+          <span class="hint">点击 / 空格 翻面</span>
+        </div>
+        <div class="face back">
+          <span class="tag" id="tagB"></span>
+          <span class="star" id="starB">★</span>
+          <div id="backContent"></div>
+          <span class="hint">再点一下翻回</span>
+        </div>
+      </div>
+    </div>
+    <div id="emptyMsg" class="empty" style="display:none"></div>
+
+    <div class="nav" id="navRow">
+      <button class="btn" id="prevBtn">‹</button>
+      <div class="mark">
+        <button class="btn review" id="reviewBtn">需复习</button>
+        <button class="btn got" id="gotBtn">已掌握</button>
+      </div>
+      <span class="count" id="counter">0 / 0</span>
+      <button class="btn" id="nextBtn">›</button>
+    </div>
+  </div>
+
+  <footer>键盘:空格翻面 · ← → 切换 · ↑已掌握 · ↓需复习</footer>
+</div>
+
+<div class="modal" id="modal">
+  <div class="dialog">
+    <div class="dlg-title">重新学习</div>
+    <div class="dlg-body" id="dlgBody"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="cancelReset">取消</button>
+      <button class="btn danger" id="confirmReset">确定重置</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="copyModal">
+  <div class="dialog">
+    <div class="dlg-title">导出学习进度</div>
+    <div class="dlg-body">下面是当前进度。点「复制」存到剪贴板,或长按全选手动复制,粘贴到另一台设备导入。</div>
+    <textarea id="copyText" class="ta" readonly></textarea>
+    <div class="note" id="copyNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="copyClose">关闭</button>
+      <button class="btn primary" id="copyDo">复制</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="importModal">
+  <div class="dialog">
+    <div class="dlg-title">导入学习进度</div>
+    <div class="dlg-body" id="importHint">把导出的进度文本粘贴到下面(已尝试自动读取剪贴板)。导入会<b>替换当前全部进度</b>。</div>
+    <textarea id="importText" class="ta" placeholder="在此粘贴进度文本…"></textarea>
+    <div class="note" id="importNote"></div>
+    <div class="dlg-actions">
+      <button class="btn" id="importClose">取消</button>
+      <button class="btn primary" id="importDo">校验并导入</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ---------- 数据 [英文, 中文意思, 词性(短语无)] ---------- */
+const DATA = [
+ {unit:"Unit 7", lessons:[
+  {lesson:"单词", words:[
+   ["smart","聪明的","adj."],["shopper","购物者","n."],["mall","购物商场；购物广场","n."],["market","市场","n."],["bookstore","书店","n."],["supermarket","超市；超级市场","n."],["yuan","元（中国货币单位）","n."],["sell","出售，售卖；销售得……；卖出","v."],["fruit","水果；果实","n."],["scarf","围巾；披巾；头巾","n."],["would","（客气地建议或邀请）；（表示愿意、不愿意等）；将会","modal v."],["sure","当然","adv."],["list","清单；目录","n."],["salt","盐，食盐","n."],["bag","购物袋；手提袋；提包","n."],["strawberry","草莓","n."],["kilo/kilogram","千克；公斤","n."],["coffee","咖啡","n."],["cabbage","甘蓝；卷心菜","n."],["chicken","鸡肉；鸡","n."],["tofu","豆腐","n."],["watermelon","西瓜","n."],["carrot","胡萝卜","n."],["camera","照相机；摄影机","n."],["trousers","（pl.）裤子","n."],["party","聚会，宴会，联欢会；政党","n."],["everything","所有事物；一切；每件事","pron."],["sale","特价销售；出售","n."],["online","线上的；网上的；在网上","adj., adv."],["mum/mom","妈妈","n."],["OK","好；行；安然无恙","excl., adj."],["plan","计划，谋划；打算；计划；（详细）规划","v., n."],["carry","拿；提；搬","v."],["heavy","重的；厚的","adj."],["price","价格；价钱","n."],["skirt","女裙；裙子","n."],["decide","决定","v."],["pocket","口袋","n."],["pocket money","零花钱","n."],["save","节省；攒钱；挽救","v."],["notebook","笔记本","n."],["between","在……之间；介于……之间","prep."],["wisely","明智地","adv."],["waste","浪费；浪费；垃圾","v., n."],["try","试图，努力；试用；试","v., n."],["possible","可能；能做到（或取得）；合适的人（或物）","adj., n."],["store","（大型）百货商店，商店；保存","n., v."],["careful","慎重的，细致的，精心的；小心，注意，谨慎","adj."],["expensive","昂贵的；价格高的","adj."],["choice","选择；选中的人（或物）","n."],["check","检查；查看","v."],["payment","付款；支付；收款","n."],["again","再一次；又一次","adv."],["example","例子；实例","n."],["if","如果；倘若","conj."],["share","分享；合用","v."],["same","相同的","adj."],["pay","付费；付酬","v."],["piece","片；块","n."],["bread","面包","n."],["sandwich","三明治","n."],["thirsty","口渴的","adj."],["packet","小袋；小包装纸袋；小件包裹","n."],["meat","肉","n."],["cost","价钱为；费用","v., n."],["bed","床","n."],["breakfast","早餐；早饭","n."],["bowl","碗；盆","n."],["scissors","（pl.）剪刀","n."],["colored","有……色的；色彩……的","adj."],["cup","杯子；一杯（的量）","n."],["cotton","棉织物；棉布；棉花","n."],["sock","短袜","n."],["may","可以；也许","modal v."],["honey","蜂蜜","n."],["sweater","套头衫；套头毛衣","n."],["cheap","便宜的","adj."],["bad","不适合的；质量差的；感到愧疚；令人不快的，坏的","adj."],["group","组；群","n."],["carefully","小心地，谨慎地；细致地","adv."],["ad/advertisement","广告","n."],["beginning","开头；开端","n."],["banana","香蕉","n."],["just","仅仅；只是；刚好；刚才","adv."],["stay","待；保持","v."],["size","尺码，号；大小；标定……的大小","n., v."],["special","特殊的，特别的；特设的；特别活动；特价","adj., n."],["wait","等；等待","v."],["free","不收费的；空闲的；自由的；释放；使摆脱","adj., v."],["order","订单；顺序；条理；秩序；命令","n."]
+  ]},
+  {lesson:"短语", words:[
+   ["go shopping","购物"],["look for","寻找"],["on sale","特价销售"],["a pair of","一对；一双；一副；一组"],["good idea","好主意"],["let sb. do sth.","让某人做某事"],["shopping list","购物清单"],["save/make money","省钱 /赚钱"],["as ... as possible","尽量……地"],["at ... prices","以……价格"],["make choices","做决定"],["as well","也；还"],["for example","例如"],["a little","一点儿"],["go to bed","上床睡觉"],["look good/bad on sb.","某人穿起来很好看 /不好看"],["try/do one's best to do sth.","尽某人最大努力做某事"],["at the start of ...","在……的开始"],["at the end of ...","在……末尾；在……结束时"],["at the beginning of ...","在……的开始"],["next time","下一次"],["at a time","每次"],["in all","总共；合计"],["pay for","付款，偿还"],["check out","检查；结账"],["wait for","等待"]
+  ]}
+ ]},
+ {unit:"Unit 8", lessons:[
+  {lesson:"单词", words:[
+   ["planet","行星","n."],["ocean","大海，海洋（the ocean）","n."],["metre/meter","米","n."],["kilometre/kilometer","千米；公里","n."],["through","穿过；贯穿","prep."],["eastern","东方的；东部的","adj."],["freshwater","淡水的","adj."],["million","一百万","num."],["inland","（在）内陆的；向（或在）内陆","adj., adv."],["north-east","东北；东北方；东北地区","n."],["large","大的，大量的；大号的；广泛的，众多的","adj."],["deep","深的，厚的；纵深的，宽的；深深地；至深处","adj., adv."],["wide","宽的；宽阔的","adj."],["everywhere","到处","adv."],["ground","地，地面","n."],["into","到……里面，进入","prep."],["form","（使）形成；产生；建立","v."],["cloud","云；云彩","n."],["ice","冰","n."],["drop","滴，水珠；（使）掉落","n., v."],["full","（有）大量的，丰富的；充满的；完全的","adj."],["useful","有用的；有帮助的","adj."],["wash","洗","v."],["outside","在……外面；在外面","prep., adv."],["cycle","循环","n."],["quick","快的；迅速的","adj."],["shower","淋浴；淋浴间，淋浴器；（洗）淋浴","n., v."],["off","（用以表示除去了某物）；休假；休息","adv."],["tap","水龙头","n."],["while","当……的时候；而，然而","conj."],["brush","（用刷子）刷净，刷亮；刷子","v., n."],["tooth/teeth","牙；齿","n."],["reuse","再次使用；重复使用","v."],["matter","关乎……的事情；事情；事关紧要；要紧","n., v."],["fact","事实，真相；现实","n."],["valuable","宝贵的","adj."],["enough","足够的，充足的；足够地","det., adv."],["once","仅一次；一次；曾经；一……就","adv., conj."],["must","必须；必须做（或看、买等）的事","modal v., n."],["collect","收集；采集","v."],["dig","掘（地）；挖（土）","v."],["worry","担心，发愁；使担忧，使发愁；令人担忧的事；担心，忧虑","v., n."],["story","故事；小说","n."],["cover","覆盖；遮盖；覆盖物；躲避处","v., n."],["coastline","海岸线；沿海地带","n."],["than","（比较数量、距离等）多于，少于；（用于引出比较的第二部分）比","prep., conj."],["thousand","一千","num."],["eighty","八十","num."],["sixty","六十","num."],["billion","十亿","num."],["per cent/percent","百分之……","n."],["land","陆地，大地；地带，土地","n."],["knock","敲；击；敲击声；敲门（或窗户）声","v., n."],["door","门","n."],["oh","哦；啊；嘿","excl."],["step","迈步；步骤；阶段","n."],["litter","乱扔；垃圾","v., n."],["suggestion","建议；提议","n."],["search","搜索；搜查","v., n."],["information","信息","n."],["introduce","介绍","v."],["machine","机器，机械装置；计算机，电脑","n."],["dirty","肮脏的；污秽的","adj."],["bath","洗澡；浴盆；澡堂","n."],["throw","投；扔","v."],["away","在（某距离）处；离开","adv."],["still","仍然；静止的","adv., adj."],["provide","提供","v."],["protect","保护；防护","v."],["soil","土壤；领土","n."],["human","人；人的","n., adj."],["body","身体","n."],["plastic","塑料的；塑料","adj., n."],["rubbish","垃圾；废弃物","n."],["bin","垃圾箱","n."],["shock","震惊；令人震惊的事；使震惊；使惊愕","n., v."],["later","后来的；以后的；后来；以后","adj., adv."],["develop","（使）成长；发展","v."],["habit","习惯","n."],["count","重要；数数","v."],["daily","每日的，日常的；按日的","adj."]
+  ]},
+  {lesson:"短语", words:[
+   ["go up","上升；上涨"],["as we all know","众所周知；正如我们所知"],["because of","因为"],["be full of","充满"],["turn into","变成"],["take a shower","洗澡"],["turn off","关闭；关掉"],["brush one's teeth","刷牙"],["as a matter of fact","事实上，其实"],["be valuable for","对……有价值"],["worry about","担心，担忧"],["start to do sth.","开始做某事"],["make a difference","有影响，起作用"],["make full use of","充分利用"],["more than","超过；多于"],["come in","进来"],["search for","寻找；搜索；搜查"],["start with ...","从……开始"],["a few","一些；几个"],["throw away","扔掉，丢弃"],["be sure to do sth.","确定 /必然做某事"],["provide sth. for sb. = provide sb. with sth.","向某人提供某物"],["clean up","打扫（或清除）干净"],["get into","陷入"],["look like","看起来像"],["in short","总之；简言之"],["develop the habit of ...","养成……的习惯"],["from now on","从今以后"]
+  ]}
+ ]},
+ {unit:"Unit 9", lessons:[
+  {lesson:"单词", words:[
+   ["bank","银行；岸；河畔","n."],["gym/gymnasium","健身房；体育馆","n."],["hotel","旅馆","n."],["theatre/theater","戏院；剧场","n."],["museum","博物馆","n."],["road","路；道路","n."],["bridge","桥","n."],["across","从一边到另一边；横过","adv., prep."],["corner","街角；拐角","n."],["excuse","原谅；借口","v., n."],["cinema","电影院","n."],["madam","女士；夫人","n."],["could","能，可以","modal v."],["policeman/policemen","（男）警察","n."],["sir","先生","n."],["line","（铁）路线；线；行，列；沿……形成行（或列、排）","n., v."],["station","公共汽车站，长途汽车站；火车站","n."],["change","换乘；改变；改变","v., n."],["minute","分钟","n."],["along","沿着，顺着","prep."],["until/till","直到……为止","conj., prep."],["crossing","安全通行处；人行横道","n."],["left","向左；左边的；左；左边","adv., adj., n."],["gift","礼物；天赋；白送","n., v."],["build","建造","v."],["speed","速度；迅速；快速；加速","n., v."],["sign","标志，招牌；迹象，预兆","n."],["stand","站立，站起来；容忍，忍受","v."],["dark","黑暗的；昏暗的","adj."],["row","划（船）","v."],["island","岛","n."],["front","前面；前部","n."],["safe","处境（或情况）安全；安全的","adj."],["myself","我自己；亲自","pron."],["evening","晚上；傍晚","n."],["sad","悲哀的，难过的；令人悲哀的，让人难过的","adj."],["back","回原处；背部；后部","adv., n."],["tent","帐篷","n."],["camp","露营；宿营；营地","v., n."],["unforgettable","令人难忘的","adj."],["trip","旅行","n."],["hold","抓住；拿着；举行","v."],["follow","遵循，听从；跟随","v."],["return","返回；退还","v."],["hug","拥抱","n., v."],["clear","无云的；晴朗的；清晰易懂的；移走，搬走；转晴","adj., v."],["safety","安全","n."],["problem","难题；困难","n."],["solve","解决；处理","v."],["behind","在……后面","prep."],["post","邮寄；邮件；帖子","n."],["office","办公室","n."],["post office","邮局","n."],["village","村庄","n."],["beside","在旁边","prep."],["neighbour/neighbor","邻居","n."],["happen","发生；碰巧","v."],["community","社区","n."],["add","增加；添加","v."],["cry","喊叫；哭；叫喊，叫声","v., n."],["care","关注，在意；关心，关怀；照料，护理；小心，谨慎","v., n."],["suddenly","突然；忽然","adv."],["shake","摇动；抖动","v."],["sit","坐","v."],["arrive","到达","v."],["sleep","睡眠；睡觉","n., v."],["soon","很快，马上；快","adv."],["hear","听见；听说","v."],["kiss","亲吻；吻","v., n."],["easy","容易的","adj."],["centre/center","中心","n."],["service","服务","n."],["pet","宠物","n."],["Italian","意大利（人）的；意大利人；意大利语","adj., n."],["police","警方","n."],["famous","著名的；出名的","adj."],["exciting","令人兴奋的；令人激动的","adj."],["tired","疲劳的","adj."],["yours","你的（用于书信结尾的签名前）；您的；你们的","pron."],["turning","岔路口","n."],["straight","笔直地","adv."]
+  ]},
+  {lesson:"短语", words:[
+   ["across from","在……对面"],["on the corner of ...","在……拐角处"],["between ... and ...","在……和……之间"],["excuse me","劳驾，请原谅"],["get around","四处走动"],["be lost","迷路，丢失；失传"],["get to","到达"],["get off","下车"],["go along ...","沿着……走"],["turn left","向左转"],["walk on","继续前行；继续走"],["on one's right","在某人的右边"],["in a short time","在短时间内"],["stand for","代表"],["in front of ...","在……（外部）前面"],["in the end","最后；最终；终于"],["go back to ...","返回到……；追溯到……"],["at first","起初；起先"],["set up","搭建；建立；设立"],["hold one's hand","抓住某人的手"],["take out","拿出；取出"],["all the way","一路上"],["return to ...","返回；回到……"],["go across","横穿，横过"],["happen to","发生在……身上"],["just now","刚才"],["ask ... for help","向……求助"],["go camping","去露营"],["try to do sth.","尝试做某事，努力去做某事"],["look up","抬眼看；查找"],["fall down","落下；摔倒"],["build a fire","生火"],["arrive at","到达；抵达"],["too ... to ...","太……而不能……"],["go fishing","钓鱼"],["think of","认为；想起"],["be famous for ...","因……而闻名"],["go straight","直行"]
+  ]}
+ ]},
+ {unit:"Unit 10", lessons:[
+  {lesson:"单词", words:[
+   ["lend","给予，提供（帮助、支持等）；借给；借出","v."],["medical","医疗的；医学的","adj."],["heavily","在很大程度上；大量地","adv."],["volunteer","志愿者；自愿做","n., v."],["yesterday","在昨天；昨天","adv., n."],["tennis","网球","n."],["table tennis","乒乓球运动","n."],["match","比赛；竞赛；找相称的人（或物）","n., v."],["dad","爸爸","n."],["exam/examination","检查，检验；考试","n."],["repair","修理","v."],["voluntary","无偿的，义务性的；自愿的，志愿的，主动的","adj."],["experience","经历；经验；体验；经历；体验","n., v."],["leave","忘了带，丢下；离开；遗弃","v."],["key","钥匙；关键；最重要的；关键的","n., adj."],["daughter","女儿","n."],["lose","丢失；输掉（比赛等）","v."],["pick","采，摘；挑选","v."],["host","主人；东道主","n."],["title","标题，题目","n."],["ago","以前","adv."],["crowded","拥挤的","adj."],["meaningful","重要的","adj."],["town","镇；集镇","n."],["offer","主动提供，主动给予（某事物）","v."],["Dr.","医生；博士","abbr."],["chat","闲聊；聊天","v., n."],["kid","小孩；年轻人","n."],["own","自己的，本人的；拥有，有；承担；负责","adj., pron., v."],["bedroom","卧室","n."],["mine","我的；矿；矿井","pron., n."],["hers","她的","pron."],["ours","我们的","pron."],["yard","院子","n."],["theirs","他们的，她们的，它们的","pron."],["both","两个，两个都","pron., det."],["cut","切，割；（用刀等将某物）切成，割成；削减，缩减","v."],["event","大事；公开活动","n."],["website","网站","n."],["nursing","护理；看护","n."],["elder","长者；长辈","n."],["lady","女士，女子","n."],["better","（good 的比较级）较好的；更好的","adj."],["housing","（统称）住房，住宅","n."],["transportation","公共交通运输系统","n."],["nearby","在附近；附近的","adv., adj."],["public","公众的，大众的；公共的，公立的；民众；百姓（the public）","adj., n."],["space","大片空地；太空；空隙；空间","n."],["item","项目；物件","n."],["farmer","农场主；农人","n."],["farm","农场；务农，饲养","n., v."],["drive","驾车送（人）；驾驶，开车","v."],["goods","商品，货品；运载的货物","n."],["business","商业；生意","n."],["early","在早期；提前；早期的；早到的","adv., adj."]
+  ]},
+  {lesson:"短语", words:[
+   ["lend a hand","帮助"],["knock at/on","敲（门、窗等）"],["on one's way","在路上；在行进中"],["pick up","（开车）接人；捡起"],["be new to ...","对……感到陌生"],["offer sth. to sb. = offer sb. sth.","向某人提供某物"],["bring sb. sth. = bring sth. to sb.","给某人带来某物"],["chat with sb.","和某人聊天"],["in one's own way","以某人自己的方式"],["help out","帮助某人摆脱（困境）"],["learn from","向……学习"],["care for","照顾，照料"]
+  ]}
+ ]},
+ {unit:"Unit 11", lessons:[
+  {lesson:"单词", words:[
+   ["rule","规则；规章；条例","n."],["traffic","交通","n."],["respect","尊敬；尊重","v., n."],["forget","忘记做；忘记","v."],["board","板；木板","n."],["polite","有礼貌的","adj."],["cause","原因；起因；造成；引起；导致","n., v."],["effect","结果；影响","n."],["wall","墙，墙壁；城墙","n."],["hurt","（使）疼痛，受伤","v."],["himself","他自己","pron."],["housework","家务劳动；家务事","n."],["alone","独自","adv., adj."],["peephole","（墙或门上等的）窥视孔","n."],["stranger","陌生人","n."],["delivery","递送；传送；交付","n."],["advantage","优点","n."],["cross","穿越；横过","v."],["guard","警卫，看守","n."],["accident","（交通）事故；意外","n."],["noise","噪声","n."],["environment","自然环境；生态环境","n."],["fair","公正的；公道的","adj."],["court","球场；法院","n."],["dear","亲爱的","adj."],["since","因为；既然","conj."],["fight","打架；打仗；努力争取；为……斗争；打架；比赛","v., n."],["mind","头脑；大脑；心思；介意","n., v."],["herself","她自己","pron."],["French","法语；法国人；法国的；法国人的；法语的","n., adj."],["itself","它自己（指施动并受其影响的动物或事物）","pron."],["ourselves","我们自己","pron."],["break","违犯，背弃；（使）破；弄坏；弄破；稍停；休息","v., n."],["head","头；负责人；前往","n., v."],["slowly","慢速地；缓慢地","adv."],["speak","说话；谈话","v."],["loudly","吵闹地；嘈杂地","adv."],["law","法律；法规","n."],["advice","劝告；建议","n."],["attention","注意；专心","n."],["swimming pool","游泳池；游泳馆","n."],["pool","室内 /室外游泳池；水塘，池塘","n."],["mess","混乱；杂乱","n."],["angry","愤怒的；生气的","adj."],["loud","大声的；喧闹的","adj."],["promise","承诺；诺言","v., n."],["mean","表示……的意思；吝啬的；小气的","v., adj."],["behavior","行为；举止；态度","n."],["warning","（就可能发生的意外等提出的）警告，警示；先兆","n."],["subway","地铁","n."],["dollar","元（美国、加拿大、澳大利亚等国的货币单位）","n."],["helmet","头盔","n."],["rider","骑手；骑马（或自行车、摩托车）的人","n."],["meeting","会议；集会","n."],["manner","礼仪；礼貌（复数）","n."],["seat","座位","n."],["person","人；个人","n."],["wrong","错误的；有毛病","adj."],["plate","盘子；碟子","n."],["chopstick","筷子","n."],["point","指，指向；论点；重点；点","v., n."]
+  ]},
+  {lesson:"短语", words:[
+   ["keep quiet","保持安静"],["on time","按时，准时"],["say sorry to","向……道歉"],["forget to do sth.","忘记做某事"],["have a look","看一看"],["enjoy oneself","玩得痛快"],["run into","撞上；偶然遇见"],["get up","起床"],["tidy up","整理好"],["help with sth.","帮助做某事"],["in this way","以这种方式；用这种方法"],["keep away from","远离"],["in order","正常；妥当"],["make noise","制造噪声"],["what's more","而且"],["hear from sb.","收到某人的来信 /来电等"],["fight with","和……打架"],["keep ... in mind","记住；将……记在心中"],["teach oneself","自学"],["play with sth.","摆弄；玩弄"],["ask for","请求，恳求（给予）"],["take care of","照顾"],["in a mess","杂乱不堪"],["promise to do sth.","承诺做某事"],["be late for","迟到"],["stay up","熬夜"],["point at ...","指向……"]
+  ]}
+ ]},
+ {unit:"Unit 12", lessons:[
+  {lesson:"单词", words:[
+   ["drama","戏；剧","n."],["newspaper","报纸","n."],["cheer","欢呼，加油；鼓励","v."],["shoot","射门，投篮；射击，发射","v."],["practice","训练；练习","v."],["hole","洞；孔；坑","n."],["kick","踢；射门得分；踢","v., n."],["fail","失败，未能（做到）；不及格","v."],["true","确实的；真正的","adj."],["skill","技巧；技能","n."],["teamwork","团队合作","n."],["player","运动员；游戏者；参赛选手","n."],["taxi","出租汽车","n."],["paper-cut","剪纸艺术","n."],["divide","（使）分开，分散，分割，分成","v."],["become","开始变得；成为","v."],["teammate","队友","n."],["heart","心；心脏","n."],["close","亲密的；密切的；关；关闭","adj., v."],["improve","改进","v."],["hero","英雄","n."],["engineer","工程师；设计师","n."],["company","公司","n."],["villager","村民；乡村居民","n."],["tasty","美味的；可口的","adj."],["means","方式；方法；途径","n."],["loss","丧失；损失","n."],["taste","味道；鉴赏力；有……味道；尝，品；吃，喝","n., v."],["difficulty","困难；困境","n."],["voice","说话声；嗓音","n."],["proudly","自豪地；骄傲地","adv."],["painting","油画；画作","n."],["discuss","讨论；谈论","v."],["writing","书写；写作；笔迹","n."],["sound","听起来好像；声音","v., n."],["soccer","足球，足球运动","n."],["channel","水道；航道","n."],["tunnel","地下通道；隧道","n."],["difficult","困难的","adj."],["project","项目；方案；专题研究","n."],["British","英国的；英国人的","adj."],["dream","梦想；梦；做梦","n., v."],["chalk","粉笔","n."],["copy","复制；复印；复印件，副本","v., n."],["support","支持","v., n."],["task","任务，工作；活动","n."],["goal","目标，目的；球门","n."],["face","面临，必须对付（某情况）；面对，面向；脸","v., n."],["trust","信任；信赖","n., v."],["hard-working","工作努力的；辛勤的","adj."],["lunch","午餐；午饭","n."],["rainbow","彩虹","n."],["mistake","错误，失误；误解，误会","n., v."],["peace","和平；平静","n."]
+  ]},
+  {lesson:"短语", words:[
+   ["cheer sb. on","为某人加油"],["be angry with","生……的气"],["cheer up","（使）变得更高兴，振奋起来"],["look after","照顾"],["do good to","对……有好处"],["all the time","一直，始终"],["feel sorry for","怜悯；同情"],["try every means to do sth.","想方设法做某事"],["sell out","售完；卖完"],["have difficulty in","在……方面有困难"],["work for","为……效力"],["at last","终于，最终"],["work out","解决；算出；思考"],["with the help of","在……的帮助下"],["over and over again","多次；反复地"],["go on doing sth.","继续做某事"],["come true","实现"],["come up with","找到（答案）"],["at work","在工作中"],["keep on doing sth.","继续做某事"],["make mistakes","犯错误"],["make peace","和解"]
+  ]}
+ ]}
+];
+
+/* ---------- 状态 ---------- */
+const LS_STATUS="enwk_status_v1", LS_PREF="enwk_pref_v1";
+let pref = load(LS_PREF,{unit:0,lesson:-1,dir:0,peekAll:false,sound:true});
+let status = load(LS_STATUS,{});
+let deck=[], idx=0, shuffled=false, phase="learn";
+
+function load(k,def){try{const v=JSON.parse(localStorage.getItem(k));return v==null?def:v}catch(e){return def}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function keyOf(w){return w.u+"|"+w.l+"|"+w.en}   // 含单元,避免不同单元同词冲突
+function saveStatus(){save(LS_STATUS,status)}
+const isGot=k=>status[k]==="got", isReview=k=>status[k]==="review", isNew=k=>!status[k];
+
+function flat(){const out=[];DATA.forEach((u,ui)=>u.lessons.forEach(ls=>ls.words.forEach(([en,cn,pos])=>
+  out.push({en,cn,pos,unit:u.unit,lesson:ls.lesson,u:ui,l:ls.lesson}))));return out;}
+const ALL=flat();
+
+/* ---------- 语音(浏览器 TTS) ---------- */
+let voices=[];
+function loadVoices(){try{voices=window.speechSynthesis.getVoices()||[]}catch(e){voices=[]}}
+if('speechSynthesis' in window){loadVoices();window.speechSynthesis.onvoiceschanged=loadVoices;}
+function speakable(s){
+  return s.replace(/\bDr\.?/g,"doctor").replace(/\bsb\.?/g," somebody ").replace(/\bsth\.?/g," something ")
+          .replace(/=/g," ").replace(/\.\.\./g," ").replace(/…/g," ").replace(/\//g," or ")
+          .replace(/\s+/g," ").trim();
+}
+function speak(text){
+  if(!('speechSynthesis' in window))return;
+  try{
+    window.speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(speakable(text));
+    u.lang="en-US"; u.rate=.9; u.pitch=1;
+    const v=voices.find(v=>/en[-_]US/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang));
+    if(v)u.voice=v;
+    window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+function speakCurrent(){if(deck.length)speak(deck[idx].en)}
+
+/* ---------- 下拉框 ---------- */
+const unitSel=document.getElementById("unitSel"), lessonSel=document.getElementById("lessonSel");
+function buildUnitSel(){
+  unitSel.innerHTML='<option value="-1">全部单元</option>'+DATA.map((u,i)=>`<option value="${i}">${u.unit}</option>`).join("");
+  unitSel.value=pref.unit;
+}
+function buildLessonSel(){
+  const ui=+unitSel.value;
+  if(ui<0){lessonSel.innerHTML='<option value="-1">——</option>';lessonSel.value="-1";lessonSel.disabled=true;return}
+  lessonSel.disabled=false;
+  lessonSel.innerHTML='<option value="-1">单词+短语</option>'+DATA[ui].lessons.map((ls,i)=>`<option value="${i}">${ls.lesson}</option>`).join("");
+  lessonSel.value = pref.lesson<=DATA[ui].lessons.length-1?pref.lesson:-1;
+}
+
+/* ---------- 范围 & 构建卡组 ---------- */
+function scopeList(){
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return ALL.slice();
+  if(li<0) return ALL.filter(w=>w.u===ui);
+  return ALL.filter(w=>w.u===ui && w.l===DATA[ui].lessons[li].lesson);
+}
+function buildDeck(resetIdx=true){
+  const list=scopeList();
+  const news=list.filter(w=>isNew(keyOf(w)));
+  const reviews=list.filter(w=>isReview(keyOf(w)));
+  let subset;
+  if(pref.peekAll){phase="all";subset=list;}
+  else if(news.length){phase="learn";subset=news;}
+  else if(reviews.length){phase="review";subset=reviews;}
+  else {phase="done";subset=[];}
+  if(shuffled) for(let i=subset.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[subset[i],subset[j]]=[subset[j],subset[i]]}
+  deck=subset; if(resetIdx) idx=0;
+  if(idx>deck.length-1) idx=Math.max(0,deck.length-1);
+}
+
+/* ---------- 渲染 ---------- */
+const card=document.getElementById("card");
+function enLen(s){const n=s.length;return n<=4?"en1":n<=7?"en2":n<=11?"en3":n<=18?"en4":"en5"}
+const soundIcon=off=>off
+  ? `<svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M19 9l-6 6"></path><path d="M13 9l6 6"></path></svg>`
+  : `<svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a8 8 0 0 1 0 10"></path></svg>`;
+const cnPos=w=>w.pos?`<span class="cn-pos">${w.pos}</span>`:"";
+const enHTML=w=>`<div class="en ${enLen(w.en)}">${w.en}</div>${w.pos?`<div class="pos">${w.pos}</div>`:""}<button class="spk" type="button">${soundIcon(false)} 发音</button><div class="sub-meaning">${cnPos(w)}${w.cn}</div>`;
+function cnHTML(w){
+  const len=[...w.cn].length;
+  const cls=len>28?"cn xlong":(len>18?"cn long":"cn");
+  return `<div class="${cls}">${cnPos(w)}${w.cn}</div>`;
+}
+const englishSide=()=>pref.dir===1?"front":"back";   // 英文在哪一面
+
+function render(){
+  const navRow=document.getElementById("navRow"), empty=document.getElementById("emptyMsg");
+  const inner=card.querySelector(".inner");
+  inner.style.transition="none"; card.classList.remove("flip"); void inner.offsetWidth; inner.style.transition="";
+
+  const scope=scopeList();
+  const done=scope.filter(w=>isGot(keyOf(w))).length;
+  const rev =scope.filter(w=>isReview(keyOf(w))).length;
+  document.getElementById("masterTxt").textContent= rev?`已掌握 ${done} · 待复习 ${rev}`:`已掌握 ${done}`;
+  document.getElementById("totalTxt").textContent="共 "+scope.length;
+  document.getElementById("barFill").style.width=scope.length?(done/scope.length*100)+"%":"0%";
+
+  const chip=document.getElementById("phaseChip");
+  const cm={learn:["新学","learn"],review:["复习","review"],all:["全部","all"],done:["完成","learn"]};
+  const [ct,cc]=cm[phase]||cm.learn; chip.textContent=ct; chip.className="chip "+cc;
+
+  if(!deck.length){
+    card.style.display="none";navRow.style.display="none";empty.style.display="block";
+    document.getElementById("counter").textContent="0 / 0";
+    empty.innerHTML = scope.length===0 ? "这个范围还没有词。"
+      : (pref.peekAll ? "全部模式没有可显示的词。" : "<span class=\"complete-mark\">✓</span><br>本范围全部掌握!<br>想再过一遍,点右上角「重置」。");
+    return;
+  }
+  card.style.display="block";navRow.style.display="flex";empty.style.display="none";
+
+  if(idx>=deck.length)idx=deck.length-1;
+  const w=deck[idx], k=keyOf(w);
+  pref.lastKey=k; pref.lastIdx=idx; save(LS_PREF,pref);
+
+  const f=document.getElementById("frontContent"), b=document.getElementById("backContent");
+  if(pref.dir===0){ f.innerHTML=cnHTML(w); b.innerHTML=enHTML(w); }   // 汉译英
+  else            { f.innerHTML=enHTML(w); b.innerHTML=cnHTML(w); }   // 英译汉
+
+  const tag=`${w.unit} · ${w.lesson}`;
+  document.getElementById("tagF").textContent=tag;
+  document.getElementById("tagB").textContent=tag;
+  document.getElementById("starF").classList.toggle("on",isGot(k));
+  document.getElementById("starB").classList.toggle("on",isGot(k));
+  document.getElementById("counter").textContent=`${idx+1} / ${deck.length}`;
+  document.getElementById("reviewBtn").classList.toggle("on",isReview(k));
+  document.getElementById("gotBtn").classList.toggle("on",isGot(k));
+
+  // 英译汉:英文在正面,渲染即朗读
+  if(pref.sound && englishSide()==="front") speak(w.en);
+}
+
+/* ---------- 交互 ---------- */
+card.addEventListener("click",e=>{
+  if(e.target.closest(".spk")){e.stopPropagation();speakCurrent();return}  // 点喇叭只发音
+  card.classList.toggle("flip");
+  const visible=card.classList.contains("flip")?"back":"front";
+  if(pref.sound && visible===englishSide()) speakCurrent();                // 翻到英文面自动发音
+});
+document.getElementById("prevBtn").onclick=e=>{e.stopPropagation();if(idx>0){idx--;render()}};
+document.getElementById("nextBtn").onclick=e=>{e.stopPropagation();if(idx<deck.length-1){idx++;render()}};
+
+function mark(state){
+  if(!deck.length)return;
+  const k=keyOf(deck[idx]);
+  status[k]=state; saveStatus();
+  if(idx<deck.length-1){idx++; render(); return;}
+  if(phase!=="all") buildDeck(true);
+  render();
+}
+document.getElementById("gotBtn").onclick=()=>mark("got");
+document.getElementById("reviewBtn").onclick=()=>mark("review");
+
+const dirBtn=document.getElementById("dirBtn");
+function refreshDir(){dirBtn.textContent=pref.dir===0?"汉译英":"英译汉";dirBtn.classList.toggle("on",pref.dir===1);}
+dirBtn.onclick=()=>{pref.dir=pref.dir?0:1;save(LS_PREF,pref);refreshDir();render()};
+
+const allBtn=document.getElementById("allBtn");
+allBtn.onclick=()=>{pref.peekAll=!pref.peekAll;save(LS_PREF,pref);allBtn.classList.toggle("on",pref.peekAll);buildDeck();render()};
+
+const soundBtn=document.getElementById("soundBtn");
+function refreshSound(){soundBtn.innerHTML=soundIcon(!pref.sound)+"<span class=\"sr-only\">发音</span>";soundBtn.classList.toggle("on",pref.sound);}
+soundBtn.onclick=()=>{pref.sound=!pref.sound;save(LS_PREF,pref);refreshSound();if(!pref.sound&&'speechSynthesis'in window)window.speechSynthesis.cancel();};
+
+document.getElementById("shuffleBtn").onclick=()=>{shuffled=!shuffled;
+  document.getElementById("shuffleBtn").classList.toggle("on",shuffled);buildDeck();render()};
+
+unitSel.onchange=()=>{pref.unit=unitSel.value;pref.lesson=-1;save(LS_PREF,pref);buildLessonSel();buildDeck();render()};
+lessonSel.onchange=()=>{pref.lesson=lessonSel.value;save(LS_PREF,pref);buildDeck();render()};
+
+/* ---------- 重置(二次确认) ---------- */
+const modal=document.getElementById("modal");
+function scopeName(){
+  const ui=+unitSel.value, li=+lessonSel.value;
+  if(ui<0) return "全部单元";
+  if(li<0) return DATA[ui].unit;
+  return DATA[ui].unit+" · "+DATA[ui].lessons[li].lesson;
+}
+document.getElementById("resetBtn").onclick=()=>{
+  document.getElementById("dlgBody").innerHTML=
+    `将清空 <b>${scopeName()}</b> 的「已掌握 / 需复习」记录,重新从头学一遍。<br>此操作不可撤销,确定吗?`;
+  modal.classList.add("show");
+};
+document.getElementById("cancelReset").onclick=()=>modal.classList.remove("show");
+modal.addEventListener("click",e=>{if(e.target===modal)modal.classList.remove("show")});
+document.getElementById("confirmReset").onclick=()=>{
+  scopeList().forEach(w=>{delete status[keyOf(w)]});
+  saveStatus(); modal.classList.remove("show");
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+/* ---------- 导出 / 导入进度 ---------- */
+function statusCounts(st){let g=0,r=0;for(const k in st){if(st[k]==="got")g++;else if(st[k]==="review")r++;}return{g,r}}
+function exportPayload(){return JSON.stringify({app:"enwk",version:1,exportedAt:new Date().toISOString(),status:status})}
+
+const copyModal=document.getElementById("copyModal"), copyText=document.getElementById("copyText"), copyNote=document.getElementById("copyNote");
+document.getElementById("copyBtn").onclick=()=>{
+  const c=statusCounts(status);
+  copyText.value=exportPayload();
+  copyNote.className="note"; copyNote.textContent=`含 已掌握 ${c.g} · 需复习 ${c.r} 条记录。`;
+  copyModal.classList.add("show");
+  setTimeout(()=>{copyText.focus();copyText.select();},50);
+};
+document.getElementById("copyClose").onclick=()=>copyModal.classList.remove("show");
+copyModal.addEventListener("click",e=>{if(e.target===copyModal)copyModal.classList.remove("show")});
+document.getElementById("copyDo").onclick=async()=>{
+  const txt=copyText.value;
+  let ok=false;
+  try{ if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(txt);ok=true;} }catch(e){}
+  if(!ok){ try{copyText.focus();copyText.select();ok=document.execCommand("copy");}catch(e){} }
+  copyNote.className="note "+(ok?"ok":"err");
+  copyNote.textContent=ok?"✓ 已复制到剪贴板。":"无法自动复制,请长按/全选上面文本手动复制。";
+};
+
+/* 校验进度文本:支持 {app,status} 包装 或 直接的 key→状态 映射 */
+function parseProgress(text){
+  let data;
+  try{ data=JSON.parse((text||"").trim()); }catch(e){ return {ok:false,msg:"✗ 不是有效的文本格式(JSON 解析失败)。"}; }
+  if(!data||typeof data!=="object"||Array.isArray(data)) return {ok:false,msg:"✗ 格式不对:不是进度数据。"};
+  if(data.app && data.app!=="enwk") return {ok:false,msg:`✗ 这份进度不属于英语卡片(来源:${data.app})。`};
+  const st=(data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:data;
+  if(typeof st!=="object"||Array.isArray(st)) return {ok:false,msg:"✗ 格式不对:找不到进度记录。"};
+  const clean={};let g=0,r=0,bad=0;
+  for(const k in st){const v=st[k];
+    if(typeof k==="string"&&k&&(v==="got"||v==="review")){clean[k]=v;v==="got"?g++:r++;}else bad++;}
+  if(g+r===0) return {ok:false,msg:"✗ 没有可导入的有效记录。"};
+  return {ok:true,status:clean,g,r,bad};
+}
+
+const importModal=document.getElementById("importModal"), importText=document.getElementById("importText"),
+      importNote=document.getElementById("importNote"), importDo=document.getElementById("importDo");
+let pendingImport=null;
+function resetImportState(){pendingImport=null;importDo.textContent="校验并导入";importDo.className="btn primary";}
+importText.addEventListener("input",()=>{if(pendingImport){resetImportState();importNote.textContent="";importNote.className="note";}});
+
+document.getElementById("importBtn").onclick=async()=>{
+  importText.value=""; importNote.textContent=""; importNote.className="note"; resetImportState();
+  importModal.classList.add("show");
+  // 尝试自动读取剪贴板(本地文件/无权限时静默失败,用户可手动粘贴)
+  try{ if(navigator.clipboard&&navigator.clipboard.readText){const t=await navigator.clipboard.readText();if(t&&t.trim())importText.value=t.trim();} }catch(e){}
+  setTimeout(()=>importText.focus(),50);
+};
+document.getElementById("importClose").onclick=()=>importModal.classList.remove("show");
+importModal.addEventListener("click",e=>{if(e.target===importModal)importModal.classList.remove("show")});
+importDo.onclick=()=>{
+  if(!pendingImport){                       // 第一步:校验
+    const res=parseProgress(importText.value);
+    if(!res.ok){importNote.className="note err";importNote.textContent=res.msg;return;}
+    pendingImport=res;
+    const cur=statusCounts(status);
+    importNote.className="note ok";
+    importNote.innerHTML=`✓ 校验通过:含 已掌握 ${res.g} · 需复习 ${res.r}${res.bad?`(忽略 ${res.bad} 条无效)`:""}。<br>`+
+      `<span style="color:var(--ink-soft)">将<b style="color:#c0392b">替换</b>当前进度(已掌握 ${cur.g} · 需复习 ${cur.r})。再点一次确认。</span>`;
+    importDo.textContent="确定替换并导入";
+    importDo.className="btn danger";
+    return;
+  }
+  // 第二步:确认导入
+  status=pendingImport.status; saveStatus();
+  importModal.classList.remove("show"); resetImportState();
+  shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+  pref.peekAll=false;allBtn.classList.remove("on");save(LS_PREF,pref);
+  delete pref.lastKey;save(LS_PREF,pref);
+  buildDeck(true);render();
+};
+
+const shortcutKeys=new Set([" ","ArrowLeft","ArrowRight","ArrowUp","ArrowDown"]);
+const shortcutDelay=320;
+let lastShortcutAt=0;
+
+document.addEventListener("keydown",e=>{
+  if(["INPUT","SELECT","TEXTAREA"].includes(e.target.tagName))return;
+  if(e.key==="Escape"){document.querySelectorAll(".modal.show").forEach(m=>m.classList.remove("show"));return}
+  if(document.querySelector(".modal.show"))return;
+  if(!shortcutKeys.has(e.key))return;
+  e.preventDefault();
+  if(e.repeat)return;
+  const now=Date.now();
+  if(now-lastShortcutAt<shortcutDelay)return;
+  lastShortcutAt=now;
+  if(e.key===" "){card.click()}
+  else if(e.key==="ArrowLeft"){if(idx>0){idx--;render()}}
+  else if(e.key==="ArrowRight"){if(idx<deck.length-1){idx++;render()}}
+  else if(e.key==="ArrowUp"){mark("got")}
+  else if(e.key==="ArrowDown"){mark("review")}
+});
+
+/* ---------- 启动 ---------- */
+function restoreIdx(){
+  if(pref.lastKey){const i=deck.findIndex(w=>keyOf(w)===pref.lastKey);if(i>=0){idx=i;return}}
+  if(typeof pref.lastIdx==="number") idx=Math.min(Math.max(pref.lastIdx,0),Math.max(0,deck.length-1));
+}
+buildUnitSel();buildLessonSel();refreshDir();refreshSound();
+allBtn.classList.toggle("on",pref.peekAll);
+buildDeck();restoreIdx();render();
+</script>
+<script src="../../../assets/sync.js?v=1"></script>
+<script>
+ReviewSync.init({
+  deckKey:"textbooks/renai/english/grade7b-words",
+  app:"enwk",
+  title:"仁爱英语七下单词",
+  getData:()=>({status:status,pref:pref}),
+  applyData:data=>{
+    status=(data&&data.status&&typeof data.status==="object"&&!Array.isArray(data.status))?data.status:{};
+    pref=Object.assign({unit:0,lesson:-1,dir:0,peekAll:false,sound:true},(data&&data.pref&&typeof data.pref==="object"&&!Array.isArray(data.pref))?data.pref:{});
+    save(LS_STATUS,status);save(LS_PREF,pref);
+    shuffled=false;document.getElementById("shuffleBtn").classList.remove("on");
+    buildUnitSel();buildLessonSel();refreshDir();refreshSound();
+    allBtn.classList.toggle("on",pref.peekAll);
+    buildDeck(true);restoreIdx();render();
+  }
+});
+</script>
+</body>
+</html>

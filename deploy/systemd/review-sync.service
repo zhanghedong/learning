@@ -1,0 +1,18 @@
+[Unit]
+Description=Review Study Card Sync API
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/data/review-sync/app
+Environment=REVIEW_SYNC_HOST=127.0.0.1
+Environment=REVIEW_SYNC_PORT=3107
+Environment=REVIEW_SYNC_DB=/data/review-sync/data/review.db
+ExecStart=/usr/bin/python3 /data/review-sync/app/server.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

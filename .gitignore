@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Test and browser automation artifacts
+.playwright-cli/
+output/
+
+# Temporary files
+tmp/
+*.log
+
+# PDF documents
+*.pdf
+docs/pdf/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~

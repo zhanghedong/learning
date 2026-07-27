@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffefa">
+  <title>八年级上册语文 · 必背古诗文</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../../assets/grade8a-recitations.css?v=1">
+  <script defer src="../../../assets/sync.js?v=1"></script>
+  <script defer src="../../../assets/grade8a-recitations.js?v=1"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="home-link" href="../../../index.html" title="返回学习卡片首页" aria-label="返回学习卡片首页">←</a>
+        <div class="brand">
+          <div class="brand-seal" aria-hidden="true">文</div>
+          <div class="brand-copy">
+            <h1 class="brand-title">八年级上册 · 必背古诗文</h1>
+            <div class="brand-subtitle">先学习，再按掌握情况一轮轮复习</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="icon-button" data-action="more" aria-label="更多工具" title="更多工具" aria-haspopup="true" aria-controls="moreMenu">⋯</button>
+          <div class="more-menu" id="moreMenu" hidden>
+            <button class="menu-button" id="syncBtn">☁ 同步</button>
+            <button class="menu-button" data-action="export-progress">导出进度</button>
+            <button class="menu-button" data-action="import-progress">导入进度</button>
+            <button class="menu-button danger" data-action="open-reset">重置进度</button>
+          </div>
+        </div>
+      </div>
+      <div class="tab-band">
+        <nav class="tabs" role="tablist" aria-label="学习模式">
+          <button class="tab-button active" data-view="overview" role="tab" aria-selected="true">总览</button>
+          <button class="tab-button" data-view="learn" role="tab" aria-selected="false">学习</button>
+          <button class="tab-button" data-view="review" role="tab" aria-selected="false">复习</button>
+          <button class="tab-button" data-view="full" role="tab" aria-selected="false">全文</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main" id="app">
+      <div class="loading">正在整理课文与重点词...</div>
+    </main>
+  </div>
+
+  <aside class="note-panel" id="notePanel" aria-live="polite">
+    <div class="note-empty">点击正文中带红色下划线的词语，这里会显示课本释义和所在原句。</div>
+  </aside>
+
+  <div class="modal" id="progressModal" role="dialog" aria-modal="true" aria-labelledby="progressTitle">
+    <div class="dialog">
+      <h2 class="dlg-title" id="progressTitle">学习进度</h2>
+      <div class="dlg-body" id="progressBody"></div>
+      <textarea class="progress-textarea" id="progressTextarea" spellcheck="false"></textarea>
+      <div class="note" id="progressNote"></div>
+      <div class="dlg-actions">
+        <button class="secondary-button button-small" data-action="close-modal">关闭</button>
+        <button class="primary-button button-small" id="progressAction">确定</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="resetModal" role="dialog" aria-modal="true" aria-labelledby="resetTitle">
+    <div class="dialog">
+      <h2 class="dlg-title" id="resetTitle">重置全部进度</h2>
+      <div class="dlg-body">将清除八年级必背古诗文的首次学习、词语掌握和背诵轮次记录。这个操作不可撤销。</div>
+      <div class="dlg-actions">
+        <button class="secondary-button button-small" data-action="close-modal">取消</button>
+        <button class="primary-button button-small" data-action="confirm-reset">确定重置</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
