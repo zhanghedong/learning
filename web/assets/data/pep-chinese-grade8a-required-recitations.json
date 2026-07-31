@@ -982,5 +982,239 @@
         "index": 268
       }
     ]
+  },
+  {
+    "lesson": "课外古诗词诵读（上）",
+    "texts": [
+      {
+        "title": "庭中有奇树",
+        "author": "《古诗十九首》",
+        "content": "庭中有奇树，绿叶发华滋。攀条折其荣，将以遗所思。馨香盈怀袖，路远莫致之。此物何足贵？但感别经时。"
+      },
+      {
+        "title": "龟虽寿",
+        "author": "曹操",
+        "content": "神龟虽寿，犹有竟时；腾蛇乘雾，终为土灰。老骥伏枥，志在千里；烈士暮年，壮心不已。盈缩之期，不但在天；养怡之福，可得永年。幸甚至哉，歌以咏志。"
+      },
+      {
+        "title": "赠从弟（其二）",
+        "author": "刘桢",
+        "content": "亭亭山上松，瑟瑟谷中风。风声一何盛，松枝一何劲！冰霜正惨凄，终岁常端正。岂不罹凝寒？松柏有本性。"
+      },
+      {
+        "title": "梁甫行",
+        "author": "曹植",
+        "content": "八方各异气，千里殊风雨。剧哉边海民，寄身于草野。妻子象禽兽，行止依林阻。柴门何萧条，狐兔翔我宇。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "华",
+        "explanation": "花。下文的“荣”也是“花”的意思。",
+        "index": 9
+      },
+      {
+        "word": "滋",
+        "explanation": "繁盛。",
+        "index": 10
+      },
+      {
+        "word": "攀条",
+        "explanation": "攀引枝条。",
+        "index": 12
+      },
+      {
+        "word": "荣",
+        "explanation": "花。",
+        "index": 16
+      },
+      {
+        "word": "遗",
+        "explanation": "给予，馈赠。",
+        "index": 20
+      },
+      {
+        "word": "盈",
+        "explanation": "充满。",
+        "index": 26
+      },
+      {
+        "word": "致",
+        "explanation": "送达。",
+        "index": 33
+      },
+      {
+        "word": "经时",
+        "explanation": "历时很久。",
+        "index": 45
+      },
+      {
+        "word": "竟",
+        "explanation": "终结。这里指死去。",
+        "index": 55
+      },
+      {
+        "word": "腾蛇",
+        "explanation": "传说中一种能腾云驾雾的神蛇。",
+        "index": 58
+      },
+      {
+        "word": "骥",
+        "explanation": "骏马，好马。",
+        "index": 69
+      },
+      {
+        "word": "枥",
+        "explanation": "马槽。",
+        "index": 71
+      },
+      {
+        "word": "烈士",
+        "explanation": "有气节有壮志的人。",
+        "index": 78
+      },
+      {
+        "word": "盈缩",
+        "explanation": "这里指人寿命的长短。",
+        "index": 88
+      },
+      {
+        "word": "养怡",
+        "explanation": "指调养身心，保持心情愉快。怡，愉快。",
+        "index": 98
+      },
+      {
+        "word": "永年",
+        "explanation": "长寿。",
+        "index": 105
+      },
+      {
+        "word": "亭亭",
+        "explanation": "挺拔的样子。",
+        "index": 118
+      },
+      {
+        "word": "瑟瑟",
+        "explanation": "拟声词，形容风声。",
+        "index": 124
+      },
+      {
+        "word": "一何",
+        "explanation": "何其，多么。",
+        "index": 132
+      },
+      {
+        "word": "罹凝寒",
+        "explanation": "遭受严寒。罹，遭受。凝寒，严寒。",
+        "index": 156
+      },
+      {
+        "word": "异气",
+        "explanation": "气候不同。",
+        "index": 169
+      },
+      {
+        "word": "殊",
+        "explanation": "不同。",
+        "index": 174
+      },
+      {
+        "word": "剧",
+        "explanation": "艰难。",
+        "index": 178
+      },
+      {
+        "word": "妻子",
+        "explanation": "妻子儿女。",
+        "index": 190
+      },
+      {
+        "word": "林阻",
+        "explanation": "山林险阻之地。",
+        "index": 199
+      },
+      {
+        "word": "翔",
+        "explanation": "自在地行走。",
+        "index": 210
+      },
+      {
+        "word": "宇",
+        "explanation": "房屋。",
+        "index": 212
+      }
+    ]
+  },
+  {
+    "lesson": "课外古诗词诵读（下）",
+    "texts": [
+      {
+        "title": "浣溪沙",
+        "author": "晏殊",
+        "content": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回！无可奈何花落去，似曾相识燕归来。小园香径独徘徊。"
+      },
+      {
+        "title": "采桑子",
+        "author": "欧阳修",
+        "content": "轻舟短棹西湖好，绿水逶迤，芳草长堤。隐隐笙歌处处随。无风水面琉璃滑，不觉船移，微动涟漪。惊起沙禽掠岸飞。"
+      },
+      {
+        "title": "相见欢",
+        "author": "朱敦儒",
+        "content": "金陵城上西楼，倚清秋。万里夕阳垂地大江流。中原乱，簪缨散，几时收？试倩悲风吹泪过扬州。"
+      },
+      {
+        "title": "如梦令",
+        "author": "李清照",
+        "content": "常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "棹",
+        "explanation": "桨。",
+        "index": 51
+      },
+      {
+        "word": "琉璃",
+        "explanation": "一种光滑细腻的釉料，多覆在盆、缸、砖瓦的外层。这里喻指水面平静澄碧。",
+        "index": 78
+      },
+      {
+        "word": "金陵",
+        "explanation": "古城名，即今江苏南京。",
+        "index": 100
+      },
+      {
+        "word": "簪缨",
+        "explanation": "代指达官显贵。簪，帽饰。",
+        "index": 125
+      },
+      {
+        "word": "倩",
+        "explanation": "请。",
+        "index": 134
+      },
+      {
+        "word": "扬州",
+        "explanation": "今属江苏。",
+        "index": 140
+      },
+      {
+        "word": "溪亭",
+        "explanation": "溪边的亭子。",
+        "index": 145
+      },
+      {
+        "word": "藕花",
+        "explanation": "荷花。",
+        "index": 165
+      },
+      {
+        "word": "争渡",
+        "explanation": "奋力把船划出去。",
+        "index": 170
+      }
+    ]
   }
 ]
