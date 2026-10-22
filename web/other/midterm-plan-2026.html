@@ -1,0 +1,341 @@
+<!doctype html><html lang="zh-CN"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>期中冲刺计划</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;800&display=swap">
+<style>
+/* Layout: 作业本式日程表 — 顶部目标分数，三个阶段分组，每天一行：左日期，右可勾选任务 */
+:root{
+  --paper:#F6F8FB; --sheet:#FFFFFF; --fg:#1A2030; --muted:#5D6678; --line:#DCE2EC;
+  --ink:#2447A6; --ink-soft:#E7EDFB; --red:#C4302A; --red-soft:#FBE9E7; --done:#9AA3B5;
+  --yw:#B0412E; --sx:#2447A6; --yy:#6A3FA0; --wl:#0E7A6E; --df:#A2650A; --ls:#7A5230; --ds:#4C7A2A;
+  --display:"Noto Serif SC","Songti SC","STSong",serif;
+  --body:"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#11141B; --sheet:#181D27; --fg:#E5E8EF; --muted:#9AA3B5; --line:#2A3140;
+  --ink:#8EA7F0; --ink-soft:#1F2A47; --red:#F07A70; --red-soft:#3A1F1E; --done:#5F6779;
+  --yw:#F08B76; --sx:#8EA7F0; --yy:#C3A2EE; --wl:#5CCDBE; --df:#E8B45A; --ls:#D9AE86; --ds:#9CCF73;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#11141B; --sheet:#181D27; --fg:#E5E8EF; --muted:#9AA3B5; --line:#2A3140;
+  --ink:#8EA7F0; --ink-soft:#1F2A47; --red:#F07A70; --red-soft:#3A1F1E; --done:#5F6779;
+  --yw:#F08B76; --sx:#8EA7F0; --yy:#C3A2EE; --wl:#5CCDBE; --df:#E8B45A; --ls:#D9AE86; --ds:#9CCF73;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:980px;margin:0 auto;display:grid;gap:28px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,5vw,40px);font-weight:800;letter-spacing:.02em}
+h2{font-size:20px;font-weight:600}
+.lede{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.num{font-variant-numeric:tabular-nums}
+
+/* 分数目标 */
+.goals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.goal{background:var(--sheet);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:2px}
+.goal .k{font-size:12px;color:var(--muted);letter-spacing:.08em}
+.goal .v{font-family:var(--display);font-size:26px;font-weight:800}
+.goal .d{font-size:13px;color:var(--muted)}
+.goal.target{border-color:var(--ink)} .goal.target .v{color:var(--ink)}
+.goal.floor .v{color:var(--red)}
+
+.grid2{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:16px}
+.box{background:var(--sheet);border:1px solid var(--line);border-radius:10px;padding:16px 18px;min-width:0}
+.box h2{font-size:16px;margin-bottom:8px}
+table.alloc{width:100%;border-collapse:collapse;font-size:14px}
+.alloc td{padding:6px 0;border-bottom:1px dashed var(--line);vertical-align:top}
+.alloc td:last-child{text-align:right;white-space:nowrap;font-weight:600}
+.alloc tr:last-child td{border-bottom:0;padding-top:8px}
+.rules{margin:0;padding-left:1.2em;display:grid;gap:4px;font-size:14px}
+.rules b{color:var(--red);font-weight:600}
+
+/* 进度条 */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding:10px 0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+.track{flex:1 1 200px;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.fill{height:100%;width:0;background:var(--ink);transition:width .3s}
+.bar .stat{font-size:14px;color:var(--muted)}
+.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--sheet);color:var(--fg);border-radius:6px;padding:5px 10px;cursor:pointer}
+.btn:hover{border-color:var(--ink);color:var(--ink)}
+.btn:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.btn.warn{border-color:var(--red);color:var(--red)}
+
+/* 阶段与每日 */
+.phase{display:grid;gap:0}
+.phase-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:10px}
+.phase-head .tag{font-size:12px;color:var(--ink);background:var(--ink-soft);padding:2px 8px;border-radius:4px;letter-spacing:.06em}
+.phase-head p{margin:0;color:var(--muted);font-size:14px;flex-basis:100%}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.day{display:grid;grid-template-columns:112px minmax(0,1fr);border-top:1px solid var(--line)}
+.day:first-child{border-top:0}
+.day.weekend{background:linear-gradient(90deg,var(--ink-soft) 0,var(--ink-soft) 112px,transparent 112px)}
+.when{padding:14px 14px;border-right:1px solid var(--line);display:grid;align-content:start;gap:1px}
+.when b{font-size:20px;font-family:var(--display);font-weight:800}
+.when span{font-size:12px;color:var(--muted)}
+.when .today{color:var(--red);font-weight:700;font-size:12px}
+.day.is-today{box-shadow:inset 3px 0 0 var(--red)}
+.tasks{list-style:none;margin:0;padding:6px 0}
+.tasks li label{display:grid;grid-template-columns:20px 44px minmax(0,1fr) auto;gap:10px;align-items:start;padding:7px 16px;cursor:pointer}
+.tasks li label:hover{background:var(--paper)}
+.tasks input{width:17px;height:17px;margin:3px 0 0;accent-color:var(--ink)}
+.subj{font-size:12px;font-weight:600;text-align:center;border:1px solid currentColor;border-radius:4px;padding:1px 0;margin-top:2px}
+.s-语文{color:var(--yw)}.s-数学{color:var(--sx)}.s-英语{color:var(--yy)}.s-物理{color:var(--wl)}.s-道法{color:var(--df)}.s-历史{color:var(--ls)}.s-地生{color:var(--ds)}.s-全科{color:var(--red)}
+.txt{min-width:0}
+.min{font-size:13px;color:var(--muted);white-space:nowrap;margin-top:1px}
+.tasks input:checked ~ .txt{color:var(--done);text-decoration:line-through;text-decoration-color:var(--red)}
+.tasks input:checked ~ .subj,.tasks input:checked ~ .min{opacity:.45}
+
+.foot{font-size:13px;color:var(--muted)}
+
+@media (max-width:640px){
+  .goals{grid-template-columns:1fr}
+  .grid2{grid-template-columns:1fr}
+  .day{grid-template-columns:1fr}
+  .day.weekend{background:none}
+  .when{border-right:0;border-bottom:1px dashed var(--line);display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:10px 16px}
+  .day.weekend .when{background:var(--ink-soft)}
+  .tasks li label{grid-template-columns:20px 40px minmax(0,1fr);padding:7px 14px}
+  .min{grid-column:3}
+}
+@media (prefers-reduced-motion:reduce){.fill{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <a href="/" style="color:var(--ink);font-size:14px;text-decoration:none">← 返回学习首页</a>
+    <h1>期中冲刺计划</h1>
+    <p class="lede">10月22日 – 11月7日，共17天，按11月8日前后开考安排，比预计的15号提前一周，留出余量。工作日在校作业完成后执行约90分钟，另加15分钟英语（用原来每日阅读训练的时间），周末一般约3.5小时，10月31日全科模拟约6小时。主要时间用于语文和小四门，数学隔天短练、保留一次整卷模拟。完成一项勾一项，勾选只保存在这台设备的浏览器里。</p>
+  </header>
+
+  <section class="goals" aria-label="分数目标">
+    <div class="goal"><span class="k">现在</span><span class="v num">≈551</span><span class="d">约第45名（初一稳定区间）</span></div>
+    <div class="goal floor"><span class="k">底线 · 第30名</span><span class="v num">≈562</span><span class="d">需 +11 分</span></div>
+    <div class="goal target"><span class="k">目标 · 第20名</span><span class="v num">≈569</span><span class="d">需 +18 分</span></div>
+  </section>
+
+  <section class="grid2">
+    <div class="box">
+      <h2>分从哪里来</h2>
+      <table class="alloc num">
+        <tr><td>语文 105→113：默写拿满、课内文言、名著、阅读模板</td><td>+6~8</td></tr>
+        <tr><td>数学 稳在145以上：隔天短练，防粗心、保手感</td><td>+3~5</td></tr>
+        <tr><td>小四门：道法、历史、物理重点自测与错题；地生按考试范围查漏</td><td>+3~5</td></tr>
+        <tr><td>英语 140→143：作文和短文填空的语法准确率</td><td>+1~3</td></tr>
+        <tr><td>体育：正常参考、拿满</td><td>守住</td></tr>
+        <tr><td><b>合计</b></td><td>+13~21</td></tr>
+      </table>
+    </div>
+    <div class="box">
+      <h2>每天都要守的规矩</h2>
+      <ol class="rules">
+        <li>所有错字、错题用<b>红笔</b>记进同一个错题本，考前只看它。</li>
+        <li>道法、历史主观题用课本原话，按<b>是什么 → 为什么 → 怎么做</b>答。</li>
+        <li>数学隔天练10～15分钟，每次丢分都归类：计算、审题、跳步、漏写。语文每天优先保证40分钟（最后一天减量），小四门背完合书自测。</li>
+        <li><b>体育绝不缺考</b>，考前一周避免受伤、着凉。</li>
+        <li>英语写完先自查四项：<b>时态、单复数、主谓一致、拼写</b>。</li>
+        <li>晚上11点前睡。睡眠比多背半小时值钱。</li>
+      </ol>
+    </div>
+  </section>
+
+  <div class="bar">
+    <span class="stat num" id="stat">0 / 0 项</span>
+    <div class="track" role="progressbar" aria-label="完成进度" aria-valuemin="0" aria-valuemax="100" id="track"><div class="fill" id="fill"></div></div>
+    <button class="btn" id="jump" type="button">跳到今天</button>
+    <button class="btn" id="reset" type="button">清空勾选</button>
+  </div>
+
+  <div id="plan"></div>
+
+  <section class="box">
+    <h2>考场上的四条</h2>
+    <ol class="rules">
+      <li>每科留出<b>10分钟检查</b>，数学选填做完立刻复查计算。</li>
+      <li>语文先看作文时间，开考就定好留给作文的分钟数，<b>宁可阅读少写一点，作文必须写完</b>。</li>
+      <li>默写写完逐字核对，易错字就是平时红笔标过的那些。</li>
+      <li>历史材料题先在材料里划关键词，答案尽量用材料原话。</li>
+    </ol>
+  </section>
+
+  <p class="foot">如果考试最终在15号前后，多出的11月8日到14日再走一遍"第二阶段"：周末再做一次全科模拟，最后3天按"第三阶段"回顾。如果比8号还早，考前3天直接切到"第三阶段"。期中具体范围以老师公布为准，背诵和刷题都只做范围内的内容。</p>
+</div>
+
+<script>
+const PLAN = [
+  { tag:"第一阶段", name:"背诵打底", range:"10/22 – 10/29",
+    note:"先把确定能拿的分装进脑子：古诗文、课内文言、道法黑体字、历史时间轴。数学隔天短练，先给粗心分类；10月24日用一份往年八上语文期中卷的非作文部分摸底。优先同校或本区试卷，核对教材版本、今年范围与名著篇目，超范围题跳过。",
+    days:[
+      { date:"2026-10-22", label:"周四", tasks:[
+        ["全科","向老师确认期中范围、考试日期、体育考试时间和项目",5],
+        ["语文","期中范围古诗文前半：逐篇背诵并默写，错字红笔标出（用复习站）",40],
+        ["道法","第1课：黑体字和课后结论整理成问答卡，背完自测",20],
+        ["历史","画期中范围时间轴：时间、事件、人物、条约、影响",20],
+        ["数学","翻近3次考试和作业，把丢分按计算/审题/跳步/漏写归类",10]]},
+      { date:"2026-10-23", label:"周五", tasks:[
+        ["语文","期中范围古诗文后半：背诵并默写，错字红笔标出",40],
+        ["道法","第2课问答卡，背完自测",15],
+        ["历史","补完时间轴，盖住事件只看时间，口头说出发生了什么",15],
+        ["物理","错题本第1章，盖住答案重做",20]]},
+      { date:"2026-10-24", label:"周六", weekend:true, tasks:[
+        ["数学","限时练近期错题和选择填空，逐题检查计算、审题、跳步、漏写",40,"math-short-v2"],
+        ["语文","往年八上语文期中卷第1份：限时做基础、文言文和阅读部分，核对范围后选题",70,"chinese-paper-1-v2"],
+        ["道法","本周问答卡全过一遍，再按三段式写一道主观题",45],
+        ["历史","材料题2道，对照答案看采分点",45],
+        ["语文","订正第1份卷，标出薄弱题型；整理名著人物、情节与常考题",25,"chinese-paper-1-review-v2"]]},
+      { date:"2026-10-25", label:"周日", weekend:true, tasks:[
+        ["物理","已学章节一套卷，重点单位换算、作图、实验题表述",60],
+        ["语文","整理现代文阅读答题模板（概括、赏析、作用），练1篇",60],
+        ["语文","课内文言文第1篇：重点实词、虚词、关键句翻译，背熟",40],
+        ["英语","作文1篇，写完按四项自查；再做一组完形和短文填空",45]]},
+      { date:"2026-10-26", label:"周一", tasks:[
+        ["语文","课内文言文第2篇：实词、虚词、关键句翻译",40],
+        ["道法","第3课及剩余范围问答卡，背完自测",20],
+        ["历史","背重要事件的意义和影响",20],
+        ["数学","计算题精选5道，限时，目标零错误",10]]},
+      { date:"2026-10-27", label:"周二", tasks:[
+        ["语文","课内文言文第3篇（若有）；没有就复习前两篇翻译",40],
+        ["道法","全范围问答卡自测，答不出的做标记",15],
+        ["历史","材料题1道",15],
+        ["物理","错题本第2章重做",20]]},
+      { date:"2026-10-28", label:"周三", tasks:[
+        ["语文","默写只练红笔标过的字和句",40],
+        ["道法","主观题1道，按三段式写，对照答案找采分点",20],
+        ["历史","不看书默画一遍时间轴",20],
+        ["数学","选择填空精选几题，限时，做完立刻复查",10]]},
+      { date:"2026-10-29", label:"周四", tasks:[
+        ["语文","名著常考题过一遍，加字词注音、易错字",40],
+        ["道法","复习本周标记过的错点",15],
+        ["历史","选择题30道",15],
+        ["物理","实验题和光路作图专练，表述照答案的规范写法",20]]}
+    ]},
+  { tag:"第二阶段", name:"刷题查漏", range:"10/30 – 11/4",
+    note:"10月31日用第二份往年八上语文期中卷完整限时模拟，作文必须写完；保留数学整卷检验。两天全科模拟后，重点订正两份语文卷，针对丢分题型练习，不额外堆整卷。",
+    days:[
+      { date:"2026-10-30", label:"周五", tasks:[
+        ["语文","作文：挑2~3篇旧作文改好，作为考场可改造的底稿",40],
+        ["地生","地理笔记翻一遍",20],
+        ["地生","生物笔记翻一遍",20],
+        ["数学","计算题精选5道，对照自己的粗心分类",10]]},
+      { date:"2026-10-31", label:"周六", weekend:true, tasks:[
+        ["语文","往年八上语文期中卷第2份：完整限时模拟，作文写完，留出检查时间（时长以学校为准）",150,"chinese-paper-2-v2"],
+        ["数学","全科模拟下午：数学一套卷，按考试时长",120],
+        ["道法","道法一份小卷，45分钟",45],
+        ["历史","历史一份小卷，45分钟",45]]},
+      { date:"2026-11-01", label:"周日", weekend:true, tasks:[
+        ["物理","物理一套卷，按考试时长",60],
+        ["英语","英语一套卷，按考试时长",90],
+        ["全科","订正两天模拟卷，优先语文第2份卷的阅读、文言文与作文，再整理小四门错点",60,"mock-review-v2"]]},
+      { date:"2026-11-02", label:"周一", tasks:[
+        ["语文","对照两份语文卷，专练丢分最多的题型；订正后复述答题依据",40],
+        ["道法","模拟卷错点回到课本找原话",20],
+        ["历史","模拟卷错点回到时间轴",20],
+        ["数学","模拟卷错题盖住答案重做",10]]},
+      { date:"2026-11-03", label:"周二", tasks:[
+        ["语文","现代文阅读1篇，用模板作答，对照答案修改",40],
+        ["道法","问答卡第二轮，只看还有标记的",15],
+        ["历史","材料题1道",15],
+        ["物理","模拟卷错题重做",20]]},
+      { date:"2026-11-04", label:"周三", tasks:[
+        ["语文","默写只练红笔标过的；文言关键句翻译抽查",40],
+        ["道法","主观题1道",20],
+        ["历史","事件意义和条约内容第二轮",20],
+        ["数学","选择填空限时，做完立刻复查",10]]}
+    ]},
+  { tag:"第三阶段", name:"考前回顾", range:"11/5 – 11/7",
+    note:"不做新题，只看红笔本和自己整理的东西。最后一天减量，保证睡眠。",
+    days:[
+      { date:"2026-11-05", label:"周四", tasks:[
+        ["语文","古诗文全范围默写最后一轮",40],
+        ["道法","问答卡全过一遍，只看标记过的",20],
+        ["历史","默画时间轴",20],
+        ["物理","合书复述实验结论与易错表述，核对红笔本",10,"physics-review-v2"]]},
+      { date:"2026-11-06", label:"周五", tasks:[
+        ["语文","熟读作文底稿；文言翻译最后过一遍",40],
+        ["物理","错题本快速翻看",20],
+        ["地生","地理、生物笔记再翻一遍",20],
+        ["英语","作文模板和错题快速看",10]]},
+      { date:"2026-11-07", label:"周六", weekend:true, tasks:[
+        ["全科","红笔错题本全部过一遍，只看不做",60],
+        ["道法","道法、历史卡片快速过一遍",30],
+        ["全科","准备文具、准考证，确认考场和时间",10],
+        ["全科","10点半前上床",0]]}
+    ]}
+];
+
+// 英语：每个工作日15分钟，用原来的每日阅读训练时间。写3~5句后按四项自查：时态、单复数、主谓一致、拼写
+const EN = {
+  "2026-10-22": ["英语","翻上次英语卷，按语法、完形、短文填空、作文、听力统计丢分",15],
+  "2026-10-23": ["英语","专题：名词单复数和冠词。写3~5句后四项自查，错句抄进红笔本",15],
+  "2026-10-26": ["英语","专题：主谓一致和代词。写3~5句，四项自查",15],
+  "2026-10-27": ["英语","专题：一般过去时。写一段过去发生的事，四项自查",15],
+  "2026-10-28": ["英语","专题：一般现在时和现在进行时。写3~5句，四项自查；复测前两天错句",15],
+  "2026-10-29": ["英语","专题：动词搭配 spend doing / avoid doing / encourage sb. to do / help sb. do",15],
+  "2026-10-30": ["英语","专题：because / although / if / when 从句。写3~5句，四项自查",15],
+  "2026-11-02": ["英语","专题：宾语从句用陈述语序。写3~5句，复测模拟卷错句",15],
+  "2026-11-03": ["英语","专题：词形变化、形容词副词、比较级。短文填空一组",15],
+  "2026-11-04": ["英语","专题：介词和固定短语。复测红笔本所有英语错句",15],
+  "2026-11-05": ["英语","80词作文一篇，四项自查后数基础错误，目标3处以内",15]
+};
+PLAN.forEach(ph => ph.days.forEach(d => { if (EN[d.date]) d.tasks.push(EN[d.date]); }));
+
+const KEY = "midterm-plan-checks-v1";
+let checks = {};
+try { checks = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch(e) { checks = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(checks)); } catch(e) {} };
+
+const pad = n => String(n).padStart(2,"0");
+const now = new Date();
+const todayStr = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let dayNo = 0, html = "";
+PLAN.forEach(ph => {
+  html += `<section class="phase"><div class="phase-head"><span class="tag">${ph.tag}</span><h2>${ph.name}</h2><span class="num" style="color:var(--muted);font-size:14px">${ph.range}</span><p>${ph.note}</p></div><div class="sheet">`;
+  ph.days.forEach(d => {
+    dayNo++;
+    const [, m, dd] = d.date.split("-");
+    const total = d.tasks.reduce((a,t)=>a+t[2],0);
+    const isToday = d.date === todayStr;
+    html += `<div class="day${d.weekend?" weekend":""}${isToday?" is-today":""}" id="d-${d.date}">
+      <div class="when"><b class="num">${+m}/${+dd}</b><span>${d.label} · 第${dayNo}天</span><span class="num">${total>=60?(total/60).toFixed(total%60?1:0)+" 小时":total+" 分钟"}</span>${isToday?'<span class="today">今天</span>':""}</div>
+      <ul class="tasks">`;
+    d.tasks.forEach((t,i) => {
+      const id = t[3] ? `t-${d.date}-${t[3]}` : `t-${d.date}-${i}`;
+      html += `<li><label for="${id}"><input type="checkbox" id="${id}" data-k="${id}"${checks[id]?" checked":""}><span class="subj s-${t[0]}">${t[0]}</span><span class="txt">${esc(t[1])}</span>${t[2]?`<span class="min num">${t[2]}′</span>`:""}</label></li>`;
+    });
+    html += `</ul></div>`;
+  });
+  html += `</div></section>`;
+});
+document.getElementById("plan").innerHTML = html;
+
+const boxes = [...document.querySelectorAll(".tasks input")];
+function update(){
+  const done = boxes.filter(b=>b.checked).length;
+  document.getElementById("stat").textContent = `${done} / ${boxes.length} 项`;
+  const pct = Math.round(done/boxes.length*100);
+  document.getElementById("fill").style.width = pct + "%";
+  document.getElementById("track").setAttribute("aria-valuenow", pct);
+}
+boxes.forEach(b => b.addEventListener("change", () => { checks[b.dataset.k] = b.checked; save(); update(); }));
+update();
+
+const jump = document.getElementById("jump");
+const todayEl = document.getElementById("d-" + todayStr);
+if (!todayEl) jump.hidden = true;
+jump.addEventListener("click", () => todayEl && todayEl.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"center"}));
+
+const reset = document.getElementById("reset");
+let armed = false, timer;
+reset.addEventListener("click", () => {
+  if (!armed) { armed = true; reset.textContent = "再点一次确认清空"; reset.classList.add("warn");
+    timer = setTimeout(()=>{ armed=false; reset.textContent="清空勾选"; reset.classList.remove("warn"); }, 3000); return; }
+  clearTimeout(timer); armed = false; reset.textContent = "清空勾选"; reset.classList.remove("warn");
+  checks = {}; save(); boxes.forEach(b => b.checked = false); update();
+});
+</script>
+
+</body></html>
