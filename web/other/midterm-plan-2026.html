@@ -107,7 +107,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   <header>
     <a href="/" style="color:var(--ink);font-size:14px;text-decoration:none">← 返回学习首页</a>
     <h1>期中冲刺计划</h1>
-    <p class="lede">10月22日 – 11月7日，共17天，按11月8日前后开考安排，比预计的15号提前一周，留出余量。工作日在校作业完成后执行约90分钟，另加15分钟英语（用原来每日阅读训练的时间），周末一般约3.5小时，10月31日全科模拟约6小时。主要时间用于语文和小四门，数学隔天短练、保留一次整卷模拟。完成一项勾一项，勾选只保存在这台设备的浏览器里。</p>
+    <p class="lede">10月22日 – 11月7日，共17天，按11月8日前后开考安排，比预计的15号提前一周，留出余量。工作日在校作业完成后执行约90分钟，另加15分钟英语专项；每天睡前再读一篇英语阅读，20分钟（含周末）。周末白天一般约3.5小时，10月31日全科模拟约6小时，以下每日总时长已计入睡前阅读。主要时间用于语文和小四门，数学隔天短练、保留一次整卷模拟。完成一项勾一项，勾选只保存在这台设备的浏览器里。</p>
   </header>
 
   <section class="goals" aria-label="分数目标">
@@ -135,7 +135,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
         <li>道法、历史主观题用课本原话，按<b>是什么 → 为什么 → 怎么做</b>答。</li>
         <li>数学隔天练10～15分钟，每次丢分都归类：计算、审题、跳步、漏写。语文每天优先保证40分钟（最后一天减量），小四门背完合书自测。</li>
         <li><b>体育绝不缺考</b>，考前一周避免受伤、着凉。</li>
-        <li>英语写完先自查四项：<b>时态、单复数、主谓一致、拼写</b>。</li>
+        <li>英语写完先自查四项：<b>时态、单复数、主谓一致、拼写</b>。每天睡前做<b>一篇英语阅读，20分钟</b>，完成后核对答案，标出生词与错题依据。</li>
         <li>晚上11点前睡。睡眠比多背半小时值钱。</li>
       </ol>
     </div>
@@ -265,7 +265,7 @@ const PLAN = [
     ]}
 ];
 
-// 英语：每个工作日15分钟，用原来的每日阅读训练时间。写3~5句后按四项自查：时态、单复数、主谓一致、拼写
+// 英语专项：按下列日期安排15分钟，与每日睡前20分钟阅读分别勾选。写3~5句后按四项自查：时态、单复数、主谓一致、拼写
 const EN = {
   "2026-10-22": ["英语","翻上次英语卷，按语法、完形、短文填空、作文、听力统计丢分",15],
   "2026-10-23": ["英语","专题：名词单复数和冠词。写3~5句后四项自查，错句抄进红笔本",15],
@@ -279,7 +279,18 @@ const EN = {
   "2026-11-04": ["英语","专题：介词和固定短语。复测红笔本所有英语错句",15],
   "2026-11-05": ["英语","80词作文一篇，四项自查后数基础错误，目标3处以内",15]
 };
-PLAN.forEach(ph => ph.days.forEach(d => { if (EN[d.date]) d.tasks.push(EN[d.date]); }));
+PLAN.forEach(ph => ph.days.forEach(d => {
+  if (EN[d.date]) d.tasks.push(EN[d.date]);
+  const reading = ["英语","睡前英语阅读一篇：限时阅读并答题，核对答案，标出生词与错题依据；共20分钟",20,"bedtime-reading-v1"];
+  const bedtimeIndex = d.tasks.findIndex(t => t[1] === "10点半前上床");
+  if (bedtimeIndex >= 0) {
+    // 保持原有就寝任务的勾选标识，把新增阅读排在就寝之前。
+    d.tasks[bedtimeIndex][3] = String(bedtimeIndex);
+    d.tasks.splice(bedtimeIndex, 0, reading);
+  } else {
+    d.tasks.push(reading);
+  }
+}));
 
 const KEY = "midterm-plan-checks-v1";
 let checks = {};
