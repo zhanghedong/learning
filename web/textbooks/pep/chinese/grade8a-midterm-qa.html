@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffefa">
+  <title>八年级上册语文 · 期中知识点</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../../assets/grade8a-recitations.css?v=1">
+  <link rel="stylesheet" href="../../../assets/grade8a-midterm-qa.css?v=1">
+  <script defer src="../../../assets/sync.js?v=1"></script>
+  <script defer src="../../../assets/grade8a-midterm-qa.js?v=1"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="home-link" href="../../../index.html" title="返回学习卡片首页" aria-label="返回学习卡片首页">←</a>
+        <div class="brand">
+          <div class="brand-seal" aria-hidden="true">考</div>
+          <div class="brand-copy">
+            <h1 class="brand-title">八年级上册 · 期中知识点</h1>
+            <div class="brand-subtitle">先回想，再对答案；没记住的会自动再出现</div>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="icon-button" data-action="more" aria-label="更多工具" title="更多工具" aria-haspopup="true" aria-controls="moreMenu">⋯</button>
+          <div class="more-menu" id="moreMenu" hidden>
+            <button class="menu-button" id="syncBtn">☁ 同步</button>
+            <button class="menu-button danger" data-action="reset">重置进度</button>
+          </div>
+        </div>
+      </div>
+      <div class="tab-band">
+        <nav class="tabs" role="tablist" aria-label="学习模式">
+          <button class="tab-button active" data-view="today" role="tab" aria-selected="true">今天</button>
+          <button class="tab-button" data-view="bank" role="tab" aria-selected="false">题库</button>
+          <button class="tab-button" data-view="words" role="tab" aria-selected="false">字词本</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main" id="app">
+      <div class="loading">正在整理知识点...</div>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
