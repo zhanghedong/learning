@@ -89,9 +89,17 @@
         for (let i = s.start; i < s.end; i++) tokens[i].sentence = k;
       });
 
-      // 诗词整首为一段；文章按句子累积到约 40 字为一段，太短的尾段并入上一段。
+      // 有课本分段就按课本段落（词按上下片）；诗整首为一段；其余按句子累积到约 40 字为一段，太短的尾段并入上一段。
       const segments = [];
-      if (raw.poem) {
+      if (raw.paragraphs && raw.paragraphs.length) {
+        let start = 0;
+        for (const para of raw.paragraphs) {
+          if (!sentences.some(s => s.end === para.end)) throw new Error(raw.title + " 的分段没有落在句末");
+          segments.push({ start, end: para.end, label: para.label, summary: para.summary });
+          start = para.end;
+        }
+        if (start !== tokens.length) throw new Error(raw.title + " 的分段没有覆盖全文");
+      } else if (raw.poem) {
         segments.push({ start: 0, end: tokens.length });
       } else {
         let seg = null;
@@ -112,7 +120,9 @@
         return { id: raw.id + "-k" + i, prompt: k.prompt, sentence: k.sentence, start: at, end: at + k.sentence.length };
       });
 
-      return Object.assign({}, raw, { tokens, sentences, segments, keys, hanCount: n });
+      // 分段方式变了，旧的分段记录就对不上了；用分段签名区分。
+      const segSig = segments.map(s => s.end).join(",");
+      return Object.assign({}, raw, { tokens, sentences, segments, segSig, keys, hanCount: n });
     });
     const pieceMap = new Map(pieces.map(p => [p.id, p]));
     const sentenceMap = new Map();
@@ -139,7 +149,13 @@
     if (!obj(raw)) return out;
     if (obj(raw.chars)) for (const [id, r] of Object.entries(raw.chars)) if (model.charMap.has(id) && obj(r)) out.chars[id] = { w: +r.w || 0, r: +r.r || 0, d: r.d || "" };
     if (obj(raw.sentences)) for (const [id, r] of Object.entries(raw.sentences)) if (model.sentenceMap.has(id) && obj(r)) out.sentences[id] = { reds: +r.reds || 0, due: !!r.due, streak: +r.streak || 0, day: r.day || "", cleanDay: r.cleanDay || "" };
-    if (obj(raw.pieces)) for (const [id, r] of Object.entries(raw.pieces)) if (model.pieceMap.has(id) && obj(r)) out.pieces[id] = { day: r.day || "", segs: obj(r.segs) ? r.segs : {}, keys: obj(r.keys) ? r.keys : {} };
+    if (obj(raw.pieces)) for (const [id, r] of Object.entries(raw.pieces)) if (model.pieceMap.has(id) && obj(r)) {
+      const piece = model.pieceMap.get(id);
+      const sig = piece.segSig;
+      // 没有签名的旧记录：只有分段方式没变（没有课本分段）的篇目才保留。
+      const keep = obj(r.segs) && (r.sig === sig || (r.sig === undefined && !(piece.paragraphs && piece.paragraphs.length)));
+      out.pieces[id] = { day: r.day || "", sig, segs: keep ? r.segs : {}, keys: obj(r.keys) ? r.keys : {} };
+    }
     return out;
   }
 
@@ -152,7 +168,7 @@
   }
 
   function pieceRec(id) {
-    return state.pieces[id] || (state.pieces[id] = { day: "", segs: {}, keys: {} });
+    return state.pieces[id] || (state.pieces[id] = { day: "", sig: model.pieceMap.get(id).segSig, segs: {}, keys: {} });
   }
 
   function dueSentences(pieceId) {
@@ -185,7 +201,11 @@
   function segmentTask(p, i) {
     const seg = p.segments[i];
     return { kind: "seg", piece: p, segIndex: i, start: seg.start, end: seg.end,
-      label: p.segments.length > 1 ? "第 " + (i + 1) + " 段 / 共 " + p.segments.length + " 段" : "全篇" };
+      label: p.segments.length > 1 ? segmentName(p, i) + " / 共 " + p.segments.length + " 段" + (seg.summary ? " · " + seg.summary : "") : "全篇" };
+  }
+
+  function segmentName(p, i) {
+    return p.segments[i].label || "第 " + (i + 1) + " 段";
   }
 
   function keyTask(k) {
@@ -541,7 +561,7 @@
       const segs = p.segments.map((s, i) => {
         const r = rec && rec.segs[i];
         const preview = p.content.slice(s.start, Math.min(s.end, s.start + 8));
-        return `<button class="secondary-button button-small" data-action="seg" data-piece="${p.id}" data-index="${i}">${p.segments.length > 1 ? "第 " + (i + 1) + " 段 · " : ""}${escapeHtml(preview)}…${r ? ` <span class="fl-acc">${r.acc}%</span>` : ""}</button>`;
+        return `<button class="secondary-button button-small" data-action="seg" data-piece="${p.id}" data-index="${i}">${p.segments.length > 1 ? escapeHtml(segmentName(p, i)) + " · " : ""}${escapeHtml(s.summary || preview + "…")}${r ? ` <span class="fl-acc">${r.acc}%</span>` : ""}</button>`;
       }).join("");
       const due = st.due ? `<button class="primary-button button-small" data-action="redo-piece" data-piece="${p.id}">重背 ${st.due} 句红字句</button>` : "";
       detail = `<div class="fl-piece-detail">

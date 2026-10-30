@@ -1,6 +1,6 @@
-"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data.json.
+"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data-v2.json.
 
-Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data.json
+Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data-v2.json
 """
 import json
 import re
@@ -18,6 +18,23 @@ def han(text):
 
 def letters(text):
     return re.findall(r"[a-z]", text)
+
+
+def paragraphs(item, poem):
+    """Textbook paragraphs as content end offsets. Shi poems stay whole; ci keep 上片/下片."""
+    paras = item.get("paragraphs") or []
+    if (poem and "古词" not in item["type"]) or len(paras) < 2:
+        return []
+    if "".join(p["content"] for p in paras) != item["content"]:
+        print(f"{item['title']}: paragraphs do not cover the content, kept whole", file=sys.stderr)
+        return []
+    out, end = [], 0
+    for p in paras:
+        end += len(p["content"])
+        m = re.match(r"(.+?)（(.+)）$", p["section_name"])
+        label, summary = (m.group(1), m.group(2)) if m else (p["section_name"], "")
+        out.append({"label": label, "summary": summary, "end": end})
+    return out
 
 
 def main(src):
@@ -41,6 +58,7 @@ def main(src):
             if key["sentence"] not in content:
                 sys.exit(f"{item['title']}: key sentence not in content: {key['sentence']}")
             keys.append({"prompt": key["prompt"], "sentence": key["sentence"]})
+        poem = "古诗" in item["type"] or "古词" in item["type"]
         pieces.append({
             "id": f"p{index}",
             "unit": item["unit"],
@@ -48,8 +66,9 @@ def main(src):
             "title": item["title"],
             "author": item["author"],
             "type": item["type"],
-            "poem": "古诗" in item["type"] or "古词" in item["type"],
+            "poem": poem,
             "content": content,
+            "paragraphs": paragraphs(item, poem),
             "letters": "".join(marks),
             "keys": keys,
         })
