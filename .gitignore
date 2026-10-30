@@ -29,3 +29,6 @@ docs/pdf/
 .vscode/
 *.swp
 *~
+
+# Mobile app (not committed yet)
+mobile/
