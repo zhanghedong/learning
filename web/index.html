@@ -57,7 +57,7 @@
 <main>
 	<section class="hero">
 		<h1>学习卡片</h1>
-		<p class="sub">选择科目开始复习，进度会保存在当前浏览器中。</p>
+		<p class="sub">选择科目开始复习。登录后学习进度会自动同步，换设备也能接着学。</p>
 	</section>
 
 	<section class="subject" aria-labelledby="plan-title">
@@ -151,5 +151,7 @@
 		</div>
 	</section>
 </main>
+<script src="assets/sync.js?v=2"></script>
+<script>ReviewSync.initAccount();</script>
 </body>
 </html>

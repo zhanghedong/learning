@@ -1,0 +1,234 @@
+{
+  "deckKey": "other/en20260704",
+  "kind": "flashcards",
+  "title": "英语专项词汇",
+  "subject": "english",
+  "app": "other-en-20260704",
+  "source": "web/other/en20260704.html",
+  "units": [
+    {
+      "unit": "句型词",
+      "lessons": [
+        {
+          "lesson": "疑问与动词",
+          "words": [
+            [
+              "who",
+              "谁"
+            ],
+            [
+              "what",
+              "什么"
+            ],
+            [
+              "be",
+              "是；成为"
+            ],
+            [
+              "do",
+              "助动词；做"
+            ],
+            [
+              "does",
+              "do 的第三人称单数"
+            ],
+            [
+              "want",
+              "想要"
+            ],
+            [
+              "want to be",
+              "想成为"
+            ]
+          ]
+        },
+        {
+          "lesson": "人物与主题",
+          "words": [
+            [
+              "job",
+              "工作"
+            ],
+            [
+              "career",
+              "职业"
+            ],
+            [
+              "father",
+              "爸爸"
+            ],
+            [
+              "classmate",
+              "同学"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "常见职业",
+      "lessons": [
+        {
+          "lesson": "学校与医护",
+          "words": [
+            [
+              "teacher",
+              "老师"
+            ],
+            [
+              "student",
+              "学生"
+            ],
+            [
+              "pupil",
+              "小学生"
+            ],
+            [
+              "doctor",
+              "医生"
+            ],
+            [
+              "nurse",
+              "护士"
+            ]
+          ]
+        },
+        {
+          "lesson": "表演与艺术",
+          "words": [
+            [
+              "singer",
+              "歌手"
+            ],
+            [
+              "dancer",
+              "舞者"
+            ],
+            [
+              "pop star",
+              "流行明星"
+            ],
+            [
+              "artist",
+              "画家；艺术家"
+            ]
+          ]
+        },
+        {
+          "lesson": "交通与太空",
+          "words": [
+            [
+              "pilot",
+              "飞行员"
+            ],
+            [
+              "driver",
+              "司机"
+            ],
+            [
+              "astronaut",
+              "宇航员"
+            ],
+            [
+              "taikonaut",
+              "中国航天员"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "拓展职业",
+      "lessons": [
+        {
+          "lesson": "生产与服务",
+          "words": [
+            [
+              "builder",
+              "建筑工人"
+            ],
+            [
+              "cook",
+              "厨师"
+            ],
+            [
+              "chef",
+              "大厨"
+            ],
+            [
+              "factory worker",
+              "工厂工人"
+            ],
+            [
+              "office worker",
+              "办公室职员"
+            ],
+            [
+              "barber",
+              "理发师"
+            ]
+          ]
+        },
+        {
+          "lesson": "公共服务",
+          "words": [
+            [
+              "policeman",
+              "男警察"
+            ],
+            [
+              "policewoman",
+              "女警察"
+            ],
+            [
+              "police officer",
+              "警官"
+            ],
+            [
+              "firefighter",
+              "消防员"
+            ],
+            [
+              "delivery person",
+              "快递员"
+            ],
+            [
+              "deliver",
+              "递送；投递"
+            ]
+          ]
+        },
+        {
+          "lesson": "创作与研究",
+          "words": [
+            [
+              "journalist",
+              "记者"
+            ],
+            [
+              "vet",
+              "兽医"
+            ],
+            [
+              "farmer",
+              "农民"
+            ],
+            [
+              "scientist",
+              "科学家"
+            ],
+            [
+              "writer",
+              "作家"
+            ],
+            [
+              "inventor",
+              "发明家"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 42
+}

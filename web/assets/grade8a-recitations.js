@@ -1107,12 +1107,14 @@
     }
   }
 
+  // 云端结构：{version, items, pieces, pref:{view, pieceId}, roundCounter}，和 App 共用。
   function applySyncData(data) {
-    const pref = data && data.pref && typeof data.pref === "object" ? data.pref : {};
-    state.items = data && data.status && typeof data.status === "object" ? data.status : {};
-    state.pieces = pref.pieces && typeof pref.pieces === "object" ? pref.pieces : {};
-    state.pref = pref.ui && typeof pref.ui === "object" ? pref.ui : { view: "overview", pieceId: null };
-    state.roundCounter = Number(pref.roundCounter) || 0;
+    const obj = v => v && typeof v === "object" && !Array.isArray(v);
+    data = obj(data) ? data : {};
+    state.items = obj(data.items) ? data.items : {};
+    state.pieces = obj(data.pieces) ? data.pieces : {};
+    state.pref = obj(data.pref) ? { view: data.pref.view || "overview", pieceId: data.pref.pieceId || null } : { view: "overview", pieceId: null };
+    state.roundCounter = Number(data.roundCounter) || 0;
     saveState();
     ui.view = "overview";
     ui.round = null;
@@ -1256,7 +1258,7 @@
           deckKey: "textbooks/pep/chinese/grade8a-required-recitations",
           app: APP_ID,
           title: "人教语文八上必背古诗文",
-          getData: () => ({ status: state.items, pref: { pieces: state.pieces, ui: state.pref, roundCounter: state.roundCounter } }),
+          getData: () => ({ version: 1, items: state.items, pieces: state.pieces, pref: { view: state.pref.view || "overview", pieceId: state.pref.pieceId || null }, roundCounter: state.roundCounter }),
           applyData: applySyncData
         });
       }

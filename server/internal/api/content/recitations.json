@@ -1,0 +1,3435 @@
+{
+  "deckKey": "textbooks/pep/chinese/grade8a-required-recitations",
+  "kind": "recitations",
+  "title": "八上语文必背古诗文",
+  "subject": "chinese",
+  "app": "pep-chinese-grade8a-recitations",
+  "total": 312,
+  "pieces": [
+    {
+      "id": "l1-p1",
+      "title": "三峡",
+      "chunks": [
+        {
+          "content": "自三峡七百里中，两岸连山，略无阙处。重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "start": 0,
+          "end": 40,
+          "id": "l1-p1-c1",
+          "pieceId": "l1-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "至于夏水襄陵，沿溯阻绝。或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
+          "start": 40,
+          "end": 88,
+          "id": "l1-p1-c2",
+          "pieceId": "l1-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "start": 88,
+          "end": 131,
+          "id": "l1-p1-c3",
+          "pieceId": "l1-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。故渔者歌曰：“巴东三峡巫峡长，猿鸣三声泪沾裳。”",
+          "start": 131,
+          "end": 189,
+          "id": "l1-p1-c4",
+          "pieceId": "l1-p1",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "自",
+          "explanation": "这里是“在”的意思。",
+          "index": 0,
+          "id": "l1-p1-v1",
+          "pieceId": "l1-p1",
+          "localIndex": 0,
+          "context": "自三峡七百里中，两岸连山，略无阙处。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "阙",
+          "explanation": "同“缺”，空隙、缺口。",
+          "index": 15,
+          "id": "l1-p1-v2",
+          "pieceId": "l1-p1",
+          "localIndex": 15,
+          "context": "自三峡七百里中，两岸连山，略无阙处。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "岩",
+          "explanation": "山峰，山崖。",
+          "index": 19,
+          "id": "l1-p1-v3",
+          "pieceId": "l1-p1",
+          "localIndex": 19,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "嶂",
+          "explanation": "直立似屏障的山峰。",
+          "index": 21,
+          "id": "l1-p1-v4",
+          "pieceId": "l1-p1",
+          "localIndex": 21,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "自非",
+          "explanation": "如果不是。",
+          "index": 28,
+          "id": "l1-p1-v5",
+          "pieceId": "l1-p1",
+          "localIndex": 28,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "亭午",
+          "explanation": "正午。",
+          "index": 30,
+          "id": "l1-p1-v6",
+          "pieceId": "l1-p1",
+          "localIndex": 30,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "夜分",
+          "explanation": "半夜。",
+          "index": 32,
+          "id": "l1-p1-v7",
+          "pieceId": "l1-p1",
+          "localIndex": 32,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "曦月",
+          "explanation": "日月。曦，日光，这里指太阳。",
+          "index": 37,
+          "id": "l1-p1-v8",
+          "pieceId": "l1-p1",
+          "localIndex": 37,
+          "context": "重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
+          "contextStart": 18,
+          "type": "vocab"
+        },
+        {
+          "word": "夏水",
+          "explanation": "指夏天的江水。",
+          "index": 42,
+          "id": "l1-p1-v9",
+          "pieceId": "l1-p1",
+          "localIndex": 42,
+          "context": "至于夏水襄陵，沿溯阻绝。",
+          "contextStart": 40,
+          "type": "vocab"
+        },
+        {
+          "word": "襄陵",
+          "explanation": "水漫上山陵。襄，冲上、漫上。陵，山陵。",
+          "index": 44,
+          "id": "l1-p1-v10",
+          "pieceId": "l1-p1",
+          "localIndex": 44,
+          "context": "至于夏水襄陵，沿溯阻绝。",
+          "contextStart": 40,
+          "type": "vocab"
+        },
+        {
+          "word": "沿溯阻绝",
+          "explanation": "意思是下行和上行的航道都被阻断，不能通航。沿，顺流而下。溯，逆流而上。",
+          "index": 47,
+          "id": "l1-p1-v11",
+          "pieceId": "l1-p1",
+          "localIndex": 47,
+          "context": "至于夏水襄陵，沿溯阻绝。",
+          "contextStart": 40,
+          "type": "vocab"
+        },
+        {
+          "word": "虽",
+          "explanation": "即使。",
+          "index": 77,
+          "id": "l1-p1-v12",
+          "pieceId": "l1-p1",
+          "localIndex": 77,
+          "context": "或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
+          "contextStart": 52,
+          "type": "vocab"
+        },
+        {
+          "word": "奔",
+          "explanation": "这里指飞奔的马。",
+          "index": 79,
+          "id": "l1-p1-v13",
+          "pieceId": "l1-p1",
+          "localIndex": 79,
+          "context": "或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
+          "contextStart": 52,
+          "type": "vocab"
+        },
+        {
+          "word": "御风",
+          "explanation": "乘风飞行。",
+          "index": 80,
+          "id": "l1-p1-v14",
+          "pieceId": "l1-p1",
+          "localIndex": 80,
+          "context": "或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
+          "contextStart": 52,
+          "type": "vocab"
+        },
+        {
+          "word": "不以疾",
+          "explanation": "没有这么快。",
+          "index": 83,
+          "id": "l1-p1-v15",
+          "pieceId": "l1-p1",
+          "localIndex": 83,
+          "context": "或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
+          "contextStart": 52,
+          "type": "vocab"
+        },
+        {
+          "word": "素湍",
+          "explanation": "激起白色浪花的急流。湍，急流。",
+          "index": 94,
+          "id": "l1-p1-v16",
+          "pieceId": "l1-p1",
+          "localIndex": 94,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "回清",
+          "explanation": "回旋的清波。",
+          "index": 99,
+          "id": "l1-p1-v17",
+          "pieceId": "l1-p1",
+          "localIndex": 99,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "绝巘",
+          "explanation": "极高的山峰。",
+          "index": 104,
+          "id": "l1-p1-v18",
+          "pieceId": "l1-p1",
+          "localIndex": 104,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "飞漱",
+          "explanation": "飞速地往下冲荡。",
+          "index": 116,
+          "id": "l1-p1-v19",
+          "pieceId": "l1-p1",
+          "localIndex": 116,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "清荣峻茂",
+          "explanation": "水清树茂，山高草盛。荣，茂盛。",
+          "index": 121,
+          "id": "l1-p1-v20",
+          "pieceId": "l1-p1",
+          "localIndex": 121,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "良",
+          "explanation": "甚，很。",
+          "index": 126,
+          "id": "l1-p1-v21",
+          "pieceId": "l1-p1",
+          "localIndex": 126,
+          "context": "春冬之时，则素湍绿潭，回清倒影，绝巘多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+          "contextStart": 88,
+          "type": "vocab"
+        },
+        {
+          "word": "晴初",
+          "explanation": "天刚放晴。",
+          "index": 133,
+          "id": "l1-p1-v22",
+          "pieceId": "l1-p1",
+          "localIndex": 133,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "霜旦",
+          "explanation": "下霜的早晨。",
+          "index": 135,
+          "id": "l1-p1-v23",
+          "pieceId": "l1-p1",
+          "localIndex": 135,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "肃",
+          "explanation": "肃杀，凄寒。",
+          "index": 141,
+          "id": "l1-p1-v24",
+          "pieceId": "l1-p1",
+          "localIndex": 141,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "属引",
+          "explanation": "接连不断。属，连接。引，延长。",
+          "index": 150,
+          "id": "l1-p1-v25",
+          "pieceId": "l1-p1",
+          "localIndex": 150,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "凄异",
+          "explanation": "凄惨悲凉。",
+          "index": 152,
+          "id": "l1-p1-v26",
+          "pieceId": "l1-p1",
+          "localIndex": 152,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "响",
+          "explanation": "回声。",
+          "index": 158,
+          "id": "l1-p1-v27",
+          "pieceId": "l1-p1",
+          "localIndex": 158,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        },
+        {
+          "word": "哀转",
+          "explanation": "声音悲凉婉转。",
+          "index": 160,
+          "id": "l1-p1-v28",
+          "pieceId": "l1-p1",
+          "localIndex": 160,
+          "context": "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。",
+          "contextStart": 131,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l2-p1",
+      "title": "答谢中书书",
+      "chunks": [
+        {
+          "content": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交晖。青林翠竹，四时俱备。晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。",
+          "start": 0,
+          "end": 60,
+          "id": "l2-p1-c1",
+          "pieceId": "l2-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "实是欲界之仙都。自康乐以来，未复有能与其奇者。",
+          "start": 60,
+          "end": 83,
+          "id": "l2-p1-c2",
+          "pieceId": "l2-p1",
+          "number": 2,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "五色交晖",
+          "explanation": "这里形容石壁色彩斑斓，交相辉映。晖，辉映。",
+          "index": 25,
+          "id": "l2-p1-v1",
+          "pieceId": "l2-p1",
+          "localIndex": 25,
+          "context": "两岸石壁，五色交晖。",
+          "contextStart": 20,
+          "type": "vocab"
+        },
+        {
+          "word": "四时",
+          "explanation": "四季。",
+          "index": 35,
+          "id": "l2-p1-v2",
+          "pieceId": "l2-p1",
+          "localIndex": 35,
+          "context": "青林翠竹，四时俱备。",
+          "contextStart": 30,
+          "type": "vocab"
+        },
+        {
+          "word": "歇",
+          "explanation": "消散。",
+          "index": 43,
+          "id": "l2-p1-v3",
+          "pieceId": "l2-p1",
+          "localIndex": 43,
+          "context": "晓雾将歇，猿鸟乱鸣；",
+          "contextStart": 40,
+          "type": "vocab"
+        },
+        {
+          "word": "夕日欲颓",
+          "explanation": "夕阳快要落山了。颓，坠落。",
+          "index": 50,
+          "id": "l2-p1-v4",
+          "pieceId": "l2-p1",
+          "localIndex": 50,
+          "context": "夕日欲颓，沉鳞竞跃。",
+          "contextStart": 50,
+          "type": "vocab"
+        },
+        {
+          "word": "沉鳞",
+          "explanation": "指水中潜游的鱼。",
+          "index": 55,
+          "id": "l2-p1-v5",
+          "pieceId": "l2-p1",
+          "localIndex": 55,
+          "context": "夕日欲颓，沉鳞竞跃。",
+          "contextStart": 50,
+          "type": "vocab"
+        },
+        {
+          "word": "欲界之仙都",
+          "explanation": "人间仙境。欲界，没有摆脱世俗七情六欲的众生所处的境界，这里指人间。仙都，神仙居住的美好世界。",
+          "index": 62,
+          "id": "l2-p1-v6",
+          "pieceId": "l2-p1",
+          "localIndex": 62,
+          "context": "实是欲界之仙都。",
+          "contextStart": 60,
+          "type": "vocab"
+        },
+        {
+          "word": "与",
+          "explanation": "参与。这里有“欣赏”“领悟”的意思。",
+          "index": 78,
+          "id": "l2-p1-v7",
+          "pieceId": "l2-p1",
+          "localIndex": 78,
+          "context": "自康乐以来，未复有能与其奇者。",
+          "contextStart": 68,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l2-p2",
+      "title": "记承天寺夜游",
+      "chunks": [
+        {
+          "content": "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。",
+          "start": 0,
+          "end": 56,
+          "id": "l2-p2-c1",
+          "pieceId": "l2-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。",
+          "start": 56,
+          "end": 100,
+          "id": "l2-p2-c2",
+          "pieceId": "l2-p2",
+          "number": 2,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "念",
+          "explanation": "考虑，想到。",
+          "index": 109,
+          "id": "l2-p2-v1",
+          "pieceId": "l2-p2",
+          "localIndex": 26,
+          "context": "念无与为乐者，遂至承天寺寻张怀民。",
+          "contextStart": 26,
+          "type": "vocab"
+        },
+        {
+          "word": "相与",
+          "explanation": "共同，一起。",
+          "index": 132,
+          "id": "l2-p2-v2",
+          "pieceId": "l2-p2",
+          "localIndex": 49,
+          "context": "怀民亦未寝，相与步于中庭。",
+          "contextStart": 43,
+          "type": "vocab"
+        },
+        {
+          "word": "中庭",
+          "explanation": "院子里。",
+          "index": 136,
+          "id": "l2-p2-v3",
+          "pieceId": "l2-p2",
+          "localIndex": 53,
+          "context": "怀民亦未寝，相与步于中庭。",
+          "contextStart": 43,
+          "type": "vocab"
+        },
+        {
+          "word": "空明",
+          "explanation": "形容水的澄澈。",
+          "index": 144,
+          "id": "l2-p2-v4",
+          "pieceId": "l2-p2",
+          "localIndex": 61,
+          "context": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
+          "contextStart": 56,
+          "type": "vocab"
+        },
+        {
+          "word": "藻、荇",
+          "explanation": "均为水生植物。",
+          "index": 149,
+          "id": "l2-p2-v5",
+          "pieceId": "l2-p2",
+          "localIndex": 66,
+          "context": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
+          "contextStart": 56,
+          "type": "vocab"
+        },
+        {
+          "word": "盖",
+          "explanation": "大概是。",
+          "index": 155,
+          "id": "l2-p2-v6",
+          "pieceId": "l2-p2",
+          "localIndex": 72,
+          "context": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
+          "contextStart": 56,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l3-p1",
+      "title": "与朱元思书",
+      "chunks": [
+        {
+          "content": "风烟俱净，天山共色。从流飘荡，任意东西。自富阳至桐庐一百许里，奇山异水，天下独绝。",
+          "start": 0,
+          "end": 41,
+          "id": "l3-p1-c1",
+          "pieceId": "l3-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "水皆缥碧，千丈见底。游鱼细石，直视无碍。急湍甚箭，猛浪若奔。",
+          "start": 41,
+          "end": 71,
+          "id": "l3-p1-c2",
+          "pieceId": "l3-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。泉水激石，泠泠作响；好鸟相鸣，嘤嘤成韵。蝉则千转不穷，猿则百叫无绝。鸢飞戾天者，望峰息心；经纶世务者，窥谷忘反。横柯上蔽，在昼犹昏；疏条交映，有时见日。",
+          "start": 71,
+          "end": 177,
+          "id": "l3-p1-c3",
+          "pieceId": "l3-p1",
+          "number": 3,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "共色",
+          "explanation": "同样的颜色。",
+          "index": 7,
+          "id": "l3-p1-v1",
+          "pieceId": "l3-p1",
+          "localIndex": 7,
+          "context": "风烟俱净，天山共色。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "从流飘荡",
+          "explanation": "（乘船）随着江流漂荡。从，跟、随。",
+          "index": 10,
+          "id": "l3-p1-v2",
+          "pieceId": "l3-p1",
+          "localIndex": 10,
+          "context": "从流飘荡，任意东西。",
+          "contextStart": 10,
+          "type": "vocab"
+        },
+        {
+          "word": "任意东西",
+          "explanation": "意思是任凭船随意向东或向西漂流。东西，向东或向西（漂流）。",
+          "index": 15,
+          "id": "l3-p1-v3",
+          "pieceId": "l3-p1",
+          "localIndex": 15,
+          "context": "从流飘荡，任意东西。",
+          "contextStart": 10,
+          "type": "vocab"
+        },
+        {
+          "word": "许",
+          "explanation": "表示约数。",
+          "index": 28,
+          "id": "l3-p1-v4",
+          "pieceId": "l3-p1",
+          "localIndex": 28,
+          "context": "自富阳至桐庐一百许里，奇山异水，天下独绝。",
+          "contextStart": 20,
+          "type": "vocab"
+        },
+        {
+          "word": "缥碧",
+          "explanation": "浅青色。",
+          "index": 43,
+          "id": "l3-p1-v5",
+          "pieceId": "l3-p1",
+          "localIndex": 43,
+          "context": "水皆缥碧，千丈见底。",
+          "contextStart": 41,
+          "type": "vocab"
+        },
+        {
+          "word": "甚箭",
+          "explanation": "即“甚于箭”，意思是比箭还快。甚，超过、胜过。",
+          "index": 63,
+          "id": "l3-p1-v6",
+          "pieceId": "l3-p1",
+          "localIndex": 63,
+          "context": "急湍甚箭，猛浪若奔。",
+          "contextStart": 61,
+          "type": "vocab"
+        },
+        {
+          "word": "寒树",
+          "explanation": "浓密的树木，使人看了有寒凉之意。",
+          "index": 78,
+          "id": "l3-p1-v7",
+          "pieceId": "l3-p1",
+          "localIndex": 78,
+          "context": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+          "contextStart": 71,
+          "type": "vocab"
+        },
+        {
+          "word": "负势竞上",
+          "explanation": "（山峦）凭借（高峻的）地势，争着向上。",
+          "index": 81,
+          "id": "l3-p1-v8",
+          "pieceId": "l3-p1",
+          "localIndex": 81,
+          "context": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+          "contextStart": 71,
+          "type": "vocab"
+        },
+        {
+          "word": "互相轩邈",
+          "explanation": "意思是这些山峦仿佛都在争着往高处远处伸展。轩，高。邈，远。这里均作动词用。",
+          "index": 86,
+          "id": "l3-p1-v9",
+          "pieceId": "l3-p1",
+          "localIndex": 86,
+          "context": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+          "contextStart": 71,
+          "type": "vocab"
+        },
+        {
+          "word": "直指",
+          "explanation": "笔直地指向云天。",
+          "index": 93,
+          "id": "l3-p1-v10",
+          "pieceId": "l3-p1",
+          "localIndex": 93,
+          "context": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+          "contextStart": 71,
+          "type": "vocab"
+        },
+        {
+          "word": "千百成峰",
+          "explanation": "形成千百座山峰。",
+          "index": 96,
+          "id": "l3-p1-v11",
+          "pieceId": "l3-p1",
+          "localIndex": 96,
+          "context": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+          "contextStart": 71,
+          "type": "vocab"
+        },
+        {
+          "word": "激",
+          "explanation": "冲击，撞击。",
+          "index": 103,
+          "id": "l3-p1-v12",
+          "pieceId": "l3-p1",
+          "localIndex": 103,
+          "context": "泉水激石，泠泠作响；",
+          "contextStart": 101,
+          "type": "vocab"
+        },
+        {
+          "word": "泠泠",
+          "explanation": "拟声词，形容水声清越。",
+          "index": 106,
+          "id": "l3-p1-v13",
+          "pieceId": "l3-p1",
+          "localIndex": 106,
+          "context": "泉水激石，泠泠作响；",
+          "contextStart": 101,
+          "type": "vocab"
+        },
+        {
+          "word": "嘤嘤成韵",
+          "explanation": "鸣声嘤嘤，和谐动听。嘤嘤，鸟鸣声。",
+          "index": 116,
+          "id": "l3-p1-v14",
+          "pieceId": "l3-p1",
+          "localIndex": 116,
+          "context": "好鸟相鸣，嘤嘤成韵。",
+          "contextStart": 111,
+          "type": "vocab"
+        },
+        {
+          "word": "千转",
+          "explanation": "长久不断地叫。千，表示多。转，同“啭”，鸟鸣，这里指蝉鸣。",
+          "index": 123,
+          "id": "l3-p1-v15",
+          "pieceId": "l3-p1",
+          "localIndex": 123,
+          "context": "蝉则千转不穷，猿则百叫无绝。",
+          "contextStart": 121,
+          "type": "vocab"
+        },
+        {
+          "word": "鸢飞戾天",
+          "explanation": "语出《诗经·大雅·旱麓》。意为鸢鸟飞到天上，这里比喻极力追求名利。鸢，俗称老鹰，凶猛而善高飞。戾，至、到达。",
+          "index": 135,
+          "id": "l3-p1-v16",
+          "pieceId": "l3-p1",
+          "localIndex": 135,
+          "context": "鸢飞戾天者，望峰息心；",
+          "contextStart": 135,
+          "type": "vocab"
+        },
+        {
+          "word": "息心",
+          "explanation": "指平息名利之心。",
+          "index": 143,
+          "id": "l3-p1-v17",
+          "pieceId": "l3-p1",
+          "localIndex": 143,
+          "context": "鸢飞戾天者，望峰息心；",
+          "contextStart": 135,
+          "type": "vocab"
+        },
+        {
+          "word": "经纶世务",
+          "explanation": "筹划人世间的俗务。经纶，筹划、治理。",
+          "index": 146,
+          "id": "l3-p1-v18",
+          "pieceId": "l3-p1",
+          "localIndex": 146,
+          "context": "经纶世务者，窥谷忘反。",
+          "contextStart": 146,
+          "type": "vocab"
+        },
+        {
+          "word": "反",
+          "explanation": "同“返”，返回。",
+          "index": 155,
+          "id": "l3-p1-v19",
+          "pieceId": "l3-p1",
+          "localIndex": 155,
+          "context": "经纶世务者，窥谷忘反。",
+          "contextStart": 146,
+          "type": "vocab"
+        },
+        {
+          "word": "横柯",
+          "explanation": "横斜的树枝。柯，树木的枝干。",
+          "index": 157,
+          "id": "l3-p1-v20",
+          "pieceId": "l3-p1",
+          "localIndex": 157,
+          "context": "横柯上蔽，在昼犹昏；",
+          "contextStart": 157,
+          "type": "vocab"
+        },
+        {
+          "word": "交映",
+          "explanation": "互相掩映。",
+          "index": 169,
+          "id": "l3-p1-v21",
+          "pieceId": "l3-p1",
+          "localIndex": 169,
+          "context": "疏条交映，有时见日。",
+          "contextStart": 167,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l4-p1",
+      "title": "野望",
+      "chunks": [
+        {
+          "content": "东皋薄暮望，徙倚欲何依。",
+          "start": 0,
+          "end": 12,
+          "id": "l4-p1-c1",
+          "pieceId": "l4-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "树树皆秋色，山山唯落晖。",
+          "start": 12,
+          "end": 24,
+          "id": "l4-p1-c2",
+          "pieceId": "l4-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "牧人驱犊返，猎马带禽归。",
+          "start": 24,
+          "end": 36,
+          "id": "l4-p1-c3",
+          "pieceId": "l4-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "相顾无相识，长歌怀采薇。",
+          "start": 36,
+          "end": 48,
+          "id": "l4-p1-c4",
+          "pieceId": "l4-p1",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "薄暮",
+          "explanation": "傍晚。薄，接近。",
+          "index": 2,
+          "id": "l4-p1-v1",
+          "pieceId": "l4-p1",
+          "localIndex": 2,
+          "context": "东皋薄暮望，徙倚欲何依。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "徙倚",
+          "explanation": "徘徊。",
+          "index": 6,
+          "id": "l4-p1-v2",
+          "pieceId": "l4-p1",
+          "localIndex": 6,
+          "context": "东皋薄暮望，徙倚欲何依。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "犊",
+          "explanation": "小牛。这里指牛群。",
+          "index": 27,
+          "id": "l4-p1-v3",
+          "pieceId": "l4-p1",
+          "localIndex": 27,
+          "context": "牧人驱犊返，猎马带禽归。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "禽",
+          "explanation": "泛指猎获的鸟兽。",
+          "index": 33,
+          "id": "l4-p1-v4",
+          "pieceId": "l4-p1",
+          "localIndex": 33,
+          "context": "牧人驱犊返，猎马带禽归。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "采薇",
+          "explanation": "采食野菜。后遂以“采薇”比喻隐居不仕。",
+          "index": 45,
+          "id": "l4-p1-v5",
+          "pieceId": "l4-p1",
+          "localIndex": 45,
+          "context": "相顾无相识，长歌怀采薇。",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l4-p2",
+      "title": "黄鹤楼",
+      "chunks": [
+        {
+          "content": "昔人已乘黄鹤去，此地空余黄鹤楼。",
+          "start": 0,
+          "end": 16,
+          "id": "l4-p2-c1",
+          "pieceId": "l4-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "黄鹤一去不复返，白云千载空悠悠。",
+          "start": 16,
+          "end": 32,
+          "id": "l4-p2-c2",
+          "pieceId": "l4-p2",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+          "start": 32,
+          "end": 48,
+          "id": "l4-p2-c3",
+          "pieceId": "l4-p2",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "日暮乡关何处是？",
+          "start": 48,
+          "end": 56,
+          "id": "l4-p2-c4",
+          "pieceId": "l4-p2",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "烟波江上使人愁。",
+          "start": 56,
+          "end": 64,
+          "id": "l4-p2-c5",
+          "pieceId": "l4-p2",
+          "number": 5,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "昔人",
+          "explanation": "指传说中骑鹤飞去的仙人。",
+          "index": 48,
+          "id": "l4-p2-v1",
+          "pieceId": "l4-p2",
+          "localIndex": 0,
+          "context": "昔人已乘黄鹤去，此地空余黄鹤楼。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "悠悠",
+          "explanation": "飘飘荡荡的样子。",
+          "index": 77,
+          "id": "l4-p2-v2",
+          "pieceId": "l4-p2",
+          "localIndex": 29,
+          "context": "黄鹤一去不复返，白云千载空悠悠。",
+          "contextStart": 16,
+          "type": "vocab"
+        },
+        {
+          "word": "晴川",
+          "explanation": "晴日里的原野。川，平川、原野。",
+          "index": 80,
+          "id": "l4-p2-v3",
+          "pieceId": "l4-p2",
+          "localIndex": 32,
+          "context": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+          "contextStart": 32,
+          "type": "vocab"
+        },
+        {
+          "word": "历历",
+          "explanation": "分明的样子。",
+          "index": 82,
+          "id": "l4-p2-v4",
+          "pieceId": "l4-p2",
+          "localIndex": 34,
+          "context": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+          "contextStart": 32,
+          "type": "vocab"
+        },
+        {
+          "word": "萋萋",
+          "explanation": "草木茂盛的样子。",
+          "index": 90,
+          "id": "l4-p2-v5",
+          "pieceId": "l4-p2",
+          "localIndex": 42,
+          "context": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+          "contextStart": 32,
+          "type": "vocab"
+        },
+        {
+          "word": "乡关",
+          "explanation": "故乡。",
+          "index": 98,
+          "id": "l4-p2-v6",
+          "pieceId": "l4-p2",
+          "localIndex": 50,
+          "context": "日暮乡关何处是？",
+          "contextStart": 48,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l4-p3",
+      "title": "使至塞上",
+      "chunks": [
+        {
+          "content": "单车欲问边，属国过居延。",
+          "start": 0,
+          "end": 12,
+          "id": "l4-p3-c1",
+          "pieceId": "l4-p3",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "征蓬出汉塞，归雁入胡天。",
+          "start": 12,
+          "end": 24,
+          "id": "l4-p3-c2",
+          "pieceId": "l4-p3",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "大漠孤烟直，长河落日圆。",
+          "start": 24,
+          "end": 36,
+          "id": "l4-p3-c3",
+          "pieceId": "l4-p3",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "萧关逢候骑，都护在燕然。",
+          "start": 36,
+          "end": 48,
+          "id": "l4-p3-c4",
+          "pieceId": "l4-p3",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "单车",
+          "explanation": "一辆车，表明此次出使随从不多。",
+          "index": 112,
+          "id": "l4-p3-v1",
+          "pieceId": "l4-p3",
+          "localIndex": 0,
+          "context": "单车欲问边，属国过居延。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "问边",
+          "explanation": "慰问边关守军。",
+          "index": 115,
+          "id": "l4-p3-v2",
+          "pieceId": "l4-p3",
+          "localIndex": 3,
+          "context": "单车欲问边，属国过居延。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "征蓬",
+          "explanation": "飘飞的蓬草，古诗中常用来比喻远行之人。",
+          "index": 124,
+          "id": "l4-p3-v3",
+          "pieceId": "l4-p3",
+          "localIndex": 12,
+          "context": "征蓬出汉塞，归雁入胡天。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "孤烟",
+          "explanation": "唐代边关以点燃一道烽烟的方式报告边境平安，故称孤烟。烟，指烽烟。",
+          "index": 138,
+          "id": "l4-p3-v4",
+          "pieceId": "l4-p3",
+          "localIndex": 26,
+          "context": "大漠孤烟直，长河落日圆。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "候骑",
+          "explanation": "负责侦察、巡逻的骑兵。",
+          "index": 151,
+          "id": "l4-p3-v5",
+          "pieceId": "l4-p3",
+          "localIndex": 39,
+          "context": "萧关逢候骑，都护在燕然。",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l4-p4",
+      "title": "渡荆门送别",
+      "chunks": [
+        {
+          "content": "渡远荆门外，来从楚国游。",
+          "start": 0,
+          "end": 12,
+          "id": "l4-p4-c1",
+          "pieceId": "l4-p4",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "山随平野尽，江入大荒流。",
+          "start": 12,
+          "end": 24,
+          "id": "l4-p4-c2",
+          "pieceId": "l4-p4",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "月下飞天镜，云生结海楼。",
+          "start": 24,
+          "end": 36,
+          "id": "l4-p4-c3",
+          "pieceId": "l4-p4",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "仍怜故乡水，万里送行舟。",
+          "start": 36,
+          "end": 48,
+          "id": "l4-p4-c4",
+          "pieceId": "l4-p4",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "从",
+          "explanation": "往。",
+          "index": 167,
+          "id": "l4-p4-v1",
+          "pieceId": "l4-p4",
+          "localIndex": 7,
+          "context": "渡远荆门外，来从楚国游。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "大荒",
+          "explanation": "辽远无际的原野。",
+          "index": 180,
+          "id": "l4-p4-v2",
+          "pieceId": "l4-p4",
+          "localIndex": 20,
+          "context": "山随平野尽，江入大荒流。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "海楼",
+          "explanation": "海市蜃楼。这里形容江上云霞多变形成的美丽景象。",
+          "index": 193,
+          "id": "l4-p4-v3",
+          "pieceId": "l4-p4",
+          "localIndex": 33,
+          "context": "月下飞天镜，云生结海楼。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "怜",
+          "explanation": "喜爱。",
+          "index": 197,
+          "id": "l4-p4-v4",
+          "pieceId": "l4-p4",
+          "localIndex": 37,
+          "context": "仍怜故乡水，万里送行舟。",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l4-p5",
+      "title": "钱塘湖春行",
+      "chunks": [
+        {
+          "content": "孤山寺北贾亭西，水面初平云脚低。",
+          "start": 0,
+          "end": 16,
+          "id": "l4-p5-c1",
+          "pieceId": "l4-p5",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "几处早莺争暖树，谁家新燕啄春泥。",
+          "start": 16,
+          "end": 32,
+          "id": "l4-p5-c2",
+          "pieceId": "l4-p5",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "乱花渐欲迷人眼，浅草才能没马蹄。",
+          "start": 32,
+          "end": 48,
+          "id": "l4-p5-c3",
+          "pieceId": "l4-p5",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "最爱湖东行不足，绿杨阴里白沙堤。",
+          "start": 48,
+          "end": 64,
+          "id": "l4-p5-c4",
+          "pieceId": "l4-p5",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "水面初平",
+          "explanation": "春天湖水初涨，水面刚刚与湖岸齐平。初，刚刚。",
+          "index": 216,
+          "id": "l4-p5-v1",
+          "pieceId": "l4-p5",
+          "localIndex": 8,
+          "context": "孤山寺北贾亭西，水面初平云脚低。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "云脚低",
+          "explanation": "白云重重叠叠，同湖面上的波浪连成一片，看上去浮云很低。",
+          "index": 220,
+          "id": "l4-p5-v2",
+          "pieceId": "l4-p5",
+          "localIndex": 12,
+          "context": "孤山寺北贾亭西，水面初平云脚低。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "暖树",
+          "explanation": "向阳的树。",
+          "index": 229,
+          "id": "l4-p5-v3",
+          "pieceId": "l4-p5",
+          "localIndex": 21,
+          "context": "几处早莺争暖树，谁家新燕啄春泥。",
+          "contextStart": 16,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l5-p1",
+      "title": "得道多助，失道寡助",
+      "chunks": [
+        {
+          "content": "天时不如地利，地利不如人和。三里之城，七里之郭，环而攻之而不胜。夫环而攻之，必有得天时者矣，然而不胜者，是天时不如地利也。",
+          "start": 0,
+          "end": 61,
+          "id": "l5-p1-c1",
+          "pieceId": "l5-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "城非不高也，池非不深也，兵革非不坚利也，米粟非不多也，委而去之，是地利不如人和也。",
+          "start": 61,
+          "end": 102,
+          "id": "l5-p1-c2",
+          "pieceId": "l5-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "故曰：域民不以封疆之界，固国不以山溪之险，威天下不以兵革之利。得道者多助，失道者寡助。寡助之至，亲戚畔之；多助之至，天下顺之。",
+          "start": 102,
+          "end": 165,
+          "id": "l5-p1-c3",
+          "pieceId": "l5-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "以天下之所顺，攻亲戚之所畔，故君子有不战，战必胜矣。",
+          "start": 165,
+          "end": 191,
+          "id": "l5-p1-c4",
+          "pieceId": "l5-p1",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "三里之城",
+          "explanation": "方圆三里的内城。城，城墙，与“郭”对举时多指内城。",
+          "index": 14,
+          "id": "l5-p1-v1",
+          "pieceId": "l5-p1",
+          "localIndex": 14,
+          "context": "三里之城，七里之郭，环而攻之而不胜。",
+          "contextStart": 14,
+          "type": "vocab"
+        },
+        {
+          "word": "环",
+          "explanation": "四面包围。",
+          "index": 24,
+          "id": "l5-p1-v2",
+          "pieceId": "l5-p1",
+          "localIndex": 24,
+          "context": "三里之城，七里之郭，环而攻之而不胜。",
+          "contextStart": 14,
+          "type": "vocab"
+        },
+        {
+          "word": "池",
+          "explanation": "护城河。",
+          "index": 67,
+          "id": "l5-p1-v3",
+          "pieceId": "l5-p1",
+          "localIndex": 67,
+          "context": "城非不高也，池非不深也，兵革非不坚利也，米粟非不多也，委而去之，是地利不如人和也。",
+          "contextStart": 61,
+          "type": "vocab"
+        },
+        {
+          "word": "兵革",
+          "explanation": "泛指武器装备。兵，兵器。革，皮革制成的甲胄之类。",
+          "index": 73,
+          "id": "l5-p1-v4",
+          "pieceId": "l5-p1",
+          "localIndex": 73,
+          "context": "城非不高也，池非不深也，兵革非不坚利也，米粟非不多也，委而去之，是地利不如人和也。",
+          "contextStart": 61,
+          "type": "vocab"
+        },
+        {
+          "word": "委而去之",
+          "explanation": "意思是弃城而逃。委，放弃。",
+          "index": 88,
+          "id": "l5-p1-v5",
+          "pieceId": "l5-p1",
+          "localIndex": 88,
+          "context": "城非不高也，池非不深也，兵革非不坚利也，米粟非不多也，委而去之，是地利不如人和也。",
+          "contextStart": 61,
+          "type": "vocab"
+        },
+        {
+          "word": "得道",
+          "explanation": "指能够施行治国的正道，即行仁政。",
+          "index": 133,
+          "id": "l5-p1-v6",
+          "pieceId": "l5-p1",
+          "localIndex": 133,
+          "context": "得道者多助，失道者寡助。",
+          "contextStart": 133,
+          "type": "vocab"
+        },
+        {
+          "word": "至",
+          "explanation": "极点。",
+          "index": 148,
+          "id": "l5-p1-v7",
+          "pieceId": "l5-p1",
+          "localIndex": 148,
+          "context": "寡助之至，亲戚畔之；",
+          "contextStart": 145,
+          "type": "vocab"
+        },
+        {
+          "word": "亲戚",
+          "explanation": "内外亲属，包括父系亲属和母系亲属。",
+          "index": 150,
+          "id": "l5-p1-v8",
+          "pieceId": "l5-p1",
+          "localIndex": 150,
+          "context": "寡助之至，亲戚畔之；",
+          "contextStart": 145,
+          "type": "vocab"
+        },
+        {
+          "word": "畔",
+          "explanation": "同“叛”，背叛。",
+          "index": 152,
+          "id": "l5-p1-v9",
+          "pieceId": "l5-p1",
+          "localIndex": 152,
+          "context": "寡助之至，亲戚畔之；",
+          "contextStart": 145,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l5-p2",
+      "title": "富贵不能淫",
+      "chunks": [
+        {
+          "content": "景春曰：“公孙衍、张仪岂不诚大丈夫哉？一怒而诸侯惧，安居而天下熄。”孟子曰：“是焉得为大丈夫乎？子未学礼乎？丈夫之冠也，父命之；",
+          "start": 0,
+          "end": 64,
+          "id": "l5-p2-c1",
+          "pieceId": "l5-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "女子之嫁也，母命之，往送之门，戒之曰：‘往之女家，必敬必戒，无违夫子！’以顺为正者，妾妇之道也。",
+          "start": 64,
+          "end": 112,
+          "id": "l5-p2-c2",
+          "pieceId": "l5-p2",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "居天下之广居，立天下之正位，行天下之大道。得志，与民由之；不得志，独行其道。富贵不能淫，贫贱不能移，威武不能屈。此之谓大丈夫。”",
+          "start": 112,
+          "end": 176,
+          "id": "l5-p2-c3",
+          "pieceId": "l5-p2",
+          "number": 3,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "诚",
+          "explanation": "确实。",
+          "index": 204,
+          "id": "l5-p2-v1",
+          "pieceId": "l5-p2",
+          "localIndex": 13,
+          "context": "景春曰：“公孙衍、张仪岂不诚大丈夫哉？",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "大丈夫",
+          "explanation": "指有大志、有作为、有气节的男子。",
+          "index": 205,
+          "id": "l5-p2-v2",
+          "pieceId": "l5-p2",
+          "localIndex": 14,
+          "context": "景春曰：“公孙衍、张仪岂不诚大丈夫哉？",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "天下熄",
+          "explanation": "指战争停息，天下太平。",
+          "index": 220,
+          "id": "l5-p2-v3",
+          "pieceId": "l5-p2",
+          "localIndex": 29,
+          "context": "一怒而诸侯惧，安居而天下熄。",
+          "contextStart": 19,
+          "type": "vocab"
+        },
+        {
+          "word": "焉",
+          "explanation": "怎么，哪里。",
+          "index": 231,
+          "id": "l5-p2-v4",
+          "pieceId": "l5-p2",
+          "localIndex": 40,
+          "context": "”孟子曰：“是焉得为大丈夫乎？",
+          "contextStart": 33,
+          "type": "vocab"
+        },
+        {
+          "word": "命",
+          "explanation": "教导，训诲。",
+          "index": 252,
+          "id": "l5-p2-v5",
+          "pieceId": "l5-p2",
+          "localIndex": 61,
+          "context": "丈夫之冠也，父命之；",
+          "contextStart": 54,
+          "type": "vocab"
+        },
+        {
+          "word": "戒",
+          "explanation": "告诫。/谨慎。",
+          "index": 270,
+          "id": "l5-p2-v6",
+          "pieceId": "l5-p2",
+          "localIndex": 79,
+          "context": "女子之嫁也，母命之，往送之门，戒之曰：‘往之女家，必敬必戒，无违夫子！",
+          "contextStart": 64,
+          "type": "vocab"
+        },
+        {
+          "word": "女家",
+          "explanation": "这里指夫家。女，同“汝”，你。",
+          "index": 277,
+          "id": "l5-p2-v7",
+          "pieceId": "l5-p2",
+          "localIndex": 86,
+          "context": "女子之嫁也，母命之，往送之门，戒之曰：‘往之女家，必敬必戒，无违夫子！",
+          "contextStart": 64,
+          "type": "vocab"
+        },
+        {
+          "word": "淫",
+          "explanation": "惑乱，迷惑。这里是使动用法。",
+          "index": 345,
+          "id": "l5-p2-v8",
+          "pieceId": "l5-p2",
+          "localIndex": 154,
+          "context": "富贵不能淫，贫贱不能移，威武不能屈。",
+          "contextStart": 150,
+          "type": "vocab"
+        },
+        {
+          "word": "移",
+          "explanation": "改变，动摇。这里是使动用法。",
+          "index": 351,
+          "id": "l5-p2-v9",
+          "pieceId": "l5-p2",
+          "localIndex": 160,
+          "context": "富贵不能淫，贫贱不能移，威武不能屈。",
+          "contextStart": 150,
+          "type": "vocab"
+        },
+        {
+          "word": "屈",
+          "explanation": "屈服。这里是使动用法。",
+          "index": 357,
+          "id": "l5-p2-v10",
+          "pieceId": "l5-p2",
+          "localIndex": 166,
+          "context": "富贵不能淫，贫贱不能移，威武不能屈。",
+          "contextStart": 150,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l5-p3",
+      "title": "生于忧患，死于安乐",
+      "chunks": [
+        {
+          "content": "舜发于畎亩之中，傅说举于版筑之间，胶鬲举于鱼盐之中，管夷吾举于士，孙叔敖举于海，百里奚举于市。",
+          "start": 0,
+          "end": 47,
+          "id": "l5-p3-c1",
+          "pieceId": "l5-p3",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。人恒过，然后能改；",
+          "start": 47,
+          "end": 110,
+          "id": "l5-p3-c2",
+          "pieceId": "l5-p3",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "困于心，衡于虑，而后作；征于色，发于声，而后喻。入则无法家拂士，出则无敌国外患者，国恒亡。然后知生于忧患而死于安乐也。",
+          "start": 110,
+          "end": 169,
+          "id": "l5-p3-c3",
+          "pieceId": "l5-p3",
+          "number": 3,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "饿其体肤",
+          "explanation": "使他经受饥饿之苦。",
+          "index": 437,
+          "id": "l5-p3-v1",
+          "pieceId": "l5-p3",
+          "localIndex": 70,
+          "context": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。",
+          "contextStart": 47,
+          "type": "vocab"
+        },
+        {
+          "word": "空乏其身",
+          "explanation": "使他身处贫困之中。空乏，财资缺乏。",
+          "index": 442,
+          "id": "l5-p3-v2",
+          "pieceId": "l5-p3",
+          "localIndex": 75,
+          "context": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。",
+          "contextStart": 47,
+          "type": "vocab"
+        },
+        {
+          "word": "行拂乱其所为",
+          "explanation": "使他做事不顺。拂，违背。乱，扰乱。",
+          "index": 447,
+          "id": "l5-p3-v3",
+          "pieceId": "l5-p3",
+          "localIndex": 80,
+          "context": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。",
+          "contextStart": 47,
+          "type": "vocab"
+        },
+        {
+          "word": "曾益",
+          "explanation": "增加。曾，同“增”。",
+          "index": 461,
+          "id": "l5-p3-v4",
+          "pieceId": "l5-p3",
+          "localIndex": 94,
+          "context": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。",
+          "contextStart": 47,
+          "type": "vocab"
+        },
+        {
+          "word": "恒过",
+          "explanation": "常常犯错误。",
+          "index": 469,
+          "id": "l5-p3-v5",
+          "pieceId": "l5-p3",
+          "localIndex": 102,
+          "context": "人恒过，然后能改；",
+          "contextStart": 101,
+          "type": "vocab"
+        },
+        {
+          "word": "衡于虑",
+          "explanation": "思虑堵塞。衡，同“横”，梗塞、不顺。",
+          "index": 481,
+          "id": "l5-p3-v6",
+          "pieceId": "l5-p3",
+          "localIndex": 114,
+          "context": "困于心，衡于虑，而后作；",
+          "contextStart": 110,
+          "type": "vocab"
+        },
+        {
+          "word": "作",
+          "explanation": "奋起。这里指有所作为。",
+          "index": 487,
+          "id": "l5-p3-v7",
+          "pieceId": "l5-p3",
+          "localIndex": 120,
+          "context": "困于心，衡于虑，而后作；",
+          "contextStart": 110,
+          "type": "vocab"
+        },
+        {
+          "word": "喻",
+          "explanation": "了解、明白。",
+          "index": 499,
+          "id": "l5-p3-v8",
+          "pieceId": "l5-p3",
+          "localIndex": 132,
+          "context": "征于色，发于声，而后喻。",
+          "contextStart": 122,
+          "type": "vocab"
+        },
+        {
+          "word": "敌国",
+          "explanation": "势力、地位相当的国家。敌，匹敌、相当。",
+          "index": 512,
+          "id": "l5-p3-v9",
+          "pieceId": "l5-p3",
+          "localIndex": 145,
+          "context": "入则无法家拂士，出则无敌国外患者，国恒亡。",
+          "contextStart": 134,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l6-p1",
+      "title": "愚公移山",
+      "chunks": [
+        {
+          "content": "太行、王屋二山，方七百里，高万仞，本在冀州之南，河阳之北。北山愚公者，年且九十，面山而居。",
+          "start": 0,
+          "end": 45,
+          "id": "l6-p1-c1",
+          "pieceId": "l6-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？”杂然相许。",
+          "start": 45,
+          "end": 91,
+          "id": "l6-p1-c2",
+          "pieceId": "l6-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "其妻献疑曰：“以君之力，曾不能损魁父之丘，如太行、王屋何？且焉置土石？”杂曰：“投诸渤海之尾，隐土之北。",
+          "start": 91,
+          "end": 143,
+          "id": "l6-p1-c3",
+          "pieceId": "l6-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "”遂率子孙荷担者三夫，叩石垦壤，箕畚运于渤海之尾。邻人京城氏之孀妻有遗男，始龀，跳往助之。寒暑易节，始一反焉。",
+          "start": 143,
+          "end": 198,
+          "id": "l6-p1-c4",
+          "pieceId": "l6-p1",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "河曲智叟笑而止之曰：“甚矣，汝之不惠！以残年余力，曾不能毁山之一毛，其如土石何？",
+          "start": 198,
+          "end": 238,
+          "id": "l6-p1-c5",
+          "pieceId": "l6-p1",
+          "number": 5,
+          "type": "chunk"
+        },
+        {
+          "content": "”北山愚公长息曰：“汝心之固，固不可彻，曾不若孀妻弱子。虽我之死，有子存焉。子又生孙，孙又生子；子又有子，子又有孙；",
+          "start": 238,
+          "end": 296,
+          "id": "l6-p1-c6",
+          "pieceId": "l6-p1",
+          "number": 6,
+          "type": "chunk"
+        },
+        {
+          "content": "子子孙孙无穷匮也，而山不加增，何苦而不平？”河曲智叟亡以应。操蛇之神闻之，惧其不已也，告之于帝。",
+          "start": 296,
+          "end": 344,
+          "id": "l6-p1-c7",
+          "pieceId": "l6-p1",
+          "number": 7,
+          "type": "chunk"
+        },
+        {
+          "content": "帝感其诚，命夸蛾氏二子负二山，一厝朔东，一厝雍南。自此，冀之南，汉之阴，无陇断焉。",
+          "start": 344,
+          "end": 385,
+          "id": "l6-p1-c8",
+          "pieceId": "l6-p1",
+          "number": 8,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "且",
+          "explanation": "将近。/况且。",
+          "index": 36,
+          "id": "l6-p1-v1",
+          "pieceId": "l6-p1",
+          "localIndex": 36,
+          "context": "北山愚公者，年且九十，面山而居。",
+          "contextStart": 29,
+          "type": "vocab"
+        },
+        {
+          "word": "惩",
+          "explanation": "苦于。",
+          "index": 45,
+          "id": "l6-p1-v2",
+          "pieceId": "l6-p1",
+          "localIndex": 45,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "塞",
+          "explanation": "阻塞。",
+          "index": 49,
+          "id": "l6-p1-v3",
+          "pieceId": "l6-p1",
+          "localIndex": 49,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "迂",
+          "explanation": "曲折，绕远。",
+          "index": 54,
+          "id": "l6-p1-v4",
+          "pieceId": "l6-p1",
+          "localIndex": 54,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "聚室而谋",
+          "explanation": "集合全家来商量。室，家人。",
+          "index": 57,
+          "id": "l6-p1-v5",
+          "pieceId": "l6-p1",
+          "localIndex": 57,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "汝",
+          "explanation": "代词，你们。",
+          "index": 66,
+          "id": "l6-p1-v6",
+          "pieceId": "l6-p1",
+          "localIndex": 66,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "毕力平险",
+          "explanation": "尽全力铲除险峻的大山。毕，尽、全。",
+          "index": 67,
+          "id": "l6-p1-v7",
+          "pieceId": "l6-p1",
+          "localIndex": 67,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "指通豫南",
+          "explanation": "一直通向豫州南部。指，指向，这里是“一直”的意思。",
+          "index": 72,
+          "id": "l6-p1-v8",
+          "pieceId": "l6-p1",
+          "localIndex": 72,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "汉阴",
+          "explanation": "汉水南岸。阴，指山的北面、水的南岸，与“阳”相对。",
+          "index": 79,
+          "id": "l6-p1-v9",
+          "pieceId": "l6-p1",
+          "localIndex": 79,
+          "context": "惩山北之塞，出入之迂也，聚室而谋曰：“吾与汝毕力平险，指通豫南，达于汉阴，可乎？",
+          "contextStart": 45,
+          "type": "vocab"
+        },
+        {
+          "word": "杂然相许",
+          "explanation": "纷纷表示赞同。杂然，纷纷地。许，赞同。",
+          "index": 86,
+          "id": "l6-p1-v10",
+          "pieceId": "l6-p1",
+          "localIndex": 86,
+          "context": "”杂然相许。",
+          "contextStart": 85,
+          "type": "vocab"
+        },
+        {
+          "word": "献疑",
+          "explanation": "提出疑问。",
+          "index": 93,
+          "id": "l6-p1-v11",
+          "pieceId": "l6-p1",
+          "localIndex": 93,
+          "context": "其妻献疑曰：“以君之力，曾不能损魁父之丘，如太行、王屋何？",
+          "contextStart": 91,
+          "type": "vocab"
+        },
+        {
+          "word": "曾",
+          "explanation": "用在“不”前，加强否定语气，可译为“连……都……”。",
+          "index": 103,
+          "id": "l6-p1-v12",
+          "pieceId": "l6-p1",
+          "localIndex": 103,
+          "context": "其妻献疑曰：“以君之力，曾不能损魁父之丘，如太行、王屋何？",
+          "contextStart": 91,
+          "type": "vocab"
+        },
+        {
+          "word": "焉",
+          "explanation": "往哪里、在哪里。",
+          "index": 121,
+          "id": "l6-p1-v13",
+          "pieceId": "l6-p1",
+          "localIndex": 121,
+          "context": "且焉置土石？",
+          "contextStart": 120,
+          "type": "vocab"
+        },
+        {
+          "word": "荷担者三夫",
+          "explanation": "三个能挑担的人。荷，肩负、扛。",
+          "index": 148,
+          "id": "l6-p1-v14",
+          "pieceId": "l6-p1",
+          "localIndex": 148,
+          "context": "”遂率子孙荷担者三夫，叩石垦壤，箕畚运于渤海之尾。",
+          "contextStart": 143,
+          "type": "vocab"
+        },
+        {
+          "word": "叩石垦壤",
+          "explanation": "凿石头，挖泥土。",
+          "index": 154,
+          "id": "l6-p1-v15",
+          "pieceId": "l6-p1",
+          "localIndex": 154,
+          "context": "”遂率子孙荷担者三夫，叩石垦壤，箕畚运于渤海之尾。",
+          "contextStart": 143,
+          "type": "vocab"
+        },
+        {
+          "word": "箕畚",
+          "explanation": "用竹篾、柳条等编织的器具。这里是“用箕畚”的意思。",
+          "index": 159,
+          "id": "l6-p1-v16",
+          "pieceId": "l6-p1",
+          "localIndex": 159,
+          "context": "”遂率子孙荷担者三夫，叩石垦壤，箕畚运于渤海之尾。",
+          "contextStart": 143,
+          "type": "vocab"
+        },
+        {
+          "word": "孀妻",
+          "explanation": "丧夫的妇人。",
+          "index": 174,
+          "id": "l6-p1-v17",
+          "pieceId": "l6-p1",
+          "localIndex": 174,
+          "context": "邻人京城氏之孀妻有遗男，始龀，跳往助之。",
+          "contextStart": 168,
+          "type": "vocab"
+        },
+        {
+          "word": "遗男",
+          "explanation": "指死了父亲的男孩。",
+          "index": 177,
+          "id": "l6-p1-v18",
+          "pieceId": "l6-p1",
+          "localIndex": 177,
+          "context": "邻人京城氏之孀妻有遗男，始龀，跳往助之。",
+          "contextStart": 168,
+          "type": "vocab"
+        },
+        {
+          "word": "始龀",
+          "explanation": "刚刚换牙，指七八岁。始，才、刚。龀，换牙。",
+          "index": 180,
+          "id": "l6-p1-v19",
+          "pieceId": "l6-p1",
+          "localIndex": 180,
+          "context": "邻人京城氏之孀妻有遗男，始龀，跳往助之。",
+          "contextStart": 168,
+          "type": "vocab"
+        },
+        {
+          "word": "易",
+          "explanation": "更替。",
+          "index": 190,
+          "id": "l6-p1-v20",
+          "pieceId": "l6-p1",
+          "localIndex": 190,
+          "context": "寒暑易节，始一反焉。",
+          "contextStart": 188,
+          "type": "vocab"
+        },
+        {
+          "word": "反",
+          "explanation": "同“返”，往返。",
+          "index": 195,
+          "id": "l6-p1-v21",
+          "pieceId": "l6-p1",
+          "localIndex": 195,
+          "context": "寒暑易节，始一反焉。",
+          "contextStart": 188,
+          "type": "vocab"
+        },
+        {
+          "word": "叟",
+          "explanation": "老年男子。",
+          "index": 201,
+          "id": "l6-p1-v22",
+          "pieceId": "l6-p1",
+          "localIndex": 201,
+          "context": "河曲智叟笑而止之曰：“甚矣，汝之不惠！",
+          "contextStart": 198,
+          "type": "vocab"
+        },
+        {
+          "word": "惠",
+          "explanation": "同“慧”，聪明。",
+          "index": 215,
+          "id": "l6-p1-v23",
+          "pieceId": "l6-p1",
+          "localIndex": 215,
+          "context": "河曲智叟笑而止之曰：“甚矣，汝之不惠！",
+          "contextStart": 198,
+          "type": "vocab"
+        },
+        {
+          "word": "毛",
+          "explanation": "指草木。",
+          "index": 230,
+          "id": "l6-p1-v24",
+          "pieceId": "l6-p1",
+          "localIndex": 230,
+          "context": "以残年余力，曾不能毁山之一毛，其如土石何？",
+          "contextStart": 217,
+          "type": "vocab"
+        },
+        {
+          "word": "长息",
+          "explanation": "长叹。",
+          "index": 243,
+          "id": "l6-p1-v25",
+          "pieceId": "l6-p1",
+          "localIndex": 243,
+          "context": "”北山愚公长息曰：“汝心之固，固不可彻，曾不若孀妻弱子。",
+          "contextStart": 238,
+          "type": "vocab"
+        },
+        {
+          "word": "彻",
+          "explanation": "通达。",
+          "index": 256,
+          "id": "l6-p1-v26",
+          "pieceId": "l6-p1",
+          "localIndex": 256,
+          "context": "”北山愚公长息曰：“汝心之固，固不可彻，曾不若孀妻弱子。",
+          "contextStart": 238,
+          "type": "vocab"
+        },
+        {
+          "word": "穷匮",
+          "explanation": "穷尽。",
+          "index": 301,
+          "id": "l6-p1-v27",
+          "pieceId": "l6-p1",
+          "localIndex": 301,
+          "context": "子子孙孙无穷匮也，而山不加增，何苦而不平？",
+          "contextStart": 296,
+          "type": "vocab"
+        },
+        {
+          "word": "亡以应",
+          "explanation": "没有话来回答。亡，同“无”。",
+          "index": 322,
+          "id": "l6-p1-v28",
+          "pieceId": "l6-p1",
+          "localIndex": 322,
+          "context": "”河曲智叟亡以应。",
+          "contextStart": 317,
+          "type": "vocab"
+        },
+        {
+          "word": "已",
+          "explanation": "停止。",
+          "index": 336,
+          "id": "l6-p1-v29",
+          "pieceId": "l6-p1",
+          "localIndex": 336,
+          "context": "操蛇之神闻之，惧其不已也，告之于帝。",
+          "contextStart": 326,
+          "type": "vocab"
+        },
+        {
+          "word": "厝",
+          "explanation": "放置、安放。",
+          "index": 360,
+          "id": "l6-p1-v30",
+          "pieceId": "l6-p1",
+          "localIndex": 360,
+          "context": "帝感其诚，命夸蛾氏二子负二山，一厝朔东，一厝雍南。",
+          "contextStart": 344,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l7-p1",
+      "title": "饮酒（其五）",
+      "chunks": [
+        {
+          "content": "结庐在人境，而无车马喧。",
+          "start": 0,
+          "end": 12,
+          "id": "l7-p1-c1",
+          "pieceId": "l7-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "问君何能尔？",
+          "start": 12,
+          "end": 18,
+          "id": "l7-p1-c2",
+          "pieceId": "l7-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "心远地自偏。",
+          "start": 18,
+          "end": 24,
+          "id": "l7-p1-c3",
+          "pieceId": "l7-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "采菊东篱下，悠然见南山。",
+          "start": 24,
+          "end": 36,
+          "id": "l7-p1-c4",
+          "pieceId": "l7-p1",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "山气日夕佳，飞鸟相与还。",
+          "start": 36,
+          "end": 48,
+          "id": "l7-p1-c5",
+          "pieceId": "l7-p1",
+          "number": 5,
+          "type": "chunk"
+        },
+        {
+          "content": "此中有真意，欲辨已忘言。",
+          "start": 48,
+          "end": 60,
+          "id": "l7-p1-c6",
+          "pieceId": "l7-p1",
+          "number": 6,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "结庐",
+          "explanation": "建造房舍。结，建造、构筑。",
+          "index": 0,
+          "id": "l7-p1-v1",
+          "pieceId": "l7-p1",
+          "localIndex": 0,
+          "context": "结庐在人境，而无车马喧。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "人境",
+          "explanation": "尘世。",
+          "index": 3,
+          "id": "l7-p1-v2",
+          "pieceId": "l7-p1",
+          "localIndex": 3,
+          "context": "结庐在人境，而无车马喧。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "尔",
+          "explanation": "如此，这样。",
+          "index": 16,
+          "id": "l7-p1-v3",
+          "pieceId": "l7-p1",
+          "localIndex": 16,
+          "context": "问君何能尔？",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "悠然",
+          "explanation": "闲适淡泊的样子。",
+          "index": 30,
+          "id": "l7-p1-v4",
+          "pieceId": "l7-p1",
+          "localIndex": 30,
+          "context": "采菊东篱下，悠然见南山。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "山气",
+          "explanation": "山间的云气。",
+          "index": 36,
+          "id": "l7-p1-v5",
+          "pieceId": "l7-p1",
+          "localIndex": 36,
+          "context": "山气日夕佳，飞鸟相与还。",
+          "contextStart": 36,
+          "type": "vocab"
+        },
+        {
+          "word": "忘言",
+          "explanation": "心中领会真意，不必用语言表达。",
+          "index": 57,
+          "id": "l7-p1-v6",
+          "pieceId": "l7-p1",
+          "localIndex": 57,
+          "context": "此中有真意，欲辨已忘言。",
+          "contextStart": 48,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l7-p2",
+      "title": "春望",
+      "chunks": [
+        {
+          "content": "国破山河在，城春草木深。",
+          "start": 0,
+          "end": 12,
+          "id": "l7-p2-c1",
+          "pieceId": "l7-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "感时花溅泪，恨别鸟惊心。",
+          "start": 12,
+          "end": 24,
+          "id": "l7-p2-c2",
+          "pieceId": "l7-p2",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "烽火连三月，家书抵万金。",
+          "start": 24,
+          "end": 36,
+          "id": "l7-p2-c3",
+          "pieceId": "l7-p2",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "白头搔更短，浑欲不胜簪。",
+          "start": 36,
+          "end": 48,
+          "id": "l7-p2-c4",
+          "pieceId": "l7-p2",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "浑",
+          "explanation": "简直。",
+          "index": 102,
+          "id": "l7-p2-v1",
+          "pieceId": "l7-p2",
+          "localIndex": 42,
+          "context": "白头搔更短，浑欲不胜簪。",
+          "contextStart": 36,
+          "type": "vocab"
+        },
+        {
+          "word": "不胜簪",
+          "explanation": "插不住簪子。胜，能够承受、禁得起。",
+          "index": 104,
+          "id": "l7-p2-v2",
+          "pieceId": "l7-p2",
+          "localIndex": 44,
+          "context": "白头搔更短，浑欲不胜簪。",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l7-p3",
+      "title": "雁门太守行",
+      "chunks": [
+        {
+          "content": "黑云压城城欲摧，甲光向日金鳞开。",
+          "start": 0,
+          "end": 16,
+          "id": "l7-p3-c1",
+          "pieceId": "l7-p3",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "角声满天秋色里，塞上燕脂凝夜紫。",
+          "start": 16,
+          "end": 32,
+          "id": "l7-p3-c2",
+          "pieceId": "l7-p3",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "半卷红旗临易水，霜重鼓寒声不起。",
+          "start": 32,
+          "end": 48,
+          "id": "l7-p3-c3",
+          "pieceId": "l7-p3",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "报君黄金台上意，提携玉龙为君死。",
+          "start": 48,
+          "end": 64,
+          "id": "l7-p3-c4",
+          "pieceId": "l7-p3",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "城欲摧",
+          "explanation": "城墙仿佛将要坍塌。",
+          "index": 112,
+          "id": "l7-p3-v1",
+          "pieceId": "l7-p3",
+          "localIndex": 4,
+          "context": "黑云压城城欲摧，甲光向日金鳞开。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "甲光向日金鳞开",
+          "explanation": "铠甲迎着（云缝中射下来的）太阳光，如金色鳞片般闪闪发光。",
+          "index": 116,
+          "id": "l7-p3-v2",
+          "pieceId": "l7-p3",
+          "localIndex": 8,
+          "context": "黑云压城城欲摧，甲光向日金鳞开。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "角",
+          "explanation": "军中号角。",
+          "index": 124,
+          "id": "l7-p3-v3",
+          "pieceId": "l7-p3",
+          "localIndex": 16,
+          "context": "角声满天秋色里，塞上燕脂凝夜紫。",
+          "contextStart": 16,
+          "type": "vocab"
+        },
+        {
+          "word": "塞上燕脂凝夜紫",
+          "explanation": "边塞上将士的血迹在寒夜中凝为紫色。燕脂，胭脂，色深红。此句中“燕脂”“夜紫”皆形容战场血迹。",
+          "index": 132,
+          "id": "l7-p3-v4",
+          "pieceId": "l7-p3",
+          "localIndex": 24,
+          "context": "角声满天秋色里，塞上燕脂凝夜紫。",
+          "contextStart": 16,
+          "type": "vocab"
+        },
+        {
+          "word": "玉龙",
+          "explanation": "指宝剑。",
+          "index": 166,
+          "id": "l7-p3-v5",
+          "pieceId": "l7-p3",
+          "localIndex": 58,
+          "context": "报君黄金台上意，提携玉龙为君死。",
+          "contextStart": 48,
+          "type": "vocab"
+        },
+        {
+          "word": "报",
+          "explanation": "回答。",
+          "index": 156,
+          "id": "l7-p3-v6",
+          "pieceId": "l7-p3",
+          "localIndex": 48,
+          "context": "报君黄金台上意，提携玉龙为君死。",
+          "contextStart": 48,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l7-p4",
+      "title": "赤壁",
+      "chunks": [
+        {
+          "content": "折戟沉沙铁未销，自将磨洗认前朝。",
+          "start": 0,
+          "end": 16,
+          "id": "l7-p4-c1",
+          "pieceId": "l7-p4",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "东风不与周郎便，铜雀春深锁二乔。",
+          "start": 16,
+          "end": 32,
+          "id": "l7-p4-c2",
+          "pieceId": "l7-p4",
+          "number": 2,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "戟",
+          "explanation": "古代兵器。",
+          "index": 173,
+          "id": "l7-p4-v1",
+          "pieceId": "l7-p4",
+          "localIndex": 1,
+          "context": "折戟沉沙铁未销，自将磨洗认前朝。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "销",
+          "explanation": "销蚀。",
+          "index": 178,
+          "id": "l7-p4-v2",
+          "pieceId": "l7-p4",
+          "localIndex": 6,
+          "context": "折戟沉沙铁未销，自将磨洗认前朝。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "将",
+          "explanation": "拿，取。",
+          "index": 181,
+          "id": "l7-p4-v3",
+          "pieceId": "l7-p4",
+          "localIndex": 9,
+          "context": "折戟沉沙铁未销，自将磨洗认前朝。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "认前朝",
+          "explanation": "辨认出是前朝遗物。前朝，这里指赤壁之战的时代。",
+          "index": 184,
+          "id": "l7-p4-v4",
+          "pieceId": "l7-p4",
+          "localIndex": 12,
+          "context": "折戟沉沙铁未销，自将磨洗认前朝。",
+          "contextStart": 0,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l7-p5",
+      "title": "渔家傲",
+      "chunks": [
+        {
+          "content": "天接云涛连晓雾，星河欲转千帆舞。",
+          "start": 0,
+          "end": 16,
+          "id": "l7-p5-c1",
+          "pieceId": "l7-p5",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "仿佛梦魂归帝所，闻天语，殷勤问我归何处。",
+          "start": 16,
+          "end": 36,
+          "id": "l7-p5-c2",
+          "pieceId": "l7-p5",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "我报路长嗟日暮，学诗谩有惊人句。",
+          "start": 36,
+          "end": 52,
+          "id": "l7-p5-c3",
+          "pieceId": "l7-p5",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "九万里风鹏正举。",
+          "start": 52,
+          "end": 60,
+          "id": "l7-p5-c4",
+          "pieceId": "l7-p5",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "风休住，蓬舟吹取三山去！",
+          "start": 60,
+          "end": 72,
+          "id": "l7-p5-c5",
+          "pieceId": "l7-p5",
+          "number": 5,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "云涛",
+          "explanation": "翻卷如云的波涛。一说指如波涛翻滚的云。",
+          "index": 206,
+          "id": "l7-p5-v1",
+          "pieceId": "l7-p5",
+          "localIndex": 2,
+          "context": "天接云涛连晓雾，星河欲转千帆舞。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "星河欲转",
+          "explanation": "银河流转，指天快亮了。星河，银河。",
+          "index": 212,
+          "id": "l7-p5-v2",
+          "pieceId": "l7-p5",
+          "localIndex": 8,
+          "context": "天接云涛连晓雾，星河欲转千帆舞。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "帝所",
+          "explanation": "天帝居住的地方。",
+          "index": 225,
+          "id": "l7-p5-v3",
+          "pieceId": "l7-p5",
+          "localIndex": 21,
+          "context": "仿佛梦魂归帝所，闻天语，殷勤问我归何处。",
+          "contextStart": 16,
+          "type": "vocab"
+        },
+        {
+          "word": "殷勤",
+          "explanation": "情意恳切。",
+          "index": 232,
+          "id": "l7-p5-v4",
+          "pieceId": "l7-p5",
+          "localIndex": 28,
+          "context": "仿佛梦魂归帝所，闻天语，殷勤问我归何处。",
+          "contextStart": 16,
+          "type": "vocab"
+        },
+        {
+          "word": "嗟",
+          "explanation": "叹息，慨叹。",
+          "index": 244,
+          "id": "l7-p5-v5",
+          "pieceId": "l7-p5",
+          "localIndex": 40,
+          "context": "我报路长嗟日暮，学诗谩有惊人句。",
+          "contextStart": 36,
+          "type": "vocab"
+        },
+        {
+          "word": "谩",
+          "explanation": "同“漫”，空、徒然。",
+          "index": 250,
+          "id": "l7-p5-v6",
+          "pieceId": "l7-p5",
+          "localIndex": 46,
+          "context": "我报路长嗟日暮，学诗谩有惊人句。",
+          "contextStart": 36,
+          "type": "vocab"
+        },
+        {
+          "word": "九万里风鹏正举",
+          "explanation": "（我要）像大鹏鸟那样乘风高飞。举，高飞。",
+          "index": 256,
+          "id": "l7-p5-v7",
+          "pieceId": "l7-p5",
+          "localIndex": 52,
+          "context": "九万里风鹏正举。",
+          "contextStart": 52,
+          "type": "vocab"
+        },
+        {
+          "word": "蓬舟",
+          "explanation": "如飞蓬般轻快的船。",
+          "index": 268,
+          "id": "l7-p5-v8",
+          "pieceId": "l7-p5",
+          "localIndex": 64,
+          "context": "风休住，蓬舟吹取三山去！",
+          "contextStart": 60,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l8-p1",
+      "title": "庭中有奇树",
+      "chunks": [
+        {
+          "content": "庭中有奇树，绿叶发华滋。",
+          "start": 0,
+          "end": 12,
+          "id": "l8-p1-c1",
+          "pieceId": "l8-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "攀条折其荣，将以遗所思。",
+          "start": 12,
+          "end": 24,
+          "id": "l8-p1-c2",
+          "pieceId": "l8-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "馨香盈怀袖，路远莫致之。",
+          "start": 24,
+          "end": 36,
+          "id": "l8-p1-c3",
+          "pieceId": "l8-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "此物何足贵？",
+          "start": 36,
+          "end": 42,
+          "id": "l8-p1-c4",
+          "pieceId": "l8-p1",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "但感别经时。",
+          "start": 42,
+          "end": 48,
+          "id": "l8-p1-c5",
+          "pieceId": "l8-p1",
+          "number": 5,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "华",
+          "explanation": "花。下文的“荣”也是“花”的意思。",
+          "index": 9,
+          "id": "l8-p1-v1",
+          "pieceId": "l8-p1",
+          "localIndex": 9,
+          "context": "庭中有奇树，绿叶发华滋。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "滋",
+          "explanation": "繁盛。",
+          "index": 10,
+          "id": "l8-p1-v2",
+          "pieceId": "l8-p1",
+          "localIndex": 10,
+          "context": "庭中有奇树，绿叶发华滋。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "攀条",
+          "explanation": "攀引枝条。",
+          "index": 12,
+          "id": "l8-p1-v3",
+          "pieceId": "l8-p1",
+          "localIndex": 12,
+          "context": "攀条折其荣，将以遗所思。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "荣",
+          "explanation": "花。",
+          "index": 16,
+          "id": "l8-p1-v4",
+          "pieceId": "l8-p1",
+          "localIndex": 16,
+          "context": "攀条折其荣，将以遗所思。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "遗",
+          "explanation": "给予，馈赠。",
+          "index": 20,
+          "id": "l8-p1-v5",
+          "pieceId": "l8-p1",
+          "localIndex": 20,
+          "context": "攀条折其荣，将以遗所思。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "盈",
+          "explanation": "充满。",
+          "index": 26,
+          "id": "l8-p1-v6",
+          "pieceId": "l8-p1",
+          "localIndex": 26,
+          "context": "馨香盈怀袖，路远莫致之。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "致",
+          "explanation": "送达。",
+          "index": 33,
+          "id": "l8-p1-v7",
+          "pieceId": "l8-p1",
+          "localIndex": 33,
+          "context": "馨香盈怀袖，路远莫致之。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "经时",
+          "explanation": "历时很久。",
+          "index": 45,
+          "id": "l8-p1-v8",
+          "pieceId": "l8-p1",
+          "localIndex": 45,
+          "context": "但感别经时。",
+          "contextStart": 42,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l8-p2",
+      "title": "龟虽寿",
+      "chunks": [
+        {
+          "content": "神龟虽寿，犹有竟时；",
+          "start": 0,
+          "end": 10,
+          "id": "l8-p2-c1",
+          "pieceId": "l8-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "腾蛇乘雾，终为土灰。",
+          "start": 10,
+          "end": 20,
+          "id": "l8-p2-c2",
+          "pieceId": "l8-p2",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "老骥伏枥，志在千里；",
+          "start": 20,
+          "end": 30,
+          "id": "l8-p2-c3",
+          "pieceId": "l8-p2",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "烈士暮年，壮心不已。",
+          "start": 30,
+          "end": 40,
+          "id": "l8-p2-c4",
+          "pieceId": "l8-p2",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "盈缩之期，不但在天；",
+          "start": 40,
+          "end": 50,
+          "id": "l8-p2-c5",
+          "pieceId": "l8-p2",
+          "number": 5,
+          "type": "chunk"
+        },
+        {
+          "content": "养怡之福，可得永年。",
+          "start": 50,
+          "end": 60,
+          "id": "l8-p2-c6",
+          "pieceId": "l8-p2",
+          "number": 6,
+          "type": "chunk"
+        },
+        {
+          "content": "幸甚至哉，歌以咏志。",
+          "start": 60,
+          "end": 70,
+          "id": "l8-p2-c7",
+          "pieceId": "l8-p2",
+          "number": 7,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "竟",
+          "explanation": "终结。这里指死去。",
+          "index": 55,
+          "id": "l8-p2-v1",
+          "pieceId": "l8-p2",
+          "localIndex": 7,
+          "context": "神龟虽寿，犹有竟时；",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "腾蛇",
+          "explanation": "传说中一种能腾云驾雾的神蛇。",
+          "index": 58,
+          "id": "l8-p2-v2",
+          "pieceId": "l8-p2",
+          "localIndex": 10,
+          "context": "腾蛇乘雾，终为土灰。",
+          "contextStart": 10,
+          "type": "vocab"
+        },
+        {
+          "word": "骥",
+          "explanation": "骏马，好马。",
+          "index": 69,
+          "id": "l8-p2-v3",
+          "pieceId": "l8-p2",
+          "localIndex": 21,
+          "context": "老骥伏枥，志在千里；",
+          "contextStart": 20,
+          "type": "vocab"
+        },
+        {
+          "word": "枥",
+          "explanation": "马槽。",
+          "index": 71,
+          "id": "l8-p2-v4",
+          "pieceId": "l8-p2",
+          "localIndex": 23,
+          "context": "老骥伏枥，志在千里；",
+          "contextStart": 20,
+          "type": "vocab"
+        },
+        {
+          "word": "烈士",
+          "explanation": "有气节有壮志的人。",
+          "index": 78,
+          "id": "l8-p2-v5",
+          "pieceId": "l8-p2",
+          "localIndex": 30,
+          "context": "烈士暮年，壮心不已。",
+          "contextStart": 30,
+          "type": "vocab"
+        },
+        {
+          "word": "盈缩",
+          "explanation": "这里指人寿命的长短。",
+          "index": 88,
+          "id": "l8-p2-v6",
+          "pieceId": "l8-p2",
+          "localIndex": 40,
+          "context": "盈缩之期，不但在天；",
+          "contextStart": 40,
+          "type": "vocab"
+        },
+        {
+          "word": "养怡",
+          "explanation": "指调养身心，保持心情愉快。怡，愉快。",
+          "index": 98,
+          "id": "l8-p2-v7",
+          "pieceId": "l8-p2",
+          "localIndex": 50,
+          "context": "养怡之福，可得永年。",
+          "contextStart": 50,
+          "type": "vocab"
+        },
+        {
+          "word": "永年",
+          "explanation": "长寿。",
+          "index": 105,
+          "id": "l8-p2-v8",
+          "pieceId": "l8-p2",
+          "localIndex": 57,
+          "context": "养怡之福，可得永年。",
+          "contextStart": 50,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l8-p3",
+      "title": "赠从弟（其二）",
+      "chunks": [
+        {
+          "content": "亭亭山上松，瑟瑟谷中风。",
+          "start": 0,
+          "end": 12,
+          "id": "l8-p3-c1",
+          "pieceId": "l8-p3",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "风声一何盛，松枝一何劲！",
+          "start": 12,
+          "end": 24,
+          "id": "l8-p3-c2",
+          "pieceId": "l8-p3",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "冰霜正惨凄，终岁常端正。",
+          "start": 24,
+          "end": 36,
+          "id": "l8-p3-c3",
+          "pieceId": "l8-p3",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "岂不罹凝寒？",
+          "start": 36,
+          "end": 42,
+          "id": "l8-p3-c4",
+          "pieceId": "l8-p3",
+          "number": 4,
+          "type": "chunk"
+        },
+        {
+          "content": "松柏有本性。",
+          "start": 42,
+          "end": 48,
+          "id": "l8-p3-c5",
+          "pieceId": "l8-p3",
+          "number": 5,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "亭亭",
+          "explanation": "挺拔的样子。",
+          "index": 118,
+          "id": "l8-p3-v1",
+          "pieceId": "l8-p3",
+          "localIndex": 0,
+          "context": "亭亭山上松，瑟瑟谷中风。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "瑟瑟",
+          "explanation": "拟声词，形容风声。",
+          "index": 124,
+          "id": "l8-p3-v2",
+          "pieceId": "l8-p3",
+          "localIndex": 6,
+          "context": "亭亭山上松，瑟瑟谷中风。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "一何",
+          "explanation": "何其，多么。",
+          "index": 132,
+          "id": "l8-p3-v3",
+          "pieceId": "l8-p3",
+          "localIndex": 14,
+          "context": "风声一何盛，松枝一何劲！",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "罹凝寒",
+          "explanation": "遭受严寒。罹，遭受。凝寒，严寒。",
+          "index": 156,
+          "id": "l8-p3-v4",
+          "pieceId": "l8-p3",
+          "localIndex": 38,
+          "context": "岂不罹凝寒？",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l8-p4",
+      "title": "梁甫行",
+      "chunks": [
+        {
+          "content": "八方各异气，千里殊风雨。",
+          "start": 0,
+          "end": 12,
+          "id": "l8-p4-c1",
+          "pieceId": "l8-p4",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "剧哉边海民，寄身于草野。",
+          "start": 12,
+          "end": 24,
+          "id": "l8-p4-c2",
+          "pieceId": "l8-p4",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "妻子象禽兽，行止依林阻。",
+          "start": 24,
+          "end": 36,
+          "id": "l8-p4-c3",
+          "pieceId": "l8-p4",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "柴门何萧条，狐兔翔我宇。",
+          "start": 36,
+          "end": 48,
+          "id": "l8-p4-c4",
+          "pieceId": "l8-p4",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "异气",
+          "explanation": "气候不同。",
+          "index": 169,
+          "id": "l8-p4-v1",
+          "pieceId": "l8-p4",
+          "localIndex": 3,
+          "context": "八方各异气，千里殊风雨。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "殊",
+          "explanation": "不同。",
+          "index": 174,
+          "id": "l8-p4-v2",
+          "pieceId": "l8-p4",
+          "localIndex": 8,
+          "context": "八方各异气，千里殊风雨。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "剧",
+          "explanation": "艰难。",
+          "index": 178,
+          "id": "l8-p4-v3",
+          "pieceId": "l8-p4",
+          "localIndex": 12,
+          "context": "剧哉边海民，寄身于草野。",
+          "contextStart": 12,
+          "type": "vocab"
+        },
+        {
+          "word": "妻子",
+          "explanation": "妻子儿女。",
+          "index": 190,
+          "id": "l8-p4-v4",
+          "pieceId": "l8-p4",
+          "localIndex": 24,
+          "context": "妻子象禽兽，行止依林阻。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "林阻",
+          "explanation": "山林险阻之地。",
+          "index": 199,
+          "id": "l8-p4-v5",
+          "pieceId": "l8-p4",
+          "localIndex": 33,
+          "context": "妻子象禽兽，行止依林阻。",
+          "contextStart": 24,
+          "type": "vocab"
+        },
+        {
+          "word": "翔",
+          "explanation": "自在地行走。",
+          "index": 210,
+          "id": "l8-p4-v6",
+          "pieceId": "l8-p4",
+          "localIndex": 44,
+          "context": "柴门何萧条，狐兔翔我宇。",
+          "contextStart": 36,
+          "type": "vocab"
+        },
+        {
+          "word": "宇",
+          "explanation": "房屋。",
+          "index": 212,
+          "id": "l8-p4-v7",
+          "pieceId": "l8-p4",
+          "localIndex": 46,
+          "context": "柴门何萧条，狐兔翔我宇。",
+          "contextStart": 36,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l9-p1",
+      "title": "浣溪沙",
+      "chunks": [
+        {
+          "content": "一曲新词酒一杯，去年天气旧亭台。",
+          "start": 0,
+          "end": 16,
+          "id": "l9-p1-c1",
+          "pieceId": "l9-p1",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "夕阳西下几时回！",
+          "start": 16,
+          "end": 24,
+          "id": "l9-p1-c2",
+          "pieceId": "l9-p1",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "无可奈何花落去，似曾相识燕归来。",
+          "start": 24,
+          "end": 40,
+          "id": "l9-p1-c3",
+          "pieceId": "l9-p1",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "小园香径独徘徊。",
+          "start": 40,
+          "end": 48,
+          "id": "l9-p1-c4",
+          "pieceId": "l9-p1",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": []
+    },
+    {
+      "id": "l9-p2",
+      "title": "采桑子",
+      "chunks": [
+        {
+          "content": "轻舟短棹西湖好，绿水逶迤，芳草长堤。",
+          "start": 0,
+          "end": 18,
+          "id": "l9-p2-c1",
+          "pieceId": "l9-p2",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "隐隐笙歌处处随。",
+          "start": 18,
+          "end": 26,
+          "id": "l9-p2-c2",
+          "pieceId": "l9-p2",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "无风水面琉璃滑，不觉船移，微动涟漪。",
+          "start": 26,
+          "end": 44,
+          "id": "l9-p2-c3",
+          "pieceId": "l9-p2",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "惊起沙禽掠岸飞。",
+          "start": 44,
+          "end": 52,
+          "id": "l9-p2-c4",
+          "pieceId": "l9-p2",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "棹",
+          "explanation": "桨。",
+          "index": 51,
+          "id": "l9-p2-v1",
+          "pieceId": "l9-p2",
+          "localIndex": 3,
+          "context": "轻舟短棹西湖好，绿水逶迤，芳草长堤。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "琉璃",
+          "explanation": "一种光滑细腻的釉料，多覆在盆、缸、砖瓦的外层。这里喻指水面平静澄碧。",
+          "index": 78,
+          "id": "l9-p2-v2",
+          "pieceId": "l9-p2",
+          "localIndex": 30,
+          "context": "无风水面琉璃滑，不觉船移，微动涟漪。",
+          "contextStart": 26,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l9-p3",
+      "title": "相见欢",
+      "chunks": [
+        {
+          "content": "金陵城上西楼，倚清秋。",
+          "start": 0,
+          "end": 11,
+          "id": "l9-p3-c1",
+          "pieceId": "l9-p3",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "万里夕阳垂地大江流。",
+          "start": 11,
+          "end": 21,
+          "id": "l9-p3-c2",
+          "pieceId": "l9-p3",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "中原乱，簪缨散，几时收？",
+          "start": 21,
+          "end": 33,
+          "id": "l9-p3-c3",
+          "pieceId": "l9-p3",
+          "number": 3,
+          "type": "chunk"
+        },
+        {
+          "content": "试倩悲风吹泪过扬州。",
+          "start": 33,
+          "end": 43,
+          "id": "l9-p3-c4",
+          "pieceId": "l9-p3",
+          "number": 4,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "金陵",
+          "explanation": "古城名，即今江苏南京。",
+          "index": 100,
+          "id": "l9-p3-v1",
+          "pieceId": "l9-p3",
+          "localIndex": 0,
+          "context": "金陵城上西楼，倚清秋。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "簪缨",
+          "explanation": "代指达官显贵。簪，帽饰。",
+          "index": 125,
+          "id": "l9-p3-v2",
+          "pieceId": "l9-p3",
+          "localIndex": 25,
+          "context": "中原乱，簪缨散，几时收？",
+          "contextStart": 21,
+          "type": "vocab"
+        },
+        {
+          "word": "倩",
+          "explanation": "请。",
+          "index": 134,
+          "id": "l9-p3-v3",
+          "pieceId": "l9-p3",
+          "localIndex": 34,
+          "context": "试倩悲风吹泪过扬州。",
+          "contextStart": 33,
+          "type": "vocab"
+        },
+        {
+          "word": "扬州",
+          "explanation": "今属江苏。",
+          "index": 140,
+          "id": "l9-p3-v4",
+          "pieceId": "l9-p3",
+          "localIndex": 40,
+          "context": "试倩悲风吹泪过扬州。",
+          "contextStart": 33,
+          "type": "vocab"
+        }
+      ]
+    },
+    {
+      "id": "l9-p4",
+      "title": "如梦令",
+      "chunks": [
+        {
+          "content": "常记溪亭日暮，沉醉不知归路。",
+          "start": 0,
+          "end": 14,
+          "id": "l9-p4-c1",
+          "pieceId": "l9-p4",
+          "number": 1,
+          "type": "chunk"
+        },
+        {
+          "content": "兴尽晚回舟，误入藕花深处。",
+          "start": 14,
+          "end": 27,
+          "id": "l9-p4-c2",
+          "pieceId": "l9-p4",
+          "number": 2,
+          "type": "chunk"
+        },
+        {
+          "content": "争渡，争渡，惊起一滩鸥鹭。",
+          "start": 27,
+          "end": 40,
+          "id": "l9-p4-c3",
+          "pieceId": "l9-p4",
+          "number": 3,
+          "type": "chunk"
+        }
+      ],
+      "vocabs": [
+        {
+          "word": "溪亭",
+          "explanation": "溪边的亭子。",
+          "index": 145,
+          "id": "l9-p4-v1",
+          "pieceId": "l9-p4",
+          "localIndex": 2,
+          "context": "常记溪亭日暮，沉醉不知归路。",
+          "contextStart": 0,
+          "type": "vocab"
+        },
+        {
+          "word": "藕花",
+          "explanation": "荷花。",
+          "index": 165,
+          "id": "l9-p4-v2",
+          "pieceId": "l9-p4",
+          "localIndex": 22,
+          "context": "兴尽晚回舟，误入藕花深处。",
+          "contextStart": 14,
+          "type": "vocab"
+        },
+        {
+          "word": "争渡",
+          "explanation": "奋力把船划出去。",
+          "index": 170,
+          "id": "l9-p4-v3",
+          "pieceId": "l9-p4",
+          "localIndex": 27,
+          "context": "争渡，争渡，惊起一滩鸥鹭。",
+          "contextStart": 27,
+          "type": "vocab"
+        }
+      ]
+    }
+  ]
+}

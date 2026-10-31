@@ -168,7 +168,7 @@
       </div>
     </div>
     <div class="tools">
-      <button class="reset" id="syncBtn" title="使用同步码跨设备同步进度">☁ 同步</button>
+      <button class="reset" id="syncBtn" title="登录后同步学习进度">☁ 登录</button>
       <button class="reset" id="copyBtn" title="复制学习进度到剪贴板">⧉ 复制</button>
       <button class="reset" id="importBtn" title="从剪贴板导入进度">⇩ 导入</button>
       <button class="reset" id="resetBtn" title="重置当前范围,重新学一遍">↺ 重置</button>
@@ -614,7 +614,7 @@ buildUnitSel();buildLessonSel();refreshDir();refreshSound();
 allBtn.classList.toggle("on",pref.peekAll);
 buildDeck();restoreIdx();render();
 </script>
-<script src="../../../assets/sync.js?v=1"></script>
+<script src="../../../assets/sync.js?v=2"></script>
 <script>
 ReviewSync.init({
   deckKey:"textbooks/renai/english/grade7b-words",

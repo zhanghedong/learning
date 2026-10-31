@@ -1,0 +1,492 @@
+{
+  "deckKey": "textbooks/minjiao/english/grade4a-words",
+  "kind": "flashcards",
+  "title": "闽教英语四上",
+  "subject": "english",
+  "app": "minjiao-en-grade4a-words",
+  "source": "web/textbooks/minjiao/english/grade4a-words.html",
+  "units": [
+    {
+      "unit": "Unit 1",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "see",
+              "看见"
+            ],
+            [
+              "again",
+              "再次"
+            ],
+            [
+              "grade",
+              "年级"
+            ],
+            [
+              "our",
+              "我们的"
+            ],
+            [
+              "classroom",
+              "教室"
+            ],
+            [
+              "class",
+              "班级；课"
+            ],
+            [
+              "chair",
+              "椅子"
+            ],
+            [
+              "desk",
+              "书桌"
+            ],
+            [
+              "look",
+              "瞧；看"
+            ],
+            [
+              "blackboard",
+              "黑板"
+            ],
+            [
+              "read",
+              "读；阅读"
+            ],
+            [
+              "after",
+              "在……之后"
+            ],
+            [
+              "tiger",
+              "老虎"
+            ]
+          ]
+        },
+        {
+          "lesson": "短语",
+          "words": [
+            [
+              "look at",
+              "看着"
+            ],
+            [
+              "isn’t = is not",
+              "不是"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 2",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "that",
+              "那"
+            ],
+            [
+              "cousin",
+              "表（堂）兄弟姐妹"
+            ],
+            [
+              "from",
+              "来自"
+            ],
+            [
+              "school",
+              "学校"
+            ],
+            [
+              "playground",
+              "操场"
+            ],
+            [
+              "big",
+              "大的"
+            ],
+            [
+              "computer",
+              "电脑"
+            ],
+            [
+              "room",
+              "房间"
+            ],
+            [
+              "library",
+              "图书馆"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 3",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "have",
+              "有"
+            ],
+            [
+              "farm",
+              "农场"
+            ],
+            [
+              "dear",
+              "亲爱的"
+            ],
+            [
+              "thirteen",
+              "十三"
+            ],
+            [
+              "cow",
+              "奶牛"
+            ],
+            [
+              "fourteen",
+              "十四"
+            ],
+            [
+              "horse",
+              "马"
+            ],
+            [
+              "fifteen",
+              "十五"
+            ],
+            [
+              "sheep",
+              "绵羊"
+            ],
+            [
+              "sixteen",
+              "十六"
+            ],
+            [
+              "seventeen",
+              "十七"
+            ],
+            [
+              "twenty",
+              "二十"
+            ],
+            [
+              "eighteen",
+              "十八"
+            ],
+            [
+              "very",
+              "非常"
+            ],
+            [
+              "clever",
+              "聪明的"
+            ],
+            [
+              "nineteen",
+              "十九"
+            ]
+          ]
+        },
+        {
+          "lesson": "短语",
+          "words": [
+            [
+              "how much",
+              "多少"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 4",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "thirty",
+              "三十"
+            ],
+            [
+              "slow",
+              "慢的"
+            ],
+            [
+              "sleep",
+              "睡觉"
+            ],
+            [
+              "fifty",
+              "五十"
+            ],
+            [
+              "winner",
+              "获胜者"
+            ],
+            [
+              "forty",
+              "四十"
+            ],
+            [
+              "begin",
+              "开始"
+            ]
+          ]
+        },
+        {
+          "lesson": "短语",
+          "words": [
+            [
+              "have a sleep",
+              "睡一觉"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 5",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "bus",
+              "公共汽车"
+            ],
+            [
+              "full",
+              "满的；饱的"
+            ],
+            [
+              "car",
+              "小轿车"
+            ],
+            [
+              "when",
+              "什么时候"
+            ],
+            [
+              "do",
+              "（放在动词前构成否定句或疑问句）"
+            ],
+            [
+              "at",
+              "（指时间的某一点）"
+            ],
+            [
+              "breakfast",
+              "早饭"
+            ],
+            [
+              "to",
+              "向；朝着（方向或地点）"
+            ],
+            [
+              "lunch",
+              "午饭"
+            ],
+            [
+              "bed",
+              "床铺"
+            ]
+          ]
+        },
+        {
+          "lesson": "短语",
+          "words": [
+            [
+              "get into",
+              "上车（小轿车）"
+            ],
+            [
+              "get up",
+              "起床"
+            ],
+            [
+              "go to school",
+              "去上学"
+            ],
+            [
+              "go to bed",
+              "去睡觉"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 6",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "milk",
+              "牛奶"
+            ],
+            [
+              "bread",
+              "面包"
+            ],
+            [
+              "tomato",
+              "西红柿"
+            ],
+            [
+              "them",
+              "他们；它们（宾格）"
+            ],
+            [
+              "welcome",
+              "欢迎"
+            ],
+            [
+              "dinner",
+              "晚饭"
+            ],
+            [
+              "beef",
+              "牛肉"
+            ],
+            [
+              "potato",
+              "马铃薯"
+            ],
+            [
+              "vegetable",
+              "蔬菜"
+            ],
+            [
+              "some",
+              "一些"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 7",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "Christmas",
+              "圣诞节"
+            ],
+            [
+              "robot",
+              "机器人"
+            ],
+            [
+              "tree",
+              "树"
+            ],
+            [
+              "email",
+              "电子邮件"
+            ],
+            [
+              "merry",
+              "快乐的"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "Unit 8",
+      "lessons": [
+        {
+          "lesson": "单词",
+          "words": [
+            [
+              "spring",
+              "春天"
+            ],
+            [
+              "festival",
+              "节日"
+            ],
+            [
+              "Chinese",
+              "中国的"
+            ],
+            [
+              "spend",
+              "度过"
+            ],
+            [
+              "we",
+              "我们"
+            ],
+            [
+              "make",
+              "制作"
+            ],
+            [
+              "dumpling",
+              "饺子"
+            ],
+            [
+              "family",
+              "家庭"
+            ],
+            [
+              "watch",
+              "观看"
+            ],
+            [
+              "TV",
+              "电视"
+            ],
+            [
+              "get",
+              "得到"
+            ],
+            [
+              "money",
+              "钱"
+            ],
+            [
+              "fair",
+              "庙会"
+            ],
+            [
+              "friend",
+              "朋友"
+            ],
+            [
+              "say",
+              "说"
+            ]
+          ]
+        },
+        {
+          "lesson": "短语",
+          "words": [
+            [
+              "the Spring Festival",
+              "春节"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 94
+}
