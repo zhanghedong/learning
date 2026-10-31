@@ -1,0 +1,4485 @@
+{
+ "version": 1,
+ "title": "义务教育教科书 英语 八年级上册 (Unit 1 - Unit 3 & 单元小测)",
+ "items": [
+  {
+   "id": "u1-believe",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "believe",
+   "answers": [
+    "believe"
+   ],
+   "meaning": "v. 相信；把（某事）当真",
+   "phonetic": "/bɪˈliːv/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-sick",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "sick",
+   "answers": [
+    "sick"
+   ],
+   "meaning": "adj. 生病的",
+   "phonetic": "/sɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-thanks",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "thanks",
+   "answers": [
+    "thanks"
+   ],
+   "meaning": "excl. 谢谢，多谢 n. 感谢；谢意",
+   "phonetic": "/θæŋks/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-director",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "director",
+   "answers": [
+    "director"
+   ],
+   "meaning": "n. 导演",
+   "phonetic": "/dəˈrektə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-vet",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "vet",
+   "answers": [
+    "vet"
+   ],
+   "meaning": "n. 兽医",
+   "phonetic": "/vet/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-postman",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "postman",
+   "answers": [
+    "postman"
+   ],
+   "meaning": "n. 邮递员，邮差",
+   "phonetic": "/ˈpəʊstmən/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-builder",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "builder",
+   "answers": [
+    "builder"
+   ],
+   "meaning": "n. 建筑工人",
+   "phonetic": "/ˈbɪldə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-excellent",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "excellent",
+   "answers": [
+    "excellent"
+   ],
+   "meaning": "adj. 优秀的；杰出的；极好的",
+   "phonetic": "/ˈeksələnt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-dancer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "dancer",
+   "answers": [
+    "dancer"
+   ],
+   "meaning": "n. 舞蹈演员；跳舞者",
+   "phonetic": "/ˈdɑːnsə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-artist",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "artist",
+   "answers": [
+    "artist"
+   ],
+   "meaning": "n. 艺术家；（尤指）画家",
+   "phonetic": "/ˈɑːtɪst/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-lively",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "lively",
+   "answers": [
+    "lively"
+   ],
+   "meaning": "adj. 活跃热情的；精力充沛的",
+   "phonetic": "/ˈlaɪvli/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-guide",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "guide",
+   "answers": [
+    "guide"
+   ],
+   "meaning": "n. 导游；指南 v. 指引；指导",
+   "phonetic": "/ɡaɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-news",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "news",
+   "answers": [
+    "news"
+   ],
+   "meaning": "n. 新闻；消息",
+   "phonetic": "/njuːz/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-pilot",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "pilot",
+   "answers": [
+    "pilot"
+   ],
+   "meaning": "n. 飞行员",
+   "phonetic": "/ˈpaɪlət/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-reporter",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "reporter",
+   "answers": [
+    "reporter"
+   ],
+   "meaning": "n. 记者",
+   "phonetic": "/rɪˈpɔːtə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-scientist",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "scientist",
+   "answers": [
+    "scientist"
+   ],
+   "meaning": "n. 科学家；科研人员",
+   "phonetic": "/ˈsaɪəntɪst/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-maybe",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "maybe",
+   "answers": [
+    "maybe"
+   ],
+   "meaning": "adv. 或许",
+   "phonetic": "/ˈmeɪbi/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-send",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "send",
+   "answers": [
+    "send"
+   ],
+   "meaning": "v. 邮寄；发送；传达；派遣",
+   "phonetic": "/send/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-report",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "report",
+   "answers": [
+    "report"
+   ],
+   "meaning": "n., v. 报道",
+   "phonetic": "/rɪˈpɔːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-letter",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "letter",
+   "answers": [
+    "letter"
+   ],
+   "meaning": "n. 信；信件",
+   "phonetic": "/ˈletə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-paint",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "paint",
+   "answers": [
+    "paint"
+   ],
+   "meaning": "v. 用颜料画",
+   "phonetic": "/peɪnt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-eraser",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "eraser",
+   "answers": [
+    "eraser"
+   ],
+   "meaning": "n. 橡皮",
+   "phonetic": "/ɪˈreɪzə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-tool",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "tool",
+   "answers": [
+    "tool"
+   ],
+   "meaning": "n. 工具",
+   "phonetic": "/tuːl/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-actor",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "actor",
+   "answers": [
+    "actor"
+   ],
+   "meaning": "n. 演员",
+   "phonetic": "/ˈæktə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-actress",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "actress",
+   "answers": [
+    "actress"
+   ],
+   "meaning": "n. 女演员",
+   "phonetic": "/ˈæktrəs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-fireman",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "fireman",
+   "answers": [
+    "fireman"
+   ],
+   "meaning": "n. 消防队员",
+   "phonetic": "/ˈfaɪəmən/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-uniform",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "uniform",
+   "answers": [
+    "uniform"
+   ],
+   "meaning": "n. 制服；校服",
+   "phonetic": "/ˈjuːnɪfɔːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-rush",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "rush",
+   "answers": [
+    "rush"
+   ],
+   "meaning": "v. 迅速移动",
+   "phonetic": "/rʌʃ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-dangerous",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "dangerous",
+   "answers": [
+    "dangerous"
+   ],
+   "meaning": "adj. 有危险的",
+   "phonetic": "/ˈdeɪndʒərəs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-brave",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "brave",
+   "answers": [
+    "brave"
+   ],
+   "meaning": "adj. 勇敢的",
+   "phonetic": "/breɪv/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-tiny",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "tiny",
+   "answers": [
+    "tiny"
+   ],
+   "meaning": "adj. 极小的；微小的",
+   "phonetic": "/ˈtaɪni/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-taikonaut",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "taikonaut",
+   "answers": [
+    "taikonaut"
+   ],
+   "meaning": "n. （中国的）航天员",
+   "phonetic": "/ˈtaɪkənɔːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-railway",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "railway",
+   "answers": [
+    "railway"
+   ],
+   "meaning": "n. 铁路；铁道",
+   "phonetic": "/ˈreɪlweɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-modern",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "modern",
+   "answers": [
+    "modern"
+   ],
+   "meaning": "adj. 现代的；当代的；近代的",
+   "phonetic": "/ˈmɒdn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-future",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "future",
+   "answers": [
+    "future"
+   ],
+   "meaning": "n. 将来；未来",
+   "phonetic": "/ˈfjuːtʃə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-alarm",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "alarm",
+   "answers": [
+    "alarm"
+   ],
+   "meaning": "n. 警报；闹铃",
+   "phonetic": "/əˈlɑːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-receive",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "receive",
+   "answers": [
+    "receive"
+   ],
+   "meaning": "v. 受到，收到",
+   "phonetic": "/rɪˈsiːv/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-sofa",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "sofa",
+   "answers": [
+    "sofa"
+   ],
+   "meaning": "n. 沙发",
+   "phonetic": "/ˈsəʊfə/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-blind",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "blind",
+   "answers": [
+    "blind"
+   ],
+   "meaning": "adj. 瞎的；失明的",
+   "phonetic": "/blaɪnd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-patient",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "patient",
+   "answers": [
+    "patient"
+   ],
+   "meaning": "n. 病人 adj. 有耐心的",
+   "phonetic": "/ˈpeɪʃnt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-according-to",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "according (to)",
+   "answers": [
+    "according",
+    "according to"
+   ],
+   "meaning": "prep. 据（……所说）；按（……所报道）",
+   "phonetic": "/əˈkɔːdɪŋ tu/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-grandpa",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "grandpa",
+   "answers": [
+    "grandpa"
+   ],
+   "meaning": "n. 爷爷；姥爷",
+   "phonetic": "/ˈɡrænpɑː/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-piano",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "piano",
+   "answers": [
+    "piano"
+   ],
+   "meaning": "n. 钢琴",
+   "phonetic": "/piˈænəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-interested",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "interested",
+   "answers": [
+    "interested"
+   ],
+   "meaning": "adj. 感兴趣的；关心的",
+   "phonetic": "/ˈɪntrəstɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-direct",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "direct",
+   "answers": [
+    "direct"
+   ],
+   "meaning": "v. 导演；指挥 adj. 直接的",
+   "phonetic": "/dəˈrekt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-movie",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "movie",
+   "answers": [
+    "movie"
+   ],
+   "meaning": "n. 电影",
+   "phonetic": "/ˈmuːvi/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-illness",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "illness",
+   "answers": [
+    "illness"
+   ],
+   "meaning": "n. （身体或精神上的）疾病，病",
+   "phonetic": "/ˈɪlnəs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-explorer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "explorer",
+   "answers": [
+    "explorer"
+   ],
+   "meaning": "n. 探险者",
+   "phonetic": "/ɪkˈsplɔːrə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-curious",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "curious",
+   "answers": [
+    "curious"
+   ],
+   "meaning": "adj. 求知欲强的；好奇的",
+   "phonetic": "/ˈkjʊəriəs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-secret",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "secret",
+   "answers": [
+    "secret"
+   ],
+   "meaning": "n. 秘密",
+   "phonetic": "/ˈsiːkrət/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-tomorrow",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "tomorrow",
+   "answers": [
+    "tomorrow"
+   ],
+   "meaning": "adv. 在明天 n. 明天",
+   "phonetic": "/təˈmɒrəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-opinion",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "opinion",
+   "answers": [
+    "opinion"
+   ],
+   "meaning": "n. 意见；想法",
+   "phonetic": "/əˈpɪnjən/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-course",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "course",
+   "answers": [
+    "course"
+   ],
+   "meaning": "n. 课程；进程",
+   "phonetic": "/kɔːs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-officer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "officer",
+   "answers": [
+    "officer"
+   ],
+   "meaning": "n. 高级职员，官员；军官",
+   "phonetic": "/ˈɒfɪsə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-vote",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "vote",
+   "answers": [
+    "vote"
+   ],
+   "meaning": "v. 投票；选出",
+   "phonetic": "/vəʊt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-choose",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "choose",
+   "answers": [
+    "choose"
+   ],
+   "meaning": "v. 选择；挑选",
+   "phonetic": "/tʃuːz/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-lawyer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "lawyer",
+   "answers": [
+    "lawyer"
+   ],
+   "meaning": "n. 律师",
+   "phonetic": "/ˈlɔːjə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-competition",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "competition",
+   "answers": [
+    "competition"
+   ],
+   "meaning": "n. 比赛；竞赛",
+   "phonetic": "/ˌkɒmpəˈtɪʃn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-encourage",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "encourage",
+   "answers": [
+    "encourage"
+   ],
+   "meaning": "v. 鼓励；激励",
+   "phonetic": "/ɪnˈkʌrɪdʒ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-proud",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "proud",
+   "answers": [
+    "proud"
+   ],
+   "meaning": "adj. 骄傲的；自豪的",
+   "phonetic": "/praʊd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-success",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "success",
+   "answers": [
+    "success"
+   ],
+   "meaning": "n. 成功；胜利",
+   "phonetic": "/səkˈses/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-pioneer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "pioneer",
+   "answers": [
+    "pioneer"
+   ],
+   "meaning": "n. 先锋；带头人；开发者",
+   "phonetic": "/ˌpaɪəˈnɪə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-journey",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "journey",
+   "answers": [
+    "journey"
+   ],
+   "meaning": "n. （尤指长途）旅行",
+   "phonetic": "/ˈdʒɜːni/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-training",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "training",
+   "answers": [
+    "training"
+   ],
+   "meaning": "n. 训练；培训",
+   "phonetic": "/ˈtreɪnɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-without",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "without",
+   "answers": [
+    "without"
+   ],
+   "meaning": "prep. 没有；缺乏",
+   "phonetic": "/wɪˈðaʊt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-ready",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "ready",
+   "answers": [
+    "ready"
+   ],
+   "meaning": "adj. 准备好",
+   "phonetic": "/ˈredi/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-nearly",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "nearly",
+   "answers": [
+    "nearly"
+   ],
+   "meaning": "adv. 差不多；将近",
+   "phonetic": "/ˈnɪəli/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-chance",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "chance",
+   "answers": [
+    "chance"
+   ],
+   "meaning": "n. 机会；机遇",
+   "phonetic": "/tʃɑːns/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-spaceship",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "spaceship",
+   "answers": [
+    "spaceship"
+   ],
+   "meaning": "n. （航天）飞船",
+   "phonetic": "/ˈspeɪsʃɪp/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-succeed",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "succeed",
+   "answers": [
+    "succeed"
+   ],
+   "meaning": "v. 成功；实现目标",
+   "phonetic": "/səkˈsiːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-act",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "act",
+   "answers": [
+    "act"
+   ],
+   "meaning": "n. 行为 v. 扮演；行动",
+   "phonetic": "/ækt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-especially",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "especially",
+   "answers": [
+    "especially"
+   ],
+   "meaning": "adv. 尤其；特别",
+   "phonetic": "/ɪˈspeʃəli/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-quality",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "quality",
+   "answers": [
+    "quality"
+   ],
+   "meaning": "n. 人品；素质；质量 adj. 优质的",
+   "phonetic": "/ˈkwɒləti/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-smile",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "smile",
+   "answers": [
+    "smile"
+   ],
+   "meaning": "n., v. 微笑",
+   "phonetic": "/smaɪl/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-zookeeper",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "zookeeper",
+   "answers": [
+    "zookeeper"
+   ],
+   "meaning": "n. 动物园管理员",
+   "phonetic": "/ˈzuːkiːpə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-achieve",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "achieve",
+   "answers": [
+    "achieve"
+   ],
+   "meaning": "v. 达到；完成；成功",
+   "phonetic": "/əˈtʃiːv/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-design",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "design",
+   "answers": [
+    "design"
+   ],
+   "meaning": "v., n. 设计；构思；计划",
+   "phonetic": "/dɪˈzaɪn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-model",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "model",
+   "answers": [
+    "model"
+   ],
+   "meaning": "n. 模型；模特儿",
+   "phonetic": "/ˈmɒdl/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-scientific",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "scientific",
+   "answers": [
+    "scientific"
+   ],
+   "meaning": "adj. 科学（上）的",
+   "phonetic": "/ˌsaɪənˈtɪfɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-knowledge",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "knowledge",
+   "answers": [
+    "knowledge"
+   ],
+   "meaning": "n. 知识；学问",
+   "phonetic": "/ˈnɒlɪdʒ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-challenge",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "challenge",
+   "answers": [
+    "challenge"
+   ],
+   "meaning": "n. 挑战",
+   "phonetic": "/ˈtʃælɪndʒ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-however",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "however",
+   "answers": [
+    "however"
+   ],
+   "meaning": "adv. 然而",
+   "phonetic": "/haʊˈevə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-shelf",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "shelf",
+   "answers": [
+    "shelf"
+   ],
+   "meaning": "n. 架子，搁板 (pl. shelves)",
+   "phonetic": "/ʃelf/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-reader",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "reader",
+   "answers": [
+    "reader"
+   ],
+   "meaning": "n. 读者",
+   "phonetic": "/ˈriːdə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-record",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "record",
+   "answers": [
+    "record"
+   ],
+   "meaning": "n. 记录 /rɪˈkɔːd/ v. 记录",
+   "phonetic": "/ˈrekɔːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-dentist",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "dentist",
+   "answers": [
+    "dentist"
+   ],
+   "meaning": "n. 牙科医生",
+   "phonetic": "/ˈdentɪst/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-reason",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "reason",
+   "answers": [
+    "reason"
+   ],
+   "meaning": "n. 原因；理由",
+   "phonetic": "/ˈriːzn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-research",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "research",
+   "answers": [
+    "research"
+   ],
+   "meaning": "n. 研究；调查",
+   "phonetic": "/rɪˈsɜːtʃ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-tourist",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "tourist",
+   "answers": [
+    "tourist"
+   ],
+   "meaning": "n. 游客",
+   "phonetic": "/ˈtʊərɪst/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-speech",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "speech",
+   "answers": [
+    "speech"
+   ],
+   "meaning": "n. 演说；讲话",
+   "phonetic": "/spiːtʃ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-term",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "term",
+   "answers": [
+    "term"
+   ],
+   "meaning": "n. 学期",
+   "phonetic": "/tɜːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-waitress",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "waitress",
+   "answers": [
+    "waitress"
+   ],
+   "meaning": "n. 女服务员",
+   "phonetic": "/ˈweɪtrəs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-greet",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "greet",
+   "answers": [
+    "greet"
+   ],
+   "meaning": "v. 和（某人）打招呼；欢迎",
+   "phonetic": "/ɡriːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-guest",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "guest",
+   "answers": [
+    "guest"
+   ],
+   "meaning": "n. 客人；宾客",
+   "phonetic": "/ɡest/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-lead",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "lead",
+   "answers": [
+    "lead"
+   ],
+   "meaning": "v. 带路；领路",
+   "phonetic": "/liːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-boring",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "boring",
+   "answers": [
+    "boring"
+   ],
+   "meaning": "adj. 没趣的；令人厌倦的",
+   "phonetic": "/ˈbɔːrɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-customer",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "customer",
+   "answers": [
+    "customer"
+   ],
+   "meaning": "n. 顾客",
+   "phonetic": "/ˈkʌstəmə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-conversation",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "conversation",
+   "answers": [
+    "conversation"
+   ],
+   "meaning": "n. 交谈，谈话",
+   "phonetic": "/ˌkɒnvəˈseɪʃn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-manager",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "manager",
+   "answers": [
+    "manager"
+   ],
+   "meaning": "n. 经理",
+   "phonetic": "/ˈmænɪdʒə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-noisy",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "noisy",
+   "answers": [
+    "noisy"
+   ],
+   "meaning": "adj. 吵闹的；充满噪声的",
+   "phonetic": "/ˈnɔɪzi/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-simple",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "simple",
+   "answers": [
+    "simple"
+   ],
+   "meaning": "adj. 简单的；易做的",
+   "phonetic": "/ˈsɪmpl/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-successful",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "successful",
+   "answers": [
+    "successful"
+   ],
+   "meaning": "adj. 获得成功的；有成就的",
+   "phonetic": "/səkˈsesfl/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-show-around",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "show ... around",
+   "answers": [
+    "show around"
+   ],
+   "meaning": "领……参观",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-get-sick",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "get sick",
+   "answers": [
+    "get sick"
+   ],
+   "meaning": "生病；患病",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-thanks-to",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "thanks to",
+   "answers": [
+    "thanks to"
+   ],
+   "meaning": "幸亏；由于",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-care-about",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "care about",
+   "answers": [
+    "care about"
+   ],
+   "meaning": "关注；关心",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-in-ones-mind",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "in one's mind",
+   "answers": [
+    "in one's mind"
+   ],
+   "meaning": "在某人的心中",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-be-on-fire",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "be on fire",
+   "answers": [
+    "be on fire"
+   ],
+   "meaning": "着火；失火",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-put-out",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "put out",
+   "answers": [
+    "put out"
+   ],
+   "meaning": "扑灭，熄灭",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-pay-off",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "pay off",
+   "answers": [
+    "pay off"
+   ],
+   "meaning": "成功，奏效；付清",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-as-long-as",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "as long as",
+   "answers": [
+    "as long as"
+   ],
+   "meaning": "只要",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-according-to-2",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "according to",
+   "answers": [
+    "according to"
+   ],
+   "meaning": "根据；依照",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-be-become-interested-in",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "be / become interested in",
+   "answers": [
+    "be interested in",
+    "become interested in"
+   ],
+   "meaning": "对……感兴趣",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-at-the-age-of",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "at the age of ...",
+   "answers": [
+    "at the age of"
+   ],
+   "meaning": "在……岁时",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-be-curious-about",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "be curious about",
+   "answers": [
+    "be curious about"
+   ],
+   "meaning": "对……感到好奇",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-of-course",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "of course",
+   "answers": [
+    "of course"
+   ],
+   "meaning": "当然",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-take-it-easy",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "take it easy",
+   "answers": [
+    "take it easy"
+   ],
+   "meaning": "别急；沉住气",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-encourage-sb-to-do-sth",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "encourage sb. to do sth.",
+   "answers": [
+    "encourage sb to do sth"
+   ],
+   "meaning": "鼓励某人做某事",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-dream-about",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "dream about",
+   "answers": [
+    "dream about"
+   ],
+   "meaning": "梦想",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-in-order-to",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "in order to",
+   "answers": [
+    "in order to"
+   ],
+   "meaning": "为了……",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第16题"
+  },
+  {
+   "id": "u1-buy-sb-sth-buy-sth-for-sb",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "buy sb. sth. (buy sth. for sb.)",
+   "answers": [
+    "buy sb sth",
+    "buy sth for sb"
+   ],
+   "meaning": "给某人买某物",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-from-to",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "from ... to ...",
+   "answers": [
+    "from to"
+   ],
+   "meaning": "从……到……",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-check-in",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "check in",
+   "answers": [
+    "check in"
+   ],
+   "meaning": "登记",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u1-no-problem",
+   "unit": "Unit 1",
+   "unitTitle": "My Dream Job",
+   "text": "no problem",
+   "answers": [
+    "no problem"
+   ],
+   "meaning": "没问题",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-literature",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "literature",
+   "answers": [
+    "literature"
+   ],
+   "meaning": "n. 文学；文学作品",
+   "phonetic": "/ˈlɪtrətʃə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-calligraphy",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "calligraphy",
+   "answers": [
+    "calligraphy"
+   ],
+   "meaning": "n. 书法；书法艺术",
+   "phonetic": "/kəˈlɪɡrəfi/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-swan",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "swan",
+   "answers": [
+    "swan"
+   ],
+   "meaning": "n. 天鹅",
+   "phonetic": "/swɒn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-west",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "west",
+   "answers": [
+    "west"
+   ],
+   "meaning": "n. 西；西方 adj. 西方的",
+   "phonetic": "/west/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-teahouse",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "teahouse",
+   "answers": [
+    "teahouse"
+   ],
+   "meaning": "n. 茶馆",
+   "phonetic": "/ˈtiːhaʊs/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-ballet",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "ballet",
+   "answers": [
+    "ballet"
+   ],
+   "meaning": "n. 芭蕾舞剧；芭蕾舞",
+   "phonetic": "/ˈbæleɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-century",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "century",
+   "answers": [
+    "century"
+   ],
+   "meaning": "n. 百年；世纪",
+   "phonetic": "/ˈsentʃəri/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-express",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "express",
+   "answers": [
+    "express"
+   ],
+   "meaning": "v. 表达",
+   "phonetic": "/ɪkˈspres/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-spirit",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "spirit",
+   "answers": [
+    "spirit"
+   ],
+   "meaning": "n. 精神；情绪",
+   "phonetic": "/ˈspɪrɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-classic",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "classic",
+   "answers": [
+    "classic"
+   ],
+   "meaning": "adj. 最优秀的；有代表性的；传统的",
+   "phonetic": "/ˈklæsɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-novel",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "novel",
+   "answers": [
+    "novel"
+   ],
+   "meaning": "n. 小说",
+   "phonetic": "/ˈnɒvl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-oil",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "oil",
+   "answers": [
+    "oil"
+   ],
+   "meaning": "n. （绘画用）油彩；石油",
+   "phonetic": "/ɔɪl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-calligrapher",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "calligrapher",
+   "answers": [
+    "calligrapher"
+   ],
+   "meaning": "n. 书法家",
+   "phonetic": "/kəˈlɪɡrəfə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-ancient",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "ancient",
+   "answers": [
+    "ancient"
+   ],
+   "meaning": "adj. 古代的；古老的",
+   "phonetic": "/ˈeɪnʃənt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-photography",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "photography",
+   "answers": [
+    "photography"
+   ],
+   "meaning": "n. 摄影；摄影艺术",
+   "phonetic": "/fəˈtɒɡrəfi/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-wood",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "wood",
+   "answers": [
+    "wood"
+   ],
+   "meaning": "n. 木；木头；木柴",
+   "phonetic": "/wʊd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sand",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "sand",
+   "answers": [
+    "sand"
+   ],
+   "meaning": "n. 沙；沙子",
+   "phonetic": "/sænd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-correct",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "correct",
+   "answers": [
+    "correct"
+   ],
+   "meaning": "adj. 正确的 v. 改正",
+   "phonetic": "/kəˈrekt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-wow",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "wow",
+   "answers": [
+    "wow"
+   ],
+   "meaning": "excl. 哇，呀",
+   "phonetic": "/waʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-pity",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "pity",
+   "answers": [
+    "pity"
+   ],
+   "meaning": "n. 遗憾，可惜",
+   "phonetic": "/ˈpɪti/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-type",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "type",
+   "answers": [
+    "type"
+   ],
+   "meaning": "n. 类型，种类 v. 打字",
+   "phonetic": "/taɪp/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-musical",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "musical",
+   "answers": [
+    "musical"
+   ],
+   "meaning": "adj. 音乐的",
+   "phonetic": "/ˈmjuːzɪkl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-instrument",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "instrument",
+   "answers": [
+    "instrument"
+   ],
+   "meaning": "n. 乐器；仪器；工具",
+   "phonetic": "/ˈɪnstrəmənt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-string",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "string",
+   "answers": [
+    "string"
+   ],
+   "meaning": "n. 弦",
+   "phonetic": "/strɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-beat",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "beat",
+   "answers": [
+    "beat"
+   ],
+   "meaning": "n. 节拍 v. 击打；打败",
+   "phonetic": "/biːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-keyboard",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "keyboard",
+   "answers": [
+    "keyboard"
+   ],
+   "meaning": "n. 琴键；键盘",
+   "phonetic": "/ˈkiːbɔːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-violin",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "violin",
+   "answers": [
+    "violin"
+   ],
+   "meaning": "n. 小提琴",
+   "phonetic": "/ˌvaɪəˈlɪn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-belong",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "belong",
+   "answers": [
+    "belong"
+   ],
+   "meaning": "v. 应在（某处）；适应",
+   "phonetic": "/bɪˈlɒŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-drum",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "drum",
+   "answers": [
+    "drum"
+   ],
+   "meaning": "n. 鼓",
+   "phonetic": "/drʌm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-trumpet",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "trumpet",
+   "answers": [
+    "trumpet"
+   ],
+   "meaning": "n. 小号；喇叭",
+   "phonetic": "/ˈtrʌmpɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-language",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "language",
+   "answers": [
+    "language"
+   ],
+   "meaning": "n. 语言",
+   "phonetic": "/ˈlæŋɡwɪdʒ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-allow",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "allow",
+   "answers": [
+    "allow"
+   ],
+   "meaning": "v. 允许；使可能",
+   "phonetic": "/əˈlaʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-communicate",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "communicate",
+   "answers": [
+    "communicate"
+   ],
+   "meaning": "v. 交流；沟通",
+   "phonetic": "/kəˈmjuːnɪkeɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-feeling",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "feeling",
+   "answers": [
+    "feeling"
+   ],
+   "meaning": "n. 感觉，感触；情感",
+   "phonetic": "/ˈfiːlɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-relax",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "relax",
+   "answers": [
+    "relax"
+   ],
+   "meaning": "v. （使）放松",
+   "phonetic": "/rɪˈlæks/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-afraid",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "afraid",
+   "answers": [
+    "afraid"
+   ],
+   "meaning": "adj. 害怕；担心",
+   "phonetic": "/əˈfreɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-medium",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "medium",
+   "answers": [
+    "medium"
+   ],
+   "meaning": "n. 媒介，手段 adj. 中等的",
+   "phonetic": "/ˈmiːdiəm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-eye",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "eye",
+   "answers": [
+    "eye"
+   ],
+   "meaning": "n. 眼睛",
+   "phonetic": "/aɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-pigeon",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "pigeon",
+   "answers": [
+    "pigeon"
+   ],
+   "meaning": "n. 鸽子",
+   "phonetic": "/ˈpɪdʒɪn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-opera",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "opera",
+   "answers": [
+    "opera"
+   ],
+   "meaning": "n. 歌剧",
+   "phonetic": "/ˈɒprə/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-strict",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "strict",
+   "answers": [
+    "strict"
+   ],
+   "meaning": "adj. 要求严格的；严厉的",
+   "phonetic": "/strɪkt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-perfect",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "perfect",
+   "answers": [
+    "perfect"
+   ],
+   "meaning": "adj. 完美的；极好的",
+   "phonetic": "/ˈpɜːfɪkt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-painter",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "painter",
+   "answers": [
+    "painter"
+   ],
+   "meaning": "n. 画家；油漆匠",
+   "phonetic": "/ˈpeɪntə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-popular",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "popular",
+   "answers": [
+    "popular"
+   ],
+   "meaning": "adj. 广受欢迎的；大众的",
+   "phonetic": "/ˈpɒpjələ(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sentence",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "sentence",
+   "answers": [
+    "sentence"
+   ],
+   "meaning": "n. 句子",
+   "phonetic": "/ˈsentəns/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-huge",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "huge",
+   "answers": [
+    "huge"
+   ],
+   "meaning": "adj. 巨大的；极多的",
+   "phonetic": "/hjuːdʒ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-gate",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "gate",
+   "answers": [
+    "gate"
+   ],
+   "meaning": "n. 大门；栅栏门",
+   "phonetic": "/ɡeɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-tower",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "tower",
+   "answers": [
+    "tower"
+   ],
+   "meaning": "n. 塔；塔楼",
+   "phonetic": "/ˈtaʊə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-value",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "value",
+   "answers": [
+    "value"
+   ],
+   "meaning": "v. 重视；珍视 n. 价值",
+   "phonetic": "/ˈvæljuː/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-northern",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "northern",
+   "answers": [
+    "northern"
+   ],
+   "meaning": "adj. 北方的；北部的",
+   "phonetic": "/ˈnɔːðən/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-dynasty",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "dynasty",
+   "answers": [
+    "dynasty"
+   ],
+   "meaning": "n. 王朝；朝代",
+   "phonetic": "/ˈdɪnəsti/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-amazing",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "amazing",
+   "answers": [
+    "amazing"
+   ],
+   "meaning": "adj. 令人大为惊奇的",
+   "phonetic": "/əˈmeɪzɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-centimetre",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "centimetre",
+   "answers": [
+    "centimetre"
+   ],
+   "meaning": "n. 厘米",
+   "phonetic": "/ˈsentɪmiːtə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-pull",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "pull",
+   "answers": [
+    "pull"
+   ],
+   "meaning": "v. 拉；拖；拽",
+   "phonetic": "/pʊl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-shout",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "shout",
+   "answers": [
+    "shout"
+   ],
+   "meaning": "v. 大声说；叫",
+   "phonetic": "/ʃaʊt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-riverside",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "riverside",
+   "answers": [
+    "riverside"
+   ],
+   "meaning": "n. 河畔；河岸",
+   "phonetic": "/ˈrɪvəsaɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-riverbank",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "riverbank",
+   "answers": [
+    "riverbank"
+   ],
+   "meaning": "n. 河堤；河岸",
+   "phonetic": "/ˈrɪvəbæŋk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-mark",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "mark",
+   "answers": [
+    "mark"
+   ],
+   "meaning": "v. 标示 n. 符号；记号",
+   "phonetic": "/mɑːk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-businessman",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "businessman",
+   "answers": [
+    "businessman"
+   ],
+   "meaning": "n. 商界人员；企业家",
+   "phonetic": "/ˈbɪznəsmæn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-explore",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "explore",
+   "answers": [
+    "explore"
+   ],
+   "meaning": "v. 探索；考察",
+   "phonetic": "/ɪkˈsplɔː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-crowd",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "crowd",
+   "answers": [
+    "crowd"
+   ],
+   "meaning": "n. 人群 v. 挤满",
+   "phonetic": "/kraʊd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-besides",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "besides",
+   "answers": [
+    "besides"
+   ],
+   "meaning": "prep. 除……之外（还） adv. 而且",
+   "phonetic": "/bɪˈsaɪdz/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-nothing",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "nothing",
+   "answers": [
+    "nothing"
+   ],
+   "meaning": "pron. 没有什么",
+   "phonetic": "/ˈnʌθɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-anybody",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "anybody",
+   "answers": [
+    "anybody"
+   ],
+   "meaning": "pron. 任何人 (anyone)",
+   "phonetic": "/ˈenibɒdi/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-nobody",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "nobody",
+   "answers": [
+    "nobody"
+   ],
+   "meaning": "pron. 没有人",
+   "phonetic": "/ˈnəʊbədi/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-anything",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "anything",
+   "answers": [
+    "anything"
+   ],
+   "meaning": "pron. 任何东西，任何事物",
+   "phonetic": "/ˈeniθɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-harm",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "harm",
+   "answers": [
+    "harm"
+   ],
+   "meaning": "v., n. 损害；伤害",
+   "phonetic": "/hɑːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-somewhere",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "somewhere",
+   "answers": [
+    "somewhere"
+   ],
+   "meaning": "adv. 在某处；到某处",
+   "phonetic": "/ˈsʌmweə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-someone",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "someone",
+   "answers": [
+    "someone"
+   ],
+   "meaning": "pron. 某人 (somebody)",
+   "phonetic": "/ˈsʌmwʌn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-anywhere",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "anywhere",
+   "answers": [
+    "anywhere"
+   ],
+   "meaning": "adv., pron. 任何地方",
+   "phonetic": "/ˈeniweə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-create",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "create",
+   "answers": [
+    "create"
+   ],
+   "meaning": "v. 创造",
+   "phonetic": "/kriˈeɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-magical",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "magical",
+   "answers": [
+    "magical"
+   ],
+   "meaning": "adj. 有魔力的；奇妙的",
+   "phonetic": "/ˈmædʒɪkl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-real",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "real",
+   "answers": [
+    "real"
+   ],
+   "meaning": "adj. 实际存在的；真实的",
+   "phonetic": "/ˈriːəl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-unknown",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "unknown",
+   "answers": [
+    "unknown"
+   ],
+   "meaning": "adj. 未知的；无名的",
+   "phonetic": "/ˌʌnˈnəʊn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-anytime",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "anytime",
+   "answers": [
+    "anytime"
+   ],
+   "meaning": "adv. 在任何时候",
+   "phonetic": "/ˈeniˌtaɪm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-magic",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "magic",
+   "answers": [
+    "magic"
+   ],
+   "meaning": "adj. 有魔力的 n. 魔法",
+   "phonetic": "/ˈmædʒɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-impossible",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "impossible",
+   "answers": [
+    "impossible"
+   ],
+   "meaning": "adj. 不可能的",
+   "phonetic": "/ɪmˈpɒsəbl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-concert",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "concert",
+   "answers": [
+    "concert"
+   ],
+   "meaning": "n. 音乐会",
+   "phonetic": "/ˈkɒnsət/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sweet",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "sweet",
+   "answers": [
+    "sweet"
+   ],
+   "meaning": "adj. 悦耳的；甜的",
+   "phonetic": "/swiːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-fat",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "fat",
+   "answers": [
+    "fat"
+   ],
+   "meaning": "adj. 肥胖的 n. 脂肪",
+   "phonetic": "/fæt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-awful",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "awful",
+   "answers": [
+    "awful"
+   ],
+   "meaning": "adj. 很坏的；极讨厌的",
+   "phonetic": "/ˈɔːfl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-folk",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "folk",
+   "answers": [
+    "folk"
+   ],
+   "meaning": "adj. 传统民间的；民俗的",
+   "phonetic": "/fəʊk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-shape",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "shape",
+   "answers": [
+    "shape"
+   ],
+   "meaning": "n. 形状；外形",
+   "phonetic": "/ʃeɪp/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-character",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "character",
+   "answers": [
+    "character"
+   ],
+   "meaning": "n. 文字；角色；性格",
+   "phonetic": "/ˈkærəktə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-upside",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "upside",
+   "answers": [
+    "upside"
+   ],
+   "meaning": "n. 正面",
+   "phonetic": "/ˈʌpsaɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-symbol",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "symbol",
+   "answers": [
+    "symbol"
+   ],
+   "meaning": "n. 象征；符号",
+   "phonetic": "/ˈsɪmbl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-clay",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "clay",
+   "answers": [
+    "clay"
+   ],
+   "meaning": "n. 黏土；陶土",
+   "phonetic": "/kleɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-immediately",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "immediately",
+   "answers": [
+    "immediately"
+   ],
+   "meaning": "adv. 立即；马上",
+   "phonetic": "/ɪˈmiːdiətli/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-mask",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "mask",
+   "answers": [
+    "mask"
+   ],
+   "meaning": "n. 面具；面罩",
+   "phonetic": "/mɑːsk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-role",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "role",
+   "answers": [
+    "role"
+   ],
+   "meaning": "n. 角色",
+   "phonetic": "/rəʊl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-style",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "style",
+   "answers": [
+    "style"
+   ],
+   "meaning": "n. 方式；作风",
+   "phonetic": "/staɪl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-among",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "among",
+   "answers": [
+    "among"
+   ],
+   "meaning": "prep. 在……中",
+   "phonetic": "/əˈmʌŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-fan",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "fan",
+   "answers": [
+    "fan"
+   ],
+   "meaning": "n. 粉丝；风扇",
+   "phonetic": "/fæn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-pleasant",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "pleasant",
+   "answers": [
+    "pleasant"
+   ],
+   "meaning": "adj. 愉快的；友好的",
+   "phonetic": "/ˈpleznt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-creative",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "creative",
+   "answers": [
+    "creative"
+   ],
+   "meaning": "adj. 创造（性）的；创作的",
+   "phonetic": "/kriˈeɪtɪv/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-musician",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "musician",
+   "answers": [
+    "musician"
+   ],
+   "meaning": "n. 音乐家",
+   "phonetic": "/mjuˈzɪʃn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-relaxed",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "relaxed",
+   "answers": [
+    "relaxed"
+   ],
+   "meaning": "adj. 放松的；自在的",
+   "phonetic": "/rɪˈlækst/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-operate",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "operate",
+   "answers": [
+    "operate"
+   ],
+   "meaning": "v. 操作；运转；控制",
+   "phonetic": "/ˈɒpəreɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-control",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "control",
+   "answers": [
+    "control"
+   ],
+   "meaning": "n., v. 指挥；控制",
+   "phonetic": "/kənˈtrəʊl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-electronic",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "electronic",
+   "answers": [
+    "electronic"
+   ],
+   "meaning": "adj. 电子的",
+   "phonetic": "/ɪˌlekˈtrɒnɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-photographer",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "photographer",
+   "answers": [
+    "photographer"
+   ],
+   "meaning": "n. 摄影师；拍照者",
+   "phonetic": "/fəˈtɒɡrəfə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sportswoman",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "sportswoman",
+   "answers": [
+    "sportswoman"
+   ],
+   "meaning": "n. 女运动员",
+   "phonetic": "/ˈspɔːtswʊmən/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-singer",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "singer",
+   "answers": [
+    "singer"
+   ],
+   "meaning": "n. 歌唱家；歌手",
+   "phonetic": "/ˈsɪŋə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-have-to-do-sth",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "have to do sth.",
+   "answers": [
+    "have to do sth"
+   ],
+   "meaning": "不得不做某事",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-belong-to",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "belong to",
+   "answers": [
+    "belong to"
+   ],
+   "meaning": "属于",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-allow-sb-to-do-sth",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "allow sb. to do sth.",
+   "answers": [
+    "allow sb to do sth"
+   ],
+   "meaning": "允许某人做某事",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-by-oneself",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "by oneself",
+   "answers": [
+    "by oneself"
+   ],
+   "meaning": "独自一人",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-in-his-twenties",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "in his twenties",
+   "answers": [
+    "in his twenties"
+   ],
+   "meaning": "在他二十多岁时",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-daily-life",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "daily life",
+   "answers": [
+    "daily life"
+   ],
+   "meaning": "日常生活",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-a-line-of",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "a line of",
+   "answers": [
+    "a line of"
+   ],
+   "meaning": "一排；一系列",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-shout-out",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "shout out",
+   "answers": [
+    "shout out"
+   ],
+   "meaning": "大叫，突然呼喊",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-go-well",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "go well",
+   "answers": [
+    "go well"
+   ],
+   "meaning": "进展顺利",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-cut-out",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "cut out",
+   "answers": [
+    "cut out"
+   ],
+   "meaning": "裁剪",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-upside-down",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "upside down",
+   "answers": [
+    "upside down"
+   ],
+   "meaning": "颠倒；倒转",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-a-symbol-of",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "a symbol of",
+   "answers": [
+    "a symbol of"
+   ],
+   "meaning": "……的象征",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-fall-in-love-with",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "fall in love with",
+   "answers": [
+    "fall in love with"
+   ],
+   "meaning": "爱上",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-a-different-type-of",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "a different type of",
+   "answers": [
+    "a different type of"
+   ],
+   "meaning": "一种不同类型的",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-be-popular-among",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "be popular among",
+   "answers": [
+    "be popular among"
+   ],
+   "meaning": "在……中受欢迎",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-a-part-of",
+   "unit": "Unit 2",
+   "unitTitle": "The World of Art",
+   "text": "a part of",
+   "answers": [
+    "a part of"
+   ],
+   "meaning": "……的一部分",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-cough",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "cough",
+   "answers": [
+    "cough"
+   ],
+   "meaning": "n. 咳嗽",
+   "phonetic": "/kɒf/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-fever",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "fever",
+   "answers": [
+    "fever"
+   ],
+   "meaning": "n. 发烧",
+   "phonetic": "/ˈfiːvə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-sore",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "sore",
+   "answers": [
+    "sore"
+   ],
+   "meaning": "adj. （发炎）疼痛的；酸痛的",
+   "phonetic": "/sɔː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-throat",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "throat",
+   "answers": [
+    "throat"
+   ],
+   "meaning": "n. 咽喉；喉咙",
+   "phonetic": "/θrəʊt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-headache",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "headache",
+   "answers": [
+    "headache"
+   ],
+   "meaning": "n. 头痛",
+   "phonetic": "/ˈhedeɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-toothache",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "toothache",
+   "answers": [
+    "toothache"
+   ],
+   "meaning": "n. 牙痛",
+   "phonetic": "/ˈtuːθeɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-stomachache",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "stomachache",
+   "answers": [
+    "stomachache"
+   ],
+   "meaning": "n. 胃痛",
+   "phonetic": "/ˈstʌməkeɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-jogging",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "jogging",
+   "answers": [
+    "jogging"
+   ],
+   "meaning": "n. 慢跑锻炼",
+   "phonetic": "/ˈdʒɒɡɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-lazy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "lazy",
+   "answers": [
+    "lazy"
+   ],
+   "meaning": "adj. 懒惰的；懒散的",
+   "phonetic": "/ˈleɪzi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-condition",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "condition",
+   "answers": [
+    "condition"
+   ],
+   "meaning": "n. 健康状况；状态；状况",
+   "phonetic": "/kənˈdɪʃn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-uncomfortable",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "uncomfortable",
+   "answers": [
+    "uncomfortable"
+   ],
+   "meaning": "adj. 使人不舒服的；令人不舒适的",
+   "phonetic": "/ʌnˈkʌmfətəbl/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-diary",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "diary",
+   "answers": [
+    "diary"
+   ],
+   "meaning": "n. 日记；日记簿",
+   "phonetic": "/ˈdaɪəri/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-positive",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "positive",
+   "answers": [
+    "positive"
+   ],
+   "meaning": "adj. 积极乐观的；积极的；正面的",
+   "phonetic": "/ˈpɒzətɪv/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-benefit",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "benefit",
+   "answers": [
+    "benefit"
+   ],
+   "meaning": "n. 益处；优势",
+   "phonetic": "/ˈbenɪfɪt/",
+   "kind": "word",
+   "quiz": true,
+   "source": "U3小测三 第18题"
+  },
+  {
+   "id": "u3-mood",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "mood",
+   "answers": [
+    "mood"
+   ],
+   "meaning": "n. 心情；情绪",
+   "phonetic": "/muːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-volleyball",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "volleyball",
+   "answers": [
+    "volleyball"
+   ],
+   "meaning": "n. 排球运动",
+   "phonetic": "/ˈvɒlibɔːl/",
+   "kind": "word",
+   "quiz": true,
+   "source": "U3小测二 第19题"
+  },
+  {
+   "id": "u3-energy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "energy",
+   "answers": [
+    "energy"
+   ],
+   "meaning": "n. 精力；能源；能量",
+   "phonetic": "/ˈenədʒi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-glad",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "glad",
+   "answers": [
+    "glad"
+   ],
+   "meaning": "adj. 高兴；愉快",
+   "phonetic": "/ɡlæd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-confident",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "confident",
+   "answers": [
+    "confident"
+   ],
+   "meaning": "adj. 自信的；有把握的",
+   "phonetic": "/ˈkɒnfɪdənt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-absent",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "absent",
+   "answers": [
+    "absent"
+   ],
+   "meaning": "adj. 缺席；不在",
+   "phonetic": "/ˈæbsənt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-moment",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "moment",
+   "answers": [
+    "moment"
+   ],
+   "meaning": "n. 片刻；瞬间",
+   "phonetic": "/ˈməʊmənt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-oneself",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "oneself",
+   "answers": [
+    "oneself"
+   ],
+   "meaning": "pron. 自己；亲自",
+   "phonetic": "/wʌnˈself/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-seafood",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "seafood",
+   "answers": [
+    "seafood"
+   ],
+   "meaning": "n. 海鲜，海味",
+   "phonetic": "/ˈsiːfuːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-seem",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "seem",
+   "answers": [
+    "seem"
+   ],
+   "meaning": "v. 好像，似乎",
+   "phonetic": "/siːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-unhealthy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "unhealthy",
+   "answers": [
+    "unhealthy"
+   ],
+   "meaning": "adj. 不健康的",
+   "phonetic": "/ʌnˈhelθi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-temperature",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "temperature",
+   "answers": [
+    "temperature"
+   ],
+   "meaning": "n. 体温；温度；气温",
+   "phonetic": "/ˈtemprətʃə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-medicine",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "medicine",
+   "answers": [
+    "medicine"
+   ],
+   "meaning": "n. 药，药物；医学",
+   "phonetic": "/ˈmedsn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-junk-food",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "junk food",
+   "answers": [
+    "junk food"
+   ],
+   "meaning": "n. 垃圾食品",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-slim",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "slim",
+   "answers": [
+    "slim"
+   ],
+   "meaning": "adj. 苗条的",
+   "phonetic": "/slɪm/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-diet",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "diet",
+   "answers": [
+    "diet"
+   ],
+   "meaning": "n. 日常饮食",
+   "phonetic": "/ˈdaɪət/",
+   "kind": "word",
+   "quiz": true,
+   "source": "U3小测二 第20题"
+  },
+  {
+   "id": "u3-screen",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "screen",
+   "answers": [
+    "screen"
+   ],
+   "meaning": "n. 屏幕；荧屏",
+   "phonetic": "/skriːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-sugar",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "sugar",
+   "answers": [
+    "sugar"
+   ],
+   "meaning": "n. 糖；食糖",
+   "phonetic": "/ˈʃʊɡə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-ache",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "ache",
+   "answers": [
+    "ache"
+   ],
+   "meaning": "n. （身体某部位的）疼痛",
+   "phonetic": "/eɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-examine",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "examine",
+   "answers": [
+    "examine"
+   ],
+   "meaning": "v. 检查，检验；审查",
+   "phonetic": "/ɪɡˈzæmɪn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-hamburger",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "hamburger",
+   "answers": [
+    "hamburger"
+   ],
+   "meaning": "n. 汉堡包",
+   "phonetic": "/ˈhæmbɜːɡə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-chip",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "chip",
+   "answers": [
+    "chip"
+   ],
+   "meaning": "n. 炸薯条",
+   "phonetic": "/tʃɪp/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-fried",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "fried",
+   "answers": [
+    "fried"
+   ],
+   "meaning": "adj. 油炸的",
+   "phonetic": "/fraɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-pork",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "pork",
+   "answers": [
+    "pork"
+   ],
+   "meaning": "n. 猪肉",
+   "phonetic": "/pɔːk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-pepper",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "pepper",
+   "answers": [
+    "pepper"
+   ],
+   "meaning": "n. 胡椒粉",
+   "phonetic": "/ˈpepə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-iced",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "iced",
+   "answers": [
+    "iced"
+   ],
+   "meaning": "adj. 冰镇的；加冰块的",
+   "phonetic": "/aɪst/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-coke",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "Coke",
+   "answers": [
+    "coke"
+   ],
+   "meaning": "n. 可乐",
+   "phonetic": "/kəʊk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-pill",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "pill",
+   "answers": [
+    "pill"
+   ],
+   "meaning": "n. 药丸；药片",
+   "phonetic": "/pɪl/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-outgoing",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "outgoing",
+   "answers": [
+    "outgoing"
+   ],
+   "meaning": "adj. 外向的；友好的；爱交际的",
+   "phonetic": "/ˌaʊtˈɡəʊɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-shy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "shy",
+   "answers": [
+    "shy"
+   ],
+   "meaning": "adj. 羞怯的；腼腆的",
+   "phonetic": "/ʃaɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-snack",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "snack",
+   "answers": [
+    "snack"
+   ],
+   "meaning": "n. 点心；小吃；快餐",
+   "phonetic": "/snæk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-chocolate",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "chocolate",
+   "answers": [
+    "chocolate"
+   ],
+   "meaning": "n. 巧克力",
+   "phonetic": "/ˈtʃɒklət/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-cookie",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "cookie",
+   "answers": [
+    "cookie"
+   ],
+   "meaning": "n. 曲奇饼",
+   "phonetic": "/ˈkʊki/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-ice-cream",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "ice cream",
+   "answers": [
+    "ice cream"
+   ],
+   "meaning": "n. 冰激凌",
+   "phonetic": "/ˈaɪs kriːm/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-cream",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "cream",
+   "answers": [
+    "cream"
+   ],
+   "meaning": "n. 奶油",
+   "phonetic": "/kriːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-potato",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "potato",
+   "answers": [
+    "potato"
+   ],
+   "meaning": "n. 马铃薯；土豆",
+   "phonetic": "/pəˈteɪtəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-corn",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "corn",
+   "answers": [
+    "corn"
+   ],
+   "meaning": "n. 玉米；谷物",
+   "phonetic": "/kɔːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-candy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "candy",
+   "answers": [
+    "candy"
+   ],
+   "meaning": "n. 糖果；巧克力",
+   "phonetic": "/ˈkændi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-biscuit",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "biscuit",
+   "answers": [
+    "biscuit"
+   ],
+   "meaning": "n. 饼干",
+   "phonetic": "/ˈbɪskɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-beef",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "beef",
+   "answers": [
+    "beef"
+   ],
+   "meaning": "n. 牛肉",
+   "phonetic": "/biːf/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-cucumber",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "cucumber",
+   "answers": [
+    "cucumber"
+   ],
+   "meaning": "n. 黄瓜",
+   "phonetic": "/ˈkjuːkʌmbə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-lifestyle",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "lifestyle",
+   "answers": [
+    "lifestyle"
+   ],
+   "meaning": "n. 生活方式；工作方式",
+   "phonetic": "/ˈlaɪfstaɪl/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-prefer",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "prefer",
+   "answers": [
+    "prefer"
+   ],
+   "meaning": "v. 较喜欢；喜欢……多于……",
+   "phonetic": "/prɪˈfɜː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-bean",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "bean",
+   "answers": [
+    "bean"
+   ],
+   "meaning": "n. 豆；豆荚",
+   "phonetic": "/biːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-empty",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "empty",
+   "answers": [
+    "empty"
+   ],
+   "meaning": "adj. 空的；无意义的",
+   "phonetic": "/ˈempti/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-clearly",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "clearly",
+   "answers": [
+    "clearly"
+   ],
+   "meaning": "adv. 明显地；清楚地",
+   "phonetic": "/ˈklɪəli/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-sleepy",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "sleepy",
+   "answers": [
+    "sleepy"
+   ],
+   "meaning": "adj. 困倦的；瞌睡的",
+   "phonetic": "/ˈsliːpi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-worse",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "worse",
+   "answers": [
+    "worse"
+   ],
+   "meaning": "adj. 更差的；更糟的",
+   "phonetic": "/wɜːs/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-rid",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "rid",
+   "answers": [
+    "rid"
+   ],
+   "meaning": "v. 摆脱",
+   "phonetic": "/rɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-fridge",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "fridge",
+   "answers": [
+    "fridge"
+   ],
+   "meaning": "n. 冰箱",
+   "phonetic": "/frɪdʒ/",
+   "kind": "word",
+   "quiz": true,
+   "source": "U3小测三 第19题"
+  },
+  {
+   "id": "u3-weight",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "weight",
+   "answers": [
+    "weight"
+   ],
+   "meaning": "n. 重量",
+   "phonetic": "/weɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-hobby",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "hobby",
+   "answers": [
+    "hobby"
+   ],
+   "meaning": "n. 业余爱好",
+   "phonetic": "/ˈhɒbi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-hurry",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "hurry",
+   "answers": [
+    "hurry"
+   ],
+   "meaning": "n., v. 匆忙；急忙",
+   "phonetic": "/ˈhʌri/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-mad",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "mad",
+   "answers": [
+    "mad"
+   ],
+   "meaning": "adj. 很生气；气愤",
+   "phonetic": "/mæd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-fit",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "fit",
+   "answers": [
+    "fit"
+   ],
+   "meaning": "adj. 健壮的；健康的",
+   "phonetic": "/fɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-physical",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "physical",
+   "answers": [
+    "physical"
+   ],
+   "meaning": "adj. 身体的",
+   "phonetic": "/ˈfɪzɪkl/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-balanced",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "balanced",
+   "answers": [
+    "balanced"
+   ],
+   "meaning": "adj. 保持（或显示）平衡的",
+   "phonetic": "/ˈbælənst/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-runner",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "runner",
+   "answers": [
+    "runner"
+   ],
+   "meaning": "n. 奔跑的人",
+   "phonetic": "/ˈrʌnə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-spread",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "spread",
+   "answers": [
+    "spread"
+   ],
+   "meaning": "v., n. 蔓延；扩散",
+   "phonetic": "/spred/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-take-ones-temperature",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "take one's temperature",
+   "answers": [
+    "take one's temperature"
+   ],
+   "meaning": "量体温",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-lose-ones-voice",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "lose one's voice",
+   "answers": [
+    "lose one's voice"
+   ],
+   "meaning": "失声；嗓子哑",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-have-a-fever",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "have a fever",
+   "answers": [
+    "have a fever"
+   ],
+   "meaning": "发烧",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-stay-keep-away-from",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "stay / keep away from",
+   "answers": [
+    "stay away from",
+    "keep away from"
+   ],
+   "meaning": "远离……",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-take-some-pills",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "take some pills",
+   "answers": [
+    "take some pills"
+   ],
+   "meaning": "服药",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-for-one-thing",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "for one thing",
+   "answers": [
+    "for one thing"
+   ],
+   "meaning": "一来，一方面",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-for-another",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "for another",
+   "answers": [
+    "for another"
+   ],
+   "meaning": "另一方面",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-a-good-way-to-do-sth",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "a good way to do sth.",
+   "answers": [
+    "a good way to do sth"
+   ],
+   "meaning": "做某事的好方法",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-do-some-exercise",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "do some exercise",
+   "answers": [
+    "do some exercise"
+   ],
+   "meaning": "做运动",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-right-away",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "right away",
+   "answers": [
+    "right away"
+   ],
+   "meaning": "立刻；马上",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-keep-a-diary",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "keep a diary",
+   "answers": [
+    "keep a diary"
+   ],
+   "meaning": "写日记",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第18题"
+  },
+  {
+   "id": "u3-in-ones-opinion",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "in one's opinion",
+   "answers": [
+    "in one's opinion"
+   ],
+   "meaning": "在某人看来",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-in-a-good-mood",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "in a good mood",
+   "answers": [
+    "in a good mood"
+   ],
+   "meaning": "心情愉快",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第4题"
+  },
+  {
+   "id": "u3-communicate-with-sb",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "communicate with sb.",
+   "answers": [
+    "communicate with sb"
+   ],
+   "meaning": "与某人交流",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-make-sure-to-do-sth",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "make sure to do sth.",
+   "answers": [
+    "make sure to do sth"
+   ],
+   "meaning": "确保做某事",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-come-across",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "come across",
+   "answers": [
+    "come across"
+   ],
+   "meaning": "偶然发现；偶然遇见",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第10题 / 小测三 第15题"
+  },
+  {
+   "id": "u3-live-a-happy-life",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "live a happy life",
+   "answers": [
+    "live a happy life"
+   ],
+   "meaning": "过幸福的生活",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-get-through",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "get through",
+   "answers": [
+    "get through"
+   ],
+   "meaning": "度过（难关、困境等）；通过",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-by-chance",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "by chance",
+   "answers": [
+    "by chance"
+   ],
+   "meaning": "偶然；巧合",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-on-an-empty-stomach",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "on an empty stomach",
+   "answers": [
+    "on an empty stomach"
+   ],
+   "meaning": "空腹",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第17题 / 小测三 第14题"
+  },
+  {
+   "id": "u3-be-bad-for",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "be bad for",
+   "answers": [
+    "be bad for"
+   ],
+   "meaning": "对……有害",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-whats-worse",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "what's worse",
+   "answers": [
+    "what's worse"
+   ],
+   "meaning": "更糟糕的是",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第9题"
+  },
+  {
+   "id": "u3-get-rid-of",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "get rid of",
+   "answers": [
+    "get rid of"
+   ],
+   "meaning": "摆脱",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第8题"
+  },
+  {
+   "id": "u3-lose-weight",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "lose weight",
+   "answers": [
+    "lose weight"
+   ],
+   "meaning": "减肥",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第2题"
+  },
+  {
+   "id": "u3-on-the-other-hand",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "on the other hand",
+   "answers": [
+    "on the other hand"
+   ],
+   "meaning": "另一方面",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-focus-on",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "focus on",
+   "answers": [
+    "focus on"
+   ],
+   "meaning": "专注于",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-take-up",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "take up",
+   "answers": [
+    "take up"
+   ],
+   "meaning": "开始从事；占用",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-stay-keep-fit",
+   "unit": "Unit 3",
+   "unitTitle": "Sound Body, Sound Mind",
+   "text": "stay / keep fit",
+   "answers": [
+    "stay fit",
+    "keep fit"
+   ],
+   "meaning": "保持健康",
+   "phonetic": "",
+   "kind": "phrase"
+  },
+  {
+   "id": "q-in-my-opinion",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "in my opinion",
+   "answers": [
+    "in my opinion"
+   ],
+   "meaning": "在某人看来",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第1题"
+  },
+  {
+   "id": "q-staying-positive-has-amazing-benefit",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "staying positive has amazing benefit",
+   "answers": [
+    "staying positive has amazing benefit"
+   ],
+   "meaning": "保持积极乐观有巨大的好处",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第2题"
+  },
+  {
+   "id": "q-study-and-work-better",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "study and work better",
+   "answers": [
+    "study and work better"
+   ],
+   "meaning": "更好地学习和工作",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第3题"
+  },
+  {
+   "id": "q-communicate-with-more-people",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "communicate with more people",
+   "answers": [
+    "communicate with more people"
+   ],
+   "meaning": "与更多人交流",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第5题"
+  },
+  {
+   "id": "q-be-full-of-energy",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "be full of energy",
+   "answers": [
+    "be full of energy"
+   ],
+   "meaning": "充满精力",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第6题"
+  },
+  {
+   "id": "q-make-sure-to-get-enough-sleep",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "make sure to get enough sleep",
+   "answers": [
+    "make sure to get enough sleep"
+   ],
+   "meaning": "确保有足够的睡眠",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第7题"
+  },
+  {
+   "id": "q-face-bad-feelings-alone",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "face bad feelings alone",
+   "answers": [
+    "face bad feelings alone"
+   ],
+   "meaning": "独自面对坏情绪",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第8题"
+  },
+  {
+   "id": "q-start-a-new-day",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "start a new day",
+   "answers": [
+    "start a new day"
+   ],
+   "meaning": "开始新的一天",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第9题"
+  },
+  {
+   "id": "q-be-never-absent-from",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "be never absent from",
+   "answers": [
+    "be never absent from"
+   ],
+   "meaning": "从不缺席",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第11题 / 小测三 第10题"
+  },
+  {
+   "id": "q-feel-confident-in-oneself",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "feel confident in oneself",
+   "answers": [
+    "feel confident in oneself"
+   ],
+   "meaning": "对自己充满自信",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第12题 / 小测三 第11题"
+  },
+  {
+   "id": "q-look-at-good-points",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "look at good points",
+   "answers": [
+    "look at good points"
+   ],
+   "meaning": "看优点 / 积极的一面",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第13题"
+  },
+  {
+   "id": "q-get-through-difficult-moments",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "get through difficult moments",
+   "answers": [
+    "get through difficult moments"
+   ],
+   "meaning": "度过困难时刻",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第14题 / 小测三 第12题"
+  },
+  {
+   "id": "q-succeed-in-doing",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "succeed in doing",
+   "answers": [
+    "succeed in doing"
+   ],
+   "meaning": "成功做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第15题 / 小测三 第13题"
+  },
+  {
+   "id": "q-lead-to-success",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "lead to success",
+   "answers": [
+    "lead to success"
+   ],
+   "meaning": "通往成功",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测二 第15题 / 小测三 第13题"
+  },
+  {
+   "id": "q-worry-about-your-grades",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "worry about your grades",
+   "answers": [
+    "worry about your grades"
+   ],
+   "meaning": "担心你的成绩",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第1题"
+  },
+  {
+   "id": "q-hand-in",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "hand in",
+   "answers": [
+    "hand in"
+   ],
+   "meaning": "上交",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第3题"
+  },
+  {
+   "id": "q-talk-nonsense",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "talk nonsense",
+   "answers": [
+    "talk nonsense"
+   ],
+   "meaning": "胡说八道 / 讲废话",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第4题"
+  },
+  {
+   "id": "q-improper-habit",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "improper habit",
+   "answers": [
+    "improper habit"
+   ],
+   "meaning": "不当习惯",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第5题"
+  },
+  {
+   "id": "q-do-a-lot-of-harm-to-people",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "do a lot of harm to people",
+   "answers": [
+    "do a lot of harm to people"
+   ],
+   "meaning": "对人有很大伤害",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第6题"
+  },
+  {
+   "id": "q-need-to-get-some-sleep",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "need to get some sleep",
+   "answers": [
+    "need to get some sleep"
+   ],
+   "meaning": "需要充沛睡眠",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第7题"
+  },
+  {
+   "id": "q-move-on-step-by-step",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "move on step by step",
+   "answers": [
+    "move on step by step"
+   ],
+   "meaning": "一步一步前进 / 循序渐进",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第16题"
+  },
+  {
+   "id": "q-sore-throat",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "sore throat",
+   "answers": [
+    "sore throat"
+   ],
+   "meaning": "喉咙痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "quiz": true,
+   "source": "U3小测三 第17题"
+  },
+  {
+   "id": "q-clear",
+   "unit": "U3 小测",
+   "unitTitle": "两次小测考点",
+   "text": "clear",
+   "answers": [
+    "clear"
+   ],
+   "meaning": "adj. 清楚的 / 头脑清醒的",
+   "phonetic": "/klɪə(r)/",
+   "kind": "word",
+   "quiz": true,
+   "source": "U3小测三 第20题"
+  }
+ ]
+}
