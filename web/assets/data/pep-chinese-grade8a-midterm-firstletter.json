@@ -567,6 +567,158 @@
      "sentence": "九万里风鹏正举。风休住，蓬舟吹取三山去！"
     }
    ]
+  },
+  {
+   "id": "p19",
+   "unit": "第三单元",
+   "lesson": "课外古诗词诵读",
+   "title": "庭中有奇树",
+   "author": "《古诗十九首》",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "庭中有奇树，绿叶发华滋。攀条折其荣，将以遗所思。馨香盈怀袖，路远莫致之。此物何足贵？但感别经时。",
+   "paragraphs": [],
+   "letters": "tzyqslyfhzptzqrjywssxxyhxlymzzcwhzgdgbjs",
+   "pinyin": "tíng zhōng yǒu qí shù lǜ yè fā huā zī pān tiáo zhé qí róng jiāng yǐ wèi suǒ sī xīn xiāng yíng huái xiù lù yuǎn mò zhì zhī cǐ wù hé zú guì dàn gǎn bié jīng shí",
+   "keys": [
+    {
+     "prompt": "表达对远方亲人无限思念与无可奈何之情的句子",
+     "sentence": "馨香盈怀袖，路远莫致之。此物何足贵？但感别经时。"
+    }
+   ]
+  },
+  {
+   "id": "p20",
+   "unit": "第三单元",
+   "lesson": "课外古诗词诵读",
+   "title": "龟虽寿",
+   "author": "曹操",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "神龟虽寿，犹有竟时；腾蛇乘雾，终为土灰。老骥伏枥，志在千里；烈士暮年，壮心不已。盈缩之期，不但在天；养怡之福，可得永年。幸甚至哉，歌以咏志。",
+   "paragraphs": [],
+   "letters": "sgssyyjstscwzwthljflzzqllsmnzxbyyszqbdztyyzfkdynxszzgyyz",
+   "pinyin": "shén guī suī shòu yóu yǒu jìng shí téng shé chéng wù zhōng wéi tǔ huī lǎo jì fú lì zhì zài qiān lǐ liè shì mù nián zhuàng xīn bù yǐ yíng suō zhī qī bù dàn zài tiān yǎng yí zhī fú kě dé yǒng nián xìng shèn zhì zāi gē yǐ yǒng zhì",
+   "keys": [
+    {
+     "prompt": "抒发英雄豪情与永不服老抱负的千古名句",
+     "sentence": "老骥伏枥，志在千里；烈士暮年，壮心不已。"
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "unit": "第三单元",
+   "lesson": "课外古诗词诵读",
+   "title": "赠从弟（其二）",
+   "author": "刘桢",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "亭亭山上松，瑟瑟谷中风。风声一何盛，松枝一何劲！冰霜正惨凄，终岁常端正。岂不罹凝寒？松柏有本性。",
+   "paragraphs": [],
+   "letters": "ttsssssgzffsyhsszyhjbszcqzscdzqblnhsbybx",
+   "pinyin": "tíng tíng shān shàng sōng sè sè gǔ zhōng fēng fēng shēng yī hé shèng sōng zhī yī hé jìng bīng shuāng zhèng cǎn qī zhōng suì cháng duān zhèng qǐ bù lí níng hán sōng bǎi yǒu běn xìng",
+   "keys": [
+    {
+     "prompt": "赞美松柏经霜不凋、坚贞不屈高洁品格的句子",
+     "sentence": "冰霜正惨凄，终岁常端正。岂不罹凝寒？松柏有本性。"
+    }
+   ]
+  },
+  {
+   "id": "p22",
+   "unit": "第三单元",
+   "lesson": "课外古诗词诵读",
+   "title": "梁甫行",
+   "author": "曹植",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "八方各异气，千里殊风雨。剧哉边海民，寄身于草野。妻子象禽兽，行止依林阻。柴门何萧条，狐兔翔我宇。",
+   "paragraphs": [],
+   "letters": "bfgyqqlsfyjzbhmjsycyqzxqsxzylzcmhxthtxwy",
+   "pinyin": "bā fāng gè yì qì qiān lǐ shū fēng yǔ jù zāi biān hǎi mín jì shēn yú cǎo yě qī zǐ xiàng qín shòu xíng zhǐ yī lín zǔ chái mén hé xiāo tiáo hú tù xiáng wǒ yǔ",
+   "keys": [
+    {
+     "prompt": "真实记录边海人民流离失所、困苦不堪生活的句子",
+     "sentence": "剧哉边海民，寄身于草野。妻子象禽兽，行止依林阻。"
+    }
+   ]
+  },
+  {
+   "id": "p23",
+   "unit": "第六单元",
+   "lesson": "课外古诗词诵读",
+   "title": "浣溪沙",
+   "author": "晏殊",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回！无可奈何花落去，似曾相识燕归来。小园香径独徘徊。",
+   "paragraphs": [],
+   "letters": "yqxcjybqntqjttxyxxjshwknhhlqscxsyglxyxjdph",
+   "pinyin": "yī qū xīn cí jiǔ yī bēi qù nián tiān qì jiù tíng tái xī yáng xī xià jǐ shí huí wú kě nài hé huā luò qù sì céng xiāng shí yàn guī lái xiǎo yuán xiāng jìng dú pái huái",
+   "keys": [
+    {
+     "prompt": "传诵千古、蕴含生活哲理与伤春惜时情怀的名句",
+     "sentence": "无可奈何花落去，似曾相识燕归来。"
+    }
+   ]
+  },
+  {
+   "id": "p24",
+   "unit": "第六单元",
+   "lesson": "课外古诗词诵读",
+   "title": "采桑子",
+   "author": "欧阳修",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "轻舟短棹西湖好，绿水逶迤，芳草长堤。隐隐笙歌处处随。无风水面琉璃滑，不觉船移，微动涟漪。惊起沙禽掠岸飞。",
+   "paragraphs": [],
+   "letters": "qzdzxhhlswyfccdyysgccswfsmllhbjcywdlyjqsqlaf",
+   "pinyin": "qīng zhōu duǎn zhào xī hú hǎo lǜ shuǐ wēi yí fāng cǎo cháng dī yǐn yǐn shēng gē chù chù suí wú fēng shuǐ miàn liú lí huá bù jué chuán yí wēi dòng lián yī jīng qǐ shā qín lüè àn fēi",
+   "keys": [
+    {
+     "prompt": "以动衬静、生动描绘水面平滑与轻舟微澜的句子",
+     "sentence": "无风水面琉璃滑，不觉船移，微动涟漪。"
+    }
+   ]
+  },
+  {
+   "id": "p25",
+   "unit": "第六单元",
+   "lesson": "课外古诗词诵读",
+   "title": "相见欢",
+   "author": "朱敦儒",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "金陵城上西楼，倚清秋。万里夕阳垂地大江流。中原乱，簪缨散，几时收？试倩悲风吹泪过扬州。",
+   "paragraphs": [],
+   "letters": "jlcsxlyqqwlxycddjlzylzysjsssqbfclgyz",
+   "pinyin": "jīn líng chéng shàng xī lóu yǐ qīng qiū wàn lǐ xī yáng chuí dì dà jiāng liú zhōng yuán luàn zān yīng sàn jǐ shí shōu shì qìng bēi fēng chuī lèi guò yáng zhōu",
+   "keys": [
+    {
+     "prompt": "极言国破家亡之痛、抒发收复失地渴望与满腔悲慨的名句",
+     "sentence": "中原乱，簪缨散，几时收？试倩悲风吹泪过扬州。"
+    }
+   ]
+  },
+  {
+   "id": "p26",
+   "unit": "第六单元",
+   "lesson": "课外古诗词诵读",
+   "title": "如梦令",
+   "author": "李清照",
+   "type": "课外古诗词诵读",
+   "poem": true,
+   "content": "常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭。",
+   "paragraphs": [],
+   "letters": "cjxtrmczbzglxjwhzwrohsczdzdjqytol",
+   "pinyin": "cháng jì xī tíng rì mù chén zuì bù zhī guī lù xìng jìn wǎn huí zhōu wù rù ǒu huā shēn chù zhēng dù zhēng dù jīng qǐ yī tān ōu lù",
+   "keys": [
+    {
+     "prompt": "生动再现误入荷花丛中、急于划船惊起水鸟惬意画面的名句",
+     "sentence": "兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭。"
+    }
+   ]
   }
  ]
 }

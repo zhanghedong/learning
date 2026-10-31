@@ -15,7 +15,7 @@
   const ALT_LETTERS = {
     "说": "sy", "拂": "bf", "曾": "zc", "见": "jx", "属": "zs", "骑": "jq", "降": "jx",
     "乘": "cs", "朝": "zc", "长": "cz", "重": "zc", "便": "bp", "还": "hx", "将": "jq",
-    "少": "s", "间": "j", "更": "g", "胜": "s", "燕": "y", "应": "y", "为": "w", "裳": "cs"
+    "少": "s", "间": "j", "更": "g", "胜": "s", "燕": "y", "应": "y", "为": "w", "裳": "cs", "遗": "wy", "行": "xh"
   };
   const SENTENCE_END = /[。？！；]/;
   const CLOSE_QUOTE = /[”’"」]/;
@@ -130,7 +130,7 @@
 
       // 分段方式变了，旧的分段记录就对不上了；用分段签名区分。
       const segSig = segments.map(s => s.end).join(",");
-      return Object.assign({}, raw, { tokens, sentences, segments, segSig, keys, hanCount: n });
+      return Object.assign({}, raw, { extra: raw.type.includes("课外"), tokens, sentences, segments, segSig, keys, hanCount: n });
     });
     const pieceMap = new Map(pieces.map(p => [p.id, p]));
     const sentenceMap = new Map();
@@ -139,10 +139,12 @@
       for (const s of p.sentences) sentenceMap.set(s.id, { piece: p, sentence: s });
       p.tokens.forEach((t, i) => { if (t.han) charMap.set(t.id, { piece: p, token: t, index: i }); });
     }
+    // 课外古诗词单独成组，排在课内篇目后面。
     const units = [];
     for (const p of pieces) {
-      let unit = units.find(u => u.title === p.unit);
-      if (!unit) units.push(unit = { title: p.unit, pieces: [] });
+      const title = p.unit + (p.extra ? " · 课外古诗词" : "");
+      let unit = units.find(u => u.title === title);
+      if (!unit) units.push(unit = { title, pieces: [] });
       unit.pieces.push(p);
     }
     return { pieces, pieceMap, sentenceMap, charMap, units, keys: pieces.flatMap(p => p.keys.map(k => Object.assign({ piece: p }, k))) };
@@ -586,7 +588,7 @@
         <span class="fl-rec-go">开始 →</span>
       </button>`).join("");
     return `<section class="fl-lead">
-        <p class="eyebrow">期中背诵 · 第三、六单元 18 篇</p>
+        <p class="eyebrow">期中背诵 · 第三、六单元 ${model.pieces.length} 篇（含课外古诗词 ${model.pieces.filter(p => p.extra).length} 首）</p>
         <h2 class="lead-title">想起下一个字，输入它的拼音首字母</h2>
         <p class="lead-text">按对了字就出现；错 1–2 次后想起是<b class="c-amber">橙色</b>，第 ${MAX_WRONG} 次错会显示<b class="c-red">红字</b>。红字所在的句子要在两天里各背对一次才算过。</p>
       </section>

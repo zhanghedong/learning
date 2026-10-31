@@ -1,6 +1,6 @@
-"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data-v3.json.
+"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data-v4.json.
 
-Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data-v3.json
+Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data-v4.json
 """
 import json
 import re
