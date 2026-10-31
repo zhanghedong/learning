@@ -1,23 +1,40 @@
-"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data-v2.json.
+"""Build web/assets/data/pep-chinese-grade8a-midterm-firstletter.json from recitation_data-v3.json.
 
-Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data-v2.json
+Usage: python3 -I build_firstletter_data.py ~/Downloads/recitation_data-v3.json
 """
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / "web/assets/data/pep-chinese-grade8a-midterm-firstletter.json"
-# Source data fixes: (title, clause, correct letters)
-FIXES = [("生于忧患，死于安乐", "傅说举于版筑之间", "f y j y b z z j")]
+# Source pinyin fixes: (title, char) -> textbook reading
+PINYIN_FIXES = {("钱塘湖春行", "贾"): "jiǎ", ("赤壁", "铁"): "tiě"}
 
 
 def han(text):
     return [c for c in text if "一" <= c <= "鿿"]
 
 
-def letters(text):
-    return re.findall(r"[a-z]", text)
+def initial(syllable):
+    """First letter without tone marks: "ài" -> "a", "lüè" -> "l"."""
+    return unicodedata.normalize("NFD", syllable)[0].lower()
+
+
+def char_pinyin(item):
+    """One pinyin syllable per Han character of the content."""
+    pairs = item["char_pinyin"]
+    if "".join(p["char"] for p in pairs) != item["content"]:
+        sys.exit(f"{item['title']}: char_pinyin does not match the content")
+    out = []
+    for p in pairs:
+        if p["char"] not in han(p["char"]):
+            continue
+        if not re.fullmatch(r"[a-zàáǎèéěìíǐòóǒùúǔüǖǘǚǜāēīōū]+", p["pinyin"]):
+            sys.exit(f"{item['title']}: bad pinyin for {p['char']}: {p['pinyin']}")
+        out.append(PINYIN_FIXES.get((item["title"], p["char"]), p["pinyin"]))
+    return out
 
 
 def paragraphs(item, poem):
@@ -41,18 +58,11 @@ def main(src):
     data = json.loads(Path(src).read_text(encoding="utf-8"))
     pieces = []
     for index, item in enumerate(data, 1):
-        content, initials = item["content"], item["pinyin_first_letters"]
-        for title, clause, fixed in FIXES:
-            if item["title"] != title:
-                continue
-            # Rebuild initials clause by clause so the fix lands in the right place.
-            clauses = [c for c in re.split(r"[，。；：？！、“”]+", content) if han(c)]
-            groups = [g for g in re.split(r"[,.;:?!\"]+", initials) if letters(g)]
-            groups = [fixed if c == clause else g for c, g in zip(clauses, groups)]
-            initials = " ".join(groups)
-        chars, marks = han(content), letters(initials)
-        if len(chars) != len(marks):
-            sys.exit(f"{item['title']}: {len(chars)} chars but {len(marks)} letters")
+        content = item["content"]
+        syllables = char_pinyin(item)
+        if len(han(content)) != len(syllables):
+            sys.exit(f"{item['title']}: {len(han(content))} chars but {len(syllables)} syllables")
+        marks = [initial(s) for s in syllables]
         keys = []
         for key in item["key_sentences"]:
             if key["sentence"] not in content:
@@ -70,6 +80,7 @@ def main(src):
             "content": content,
             "paragraphs": paragraphs(item, poem),
             "letters": "".join(marks),
+            "pinyin": " ".join(syllables),
             "keys": keys,
         })
     OUT.write_text(json.dumps({"version": 1, "pieces": pieces}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -3,6 +3,7 @@
 
   const DATA_URL = "../../../assets/data/pep-chinese-grade8a-midterm-firstletter.json";
   const STORAGE_KEY = "pep_chinese_grade8a_firstletter_v1";
+  const PINYIN_KEY = "pep_chinese_grade8a_firstletter_pinyin";
   const DECK_KEY = "textbooks/pep/chinese/grade8a-midterm-firstletter";
   const MAX_WRONG = 3;          // 第 3 次输错就显示红字
   const CLEAN_DAYS = 2;         // 红字句要在不同的 2 天各背对一次才出列
@@ -14,7 +15,7 @@
   const ALT_LETTERS = {
     "说": "sy", "拂": "bf", "曾": "zc", "见": "jx", "属": "zs", "骑": "jq", "降": "jx",
     "乘": "cs", "朝": "zc", "长": "cz", "重": "zc", "便": "bp", "还": "hx", "将": "jq",
-    "少": "s", "间": "j", "更": "g", "胜": "s", "燕": "y", "应": "y", "为": "w"
+    "少": "s", "间": "j", "更": "g", "胜": "s", "燕": "y", "应": "y", "为": "w", "裳": "cs"
   };
   const SENTENCE_END = /[。？！；]/;
   const CLOSE_QUOTE = /[”’"」]/;
@@ -31,8 +32,14 @@
   let mistakeFilter = "";
   let toastTimer = null;
   let showKeyboard = window.matchMedia("(pointer: coarse)").matches;
+  let showPinyin = readPinyinPref();
+  let reading = "";          // 正在查看全文拼音的篇目
 
   function emptyState() { return { version: 1, chars: {}, sentences: {}, pieces: {} }; }
+
+  function readPinyinPref() {
+    try { return localStorage.getItem(PINYIN_KEY) !== "0"; } catch (e) { return true; }
+  }
 
   function today() {
     const d = new Date();
@@ -59,16 +66,17 @@
   function buildModel(data) {
     const pieces = data.pieces.map(raw => {
       const tokens = [];
+      const syllables = raw.pinyin.split(" ");
       let n = 0;
       for (const ch of raw.content) {
         if (isHan(ch)) {
-          tokens.push({ ch, han: true, id: raw.id + "-c" + n, letter: raw.letters[n] });
+          tokens.push({ ch, han: true, id: raw.id + "-c" + n, letter: raw.letters[n], py: syllables[n] });
           n++;
         } else {
           tokens.push({ ch, han: false });
         }
       }
-      if (n !== raw.letters.length) throw new Error(raw.title + " 的首字母数量与字数不一致");
+      if (n !== raw.letters.length || n !== syllables.length) throw new Error(raw.title + " 的首字母或拼音数量与字数不一致");
 
       const sentences = [];
       let start = 0;
@@ -288,6 +296,7 @@
 
   function startSession(tasks, origin) {
     if (!tasks.length) return;
+    reading = "";
     session = { tasks, index: 0, redoCount: {}, origin: origin || view, total: { han: 0, first: 0, amber: 0, red: 0, reds: [] } };
     startTask(tasks[0]);
   }
@@ -502,6 +511,7 @@
     if (!model) return;
     document.body.classList.toggle("fl-practicing", !!session);
     if (session) app.innerHTML = session.finished ? renderSessionDone() : practice.done ? renderTaskDone() : renderPractice();
+    else if (reading) app.innerHTML = renderReading(model.pieceMap.get(reading));
     else if (view === "pieces") app.innerHTML = renderPieces();
     else if (view === "mistakes") app.innerHTML = renderMistakes();
     else app.innerHTML = renderToday();
@@ -509,6 +519,50 @@
       const cur = app.querySelector(".fl-slot.current");
       if (cur) cur.scrollIntoView({ block: "center", behavior: "smooth" });
     }
+  }
+
+  // 字上方标拼音；py 为空时只出字。
+  function ruby(inner, py, cls) {
+    return py ? `<ruby class="fl-ruby${cls ? " " + cls : ""}">${inner}<rt>${escapeHtml(py)}</rt></ruby>` : inner;
+  }
+
+  // 全文带拼音，易错字标红；背过一次才开放，免得背之前先看答案。
+  function pinyinText(piece, start, end) {
+    let html = "";
+    for (let i = start; i < end; i++) {
+      const t = piece.tokens[i];
+      if (!t.han) { html += `<span class="fl-punct">${escapeHtml(t.ch)}</span>`; continue; }
+      const r = state.chars[t.id];
+      html += ruby(`<span class="fl-char ${r && r.r ? "red" : "ok"}">${escapeHtml(t.ch)}</span>`, t.py);
+    }
+    return html;
+  }
+
+  function canRead(p) {
+    return !!state.pieces[p.id];
+  }
+
+  function renderReading(piece) {
+    const segs = piece.segments.map(s => `<section class="fl-read-seg">
+        ${piece.segments.length > 1 && s.label ? `<p class="fl-read-label">${escapeHtml(s.label)}${s.summary ? " · " + escapeHtml(s.summary) : ""}</p>` : ""}
+        <div class="fl-text fl-pinyin">${pinyinText(piece, s.start, s.end)}</div>
+      </section>`).join("");
+    return `<section class="fl-practice fl-reading">
+        <div class="view-head">
+          <div class="view-head-main">
+            <p class="view-kicker">全文拼音 · 红字是背错过的字</p>
+            <h2 class="view-title">${escapeHtml(piece.title)}</h2>
+            <p class="view-byline">${escapeHtml(piece.author)} · ${escapeHtml(piece.lesson)}</p>
+          </div>
+          <div class="view-tools">
+            <button class="secondary-button button-small" data-action="speak-all" data-piece="${piece.id}">朗读</button>
+            <button class="secondary-button button-small" data-action="print">打印</button>
+            <button class="secondary-button button-small" data-action="close-reading">返回</button>
+          </div>
+        </div>
+        ${segs}
+        <div class="lead-actions"><button class="primary-button" data-action="whole" data-piece="${piece.id}">合上再背一遍</button></div>
+      </section>`;
   }
 
   function statsBar() {
@@ -566,7 +620,9 @@
       const due = st.due ? `<button class="primary-button button-small" data-action="redo-piece" data-piece="${p.id}">重背 ${st.due} 句红字句</button>` : "";
       detail = `<div class="fl-piece-detail">
           <div class="fl-detail-actions"><button class="primary-button button-small" data-action="whole" data-piece="${p.id}">从头背全篇</button>${due}
-          ${p.keys.length ? `<button class="secondary-button button-small" data-action="piece-keys" data-piece="${p.id}">名句默写 ${p.keys.length} 句</button>` : ""}</div>
+          ${p.keys.length ? `<button class="secondary-button button-small" data-action="piece-keys" data-piece="${p.id}">名句默写 ${p.keys.length} 句</button>` : ""}
+          ${canRead(p) ? `<button class="secondary-button button-small" data-action="read-piece" data-piece="${p.id}">全文拼音</button>`
+                       : `<button class="secondary-button button-small" disabled title="背过一次后可查看">全文拼音（背过一次后开放）</button>`}</div>
           ${p.segments.length > 1 ? `<div class="fl-detail-segs">${segs}</div>` : ""}
         </div>`;
     }
@@ -592,7 +648,7 @@
       const s = x.piece.sentences[x.token.sentence];
       const before = x.piece.content.slice(s.start, x.index), after = x.piece.content.slice(x.index + 1, s.end);
       return `<li class="fl-mistake">
-          <span class="fl-mistake-char">${escapeHtml(x.token.ch)}</span>
+          <span class="fl-mistake-char">${escapeHtml(x.token.ch)}<span class="fl-mistake-py">${escapeHtml(x.token.py)}</span></span>
           <span class="fl-mistake-body">
             <span class="fl-mistake-context">${escapeHtml(before)}<b>${escapeHtml(x.token.ch)}</b>${escapeHtml(after)}</span>
             <span class="fl-mistake-meta">《${escapeHtml(x.piece.title)}》 · 红 ${x.rec.r} 次${x.rec.w ? " · 共错 " + x.rec.w + " 次" : ""}</span>
@@ -628,12 +684,13 @@
     for (let i = task.start; i < task.end; i++) {
       const t = tokens[i];
       if (!t.han) { html += `<span class="fl-punct">${escapeHtml(t.ch)}</span>`; continue; }
-      if (i < p.pos) { html += `<span class="fl-char ${p.marks[i] || "ok"}">${escapeHtml(t.ch)}</span>`; continue; }
+      if (i < p.pos) { html += ruby(`<span class="fl-char ${p.marks[i] || "ok"}">${escapeHtml(t.ch)}</span>`, showPinyin && t.py); continue; }
       if (i === p.pos) {
+        // 输错一次就亮出完整拼音帮忙回想，第 3 次错才出字。
         const dots = p.redPending ? "" : "<i></i>".repeat(p.wrongs);
         html += p.redPending
-          ? `<span class="fl-slot current revealed">${escapeHtml(t.ch)}</span>`
-          : `<span class="fl-slot current">${dots ? `<span class="fl-dots">${dots}</span>` : ""}</span>`;
+          ? ruby(`<span class="fl-slot current revealed">${escapeHtml(t.ch)}</span>`, t.py, "red")
+          : ruby(`<span class="fl-slot current">${dots ? `<span class="fl-dots">${dots}</span>` : ""}</span>`, p.wrongs ? t.py : "", "hint");
         continue;
       }
       html += `<span class="fl-slot"></span>`;
@@ -651,7 +708,7 @@
     const cur = tokens[p.pos];
     const hint = p.redPending
       ? `<p class="fl-hint red">记住这个字，按 <kbd>${cur.letter.toUpperCase()}</kbd> 继续</p>`
-      : p.wrongs ? `<p class="fl-hint">再想想，还有 ${MAX_WRONG - p.wrongs} 次机会</p>` : `<p class="fl-hint">&nbsp;</p>`;
+      : p.wrongs ? `<p class="fl-hint">拼音是 <b class="fl-hint-py">${escapeHtml(cur.py)}</b>，再想想，还有 ${MAX_WRONG - p.wrongs} 次机会</p>` : `<p class="fl-hint">&nbsp;</p>`;
     const progress = session.tasks.length > 1 ? ` · 第 ${session.index + 1} / ${session.tasks.length} 项` : "";
     return `<section class="fl-practice">
         <div class="view-head">
@@ -670,6 +727,7 @@
           <span class="fl-bar-tools">
             <button class="secondary-button button-small" data-action="hint"${p.redPending ? " disabled" : ""} title="显示这个字（记为红字）">提示</button>
             <button class="secondary-button button-small" data-action="read" title="朗读到这个字（记为红字）">读一遍</button>
+            <button class="text-button button-small" data-action="pinyin" title="已背出的字上方是否显示拼音">${showPinyin ? "隐藏拼音" : "显示拼音"}</button>
             <button class="text-button button-small" data-action="keyboard">${showKeyboard ? "收起键盘" : "屏幕键盘"}</button>
           </span>
         </div>
@@ -697,7 +755,7 @@
       : redo ? "红字所在的句子再背一遍，趁热记牢。" : "这几句已经连背了 " + MAX_REDO + " 次，先休息一下，明天会再出现。";
     const text = piece.tokens.slice(p.task.start, p.task.end).map((t, i) => {
       const k = p.task.start + i;
-      return t.han ? `<span class="fl-char ${p.marks[k] || "ok"}">${escapeHtml(t.ch)}</span>` : escapeHtml(t.ch);
+      return t.han ? ruby(`<span class="fl-char ${p.marks[k] || "ok"}">${escapeHtml(t.ch)}</span>`, t.py) : `<span class="fl-punct">${escapeHtml(t.ch)}</span>`;
     }).join("");
     return `<section class="fl-practice fl-done">
         <p class="view-kicker">${escapeHtml(p.task.label)} · 完成</p>
@@ -710,7 +768,8 @@
         </div>
         ${r.red ? `<p class="fl-red-line">红字：${redChips(r.reds.map(i => piece.tokens[i].id))}</p>` : ""}
         <p class="fl-done-msg">${msg}</p>
-        <div class="fl-text fl-review">${text}</div>
+        <div class="fl-text fl-review fl-pinyin">${text}</div>
+        <p class="fl-review-note">以后想再看拼音：在“篇目”里展开《${escapeHtml(piece.title)}》，点“全文拼音”。</p>
         <div class="lead-actions">
           ${redo ? `<button class="primary-button" data-action="redo-now">重背红字所在的句子 ⏎</button><button class="secondary-button" data-action="next">${nextLabel}</button>`
                  : `<button class="primary-button" data-action="next">${nextLabel} ⏎</button>`}
@@ -753,6 +812,14 @@
       return startSession(redoTasks(ids));
     }
     if (a === "print") return window.print();
+    if (a === "read-piece") { reading = piece.id; render(); return window.scrollTo(0, 0); }
+    if (a === "close-reading") { reading = ""; if (window.speechSynthesis) speechSynthesis.cancel(); return render(); }
+    if (a === "speak-all") return speak(piece.content);
+    if (a === "pinyin") {
+      showPinyin = !showPinyin;
+      try { localStorage.setItem(PINYIN_KEY, showPinyin ? "1" : "0"); } catch (e) {}
+      return render();
+    }
     if (a === "key") return onLetter(el.dataset.key);
     if (a === "hint") return useHint();
     if (a === "read") return readAloud();
@@ -775,6 +842,7 @@
       abandonPractice();
       practice = null;
       session = null;
+      reading = "";
       setView(b.dataset.view);
     }));
     const menu = document.getElementById("moreMenu");
