@@ -6,6 +6,9 @@
    "id": "u1-believe",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "believe",
    "answers": [
     "believe"
@@ -18,6 +21,9 @@
    "id": "u1-sick",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "sick",
    "answers": [
     "sick"
@@ -30,6 +36,9 @@
    "id": "u1-thanks",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "thanks",
    "answers": [
     "thanks"
@@ -42,6 +51,9 @@
    "id": "u1-director",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "director",
    "answers": [
     "director"
@@ -54,6 +66,9 @@
    "id": "u1-vet",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "vet",
    "answers": [
     "vet"
@@ -66,6 +81,9 @@
    "id": "u1-postman",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "postman",
    "answers": [
     "postman"
@@ -78,6 +96,9 @@
    "id": "u1-builder",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "builder",
    "answers": [
     "builder"
@@ -90,6 +111,9 @@
    "id": "u1-excellent",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "excellent",
    "answers": [
     "excellent"
@@ -102,6 +126,9 @@
    "id": "u1-dancer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "dancer",
    "answers": [
     "dancer"
@@ -114,6 +141,9 @@
    "id": "u1-artist",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "artist",
    "answers": [
     "artist"
@@ -126,6 +156,9 @@
    "id": "u1-lively",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "lively",
    "answers": [
     "lively"
@@ -138,6 +171,9 @@
    "id": "u1-guide",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "guide",
    "answers": [
     "guide"
@@ -150,6 +186,9 @@
    "id": "u1-news",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "news",
    "answers": [
     "news"
@@ -162,6 +201,9 @@
    "id": "u1-pilot",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "pilot",
    "answers": [
     "pilot"
@@ -174,6 +216,9 @@
    "id": "u1-reporter",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "reporter",
    "answers": [
     "reporter"
@@ -186,6 +231,9 @@
    "id": "u1-scientist",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "scientist",
    "answers": [
     "scientist"
@@ -198,6 +246,9 @@
    "id": "u1-maybe",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "maybe",
    "answers": [
     "maybe"
@@ -210,6 +261,9 @@
    "id": "u1-send",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "send",
    "answers": [
     "send"
@@ -222,6 +276,9 @@
    "id": "u1-report",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "report",
    "answers": [
     "report"
@@ -234,6 +291,9 @@
    "id": "u1-letter",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "letter",
    "answers": [
     "letter"
@@ -246,6 +306,9 @@
    "id": "u1-paint",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "paint",
    "answers": [
     "paint"
@@ -258,6 +321,9 @@
    "id": "u1-eraser",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "eraser",
    "answers": [
     "eraser"
@@ -270,6 +336,9 @@
    "id": "u1-tool",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "tool",
    "answers": [
     "tool"
@@ -282,6 +351,9 @@
    "id": "u1-actor",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "actor",
    "answers": [
     "actor"
@@ -294,6 +366,9 @@
    "id": "u1-actress",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "actress",
    "answers": [
     "actress"
@@ -306,6 +381,9 @@
    "id": "u1-fireman",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "fireman",
    "answers": [
     "fireman"
@@ -318,6 +396,9 @@
    "id": "u1-uniform",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "uniform",
    "answers": [
     "uniform"
@@ -330,6 +411,9 @@
    "id": "u1-rush",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "rush",
    "answers": [
     "rush"
@@ -342,6 +426,9 @@
    "id": "u1-dangerous",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "dangerous",
    "answers": [
     "dangerous"
@@ -354,6 +441,9 @@
    "id": "u1-brave",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "brave",
    "answers": [
     "brave"
@@ -366,6 +456,9 @@
    "id": "u1-tiny",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "tiny",
    "answers": [
     "tiny"
@@ -378,6 +471,9 @@
    "id": "u1-taikonaut",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "taikonaut",
    "answers": [
     "taikonaut"
@@ -390,6 +486,9 @@
    "id": "u1-railway",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "railway",
    "answers": [
     "railway"
@@ -402,6 +501,9 @@
    "id": "u1-modern",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "modern",
    "answers": [
     "modern"
@@ -414,6 +516,9 @@
    "id": "u1-future",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "future",
    "answers": [
     "future"
@@ -426,6 +531,9 @@
    "id": "u1-alarm",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "alarm",
    "answers": [
     "alarm"
@@ -438,6 +546,9 @@
    "id": "u1-receive",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "receive",
    "answers": [
     "receive"
@@ -450,6 +561,9 @@
    "id": "u1-sofa",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "sofa",
    "answers": [
     "sofa"
@@ -462,6 +576,9 @@
    "id": "u1-blind",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "blind",
    "answers": [
     "blind"
@@ -474,6 +591,9 @@
    "id": "u1-patient",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "patient",
    "answers": [
     "patient"
@@ -486,6 +606,9 @@
    "id": "u1-according-to",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "according (to)",
    "answers": [
     "according",
@@ -499,6 +622,9 @@
    "id": "u1-grandpa",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "grandpa",
    "answers": [
     "grandpa"
@@ -511,6 +637,9 @@
    "id": "u1-piano",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "piano",
    "answers": [
     "piano"
@@ -523,6 +652,9 @@
    "id": "u1-interested",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "interested",
    "answers": [
     "interested"
@@ -535,6 +667,9 @@
    "id": "u1-direct",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "direct",
    "answers": [
     "direct"
@@ -547,6 +682,9 @@
    "id": "u1-movie",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "movie",
    "answers": [
     "movie"
@@ -559,6 +697,9 @@
    "id": "u1-illness",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "illness",
    "answers": [
     "illness"
@@ -571,6 +712,9 @@
    "id": "u1-explorer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "explorer",
    "answers": [
     "explorer"
@@ -583,6 +727,9 @@
    "id": "u1-curious",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "curious",
    "answers": [
     "curious"
@@ -595,6 +742,9 @@
    "id": "u1-secret",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "secret",
    "answers": [
     "secret"
@@ -607,6 +757,9 @@
    "id": "u1-tomorrow",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "tomorrow",
    "answers": [
     "tomorrow"
@@ -619,6 +772,9 @@
    "id": "u1-opinion",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "opinion",
    "answers": [
     "opinion"
@@ -631,6 +787,9 @@
    "id": "u1-course",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "course",
    "answers": [
     "course"
@@ -643,6 +802,9 @@
    "id": "u1-officer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "officer",
    "answers": [
     "officer"
@@ -655,6 +817,9 @@
    "id": "u1-vote",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "vote",
    "answers": [
     "vote"
@@ -667,6 +832,9 @@
    "id": "u1-choose",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "choose",
    "answers": [
     "choose"
@@ -679,6 +847,9 @@
    "id": "u1-lawyer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "lawyer",
    "answers": [
     "lawyer"
@@ -691,6 +862,9 @@
    "id": "u1-competition",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "competition",
    "answers": [
     "competition"
@@ -703,6 +877,9 @@
    "id": "u1-encourage",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "encourage",
    "answers": [
     "encourage"
@@ -715,6 +892,9 @@
    "id": "u1-proud",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "proud",
    "answers": [
     "proud"
@@ -727,6 +907,9 @@
    "id": "u1-success",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "success",
    "answers": [
     "success"
@@ -739,6 +922,9 @@
    "id": "u1-pioneer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "pioneer",
    "answers": [
     "pioneer"
@@ -751,6 +937,9 @@
    "id": "u1-journey",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "journey",
    "answers": [
     "journey"
@@ -763,6 +952,9 @@
    "id": "u1-training",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "training",
    "answers": [
     "training"
@@ -775,6 +967,9 @@
    "id": "u1-without",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "without",
    "answers": [
     "without"
@@ -787,6 +982,9 @@
    "id": "u1-ready",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "ready",
    "answers": [
     "ready"
@@ -799,6 +997,9 @@
    "id": "u1-nearly",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "nearly",
    "answers": [
     "nearly"
@@ -811,6 +1012,9 @@
    "id": "u1-chance",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "chance",
    "answers": [
     "chance"
@@ -823,6 +1027,9 @@
    "id": "u1-spaceship",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "spaceship",
    "answers": [
     "spaceship"
@@ -835,6 +1042,9 @@
    "id": "u1-succeed",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "succeed",
    "answers": [
     "succeed"
@@ -847,6 +1057,9 @@
    "id": "u1-act",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "act",
    "answers": [
     "act"
@@ -859,6 +1072,9 @@
    "id": "u1-especially",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "especially",
    "answers": [
     "especially"
@@ -871,6 +1087,9 @@
    "id": "u1-quality",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "quality",
    "answers": [
     "quality"
@@ -883,6 +1102,9 @@
    "id": "u1-smile",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "smile",
    "answers": [
     "smile"
@@ -895,6 +1117,9 @@
    "id": "u1-zookeeper",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "zookeeper",
    "answers": [
     "zookeeper"
@@ -907,6 +1132,9 @@
    "id": "u1-achieve",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "achieve",
    "answers": [
     "achieve"
@@ -919,6 +1147,9 @@
    "id": "u1-design",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "design",
    "answers": [
     "design"
@@ -931,6 +1162,9 @@
    "id": "u1-model",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "model",
    "answers": [
     "model"
@@ -943,6 +1177,9 @@
    "id": "u1-scientific",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "scientific",
    "answers": [
     "scientific"
@@ -955,6 +1192,9 @@
    "id": "u1-knowledge",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "knowledge",
    "answers": [
     "knowledge"
@@ -967,6 +1207,9 @@
    "id": "u1-challenge",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "challenge",
    "answers": [
     "challenge"
@@ -979,6 +1222,9 @@
    "id": "u1-however",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "however",
    "answers": [
     "however"
@@ -991,6 +1237,9 @@
    "id": "u1-shelf",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "shelf",
    "answers": [
     "shelf"
@@ -1003,6 +1252,9 @@
    "id": "u1-reader",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "reader",
    "answers": [
     "reader"
@@ -1015,6 +1267,9 @@
    "id": "u1-record",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "record",
    "answers": [
     "record"
@@ -1027,6 +1282,9 @@
    "id": "u1-dentist",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "dentist",
    "answers": [
     "dentist"
@@ -1039,6 +1297,9 @@
    "id": "u1-reason",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "reason",
    "answers": [
     "reason"
@@ -1051,6 +1312,9 @@
    "id": "u1-research",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "research",
    "answers": [
     "research"
@@ -1063,6 +1327,9 @@
    "id": "u1-tourist",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "tourist",
    "answers": [
     "tourist"
@@ -1075,6 +1342,9 @@
    "id": "u1-speech",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "speech",
    "answers": [
     "speech"
@@ -1087,6 +1357,9 @@
    "id": "u1-term",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "term",
    "answers": [
     "term"
@@ -1099,6 +1372,9 @@
    "id": "u1-waitress",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "waitress",
    "answers": [
     "waitress"
@@ -1111,6 +1387,9 @@
    "id": "u1-greet",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "greet",
    "answers": [
     "greet"
@@ -1123,6 +1402,9 @@
    "id": "u1-guest",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "guest",
    "answers": [
     "guest"
@@ -1135,6 +1417,9 @@
    "id": "u1-lead",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "lead",
    "answers": [
     "lead"
@@ -1147,6 +1432,9 @@
    "id": "u1-boring",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "boring",
    "answers": [
     "boring"
@@ -1159,6 +1447,9 @@
    "id": "u1-customer",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "customer",
    "answers": [
     "customer"
@@ -1171,6 +1462,9 @@
    "id": "u1-conversation",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "conversation",
    "answers": [
     "conversation"
@@ -1183,6 +1477,9 @@
    "id": "u1-manager",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "manager",
    "answers": [
     "manager"
@@ -1195,6 +1492,9 @@
    "id": "u1-noisy",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "noisy",
    "answers": [
     "noisy"
@@ -1207,6 +1507,9 @@
    "id": "u1-simple",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "simple",
    "answers": [
     "simple"
@@ -1219,6 +1522,9 @@
    "id": "u1-successful",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "successful",
    "answers": [
     "successful"
@@ -1231,6 +1537,9 @@
    "id": "u1-show-around",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "show ... around",
    "answers": [
     "show around"
@@ -1243,42 +1552,60 @@
    "id": "u1-get-sick",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Preparing"
+   ],
    "text": "get sick",
    "answers": [
     "get sick"
    ],
    "meaning": "生病；患病",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-thanks-to",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Preparing"
+   ],
    "text": "thanks to",
    "answers": [
     "thanks to"
    ],
    "meaning": "幸亏；由于",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-care-about",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "care about",
    "answers": [
     "care about"
    ],
    "meaning": "关注；关心",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-in-ones-mind",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "in one's mind",
    "answers": [
     "in one's mind"
@@ -1291,18 +1618,26 @@
    "id": "u1-be-on-fire",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "be on fire",
    "answers": [
     "be on fire"
    ],
    "meaning": "着火；失火",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-put-out",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "put out",
    "answers": [
     "put out"
@@ -1315,42 +1650,61 @@
    "id": "u1-pay-off",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "pay off",
    "answers": [
     "pay off"
    ],
    "meaning": "成功，奏效；付清",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-as-long-as",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "as long as",
    "answers": [
     "as long as"
    ],
    "meaning": "只要",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-according-to-2",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "according to",
    "answers": [
     "according to"
    ],
    "meaning": "根据；依照",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-be-become-interested-in",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "be / become interested in",
    "answers": [
     "be interested in",
@@ -1358,48 +1712,67 @@
    ],
    "meaning": "对……感兴趣",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-at-the-age-of",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "at the age of ...",
    "answers": [
     "at the age of"
    ],
    "meaning": "在……岁时",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-be-curious-about",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "be curious about",
    "answers": [
     "be curious about"
    ],
    "meaning": "对……感到好奇",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-of-course",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "of course",
    "answers": [
     "of course"
    ],
    "meaning": "当然",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-take-it-easy",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "take it easy",
    "answers": [
     "take it easy"
@@ -1412,30 +1785,44 @@
    "id": "u1-encourage-sb-to-do-sth",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Exploring"
+   ],
    "text": "encourage sb. to do sth.",
    "answers": [
     "encourage sb to do sth"
    ],
    "meaning": "鼓励某人做某事",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-dream-about",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Developing"
+   ],
    "text": "dream about",
    "answers": [
     "dream about"
    ],
    "meaning": "梦想",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-in-order-to",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Developing"
+   ],
    "text": "in order to",
    "answers": [
     "in order to"
@@ -1444,12 +1831,16 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测二 第16题"
+   "source": "U3小测二 第16题",
+   "teacher": true
   },
   {
    "id": "u1-buy-sb-sth-buy-sth-for-sb",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "buy sb. sth. (buy sth. for sb.)",
    "answers": [
     "buy sb sth",
@@ -1463,6 +1854,9 @@
    "id": "u1-from-to",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "from ... to ...",
    "answers": [
     "from to"
@@ -1475,18 +1869,26 @@
    "id": "u1-check-in",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job",
+    "老师短语 · Unit 1 Wrapping"
+   ],
    "text": "check in",
    "answers": [
     "check in"
    ],
    "meaning": "登记",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u1-no-problem",
    "unit": "Unit 1",
    "unitTitle": "My Dream Job",
+   "groups": [
+    "Unit 1 · My Dream Job"
+   ],
    "text": "no problem",
    "answers": [
     "no problem"
@@ -1499,6 +1901,9 @@
    "id": "u2-literature",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "literature",
    "answers": [
     "literature"
@@ -1511,6 +1916,9 @@
    "id": "u2-calligraphy",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "calligraphy",
    "answers": [
     "calligraphy"
@@ -1523,6 +1931,9 @@
    "id": "u2-swan",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "swan",
    "answers": [
     "swan"
@@ -1535,6 +1946,9 @@
    "id": "u2-west",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "west",
    "answers": [
     "west"
@@ -1547,6 +1961,9 @@
    "id": "u2-teahouse",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "teahouse",
    "answers": [
     "teahouse"
@@ -1559,6 +1976,9 @@
    "id": "u2-ballet",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "ballet",
    "answers": [
     "ballet"
@@ -1571,6 +1991,9 @@
    "id": "u2-century",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "century",
    "answers": [
     "century"
@@ -1583,6 +2006,9 @@
    "id": "u2-express",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "express",
    "answers": [
     "express"
@@ -1595,6 +2021,9 @@
    "id": "u2-spirit",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "spirit",
    "answers": [
     "spirit"
@@ -1607,6 +2036,9 @@
    "id": "u2-classic",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "classic",
    "answers": [
     "classic"
@@ -1619,6 +2051,9 @@
    "id": "u2-novel",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "novel",
    "answers": [
     "novel"
@@ -1631,6 +2066,9 @@
    "id": "u2-oil",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "oil",
    "answers": [
     "oil"
@@ -1643,6 +2081,9 @@
    "id": "u2-calligrapher",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "calligrapher",
    "answers": [
     "calligrapher"
@@ -1655,6 +2096,9 @@
    "id": "u2-ancient",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "ancient",
    "answers": [
     "ancient"
@@ -1667,6 +2111,9 @@
    "id": "u2-photography",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "photography",
    "answers": [
     "photography"
@@ -1679,6 +2126,9 @@
    "id": "u2-wood",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "wood",
    "answers": [
     "wood"
@@ -1691,6 +2141,9 @@
    "id": "u2-sand",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "sand",
    "answers": [
     "sand"
@@ -1703,6 +2156,9 @@
    "id": "u2-correct",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "correct",
    "answers": [
     "correct"
@@ -1715,6 +2171,9 @@
    "id": "u2-wow",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "wow",
    "answers": [
     "wow"
@@ -1727,6 +2186,9 @@
    "id": "u2-pity",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "pity",
    "answers": [
     "pity"
@@ -1739,6 +2201,9 @@
    "id": "u2-type",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "type",
    "answers": [
     "type"
@@ -1751,6 +2216,9 @@
    "id": "u2-musical",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "musical",
    "answers": [
     "musical"
@@ -1763,6 +2231,9 @@
    "id": "u2-instrument",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "instrument",
    "answers": [
     "instrument"
@@ -1775,6 +2246,9 @@
    "id": "u2-string",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "string",
    "answers": [
     "string"
@@ -1787,6 +2261,9 @@
    "id": "u2-beat",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "beat",
    "answers": [
     "beat"
@@ -1799,6 +2276,9 @@
    "id": "u2-keyboard",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "keyboard",
    "answers": [
     "keyboard"
@@ -1811,6 +2291,9 @@
    "id": "u2-violin",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "violin",
    "answers": [
     "violin"
@@ -1823,6 +2306,9 @@
    "id": "u2-belong",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "belong",
    "answers": [
     "belong"
@@ -1835,6 +2321,9 @@
    "id": "u2-drum",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "drum",
    "answers": [
     "drum"
@@ -1847,6 +2336,9 @@
    "id": "u2-trumpet",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "trumpet",
    "answers": [
     "trumpet"
@@ -1859,6 +2351,9 @@
    "id": "u2-language",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "language",
    "answers": [
     "language"
@@ -1871,6 +2366,9 @@
    "id": "u2-allow",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "allow",
    "answers": [
     "allow"
@@ -1883,6 +2381,9 @@
    "id": "u2-communicate",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "communicate",
    "answers": [
     "communicate"
@@ -1895,6 +2396,9 @@
    "id": "u2-feeling",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "feeling",
    "answers": [
     "feeling"
@@ -1907,6 +2411,9 @@
    "id": "u2-relax",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "relax",
    "answers": [
     "relax"
@@ -1919,6 +2426,9 @@
    "id": "u2-afraid",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "afraid",
    "answers": [
     "afraid"
@@ -1931,6 +2441,9 @@
    "id": "u2-medium",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "medium",
    "answers": [
     "medium"
@@ -1943,6 +2456,9 @@
    "id": "u2-eye",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "eye",
    "answers": [
     "eye"
@@ -1955,6 +2471,9 @@
    "id": "u2-pigeon",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "pigeon",
    "answers": [
     "pigeon"
@@ -1967,6 +2486,9 @@
    "id": "u2-opera",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "opera",
    "answers": [
     "opera"
@@ -1979,6 +2501,9 @@
    "id": "u2-strict",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "strict",
    "answers": [
     "strict"
@@ -1991,6 +2516,9 @@
    "id": "u2-perfect",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "perfect",
    "answers": [
     "perfect"
@@ -2003,6 +2531,9 @@
    "id": "u2-painter",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "painter",
    "answers": [
     "painter"
@@ -2015,6 +2546,9 @@
    "id": "u2-popular",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "popular",
    "answers": [
     "popular"
@@ -2027,6 +2561,9 @@
    "id": "u2-sentence",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "sentence",
    "answers": [
     "sentence"
@@ -2039,6 +2576,9 @@
    "id": "u2-huge",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "huge",
    "answers": [
     "huge"
@@ -2051,6 +2591,9 @@
    "id": "u2-gate",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "gate",
    "answers": [
     "gate"
@@ -2063,6 +2606,9 @@
    "id": "u2-tower",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "tower",
    "answers": [
     "tower"
@@ -2075,6 +2621,9 @@
    "id": "u2-value",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "value",
    "answers": [
     "value"
@@ -2087,6 +2636,9 @@
    "id": "u2-northern",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "northern",
    "answers": [
     "northern"
@@ -2099,6 +2651,9 @@
    "id": "u2-dynasty",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "dynasty",
    "answers": [
     "dynasty"
@@ -2111,6 +2666,9 @@
    "id": "u2-amazing",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "amazing",
    "answers": [
     "amazing"
@@ -2123,6 +2681,9 @@
    "id": "u2-centimetre",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "centimetre",
    "answers": [
     "centimetre"
@@ -2135,6 +2696,9 @@
    "id": "u2-pull",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "pull",
    "answers": [
     "pull"
@@ -2147,6 +2711,9 @@
    "id": "u2-shout",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "shout",
    "answers": [
     "shout"
@@ -2159,6 +2726,9 @@
    "id": "u2-riverside",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "riverside",
    "answers": [
     "riverside"
@@ -2171,6 +2741,9 @@
    "id": "u2-riverbank",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "riverbank",
    "answers": [
     "riverbank"
@@ -2183,6 +2756,9 @@
    "id": "u2-mark",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "mark",
    "answers": [
     "mark"
@@ -2195,6 +2771,9 @@
    "id": "u2-businessman",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "businessman",
    "answers": [
     "businessman"
@@ -2207,6 +2786,9 @@
    "id": "u2-explore",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "explore",
    "answers": [
     "explore"
@@ -2219,6 +2801,9 @@
    "id": "u2-crowd",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "crowd",
    "answers": [
     "crowd"
@@ -2231,6 +2816,9 @@
    "id": "u2-besides",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "besides",
    "answers": [
     "besides"
@@ -2243,6 +2831,9 @@
    "id": "u2-nothing",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "nothing",
    "answers": [
     "nothing"
@@ -2255,6 +2846,9 @@
    "id": "u2-anybody",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "anybody",
    "answers": [
     "anybody"
@@ -2267,6 +2861,9 @@
    "id": "u2-nobody",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "nobody",
    "answers": [
     "nobody"
@@ -2279,6 +2876,9 @@
    "id": "u2-anything",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "anything",
    "answers": [
     "anything"
@@ -2291,6 +2891,9 @@
    "id": "u2-harm",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "harm",
    "answers": [
     "harm"
@@ -2303,6 +2906,9 @@
    "id": "u2-somewhere",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "somewhere",
    "answers": [
     "somewhere"
@@ -2315,6 +2921,9 @@
    "id": "u2-someone",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "someone",
    "answers": [
     "someone"
@@ -2327,6 +2936,9 @@
    "id": "u2-anywhere",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "anywhere",
    "answers": [
     "anywhere"
@@ -2339,6 +2951,9 @@
    "id": "u2-create",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "create",
    "answers": [
     "create"
@@ -2351,6 +2966,9 @@
    "id": "u2-magical",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "magical",
    "answers": [
     "magical"
@@ -2363,6 +2981,9 @@
    "id": "u2-real",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "real",
    "answers": [
     "real"
@@ -2375,6 +2996,9 @@
    "id": "u2-unknown",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "unknown",
    "answers": [
     "unknown"
@@ -2387,6 +3011,9 @@
    "id": "u2-anytime",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "anytime",
    "answers": [
     "anytime"
@@ -2399,6 +3026,9 @@
    "id": "u2-magic",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "magic",
    "answers": [
     "magic"
@@ -2411,6 +3041,9 @@
    "id": "u2-impossible",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "impossible",
    "answers": [
     "impossible"
@@ -2423,6 +3056,9 @@
    "id": "u2-concert",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "concert",
    "answers": [
     "concert"
@@ -2435,6 +3071,9 @@
    "id": "u2-sweet",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "sweet",
    "answers": [
     "sweet"
@@ -2447,6 +3086,9 @@
    "id": "u2-fat",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "fat",
    "answers": [
     "fat"
@@ -2459,6 +3101,9 @@
    "id": "u2-awful",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "awful",
    "answers": [
     "awful"
@@ -2471,6 +3116,9 @@
    "id": "u2-folk",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "folk",
    "answers": [
     "folk"
@@ -2483,6 +3131,9 @@
    "id": "u2-shape",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "shape",
    "answers": [
     "shape"
@@ -2495,6 +3146,9 @@
    "id": "u2-character",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "character",
    "answers": [
     "character"
@@ -2507,6 +3161,9 @@
    "id": "u2-upside",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "upside",
    "answers": [
     "upside"
@@ -2519,6 +3176,9 @@
    "id": "u2-symbol",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "symbol",
    "answers": [
     "symbol"
@@ -2531,6 +3191,9 @@
    "id": "u2-clay",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "clay",
    "answers": [
     "clay"
@@ -2543,6 +3206,9 @@
    "id": "u2-immediately",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "immediately",
    "answers": [
     "immediately"
@@ -2555,6 +3221,9 @@
    "id": "u2-mask",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "mask",
    "answers": [
     "mask"
@@ -2567,6 +3236,9 @@
    "id": "u2-role",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "role",
    "answers": [
     "role"
@@ -2579,6 +3251,9 @@
    "id": "u2-style",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "style",
    "answers": [
     "style"
@@ -2591,6 +3266,9 @@
    "id": "u2-among",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "among",
    "answers": [
     "among"
@@ -2603,6 +3281,9 @@
    "id": "u2-fan",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "fan",
    "answers": [
     "fan"
@@ -2615,6 +3296,9 @@
    "id": "u2-pleasant",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "pleasant",
    "answers": [
     "pleasant"
@@ -2627,6 +3311,9 @@
    "id": "u2-creative",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "creative",
    "answers": [
     "creative"
@@ -2639,6 +3326,9 @@
    "id": "u2-musician",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "musician",
    "answers": [
     "musician"
@@ -2651,6 +3341,9 @@
    "id": "u2-relaxed",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "relaxed",
    "answers": [
     "relaxed"
@@ -2663,6 +3356,9 @@
    "id": "u2-operate",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "operate",
    "answers": [
     "operate"
@@ -2675,6 +3371,9 @@
    "id": "u2-control",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "control",
    "answers": [
     "control"
@@ -2687,6 +3386,9 @@
    "id": "u2-electronic",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "electronic",
    "answers": [
     "electronic"
@@ -2699,6 +3401,9 @@
    "id": "u2-photographer",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "photographer",
    "answers": [
     "photographer"
@@ -2711,6 +3416,9 @@
    "id": "u2-sportswoman",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "sportswoman",
    "answers": [
     "sportswoman"
@@ -2723,6 +3431,9 @@
    "id": "u2-singer",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "singer",
    "answers": [
     "singer"
@@ -2735,6 +3446,9 @@
    "id": "u2-have-to-do-sth",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "have to do sth.",
    "answers": [
     "have to do sth"
@@ -2747,30 +3461,43 @@
    "id": "u2-belong-to",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Exploring"
+   ],
    "text": "belong to",
    "answers": [
     "belong to"
    ],
    "meaning": "属于",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-allow-sb-to-do-sth",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Exploring"
+   ],
    "text": "allow sb. to do sth.",
    "answers": [
     "allow sb to do sth"
    ],
    "meaning": "允许某人做某事",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-by-oneself",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "by oneself",
    "answers": [
     "by oneself"
@@ -2783,6 +3510,9 @@
    "id": "u2-in-his-twenties",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "in his twenties",
    "answers": [
     "in his twenties"
@@ -2795,6 +3525,9 @@
    "id": "u2-daily-life",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "daily life",
    "answers": [
     "daily life"
@@ -2807,30 +3540,43 @@
    "id": "u2-a-line-of",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Exploring"
+   ],
    "text": "a line of",
    "answers": [
     "a line of"
    ],
    "meaning": "一排；一系列",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-shout-out",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Exploring"
+   ],
    "text": "shout out",
    "answers": [
     "shout out"
    ],
    "meaning": "大叫，突然呼喊",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-go-well",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art"
+   ],
    "text": "go well",
    "answers": [
     "go well"
@@ -2843,90 +3589,128 @@
    "id": "u2-cut-out",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "cut out",
    "answers": [
     "cut out"
    ],
    "meaning": "裁剪",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-upside-down",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "upside down",
    "answers": [
     "upside down"
    ],
    "meaning": "颠倒；倒转",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-a-symbol-of",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "a symbol of",
    "answers": [
     "a symbol of"
    ],
    "meaning": "……的象征",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-fall-in-love-with",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "fall in love with",
    "answers": [
     "fall in love with"
    ],
    "meaning": "爱上",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-a-different-type-of",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "a different type of",
    "answers": [
     "a different type of"
    ],
    "meaning": "一种不同类型的",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-be-popular-among",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Developing"
+   ],
    "text": "be popular among",
    "answers": [
     "be popular among"
    ],
    "meaning": "在……中受欢迎",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u2-a-part-of",
    "unit": "Unit 2",
    "unitTitle": "The World of Art",
+   "groups": [
+    "Unit 2 · The World of Art",
+    "老师短语 · Unit 2 Wrapping"
+   ],
    "text": "a part of",
    "answers": [
     "a part of"
    ],
    "meaning": "……的一部分",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-cough",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "cough",
    "answers": [
     "cough"
@@ -2939,6 +3723,9 @@
    "id": "u3-fever",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "fever",
    "answers": [
     "fever"
@@ -2951,6 +3738,9 @@
    "id": "u3-sore",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "sore",
    "answers": [
     "sore"
@@ -2963,6 +3753,9 @@
    "id": "u3-throat",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "throat",
    "answers": [
     "throat"
@@ -2975,6 +3768,9 @@
    "id": "u3-headache",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "headache",
    "answers": [
     "headache"
@@ -2987,6 +3783,9 @@
    "id": "u3-toothache",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "toothache",
    "answers": [
     "toothache"
@@ -2999,6 +3798,9 @@
    "id": "u3-stomachache",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "stomachache",
    "answers": [
     "stomachache"
@@ -3011,6 +3813,9 @@
    "id": "u3-jogging",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "jogging",
    "answers": [
     "jogging"
@@ -3023,6 +3828,9 @@
    "id": "u3-lazy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "lazy",
    "answers": [
     "lazy"
@@ -3035,6 +3843,9 @@
    "id": "u3-condition",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "condition",
    "answers": [
     "condition"
@@ -3047,6 +3858,9 @@
    "id": "u3-uncomfortable",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "uncomfortable",
    "answers": [
     "uncomfortable"
@@ -3059,6 +3873,9 @@
    "id": "u3-diary",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "diary",
    "answers": [
     "diary"
@@ -3071,6 +3888,9 @@
    "id": "u3-positive",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "positive",
    "answers": [
     "positive"
@@ -3083,6 +3903,9 @@
    "id": "u3-benefit",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "benefit",
    "answers": [
     "benefit"
@@ -3097,6 +3920,9 @@
    "id": "u3-mood",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "mood",
    "answers": [
     "mood"
@@ -3109,6 +3935,9 @@
    "id": "u3-volleyball",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "volleyball",
    "answers": [
     "volleyball"
@@ -3123,6 +3952,9 @@
    "id": "u3-energy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "energy",
    "answers": [
     "energy"
@@ -3135,6 +3967,9 @@
    "id": "u3-glad",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "glad",
    "answers": [
     "glad"
@@ -3147,6 +3982,9 @@
    "id": "u3-confident",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "confident",
    "answers": [
     "confident"
@@ -3159,6 +3997,9 @@
    "id": "u3-absent",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "absent",
    "answers": [
     "absent"
@@ -3171,6 +4012,9 @@
    "id": "u3-moment",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "moment",
    "answers": [
     "moment"
@@ -3183,6 +4027,9 @@
    "id": "u3-oneself",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "oneself",
    "answers": [
     "oneself"
@@ -3195,6 +4042,9 @@
    "id": "u3-seafood",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "seafood",
    "answers": [
     "seafood"
@@ -3207,6 +4057,9 @@
    "id": "u3-seem",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "seem",
    "answers": [
     "seem"
@@ -3219,6 +4072,9 @@
    "id": "u3-unhealthy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "unhealthy",
    "answers": [
     "unhealthy"
@@ -3231,6 +4087,9 @@
    "id": "u3-temperature",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "temperature",
    "answers": [
     "temperature"
@@ -3243,6 +4102,9 @@
    "id": "u3-medicine",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "medicine",
    "answers": [
     "medicine"
@@ -3255,18 +4117,26 @@
    "id": "u3-junk-food",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "junk food",
    "answers": [
     "junk food"
    ],
    "meaning": "n. 垃圾食品",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-slim",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "slim",
    "answers": [
     "slim"
@@ -3279,6 +4149,9 @@
    "id": "u3-diet",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "diet",
    "answers": [
     "diet"
@@ -3293,6 +4166,9 @@
    "id": "u3-screen",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "screen",
    "answers": [
     "screen"
@@ -3305,6 +4181,9 @@
    "id": "u3-sugar",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "sugar",
    "answers": [
     "sugar"
@@ -3317,6 +4196,9 @@
    "id": "u3-ache",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "ache",
    "answers": [
     "ache"
@@ -3329,6 +4211,9 @@
    "id": "u3-examine",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "examine",
    "answers": [
     "examine"
@@ -3341,6 +4226,9 @@
    "id": "u3-hamburger",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "hamburger",
    "answers": [
     "hamburger"
@@ -3353,6 +4241,9 @@
    "id": "u3-chip",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "chip",
    "answers": [
     "chip"
@@ -3365,6 +4256,9 @@
    "id": "u3-fried",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "fried",
    "answers": [
     "fried"
@@ -3377,6 +4271,9 @@
    "id": "u3-pork",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "pork",
    "answers": [
     "pork"
@@ -3389,6 +4286,9 @@
    "id": "u3-pepper",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "pepper",
    "answers": [
     "pepper"
@@ -3401,6 +4301,9 @@
    "id": "u3-iced",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "iced",
    "answers": [
     "iced"
@@ -3413,6 +4316,9 @@
    "id": "u3-coke",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "Coke",
    "answers": [
     "coke"
@@ -3425,6 +4331,9 @@
    "id": "u3-pill",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "pill",
    "answers": [
     "pill"
@@ -3437,6 +4346,9 @@
    "id": "u3-outgoing",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "outgoing",
    "answers": [
     "outgoing"
@@ -3449,6 +4361,9 @@
    "id": "u3-shy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "shy",
    "answers": [
     "shy"
@@ -3461,6 +4376,9 @@
    "id": "u3-snack",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "snack",
    "answers": [
     "snack"
@@ -3473,6 +4391,9 @@
    "id": "u3-chocolate",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "chocolate",
    "answers": [
     "chocolate"
@@ -3485,6 +4406,9 @@
    "id": "u3-cookie",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "cookie",
    "answers": [
     "cookie"
@@ -3497,6 +4421,9 @@
    "id": "u3-ice-cream",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "ice cream",
    "answers": [
     "ice cream"
@@ -3509,6 +4436,9 @@
    "id": "u3-cream",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "cream",
    "answers": [
     "cream"
@@ -3521,6 +4451,9 @@
    "id": "u3-potato",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "potato",
    "answers": [
     "potato"
@@ -3533,6 +4466,9 @@
    "id": "u3-corn",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "corn",
    "answers": [
     "corn"
@@ -3545,6 +4481,9 @@
    "id": "u3-candy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "candy",
    "answers": [
     "candy"
@@ -3557,6 +4496,9 @@
    "id": "u3-biscuit",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "biscuit",
    "answers": [
     "biscuit"
@@ -3569,6 +4511,9 @@
    "id": "u3-beef",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "beef",
    "answers": [
     "beef"
@@ -3581,6 +4526,9 @@
    "id": "u3-cucumber",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "cucumber",
    "answers": [
     "cucumber"
@@ -3593,6 +4541,9 @@
    "id": "u3-lifestyle",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "lifestyle",
    "answers": [
     "lifestyle"
@@ -3605,6 +4556,9 @@
    "id": "u3-prefer",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "prefer",
    "answers": [
     "prefer"
@@ -3617,6 +4571,9 @@
    "id": "u3-bean",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "bean",
    "answers": [
     "bean"
@@ -3629,6 +4586,9 @@
    "id": "u3-empty",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "empty",
    "answers": [
     "empty"
@@ -3641,6 +4601,9 @@
    "id": "u3-clearly",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "clearly",
    "answers": [
     "clearly"
@@ -3653,6 +4616,9 @@
    "id": "u3-sleepy",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "sleepy",
    "answers": [
     "sleepy"
@@ -3665,6 +4631,9 @@
    "id": "u3-worse",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "worse",
    "answers": [
     "worse"
@@ -3677,6 +4646,9 @@
    "id": "u3-rid",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "rid",
    "answers": [
     "rid"
@@ -3689,6 +4661,9 @@
    "id": "u3-fridge",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "fridge",
    "answers": [
     "fridge"
@@ -3703,6 +4678,9 @@
    "id": "u3-weight",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "weight",
    "answers": [
     "weight"
@@ -3715,6 +4693,9 @@
    "id": "u3-hobby",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "hobby",
    "answers": [
     "hobby"
@@ -3727,6 +4708,9 @@
    "id": "u3-hurry",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "hurry",
    "answers": [
     "hurry"
@@ -3739,6 +4723,9 @@
    "id": "u3-mad",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "mad",
    "answers": [
     "mad"
@@ -3751,6 +4738,9 @@
    "id": "u3-fit",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "fit",
    "answers": [
     "fit"
@@ -3763,6 +4753,9 @@
    "id": "u3-physical",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "physical",
    "answers": [
     "physical"
@@ -3775,6 +4768,9 @@
    "id": "u3-balanced",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "balanced",
    "answers": [
     "balanced"
@@ -3787,6 +4783,9 @@
    "id": "u3-runner",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "runner",
    "answers": [
     "runner"
@@ -3799,6 +4798,9 @@
    "id": "u3-spread",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "spread",
    "answers": [
     "spread"
@@ -3811,42 +4813,61 @@
    "id": "u3-take-ones-temperature",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "take one's temperature",
    "answers": [
     "take one's temperature"
    ],
    "meaning": "量体温",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-lose-ones-voice",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "lose one's voice",
    "answers": [
     "lose one's voice"
    ],
    "meaning": "失声；嗓子哑",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-have-a-fever",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "have a fever",
    "answers": [
     "have a fever"
    ],
    "meaning": "发烧",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-stay-keep-away-from",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "stay / keep away from",
    "answers": [
     "stay away from",
@@ -3854,24 +4875,33 @@
    ],
    "meaning": "远离……",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-take-some-pills",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "take some pills",
    "answers": [
     "take some pills"
    ],
    "meaning": "服药",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-for-one-thing",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "for one thing",
    "answers": [
     "for one thing"
@@ -3884,6 +4914,9 @@
    "id": "u3-for-another",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "for another",
    "answers": [
     "for another"
@@ -3896,6 +4929,9 @@
    "id": "u3-a-good-way-to-do-sth",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "a good way to do sth.",
    "answers": [
     "a good way to do sth"
@@ -3908,18 +4944,26 @@
    "id": "u3-do-some-exercise",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Preparing"
+   ],
    "text": "do some exercise",
    "answers": [
     "do some exercise"
    ],
    "meaning": "做运动",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-right-away",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "right away",
    "answers": [
     "right away"
@@ -3932,6 +4976,10 @@
    "id": "u3-keep-a-diary",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "keep a diary",
    "answers": [
     "keep a diary"
@@ -3940,24 +4988,34 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测二 第18题"
+   "source": "U3小测二 第18题",
+   "teacher": true
   },
   {
    "id": "u3-in-ones-opinion",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "in one's opinion",
    "answers": [
     "in one's opinion"
    ],
    "meaning": "在某人看来",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-in-a-good-mood",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "in a good mood",
    "answers": [
     "in a good mood"
@@ -3966,24 +5024,33 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测二 第4题"
+   "source": "U3小测二 第4题",
+   "teacher": true
   },
   {
    "id": "u3-communicate-with-sb",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "communicate with sb.",
    "answers": [
     "communicate with sb"
    ],
    "meaning": "与某人交流",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-make-sure-to-do-sth",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "make sure to do sth.",
    "answers": [
     "make sure to do sth"
@@ -3996,6 +5063,10 @@
    "id": "u3-come-across",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "come across",
    "answers": [
     "come across"
@@ -4004,48 +5075,67 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测二 第10题 / 小测三 第15题"
+   "source": "U3小测二 第10题 / 小测三 第15题",
+   "teacher": true
   },
   {
    "id": "u3-live-a-happy-life",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "live a happy life",
    "answers": [
     "live a happy life"
    ],
    "meaning": "过幸福的生活",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-get-through",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "get through",
    "answers": [
     "get through"
    ],
    "meaning": "度过（难关、困境等）；通过",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-by-chance",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "by chance",
    "answers": [
     "by chance"
    ],
    "meaning": "偶然；巧合",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-on-an-empty-stomach",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind"
+   ],
    "text": "on an empty stomach",
    "answers": [
     "on an empty stomach"
@@ -4060,18 +5150,27 @@
    "id": "u3-be-bad-for",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "be bad for",
    "answers": [
     "be bad for"
    ],
    "meaning": "对……有害",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-whats-worse",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "what's worse",
    "answers": [
     "what's worse"
@@ -4080,12 +5179,17 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测三 第9题"
+   "source": "U3小测三 第9题",
+   "teacher": true
   },
   {
    "id": "u3-get-rid-of",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "get rid of",
    "answers": [
     "get rid of"
@@ -4094,12 +5198,17 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测三 第8题"
+   "source": "U3小测三 第8题",
+   "teacher": true
   },
   {
    "id": "u3-lose-weight",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "lose weight",
    "answers": [
     "lose weight"
@@ -4108,48 +5217,68 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测三 第2题"
+   "source": "U3小测三 第2题",
+   "teacher": true
   },
   {
    "id": "u3-on-the-other-hand",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Developing"
+   ],
    "text": "on the other hand",
    "answers": [
     "on the other hand"
    ],
    "meaning": "另一方面",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-focus-on",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Wrapping"
+   ],
    "text": "focus on",
    "answers": [
     "focus on"
    ],
    "meaning": "专注于",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-take-up",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Wrapping"
+   ],
    "text": "take up",
    "answers": [
     "take up"
    ],
    "meaning": "开始从事；占用",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "u3-stay-keep-fit",
    "unit": "Unit 3",
    "unitTitle": "Sound Body, Sound Mind",
+   "groups": [
+    "Unit 3 · Sound Body, Sound Mind",
+    "老师短语 · Unit 3 Wrapping"
+   ],
    "text": "stay / keep fit",
    "answers": [
     "stay fit",
@@ -4157,12 +5286,16 @@
    ],
    "meaning": "保持健康",
    "phonetic": "",
-   "kind": "phrase"
+   "kind": "phrase",
+   "teacher": true
   },
   {
    "id": "q-in-my-opinion",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "in my opinion",
    "answers": [
     "in my opinion"
@@ -4177,6 +5310,9 @@
    "id": "q-staying-positive-has-amazing-benefit",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "staying positive has amazing benefit",
    "answers": [
     "staying positive has amazing benefit"
@@ -4191,6 +5327,9 @@
    "id": "q-study-and-work-better",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "study and work better",
    "answers": [
     "study and work better"
@@ -4205,6 +5344,9 @@
    "id": "q-communicate-with-more-people",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "communicate with more people",
    "answers": [
     "communicate with more people"
@@ -4219,6 +5361,9 @@
    "id": "q-be-full-of-energy",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "be full of energy",
    "answers": [
     "be full of energy"
@@ -4233,6 +5378,9 @@
    "id": "q-make-sure-to-get-enough-sleep",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "make sure to get enough sleep",
    "answers": [
     "make sure to get enough sleep"
@@ -4247,6 +5395,9 @@
    "id": "q-face-bad-feelings-alone",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "face bad feelings alone",
    "answers": [
     "face bad feelings alone"
@@ -4261,6 +5412,9 @@
    "id": "q-start-a-new-day",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "start a new day",
    "answers": [
     "start a new day"
@@ -4275,6 +5429,9 @@
    "id": "q-be-never-absent-from",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "be never absent from",
    "answers": [
     "be never absent from"
@@ -4289,6 +5446,9 @@
    "id": "q-feel-confident-in-oneself",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "feel confident in oneself",
    "answers": [
     "feel confident in oneself"
@@ -4303,6 +5463,9 @@
    "id": "q-look-at-good-points",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "look at good points",
    "answers": [
     "look at good points"
@@ -4317,6 +5480,9 @@
    "id": "q-get-through-difficult-moments",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "get through difficult moments",
    "answers": [
     "get through difficult moments"
@@ -4331,6 +5497,9 @@
    "id": "q-succeed-in-doing",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "succeed in doing",
    "answers": [
     "succeed in doing"
@@ -4345,6 +5514,9 @@
    "id": "q-lead-to-success",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "lead to success",
    "answers": [
     "lead to success"
@@ -4359,6 +5531,9 @@
    "id": "q-worry-about-your-grades",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "worry about your grades",
    "answers": [
     "worry about your grades"
@@ -4373,6 +5548,10 @@
    "id": "q-hand-in",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点",
+    "老师短语 · Unit 3 Exploring"
+   ],
    "text": "hand in",
    "answers": [
     "hand in"
@@ -4381,12 +5560,16 @@
    "phonetic": "",
    "kind": "phrase",
    "quiz": true,
-   "source": "U3小测三 第3题"
+   "source": "U3小测三 第3题",
+   "teacher": true
   },
   {
    "id": "q-talk-nonsense",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "talk nonsense",
    "answers": [
     "talk nonsense"
@@ -4401,6 +5584,9 @@
    "id": "q-improper-habit",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "improper habit",
    "answers": [
     "improper habit"
@@ -4415,6 +5601,9 @@
    "id": "q-do-a-lot-of-harm-to-people",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "do a lot of harm to people",
    "answers": [
     "do a lot of harm to people"
@@ -4429,6 +5618,9 @@
    "id": "q-need-to-get-some-sleep",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "need to get some sleep",
    "answers": [
     "need to get some sleep"
@@ -4443,6 +5635,9 @@
    "id": "q-move-on-step-by-step",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "move on step by step",
    "answers": [
     "move on step by step"
@@ -4457,6 +5652,9 @@
    "id": "q-sore-throat",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "sore throat",
    "answers": [
     "sore throat"
@@ -4471,6 +5669,9 @@
    "id": "q-clear",
    "unit": "U3 小测",
    "unitTitle": "两次小测考点",
+   "groups": [
+    "U3 小测 · 两次小测考点"
+   ],
    "text": "clear",
    "answers": [
     "clear"
@@ -4480,6 +5681,4620 @@
    "kind": "word",
    "quiz": true,
    "source": "U3小测三 第20题"
+  },
+  {
+   "id": "t1-show-sb-around",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "show sb. around",
+   "answers": [
+    "show sb around"
+   ],
+   "meaning": "领（某人）参观",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-make-films",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "make films",
+   "answers": [
+    "make films"
+   ],
+   "meaning": "制作电影",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-send-letters",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "send letters",
+   "answers": [
+    "send letters"
+   ],
+   "meaning": "寄信",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-paint-or-draw-pictures",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "paint or draw pictures",
+   "answers": [
+    "paint or draw pictures"
+   ],
+   "meaning": "绘画",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-dream-job",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "dream job",
+   "answers": [
+    "dream job"
+   ],
+   "meaning": "梦想职业",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-want-to-be",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "want to be",
+   "answers": [
+    "want to be"
+   ],
+   "meaning": "想成为……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-work-with-sb",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "work with sb.",
+   "answers": [
+    "work with sb"
+   ],
+   "meaning": "与某人一起工作",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-together-with-sb",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "together with sb.",
+   "answers": [
+    "together with sb"
+   ],
+   "meaning": "同某人一起",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-produce-films",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "produce films",
+   "answers": [
+    "produce films"
+   ],
+   "meaning": "制作电影",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-get-back-from-sp",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "get back from sp.",
+   "answers": [
+    "get back from sp"
+   ],
+   "meaning": "从某地回来",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-be-going-to-do-sth",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "be going to do sth.",
+   "answers": [
+    "be going to do sth"
+   ],
+   "meaning": "打算做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-a-news-reporter",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "a news reporter",
+   "answers": [
+    "a news reporter"
+   ],
+   "meaning": "一名新闻记者",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-follow-the-news",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "follow the news",
+   "answers": [
+    "follow the news"
+   ],
+   "meaning": "关注新闻",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-one-day",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "one day",
+   "answers": [
+    "one day"
+   ],
+   "meaning": "某一天",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-write-a-news-report-about",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Preparing"
+   ],
+   "text": "write a news report about",
+   "answers": [
+    "write a news report about"
+   ],
+   "meaning": "写一篇关于……的新闻报道",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s1-a-guide-shows-people-around-a",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "A guide shows people around a place.",
+   "answers": [
+    "a guide shows people around a place"
+   ],
+   "meaning": "导游带领人们参观一个地方。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-a-director-makes-films",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "A director makes films.",
+   "answers": [
+    "a director makes films"
+   ],
+   "meaning": "导演制作电影。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-a-postman-sends-letters",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "A postman sends letters.",
+   "answers": [
+    "a postman sends letters"
+   ],
+   "meaning": "邮递员寄信。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-what-is-your-dream-job",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "What's your dream job?",
+   "answers": [
+    "what is your dream job"
+   ],
+   "meaning": "——你的梦想职业是什么？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-want-to-be-an-artist",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "I want to be an artist.",
+   "answers": [
+    "i want to be an artist"
+   ],
+   "meaning": "——我想成为一名艺术家。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-work-with-actors-actresses-and",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "I work with actors, actresses and other artists.",
+   "answers": [
+    "i work with actors actresses and other artists"
+   ],
+   "meaning": "我和男演员、女演员还有其他的艺术家一起工作。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-together-with-them-i-produce-films",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "Together with them, I produce films.",
+   "answers": [
+    "together with them i produce films"
+   ],
+   "meaning": "我和他们一起制作电影。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-let-me-see",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "Let me see.",
+   "answers": [
+    "let me see"
+   ],
+   "meaning": "让我想一想。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-hi-lingling-how-are-you-doing",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "Hi, Lingling. How are you doing today?",
+   "answers": [
+    "hi lingling how are you doing today"
+   ],
+   "meaning": "——嗨，玲玲。你今天过得怎么样？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Lingling"
+   ]
+  },
+  {
+   "id": "s1-not-bad-i-just-got-back",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "Not bad. I just got back from the pet hospital.",
+   "answers": [
+    "not bad i just got back from the pet hospital"
+   ],
+   "meaning": "——还不错。我刚从宠物医院回来。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-it-got-sick-yesterday-but-thanks",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "It got sick yesterday. But thanks to the vets, it's doing better now.",
+   "answers": [
+    "it got sick yesterday but thanks to the vets it is doing better now"
+   ],
+   "meaning": "昨天它生病了。但多亏了兽医，它现在好多了。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-what-are-you-going-to-be",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "What are you going to be, Lingling?",
+   "answers": [
+    "what are you going to be lingling"
+   ],
+   "meaning": "——玲玲，你打算从事什么职业？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Lingling"
+   ]
+  },
+  {
+   "id": "s1-i-am-going-to-be-a",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "I am going to be a dancer.",
+   "answers": [
+    "i am going to be a dancer"
+   ],
+   "meaning": "——我打算成为一名舞蹈演员。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-am-going-to-be-a-2",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "I am going to be a news reporter. You know, I'm active and love following the news.",
+   "answers": [
+    "i am going to be a news reporter you know i am active and love following the news"
+   ],
+   "meaning": "我打算成为一名新闻记者。你知道，我很活跃并喜欢关注新闻。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-maybe-one-day-you-will-write",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Preparing"
+   ],
+   "text": "Maybe one day you will write a news report about Lingling.",
+   "answers": [
+    "maybe one day you will write a news report about lingling"
+   ],
+   "meaning": "也许有一天你将会写一篇关于玲玲的新闻报道。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Lingling"
+   ]
+  },
+  {
+   "id": "t1-train-sb-sth-to-do-sth",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "train sb./sth. to do sth.",
+   "answers": [
+    "train sb to do sth",
+    "train sth to do sth"
+   ],
+   "meaning": "训练某人/某物做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-guide-dog-teachers",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "guide dog teachers",
+   "answers": [
+    "guide dog teachers"
+   ],
+   "meaning": "导盲犬训练师",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-guide-dogs",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "guide dogs",
+   "answers": [
+    "guide dogs"
+   ],
+   "meaning": "导盲犬",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-during-night-time",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "during night time",
+   "answers": [
+    "during night time"
+   ],
+   "meaning": "在夜间",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-in-the-future",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "in the future",
+   "answers": [
+    "in the future"
+   ],
+   "meaning": "今后；从今以后",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-the-fire-station",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "the fire station",
+   "answers": [
+    "the fire station"
+   ],
+   "meaning": "消防站",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-receive-a-fire-call",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "receive a fire call",
+   "answers": [
+    "receive a fire call"
+   ],
+   "meaning": "接到火警电话",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-on-the-sofa",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "on the sofa",
+   "answers": [
+    "on the sofa"
+   ],
+   "meaning": "在沙发上",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-rush-to-sp",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "rush to sp.",
+   "answers": [
+    "rush to sp"
+   ],
+   "meaning": "冲向某地",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-put-out-the-fire",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "put out the fire",
+   "answers": [
+    "put out the fire"
+   ],
+   "meaning": "灭火",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-make-a-promise",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "make a promise",
+   "answers": [
+    "make a promise"
+   ],
+   "meaning": "许下诺言",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-under-strong-lights",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "under strong lights",
+   "answers": [
+    "under strong lights"
+   ],
+   "meaning": "在强光下",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-have-no-chance-to-do-sth",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "have no chance to do sth.",
+   "answers": [
+    "have no chance to do sth"
+   ],
+   "meaning": "没有做某事的机会",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-believe-in",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "believe in",
+   "answers": [
+    "believe in"
+   ],
+   "meaning": "相信……的存在",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-hold-on-to",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "hold on to",
+   "answers": [
+    "hold on to"
+   ],
+   "meaning": "坚持",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-set-an-example-to",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "set an example to",
+   "answers": [
+    "set an example to"
+   ],
+   "meaning": "为……树立榜样",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-on-a-farm",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "on a farm",
+   "answers": [
+    "on a farm"
+   ],
+   "meaning": "在农场",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-play-the-piano",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "play the piano",
+   "answers": [
+    "play the piano"
+   ],
+   "meaning": "弹钢琴",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-watch-movies",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "watch movies",
+   "answers": [
+    "watch movies"
+   ],
+   "meaning": "看电影",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-dream-of-doing-sth",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "dream of doing sth.",
+   "answers": [
+    "dream of doing sth"
+   ],
+   "meaning": "梦想做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-a-different-idea",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "a different idea",
+   "answers": [
+    "a different idea"
+   ],
+   "meaning": "一种不同的想法",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-as-well-as",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "as well as",
+   "answers": [
+    "as well as"
+   ],
+   "meaning": "和，以及，还有",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-the-secrets-of-nature",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "the secrets of nature",
+   "answers": [
+    "the secrets of nature"
+   ],
+   "meaning": "自然的秘密",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-vote-for-sb",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "vote for sb.",
+   "answers": [
+    "vote for sb"
+   ],
+   "meaning": "投票支持",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-choose-to-do-sth",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "choose to do sth.",
+   "answers": [
+    "choose to do sth"
+   ],
+   "meaning": "选择做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-be-proud-of",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "be proud of",
+   "answers": [
+    "be proud of"
+   ],
+   "meaning": "感到自豪",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-a-big-success",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Exploring"
+   ],
+   "text": "a big success",
+   "answers": [
+    "a big success"
+   ],
+   "meaning": "一个巨大的成功",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s1-some-people-train-animals-to-do",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Some people train animals to do jobs for people.",
+   "answers": [
+    "some people train animals to do jobs for people"
+   ],
+   "meaning": "有些人训练动物们为人们干活。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-for-example-guide-dog-teachers-train",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "For example, guide dog teachers train guide dogs to help blind people.",
+   "answers": [
+    "for example guide dog teachers train guide dogs to help blind people"
+   ],
+   "meaning": "例如，导盲犬训练师训练导盲犬来帮助盲人。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-we-sleep-at-night-but-some",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "We sleep at night, but some people do their jobs at night.",
+   "answers": [
+    "we sleep at night but some people do their jobs at night"
+   ],
+   "meaning": "我们在晚上睡觉，但是一些人在晚上完成他们的工作。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-want-to-be-a-modern",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "I want to be a modern farmer in the future.",
+   "answers": [
+    "i want to be a modern farmer in the future"
+   ],
+   "meaning": "今后我想成为一名现代化的农民。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-modern-farmers-grow-more-green-food",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Modern farmers grow more green food and care more about people's health.",
+   "answers": [
+    "modern farmers grow more green food and care more about people's health"
+   ],
+   "meaning": "现代化的农民种植更环保的食物，并更加关心人们的健康。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-we-heard-the-alarm-and-received",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "We heard the alarm and received a fire call.",
+   "answers": [
+    "we heard the alarm and received a fire call"
+   ],
+   "meaning": "我们听到了警铃声并接到了火警电话。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-a-house-was-on-fire-and",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "A house was on fire and a child was on the sofa in the bedroom.",
+   "answers": [
+    "a house was on fire and a child was on the sofa in the bedroom"
+   ],
+   "meaning": "一间房子着火了，有个小孩还在卧室的沙发上。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-we-put-on-the-fireman-uniforms",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "We put on the fireman uniforms, rushed to the house, saved the child and put out the fire.",
+   "answers": [
+    "we put on the fireman uniforms rushed to the house saved the child and put out the fire"
+   ],
+   "meaning": "我们穿上消防服，冲进房子里，救出了这个孩子并扑灭了火。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-for-nearly-twenty-five-years-deng",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "For nearly 25 years, Deng had no chance to fly into space.",
+   "answers": [
+    "for nearly twenty five years deng had no chance to fly into space"
+   ],
+   "meaning": "在将近 25 年的时间里，邓（清明）没有机会飞上太空。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Deng"
+   ]
+  },
+  {
+   "id": "s1-finally-his-hard-work-paid-off",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Finally, his hard work paid off.",
+   "answers": [
+    "finally his hard work paid off"
+   ],
+   "meaning": "最后，他的努力得到了回报。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-deng-succeeded-by-holding-on-to",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Deng succeeded by holding on to his dream and working hard for it.",
+   "answers": [
+    "deng succeeded by holding on to his dream and working hard for it"
+   ],
+   "meaning": "邓（清明）通过坚持自己的梦想并为之努力而成功。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Deng"
+   ]
+  },
+  {
+   "id": "s1-he-sets-an-excellent-example-to",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "He sets an excellent example to us all.",
+   "answers": [
+    "he sets an excellent example to us all"
+   ],
+   "meaning": "他给我们大家树立了一个好榜样。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-our-dreams-will-one-day-come",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Our dreams will one day come true as long as we keep going.",
+   "answers": [
+    "our dreams will one day come true as long as we keep going"
+   ],
+   "meaning": "只要我们坚持不懈，梦想总有一天会实现。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-ziwen-began-to-learn-dancing-at",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Ziwen began to learn dancing at the age of 5.",
+   "answers": [
+    "ziwen began to learn dancing at the age of five"
+   ],
+   "meaning": "子文在 5 岁时开始学习跳舞。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Ziwen"
+   ]
+  },
+  {
+   "id": "s1-jim-likes-watching-movies-and-he",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Jim likes watching movies and he dreams of becoming a director one day.",
+   "answers": [
+    "jim likes watching movies and he dreams of becoming a director one day"
+   ],
+   "meaning": "吉姆喜欢看电影，他梦想着有一天能成为一名导演。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Jim"
+   ]
+  },
+  {
+   "id": "s1-my-brother-has-a-different-idea",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "My brother has a different idea about his dream job.",
+   "answers": [
+    "my brother has a different idea about his dream job"
+   ],
+   "meaning": "关于梦想职业，我弟弟有一种不同的想法。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-he-is-interested-in-mountains-rivers",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "He is interested in mountains, rivers and forests on Earth, as well as stars in space.",
+   "answers": [
+    "he is interested in mountains rivers and forests on earth as well as stars in space"
+   ],
+   "meaning": "他对地球上的山脉、河流、森林及太空中的星星都很感兴趣。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-he-is-very-curious-about-the",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "He is very curious about the secrets of nature.",
+   "answers": [
+    "he is very curious about the secrets of nature"
+   ],
+   "meaning": "他对自然的秘密感到非常好奇。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-will-you-share-your-opinion",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Will you share your opinion?",
+   "answers": [
+    "will you share your opinion"
+   ],
+   "meaning": "——你会分享你的观点吗？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-of-course-i-will",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Of course, I will.",
+   "answers": [
+    "of course i will"
+   ],
+   "meaning": "——当然会。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-look-at-the-clouds-it-is",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Look at the clouds. It is going to rain.",
+   "answers": [
+    "look at the clouds it is going to rain"
+   ],
+   "meaning": "——看那些云。快要下雨了。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-take-it-easy-the-rain-will",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Take it easy. The rain won't last long.",
+   "answers": [
+    "take it easy the rain will not last long"
+   ],
+   "meaning": "——别急。雨不会持续很久。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-will-you-choose-to-be-a",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Will you choose to be a lawyer?",
+   "answers": [
+    "will you choose to be a lawyer"
+   ],
+   "meaning": "你会选择当一名律师吗？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-she-hopes-to-encourage-kids-to",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "She hopes to encourage kids to learn cooking.",
+   "answers": [
+    "she hopes to encourage kids to learn cooking"
+   ],
+   "meaning": "她希望能鼓励孩子们学习做饭。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-her-friends-and-family-are-very",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "Her friends and family are very proud of her.",
+   "answers": [
+    "her friends and family are very proud of her"
+   ],
+   "meaning": "她的朋友和家人都为她感到自豪。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-they-think-zihans-book-will-be",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Exploring"
+   ],
+   "text": "They think Zihan's book will be a big success.",
+   "answers": [
+    "they think zihan's book will be a big success"
+   ],
+   "meaning": "他们认为紫涵的书将会获得巨大成功。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Zihan"
+   ]
+  },
+  {
+   "id": "t1-achieve-ones-dream",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Developing"
+   ],
+   "text": "achieve one's dream",
+   "answers": [
+    "achieve one's dream"
+   ],
+   "meaning": "实现某人的梦想",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-become-interested-in",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Developing"
+   ],
+   "text": "become interested in ...",
+   "answers": [
+    "become interested in"
+   ],
+   "meaning": "对……感兴趣",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-design-for",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Developing"
+   ],
+   "text": "design ... for ...",
+   "answers": [
+    "design for"
+   ],
+   "meaning": "为……设计……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-at-the-same-time",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Developing"
+   ],
+   "text": "at the same time",
+   "answers": [
+    "at the same time"
+   ],
+   "meaning": "同时",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s1-he-wants-to-help-sick-people",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "He wants to help sick people and he will go to a medical school to achieve his dream.",
+   "answers": [
+    "he wants to help sick people and he will go to a medical school to achieve his dream"
+   ],
+   "meaning": "他想帮助生病的人，而且他会进入一所医学院来实现他的梦想。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-started-dreaming-about-at-the",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "I started dreaming about ... at the age of ...",
+   "answers": [
+    "i started dreaming about at the age of"
+   ],
+   "meaning": "在……岁时我开始梦想做……",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-in-order-to-make-it-come",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "In order to make it come true, I will ...",
+   "answers": [
+    "in order to make it come true i will"
+   ],
+   "meaning": "为了使梦想实现，我将……",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-liked-it-a-lot-and",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "I liked it a lot and became interested in planes.",
+   "answers": [
+    "i liked it a lot and became interested in planes"
+   ],
+   "meaning": "我非常喜欢它并且开始对飞机产生了兴趣。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-now-my-dream-is-to-design",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "Now my dream is to design great planes for our country.",
+   "answers": [
+    "now my dream is to design great planes for our country"
+   ],
+   "meaning": "现在我的梦想是为我们国家设计大飞机。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-at-the-same-time-i-am",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "At the same time, I'm going to join the model plane club in my school.",
+   "answers": [
+    "at the same time i am going to join the model plane club in my school"
+   ],
+   "meaning": "同时，我打算加入我们学校的飞机模型俱乐部。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-however-i-will-try-my-best",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Developing"
+   ],
+   "text": "However, I will try my best to make my dream come true.",
+   "answers": [
+    "however i will try my best to make my dream come true"
+   ],
+   "meaning": "然而，我将尽我最大的努力来实现我的梦想。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t1-check-out",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "check out",
+   "answers": [
+    "check out"
+   ],
+   "meaning": "（从图书馆）借出；结账离开（旅馆等）",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-do-research-in",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "do research in ...",
+   "answers": [
+    "do research in"
+   ],
+   "meaning": "做关于……的研究",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-take-photos-for-sb",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "take photos for sb.",
+   "answers": [
+    "take photos for sb"
+   ],
+   "meaning": "为某人拍照",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-with-a-warm-smile",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "with a warm smile",
+   "answers": [
+    "with a warm smile"
+   ],
+   "meaning": "带着温暖的微笑",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-lead-sb-to-sp",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "lead sb. to sp.",
+   "answers": [
+    "lead sb to sp"
+   ],
+   "meaning": "带领某人去某地",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-soon-after",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "soon after",
+   "answers": [
+    "soon after"
+   ],
+   "meaning": "稍后；不久以后",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-have-interesting-conversations-with-sb",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "have interesting conversations with sb.",
+   "answers": [
+    "have interesting conversations with sb"
+   ],
+   "meaning": "与某人进行有趣的对话",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-not-just-but-also",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "not just ... but (also) ...",
+   "answers": [
+    "not just but",
+    "not just but also"
+   ],
+   "meaning": "不仅……而且……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t1-a-big-change",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 1 Wrapping"
+   ],
+   "text": "a big change",
+   "answers": [
+    "a big change"
+   ],
+   "meaning": "一个大的改变",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s1-a-scientist-loves-doing-research-in",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "A scientist loves doing research in science.",
+   "answers": [
+    "a scientist loves doing research in science"
+   ],
+   "meaning": "科学家喜欢做关于科学方面的研究。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-am-going-to-take-part",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "I'm going to take part in a speech competition about \"My Dream Job\" with my classmates.",
+   "answers": [
+    "i am going to take part in a speech competition about my dream job with my classmates"
+   ],
+   "meaning": "我打算和同学们一起参加一个关于“我的梦想职业”的演讲竞赛。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "My Dream Job"
+   ]
+  },
+  {
+   "id": "s1-no-problem",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "No problem.",
+   "answers": [
+    "no problem"
+   ],
+   "meaning": "没问题。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-every-day-i-greeted-guests-with",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "Every day, I greeted guests with a warm smile and led them to their tables.",
+   "answers": [
+    "every day i greeted guests with a warm smile and led them to their tables"
+   ],
+   "meaning": "每天，我带着温暖的微笑迎接客人并指引他们就坐。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-soon-after-i-found-a-new",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "Soon after, I found a new job at a bookstore.",
+   "answers": [
+    "soon after i found a new job at a bookstore"
+   ],
+   "meaning": "不久以后，我在书店找到了一份新工作。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-i-always-shared-my-reading-experiences",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "I always shared my reading experiences with my customers and had interesting conversations with them.",
+   "answers": [
+    "i always shared my reading experiences with my customers and had interesting conversations with them"
+   ],
+   "meaning": "我总是和顾客分享我的阅读经历并跟他们进行有趣的对话。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s1-it-is-not-just-a-simple",
+   "unit": "Unit 1",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 1 Wrapping"
+   ],
+   "text": "It is not just a simple job change but a big change in my life.",
+   "answers": [
+    "it is not just a simple job change but a big change in my life"
+   ],
+   "meaning": "这不仅仅是一次简单的工作变动，而且是我人生中的一次重大转变。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t2-over-half-a-century",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "over half a century",
+   "answers": [
+    "over half a century"
+   ],
+   "meaning": "半个多世纪",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-the-great-spirit-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "the great spirit of",
+   "answers": [
+    "the great spirit of"
+   ],
+   "meaning": "……的伟大精神",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-fight-for",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "fight for",
+   "answers": [
+    "fight for"
+   ],
+   "meaning": "努力争取；为……斗争",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-one-of-the-four-great-classic-novels-of-chinese-literature",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "one of the four great classic novels of Chinese literature",
+   "answers": [
+    "one of the four great classic novels of chinese literature"
+   ],
+   "meaning": "中国古典文学四大名著之一",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-oil-painting",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "oil painting",
+   "answers": [
+    "oil painting"
+   ],
+   "meaning": "油画",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-form-of-art",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "form of art",
+   "answers": [
+    "form of art"
+   ],
+   "meaning": "艺术形式",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-the-gardening-show",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Preparing"
+   ],
+   "text": "the gardening show",
+   "answers": [
+    "the gardening show"
+   ],
+   "meaning": "园艺展览",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s2-yellow-river-cantata-can-best-express",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "Yellow River Cantata can best express the great spirit of the Chinese people to fight for the country.",
+   "answers": [
+    "yellow river cantata can best express the great spirit of the chinese people to fight for the country"
+   ],
+   "meaning": "《黄河大合唱》能最好地表达出中国人民为祖国奋斗的伟大精神。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Yellow River Cantata"
+   ]
+  },
+  {
+   "id": "s2-wang-xizhi-is-a-chinese-calligrapher",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "Wang Xizhi is a Chinese calligrapher. Lanting Xu is one of his famous works.",
+   "answers": [
+    "wang xizhi is a chinese calligrapher lanting xu is one of his famous works"
+   ],
+   "meaning": "王羲之是一位中国书法家。《兰亭序》是他的代表作之一。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Wang Xizhi",
+    "Lanting Xu"
+   ]
+  },
+  {
+   "id": "s2-what-is-your-favorite-form-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "What's your favorite form of art?",
+   "answers": [
+    "what is your favorite form of art"
+   ],
+   "meaning": "你最喜爱的艺术形式是什么？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-are-you-going-to-watch-the",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "Are you going to watch the gardening show?",
+   "answers": [
+    "are you going to watch the gardening show"
+   ],
+   "meaning": "——你打算去看园艺展览吗？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-that-is-correct",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "That's correct.",
+   "answers": [
+    "that is correct"
+   ],
+   "meaning": "——你说对了。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-wow-how-beautiful-the-park-is",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "Wow, how beautiful the park is!",
+   "answers": [
+    "wow how beautiful the park is"
+   ],
+   "meaning": "哇，这个公园真漂亮！",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-what-a-pity",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Preparing"
+   ],
+   "text": "What a pity!",
+   "answers": [
+    "what a pity"
+   ],
+   "meaning": "真遗憾！/真可惜！",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t2-an-example-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "an example of",
+   "answers": [
+    "an example of"
+   ],
+   "meaning": "……的一个范例",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-heart-to-heart",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "heart to heart",
+   "answers": [
+    "heart to heart"
+   ],
+   "meaning": "心贴心地；坦诚相待地",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-bring-together",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "bring together",
+   "answers": [
+    "bring together"
+   ],
+   "meaning": "把……聚到一起；使……团结起来",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-be-strict-with-sb",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "be strict with sb.",
+   "answers": [
+    "be strict with sb"
+   ],
+   "meaning": "对某人要求严格",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-again-and-again",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "again and again",
+   "answers": [
+    "again and again"
+   ],
+   "meaning": "多次；反复地",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-all-by-oneself",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "all by oneself",
+   "answers": [
+    "all by oneself"
+   ],
+   "meaning": "独自；单独",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-in-ones-twenties",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "in one's twenties",
+   "answers": [
+    "in one's twenties"
+   ],
+   "meaning": "在某人二十多岁的时候",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-travel-around",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "travel around",
+   "answers": [
+    "travel around"
+   ],
+   "meaning": "周游；环游",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-in-ones-mid-fifties",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "in one's mid-fifties",
+   "answers": [
+    "in one's mid fifties"
+   ],
+   "meaning": "在某人五十五岁左右的时候",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-the-northern-song-dynasty",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "the Northern Song Dynasty",
+   "answers": [
+    "the northern song dynasty"
+   ],
+   "meaning": "北宋",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-travel-back-to",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "travel back to ...",
+   "answers": [
+    "travel back to"
+   ],
+   "meaning": "重返/返回……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-follow-sb-to-do-sth",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "follow sb. to do sth.",
+   "answers": [
+    "follow sb to do sth"
+   ],
+   "meaning": "跟随某人做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-crowds-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "crowds of",
+   "answers": [
+    "crowds of"
+   ],
+   "meaning": "成群结队的……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-a-big-crowd",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "a big crowd",
+   "answers": [
+    "a big crowd"
+   ],
+   "meaning": "一大群人",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-right-now",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "right now",
+   "answers": [
+    "right now"
+   ],
+   "meaning": "此刻；此时此刻",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-bring-back-to",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "bring back to ...",
+   "answers": [
+    "bring back to"
+   ],
+   "meaning": "带回到……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-be-into-sth",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Exploring"
+   ],
+   "text": "be into sth.",
+   "answers": [
+    "be into sth"
+   ],
+   "meaning": "对……十分感兴趣；很喜欢",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s2-according-to-the-types-of-musical",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "According to the types of musical instruments, there are four families: string instruments, beat instruments, keyboard instruments and wind instruments.",
+   "answers": [
+    "according to the types of musical instruments there are four families string instruments beat instruments keyboard instruments and wind instruments"
+   ],
+   "meaning": "根据乐器种类，乐器可分为四个类型：弦乐器、打击乐器、键盘乐器和管乐器。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-the-violin-and-erhu-belong-to",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "The violin and erhu belong to the string instruments and the drum belongs to the beat instruments.",
+   "answers": [
+    "the violin and erhu belong to the string instruments and the drum belongs to the beat instruments"
+   ],
+   "meaning": "小提琴和二胡属于弦乐器，鼓属于打击乐器。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "erhu"
+   ]
+  },
+  {
+   "id": "s2-music-is-a-language-it-can",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Music is a language. It can help us speak our minds and allow us to communicate heart to heart.",
+   "answers": [
+    "music is a language it can help us speak our minds and allow us to communicate heart to heart"
+   ],
+   "meaning": "音乐是一种语言。它能帮我们说出心里话，并且让我们心意相通。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-music-is-a-medium-it-can",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Music is a medium. It can take us to a world of art and bring together people all over the world.",
+   "answers": [
+    "music is a medium it can take us to a world of art and bring together people all over the world"
+   ],
+   "meaning": "音乐是一种媒介。它能把我们带入艺术的世界并能让全世界的人们团结一心。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-good-actors-know-how-to-use",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Good actors know how to use their eyes to express their minds.",
+   "answers": [
+    "good actors know how to use their eyes to express their minds"
+   ],
+   "meaning": "好的演员知道如何用眼睛来表达他们内心所想。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-but-he-worked-very-hard-and",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "But he worked very hard and was very strict with himself.",
+   "answers": [
+    "but he worked very hard and was very strict with himself"
+   ],
+   "meaning": "但他非常努力并对自己要求十分严格。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-he-got-up-very-early-every",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "He got up very early every day and practiced the lines again and again.",
+   "answers": [
+    "he got up very early every day and practiced the lines again and again"
+   ],
+   "meaning": "他每天起得很早，并且反复练习台词。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-practice-makes-perfect",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Practice makes perfect.",
+   "answers": [
+    "practice makes perfect"
+   ],
+   "meaning": "熟能生巧。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-then-in-his-twenties-he-began",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Then in his twenties, he began to travel around China to visit famous painters and study their paintings.",
+   "answers": [
+    "then in his twenties he began to travel around china to visit famous painters and study their paintings"
+   ],
+   "meaning": "然后在他二十多岁的时候，他开始周游全国去拜访著名画家并研究他们的画作。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-the-painting-has-great-value-in",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "The painting has great value in showing the colorful daily life of different people at work and play in the Northern Song Dynasty.",
+   "answers": [
+    "the painting has great value in showing the colorful daily life of different people at work and play in the northern song dynasty"
+   ],
+   "meaning": "这幅画在展示北宋时期不同的人丰富多彩的工作和休闲的日常生活方面有着极大的价值。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-with-the-painting-we-can-travel",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "With the painting, we can travel back to the Northern Song Dynasty.",
+   "answers": [
+    "with the painting we can travel back to the northern song dynasty"
+   ],
+   "meaning": "跟着这幅画，我们可以重回北宋时期。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-on-the-river-we-can-see",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "On the river, we can see ships full of tourists.",
+   "answers": [
+    "on the river we can see ships full of tourists"
+   ],
+   "meaning": "在河上，我们能看到满载游客的船只。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-on-the-right-side-a-huge",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "On the right side, a huge gate tower marks the door to the city.",
+   "answers": [
+    "on the right side a huge gate tower marks the door to the city"
+   ],
+   "meaning": "在右侧，一座巨大的城楼标示着城市大门的方向。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-now-follow-me-to-explore-some",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "Now follow me to explore some other works of art of the Northern Song Dynasty.",
+   "answers": [
+    "now follow me to explore some other works of art of the northern song dynasty"
+   ],
+   "meaning": "现在跟随我去探索一些北宋其他的艺术作品吧。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-a-shop-in-the-painting-sells",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "A shop in the painting sells all kinds of goods to crowds of people coming and going.",
+   "answers": [
+    "a shop in the painting sells all kinds of goods to crowds of people coming and going"
+   ],
+   "meaning": "画中的一家商店向来往的人群售卖各种各样的商品。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-she-would-like-to-read-something",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "She would like to read something, but right now she has nothing new to read.",
+   "answers": [
+    "she would like to read something but right now she has nothing new to read"
+   ],
+   "meaning": "她想读点什么，但此刻她没新东西可读。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-no-one-should-harm-them",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "No one should harm them.",
+   "answers": [
+    "no one should harm them"
+   ],
+   "meaning": "任何人都不应该伤害它们。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-a-painter-can-create-something-really",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "A painter can create something really magical.",
+   "answers": [
+    "a painter can create something really magical"
+   ],
+   "meaning": "画家能够创造真正神奇的东西。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-a-film-can-take-us-anywhere",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "A film can take us anywhere, from the real world to the unknown.",
+   "answers": [
+    "a film can take us anywhere from the real world to the unknown"
+   ],
+   "meaning": "电影可以带我们去任何地方，从真实世界到未知世界。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-i-express-everything-with-music-i",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "I express everything with music. I can't live without music.",
+   "answers": [
+    "i express everything with music i can not live without music"
+   ],
+   "meaning": "我用音乐表达一切。没有音乐我没法生存。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-they-can-take-us-anywhere-in",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "They can take us anywhere in the world, and they can bring us back to history or into the future anytime.",
+   "answers": [
+    "they can take us anywhere in the world and they can bring us back to history or into the future anytime"
+   ],
+   "meaning": "它们能带我们去世界的任何地方，并且可以在任何时刻带我们重返历史或进入未来。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-you-know-i-am-really-into",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "You know, I'm really into music.",
+   "answers": [
+    "you know i am really into music"
+   ],
+   "meaning": "你知道，我真的非常喜欢音乐。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-how-sweet-the-song-sounds",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Exploring"
+   ],
+   "text": "How sweet the song sounds!",
+   "answers": [
+    "how sweet the song sounds"
+   ],
+   "meaning": "这首歌多么悦耳啊！",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t2-for-many-reasons",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Developing"
+   ],
+   "text": "for many reasons",
+   "answers": [
+    "for many reasons"
+   ],
+   "meaning": "由于许多原因",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-be-make-pleasant-to",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Developing"
+   ],
+   "text": "be / make ... pleasant to ...",
+   "answers": [
+    "be pleasant to",
+    "make pleasant to"
+   ],
+   "meaning": "使……令人愉快",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s2-people-use-scissors-and-paper-to",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Developing"
+   ],
+   "text": "People use scissors and paper to cut out different shapes.",
+   "answers": [
+    "people use scissors and paper to cut out different shapes"
+   ],
+   "meaning": "人们用剪刀和纸剪出各种不同的形状。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-they-also-cut-out-the-chinese",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Developing"
+   ],
+   "text": "They also cut out the Chinese character \"Fu\" and put it upside down on the door. It is a symbol of good luck.",
+   "answers": [
+    "they also cut out the chinese character fu and put it upside down on the door it is a symbol of good luck"
+   ],
+   "meaning": "人们也剪出汉字“福”，并且把它倒贴在门上。这象征着好运。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Fu"
+   ]
+  },
+  {
+   "id": "s2-when-i-was-six-my-grandfather",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Developing"
+   ],
+   "text": "When I was six, my grandfather introduced Beijing opera to me, and I fell in love with it immediately.",
+   "answers": [
+    "when i was six my grandfather introduced beijing opera to me and i fell in love with it immediately"
+   ],
+   "meaning": "六岁时爷爷给我介绍了京剧，我马上就爱上了它。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Beijing opera"
+   ]
+  },
+  {
+   "id": "s2-each-color-stands-for-a-different",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Developing"
+   ],
+   "text": "Each color stands for a different type of character.",
+   "answers": [
+    "each color stands for a different type of character"
+   ],
+   "meaning": "每种颜色代表了一种不同的人物形象。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-the-singing-style-of-beijing-opera",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Developing"
+   ],
+   "text": "The singing style of Beijing opera is very popular among its fans.",
+   "answers": [
+    "the singing style of beijing opera is very popular among its fans"
+   ],
+   "meaning": "京剧的唱腔在京剧爱好者中非常受欢迎。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Beijing opera"
+   ]
+  },
+  {
+   "id": "t2-a-creative-activity",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Wrapping"
+   ],
+   "text": "a creative activity",
+   "answers": [
+    "a creative activity"
+   ],
+   "meaning": "一种有创造力的活动",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-keep-sb-sth-active",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Wrapping"
+   ],
+   "text": "keep sb. / sth. active",
+   "answers": [
+    "keep sb active",
+    "keep sth active"
+   ],
+   "meaning": "保持……活跃",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-make-sb-relaxed",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Wrapping"
+   ],
+   "text": "make sb. relaxed",
+   "answers": [
+    "make sb relaxed"
+   ],
+   "meaning": "使某人感到放松",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-travel-with-sb",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Wrapping"
+   ],
+   "text": "travel with sb.",
+   "answers": [
+    "travel with sb"
+   ],
+   "meaning": "与某人一起旅行",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t2-take-photos-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 2 Wrapping"
+   ],
+   "text": "take photos of ...",
+   "answers": [
+    "take photos of"
+   ],
+   "meaning": "拍……的照片",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s2-art-is-an-important-part-of",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "Art is an important part of our life.",
+   "answers": [
+    "art is an important part of our life"
+   ],
+   "meaning": "艺术是生活重要的一部分。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-art-is-a-kind-of-language",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "Art is a kind of language of the heart.",
+   "answers": [
+    "art is a kind of language of the heart"
+   ],
+   "meaning": "艺术是一种心灵的语言。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-sometimes-art-can-speak-better-than",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "Sometimes art can speak better than words.",
+   "answers": [
+    "sometimes art can speak better than words"
+   ],
+   "meaning": "有时艺术比语言更有感染力。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-art-can-keep-our-minds-active",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "Art can keep our minds active.",
+   "answers": [
+    "art can keep our minds active"
+   ],
+   "meaning": "艺术能使我们思维活跃。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-she-thinks-music-can-make-her",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "She thinks music can make her happy and relaxed.",
+   "answers": [
+    "she thinks music can make her happy and relaxed"
+   ],
+   "meaning": "她觉得音乐能使她开心和放松。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s2-xiaozhi-likes-to-operate-and-control",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "Xiaozhi likes to operate and control electronic things, and he wants to be an engineer.",
+   "answers": [
+    "xiaozhi likes to operate and control electronic things and he wants to be an engineer"
+   ],
+   "meaning": "小志喜欢操控电子产品，他想成为一名工程师。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Xiaozhi"
+   ]
+  },
+  {
+   "id": "s2-on-holidays-she-likes-to-travel",
+   "unit": "Unit 2",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 2 Wrapping"
+   ],
+   "text": "On holidays, she likes to travel with her family and take photos of people and places.",
+   "answers": [
+    "on holidays she likes to travel with her family and take photos of people and places"
+   ],
+   "meaning": "假日里，她喜欢和家人一起旅行并拍人和景的照片。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-bad-cough",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a bad cough",
+   "answers": [
+    "have a bad cough"
+   ],
+   "meaning": "咳嗽严重",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-take-some-cough-medicine",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "take some cough medicine",
+   "answers": [
+    "take some cough medicine"
+   ],
+   "meaning": "吃些咳嗽药",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-sore-throat",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a sore throat",
+   "answers": [
+    "have a sore throat"
+   ],
+   "meaning": "咽喉痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-toothache",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a toothache",
+   "answers": [
+    "have a toothache"
+   ],
+   "meaning": "牙痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-see-the-dentist",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "see the dentist",
+   "answers": [
+    "see the dentist"
+   ],
+   "meaning": "看牙医",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-headache",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a headache",
+   "answers": [
+    "have a headache"
+   ],
+   "meaning": "头痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-stomachache",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a stomachache",
+   "answers": [
+    "have a stomachache"
+   ],
+   "meaning": "胃痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-see-a-doctor",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "see a doctor",
+   "answers": [
+    "see a doctor"
+   ],
+   "meaning": "看医生",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-have-a-healthy-diet",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "have a healthy diet",
+   "answers": [
+    "have a healthy diet"
+   ],
+   "meaning": "饮食健康",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-feel-sick",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "feel sick",
+   "answers": [
+    "feel sick"
+   ],
+   "meaning": "感到恶心",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-feel-the-ache",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "feel the ache",
+   "answers": [
+    "feel the ache"
+   ],
+   "meaning": "感到疼痛",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-not-at-all",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "not ... at all",
+   "answers": [
+    "not at all"
+   ],
+   "meaning": "一点儿不，根本不……",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-take-a-rest",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "take a rest",
+   "answers": [
+    "take a rest"
+   ],
+   "meaning": "休息",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-stop-doing-sth",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Preparing"
+   ],
+   "text": "stop doing sth.",
+   "answers": [
+    "stop doing sth"
+   ],
+   "meaning": "停止做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-just-took-my-temperature-i",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "I just took my temperature. I have a fever.",
+   "answers": [
+    "i just took my temperature i have a fever"
+   ],
+   "meaning": "我刚量了体温。我发烧了。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-have-a-bad-cough-i",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "I have a bad cough. I need to take some cough medicine.",
+   "answers": [
+    "i have a bad cough i need to take some cough medicine"
+   ],
+   "meaning": "我咳嗽严重，我需要吃些咳嗽药。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-he-is-coughing-and-losing-his",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "He is coughing and losing his voice. He has a sore throat.",
+   "answers": [
+    "he is coughing and losing his voice he has a sore throat"
+   ],
+   "meaning": "他一直咳嗽，而且失声了。他嗓子疼。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-she-needs-to-see-the-dentist",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "She needs to see the dentist.",
+   "answers": [
+    "she needs to see the dentist"
+   ],
+   "meaning": "她需要去看牙医。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-what-is-wrong-with-you",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "What's wrong with you?",
+   "answers": [
+    "what is wrong with you"
+   ],
+   "meaning": "你怎么了？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-am-sorry-to-hear-that",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "I'm sorry to hear that. You need to see a doctor.",
+   "answers": [
+    "i am sorry to hear that you need to see a doctor"
+   ],
+   "meaning": "听到这个消息我很难过。你需要去看医生。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-take-an-active-part-in-doing",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "Take an active part in doing sports.",
+   "answers": [
+    "take an active part in doing sports"
+   ],
+   "meaning": "积极参加体育运动。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-feel-very-sick-and-have",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "I feel very sick and have a stomachache.",
+   "answers": [
+    "i feel very sick and have a stomachache"
+   ],
+   "meaning": "我感到很恶心，并且胃痛。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-when-did-you-feel-the-ache",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "When did you feel the ache?",
+   "answers": [
+    "when did you feel the ache"
+   ],
+   "meaning": "你什么时候感到疼痛的？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-let-me-examine-you",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "Let me examine you.",
+   "answers": [
+    "let me examine you"
+   ],
+   "meaning": "让我来给你检查一下。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-what-did-you-have-for-lunch",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "What did you have for lunch?",
+   "answers": [
+    "what did you have for lunch"
+   ],
+   "meaning": "——你中午吃了什么？",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-had-some-hamburgers-chips-fried",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "I had some hamburgers, chips, fried pork together with some pepper and a cold drink.",
+   "answers": [
+    "i had some hamburgers chips fried pork together with some pepper and a cold drink"
+   ],
+   "meaning": "——我吃了一些汉堡、薯条、放有胡椒粉的炸猪肉，还有一杯冷饮。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-it-is-not-healthy-at-all",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "It's not healthy at all.",
+   "answers": [
+    "it is not healthy at all"
+   ],
+   "meaning": "它一点也不健康。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-you-need-to-take-a-rest",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Preparing"
+   ],
+   "text": "You need to take a rest and take some pills.",
+   "answers": [
+    "you need to take a rest and take some pills"
+   ],
+   "meaning": "你需要休息一下并服用一些药。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t3-build-a-strong-body",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "build a strong body",
+   "answers": [
+    "build a strong body"
+   ],
+   "meaning": "强健体魄",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-move-on",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "move on",
+   "answers": [
+    "move on"
+   ],
+   "meaning": "前进；进步；进展",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-step-by-step",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "step by step",
+   "answers": [
+    "step by step"
+   ],
+   "meaning": "逐步地；逐渐地",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-on-hot-days",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "on hot days",
+   "answers": [
+    "on hot days"
+   ],
+   "meaning": "在大热天",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-take-a-break",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "take a break",
+   "answers": [
+    "take a break"
+   ],
+   "meaning": "休息一下",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-make-sure",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "make sure",
+   "answers": [
+    "make sure"
+   ],
+   "meaning": "确保",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-be-glad-to-do-sth",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "be glad to do sth.",
+   "answers": [
+    "be glad to do sth"
+   ],
+   "meaning": "高兴/乐意做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-be-absent-from",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "be absent from",
+   "answers": [
+    "be absent from"
+   ],
+   "meaning": "缺席；不在场",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-be-confident-in",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "be confident in",
+   "answers": [
+    "be confident in"
+   ],
+   "meaning": "对……有信心",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-find-the-good-points-in-oneself",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "find the good points in oneself",
+   "answers": [
+    "find the good points in oneself"
+   ],
+   "meaning": "找到某人自己的优点",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-feel-sure-of-oneself",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "feel sure of oneself",
+   "answers": [
+    "feel sure of oneself"
+   ],
+   "meaning": "自信",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-succeed-in-doing-sth",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "succeed in doing sth.",
+   "answers": [
+    "succeed in doing sth"
+   ],
+   "meaning": "成功做某事",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-think-about",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "think about",
+   "answers": [
+    "think about"
+   ],
+   "meaning": "考虑到；关心；替……着想",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-seem-to",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "seem to",
+   "answers": [
+    "seem to"
+   ],
+   "meaning": "似乎；好像要",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-disagree-with-sb",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "disagree with sb.",
+   "answers": [
+    "disagree with sb"
+   ],
+   "meaning": "（尤指食物）对（某人）不适宜，使不舒服",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-living-habits",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "living habits",
+   "answers": [
+    "living habits"
+   ],
+   "meaning": "生活习惯；生活方式",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-do-harm-to",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "do harm to",
+   "answers": [
+    "do harm to"
+   ],
+   "meaning": "对……有害",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-get-some-sleep",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Exploring"
+   ],
+   "text": "get some sleep",
+   "answers": [
+    "get some sleep"
+   ],
+   "meaning": "睡一会儿",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s3-unlike-her-yining-is-shy",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Unlike her, Yining is shy.",
+   "answers": [
+    "unlike her yining is shy"
+   ],
+   "meaning": "不像她，怡宁很害羞。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Yining"
+   ]
+  },
+  {
+   "id": "s3-for-one-thing-it-can-help",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "For one thing, it can help build a strong body. ... For another, it is a good way to rest and relax our minds.",
+   "answers": [
+    "for one thing it can help build a strong body for another it is a good way to rest and relax our minds"
+   ],
+   "meaning": "一方面，它能帮助强健体魄。……另一方面，它是一种休息和放松头脑的好方法。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-that-is-why-we-should-do",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "That's why we should do some exercise after hours of work or study.",
+   "answers": [
+    "that is why we should do some exercise after hours of work or study"
+   ],
+   "meaning": "那就是为什么我们应该在长时间的工作或学习之后做些锻炼。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-so-do-not-be-lazy",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "So, don't be lazy.",
+   "answers": [
+    "so do not be lazy"
+   ],
+   "meaning": "所以，不要懒惰。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-he-can-give-you-some-advice",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "He / She can give you some advice according to your condition.",
+   "answers": [
+    "he can give you some advice according to your condition",
+    "she can give you some advice according to your condition"
+   ],
+   "meaning": "他/她可以根据你的情况给你一些建议。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-you-need-to-start-slowly-with",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "You need to start slowly with a warm-up, and then move on step by step.",
+   "answers": [
+    "you need to start slowly with a warm up and then move on step by step"
+   ],
+   "meaning": "你需要先热身再慢慢开始，然后一步步进行。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-take-a-break-or-stop-right",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Take a break or stop right away when you feel uncomfortable.",
+   "answers": [
+    "take a break or stop right away when you feel uncomfortable"
+   ],
+   "meaning": "当你感觉不舒服的时候，休息一下或者立刻停止。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-in-my-opinion-staying-positive-has",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "In my opinion, staying positive has amazing benefits.",
+   "answers": [
+    "in my opinion staying positive has amazing benefits"
+   ],
+   "meaning": "在我看来，保持积极的心态有让人意想不到的益处。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-can-study-and-work-better",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "I can study and work better in a good mood.",
+   "answers": [
+    "i can study and work better in a good mood"
+   ],
+   "meaning": "心情好的时候，我可以更好地学习和工作。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-second-you-can-communicate-with-more",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Second, you can communicate with more people and you don't need to face bad feelings alone.",
+   "answers": [
+    "second you can communicate with more people and you do not need to face bad feelings alone"
+   ],
+   "meaning": "第二，你可以和更多的人交流，并且你不需要独自面对糟糕的情绪。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-am-glad-to-come-across",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "I am glad to come across your post.",
+   "answers": [
+    "i am glad to come across your post"
+   ],
+   "meaning": "我很高兴看到你的帖子。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-think-being-positive-can-bring",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "I think being positive can bring us a lot of benefits.",
+   "answers": [
+    "i think being positive can bring us a lot of benefits"
+   ],
+   "meaning": "我认为保持积极的心态能带给我们很多益处。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-we-can-become-more-confident-and",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "We can become more confident and have better chances for success.",
+   "answers": [
+    "we can become more confident and have better chances for success"
+   ],
+   "meaning": "我们可以变得更自信，有更好的成功机会。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-i-am-never-absent-from-the",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "I am never absent from the football matches in my school.",
+   "answers": [
+    "i am never absent from the football matches in my school"
+   ],
+   "meaning": "我从来不会缺席学校的足球比赛。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-when-i-am-playing-football-i",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "When I am playing football, I am always confident in myself.",
+   "answers": [
+    "when i am playing football i am always confident in myself"
+   ],
+   "meaning": "当我踢足球的时候，我总是对自己充满信心。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-besides-we-need-to-find-the",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Besides, we need to find the good points in ourselves.",
+   "answers": [
+    "besides we need to find the good points in ourselves"
+   ],
+   "meaning": "此外，我们需要找到自己的优点。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-to-live-a-happy-life-we",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "To live a happy life, we must first love ourselves.",
+   "answers": [
+    "to live a happy life we must first love ourselves"
+   ],
+   "meaning": "为了过着幸福的生活，我们必须首先爱自己。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-finally-if-we-do-have-bad",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Finally, if we do have bad feelings, we can write them down.",
+   "answers": [
+    "finally if we do have bad feelings we can write them down"
+   ],
+   "meaning": "最后，如果我们确实心情不佳，我们可以把它们写下来。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-talking-to-ourselves-is-a-useful",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Talking to ourselves is a useful way to get through difficult moments.",
+   "answers": [
+    "talking to ourselves is a useful way to get through difficult moments"
+   ],
+   "meaning": "和我们自己交谈是一种度过艰难时光的有效方法。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-seafood-may-seem-to-disagree-with",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Seafood may seem to disagree with some people.",
+   "answers": [
+    "seafood may seem to disagree with some people"
+   ],
+   "meaning": "海鲜似乎不合一些人的胃口。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-it-is-incorrect-to-do-sports",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "It is incorrect to do sports with an empty stomach.",
+   "answers": [
+    "it is incorrect to do sports with an empty stomach"
+   ],
+   "meaning": "空腹做运动是不正确的。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-an-improper-habit-does-a-lot",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "An improper habit does a lot of harm to people.",
+   "answers": [
+    "an improper habit does a lot of harm to people"
+   ],
+   "meaning": "不正确的习惯会对人们造成很大的伤害。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-what-is-worse-people-will-become",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "What's worse, people will become impatient and they may even forget important dates.",
+   "answers": [
+    "what is worse people will become impatient and they may even forget important dates"
+   ],
+   "meaning": "更糟糕的是，人们将变得没有耐心，甚至会忘记重要的日子。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-to-get-rid-of-the-habit",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "To get rid of the habit, people need to do some sports and sleep early.",
+   "answers": [
+    "to get rid of the habit people need to do some sports and sleep early"
+   ],
+   "meaning": "为了摆脱这个习惯，人们需要做些运动并且早睡。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-we-need-to-get-enough-sleep",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "We need to get enough sleep every day.",
+   "answers": [
+    "we need to get enough sleep every day"
+   ],
+   "meaning": "我们需要每天都有充足的睡眠。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-kangkang-need-not-do-the-work",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Kangkang needn't do the work today. He can hand it in tomorrow.",
+   "answers": [
+    "kangkang need not do the work today he can hand it in tomorrow"
+   ],
+   "meaning": "康康今天不必做那项工作，他可以明天上交。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Kangkang"
+   ]
+  },
+  {
+   "id": "s3-both-maria-and-meimei-need-to",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Exploring"
+   ],
+   "text": "Both Maria and Meimei need to lose weight.",
+   "answers": [
+    "both maria and meimei need to lose weight"
+   ],
+   "meaning": "玛丽亚和梅梅都需要减肥。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Maria",
+    "Meimei"
+   ]
+  },
+  {
+   "id": "t3-healthy-lifestyles",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Developing"
+   ],
+   "text": "healthy lifestyles",
+   "answers": [
+    "healthy lifestyles"
+   ],
+   "meaning": "健康的生活方式",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-prefer-swimming-and-basketball",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Developing"
+   ],
+   "text": "prefer swimming and basketball",
+   "answers": [
+    "prefer swimming and basketball"
+   ],
+   "meaning": "更喜欢游泳和打篮球",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s3-my-sister-on-the-other-hand",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Developing"
+   ],
+   "text": "My sister, on the other hand, prefers swimming and basketball.",
+   "answers": [
+    "my sister on the other hand prefers swimming and basketball"
+   ],
+   "meaning": "另一方面，我的姐姐更喜欢游泳和打篮球。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-she-likes-to-eat-vegetables-carrots",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Developing"
+   ],
+   "text": "She likes to eat vegetables. Carrots, beans and cucumbers are all her favorites.",
+   "answers": [
+    "she likes to eat vegetables carrots beans and cucumbers are all her favorites"
+   ],
+   "meaning": "她喜欢吃蔬菜。胡萝卜、豆荚和黄瓜是她的最爱。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-though-we-choose-different-sports-and",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Developing"
+   ],
+   "text": "Though we choose different sports and food, we both care about being healthy.",
+   "answers": [
+    "though we choose different sports and food we both care about being healthy"
+   ],
+   "meaning": "尽管我们选择不同的运动和食物，但我们都注重健康。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "t3-smile-at-sb",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "smile at sb.",
+   "answers": [
+    "smile at sb"
+   ],
+   "meaning": "对某人微笑",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-do-a-great-job",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "do a great job",
+   "answers": [
+    "do a great job"
+   ],
+   "meaning": "做得好",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-be-patient-with",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "be patient with",
+   "answers": [
+    "be patient with"
+   ],
+   "meaning": "对……有耐心",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-in-a-hurry",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "in a hurry",
+   "answers": [
+    "in a hurry"
+   ],
+   "meaning": "匆忙",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-make-sb-mad",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "make sb. mad",
+   "answers": [
+    "make sb mad"
+   ],
+   "meaning": "使某人生气",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-physical-activity",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "physical activity",
+   "answers": [
+    "physical activity"
+   ],
+   "meaning": "体育活动",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-run-around-with-sb",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "run around with sb.",
+   "answers": [
+    "run around with sb"
+   ],
+   "meaning": "与（某人）厮混；互相往来",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-a-balanced-diet",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "a balanced diet",
+   "answers": [
+    "a balanced diet"
+   ],
+   "meaning": "均衡的饮食",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-a-good-nights-sleep",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "a good night's sleep",
+   "answers": [
+    "a good night's sleep"
+   ],
+   "meaning": "睡个好觉",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-a-group-of",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "a group of",
+   "answers": [
+    "a group of"
+   ],
+   "meaning": "一群",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-spread-to",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "spread to",
+   "answers": [
+    "spread to"
+   ],
+   "meaning": "扩散到",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-thousands-of",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "thousands of",
+   "answers": [
+    "thousands of"
+   ],
+   "meaning": "成千上万的",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "t3-no-matter-how",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师短语 · Unit 3 Wrapping"
+   ],
+   "text": "no matter how",
+   "answers": [
+    "no matter how"
+   ],
+   "meaning": "无论以何种方式；无论怎样",
+   "phonetic": "",
+   "kind": "phrase",
+   "teacher": true
+  },
+  {
+   "id": "s3-chinese-cooking-focuses-on-color-smell",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Chinese cooking focuses on color, smell and taste.",
+   "answers": [
+    "chinese cooking focuses on color smell and taste"
+   ],
+   "meaning": "中式烹饪注重色、香、味俱全。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-they-use-sauces-to-make-food",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "They use sauces to make food taste better, and potatoes are often served as the main food.",
+   "answers": [
+    "they use sauces to make food taste better and potatoes are often served as the main food"
+   ],
+   "meaning": "他们用酱汁使食物更美味，土豆通常被作为主食。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-so-try-to-smile-at-yourself",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "So, try to smile at yourself and the people around you.",
+   "answers": [
+    "so try to smile at yourself and the people around you"
+   ],
+   "meaning": "所以，试着对自己和周围的人微笑吧。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-love-your-classes-and-you-can",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Love your classes, and you can do a great job.",
+   "answers": [
+    "love your classes and you can do a great job"
+   ],
+   "meaning": "喜欢上你的课程，你就能做得好。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-fourth-take-up-a-hobby",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Fourth, take up a hobby.",
+   "answers": [
+    "fourth take up a hobby"
+   ],
+   "meaning": "第四，开始一种爱好。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-fifth-be-patient-with-everything",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Fifth, be patient with everything.",
+   "answers": [
+    "fifth be patient with everything"
+   ],
+   "meaning": "第五，对一切事物有耐心。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-to-be-in-a-hurry-can",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "To be in a hurry can make you mad easily.",
+   "answers": [
+    "to be in a hurry can make you mad easily"
+   ],
+   "meaning": "焦急极易使你生气。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-finally-a-good-nights-sleep-is",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Finally, a good night's sleep is also important.",
+   "answers": [
+    "finally a good night's sleep is also important"
+   ],
+   "meaning": "最后，晚上睡个好觉也很重要。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true
+  },
+  {
+   "id": "s3-soon-parkrun-grew-and-spread-to",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Soon, Parkrun grew and spread to many other countries.",
+   "answers": [
+    "soon parkrun grew and spread to many other countries"
+   ],
+   "meaning": "很快，公园慢跑不断发展并传播到其他许多国家。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Parkrun"
+   ]
+  },
+  {
+   "id": "s3-parkrun-welcomes-everyone-no-matter-how",
+   "unit": "Unit 3",
+   "unitTitle": "老师复习",
+   "groups": [
+    "老师句子 · Unit 3 Wrapping"
+   ],
+   "text": "Parkrun welcomes everyone, no matter how fast or slow they are.",
+   "answers": [
+    "parkrun welcomes everyone no matter how fast or slow they are"
+   ],
+   "meaning": "公园慢跑欢迎每个人，不管他们跑得快还是慢。",
+   "phonetic": "",
+   "kind": "sentence",
+   "teacher": true,
+   "names": [
+    "Parkrun"
+   ]
   }
  ]
 }

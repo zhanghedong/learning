@@ -1,0 +1,439 @@
+{
+ "title": "老师期中复习材料 · Unit 1–3（教师版）",
+ "note": "phrases: [中文, 英文]；sentences: [中文, 英文, 需要直接给出的专有名词]。对话按说话人拆成两条。",
+ "units": [
+  {
+   "unit": "Unit 1",
+   "sections": [
+    {
+     "name": "Preparing",
+     "phrases": [
+      ["领（某人）参观", "show sb. around"],
+      ["制作电影", "make films"],
+      ["寄信", "send letters"],
+      ["绘画", "paint or draw pictures"],
+      ["梦想职业", "dream job"],
+      ["想成为……", "want to be"],
+      ["与某人一起工作", "work with sb."],
+      ["同某人一起", "together with sb."],
+      ["制作电影", "produce films"],
+      ["从某地回来", "get back from sp."],
+      ["生病；患病", "get sick"],
+      ["幸亏；由于", "thanks to"],
+      ["打算做某事", "be going to do sth."],
+      ["一名新闻记者", "a news reporter"],
+      ["关注新闻", "follow the news"],
+      ["某一天", "one day"],
+      ["写一篇关于……的新闻报道", "write a news report about"]
+     ],
+     "sentences": [
+      ["导游带领人们参观一个地方。", "A guide shows people around a place."],
+      ["导演制作电影。", "A director makes films."],
+      ["邮递员寄信。", "A postman sends letters."],
+      ["——你的梦想职业是什么？", "What's your dream job?"],
+      ["——我想成为一名艺术家。", "I want to be an artist."],
+      ["我和男演员、女演员还有其他的艺术家一起工作。", "I work with actors, actresses and other artists."],
+      ["我和他们一起制作电影。", "Together with them, I produce films."],
+      ["让我想一想。", "Let me see."],
+      ["——嗨，玲玲。你今天过得怎么样？", "Hi, Lingling. How are you doing today?", ["Lingling"]],
+      ["——还不错。我刚从宠物医院回来。", "Not bad. I just got back from the pet hospital."],
+      ["昨天它生病了。但多亏了兽医，它现在好多了。", "It got sick yesterday. But thanks to the vets, it's doing better now."],
+      ["——玲玲，你打算从事什么职业？", "What are you going to be, Lingling?", ["Lingling"]],
+      ["——我打算成为一名舞蹈演员。", "I am going to be a dancer."],
+      ["我打算成为一名新闻记者。你知道，我很活跃并喜欢关注新闻。", "I am going to be a news reporter. You know, I'm active and love following the news."],
+      ["也许有一天你将会写一篇关于玲玲的新闻报道。", "Maybe one day you will write a news report about Lingling.", ["Lingling"]]
+     ]
+    },
+    {
+     "name": "Exploring",
+     "phrases": [
+      ["训练某人/某物做某事", "train sb./sth. to do sth."],
+      ["导盲犬训练师", "guide dog teachers"],
+      ["导盲犬", "guide dogs"],
+      ["在夜间", "during night time"],
+      ["今后；从今以后", "in the future"],
+      ["关注；关心", "care about"],
+      ["消防站", "the fire station"],
+      ["接到火警电话", "receive a fire call"],
+      ["着火；失火", "be on fire"],
+      ["在沙发上", "on the sofa"],
+      ["冲向某地", "rush to sp."],
+      ["灭火", "put out the fire"],
+      ["许下诺言", "make a promise"],
+      ["在强光下", "under strong lights"],
+      ["没有做某事的机会", "have no chance to do sth."],
+      ["相信……的存在", "believe in"],
+      ["成功，奏效；付清", "pay off"],
+      ["坚持", "hold on to"],
+      ["为……树立榜样", "set an example to"],
+      ["只要", "as long as"],
+      ["据（……所说）；按（……所报道）", "according to"],
+      ["在农场", "on a farm"],
+      ["弹钢琴", "play the piano"],
+      ["对……感兴趣", "be interested in"],
+      ["在……岁时", "at the age of ..."],
+      ["看电影", "watch movies"],
+      ["梦想做某事", "dream of doing sth."],
+      ["一种不同的想法", "a different idea"],
+      ["和，以及，还有", "as well as"],
+      ["对……感到好奇", "be curious about"],
+      ["自然的秘密", "the secrets of nature"],
+      ["当然", "of course"],
+      ["投票支持", "vote for sb."],
+      ["选择做某事", "choose to do sth."],
+      ["鼓励某人做某事", "encourage sb. to do sth."],
+      ["感到自豪", "be proud of"],
+      ["一个巨大的成功", "a big success"]
+     ],
+     "sentences": [
+      ["有些人训练动物们为人们干活。", "Some people train animals to do jobs for people."],
+      ["例如，导盲犬训练师训练导盲犬来帮助盲人。", "For example, guide dog teachers train guide dogs to help blind people."],
+      ["我们在晚上睡觉，但是一些人在晚上完成他们的工作。", "We sleep at night, but some people do their jobs at night."],
+      ["今后我想成为一名现代化的农民。", "I want to be a modern farmer in the future."],
+      ["现代化的农民种植更环保的食物，并更加关心人们的健康。", "Modern farmers grow more green food and care more about people's health."],
+      ["我们听到了警铃声并接到了火警电话。", "We heard the alarm and received a fire call."],
+      ["一间房子着火了，有个小孩还在卧室的沙发上。", "A house was on fire and a child was on the sofa in the bedroom."],
+      ["我们穿上消防服，冲进房子里，救出了这个孩子并扑灭了火。", "We put on the fireman uniforms, rushed to the house, saved the child and put out the fire."],
+      ["在将近 25 年的时间里，邓（清明）没有机会飞上太空。", "For nearly 25 years, Deng had no chance to fly into space.", ["Deng"]],
+      ["最后，他的努力得到了回报。", "Finally, his hard work paid off."],
+      ["邓（清明）通过坚持自己的梦想并为之努力而成功。", "Deng succeeded by holding on to his dream and working hard for it.", ["Deng"]],
+      ["他给我们大家树立了一个好榜样。", "He sets an excellent example to us all."],
+      ["只要我们坚持不懈，梦想总有一天会实现。", "Our dreams will one day come true as long as we keep going."],
+      ["子文在 5 岁时开始学习跳舞。", "Ziwen began to learn dancing at the age of 5.", ["Ziwen"]],
+      ["吉姆喜欢看电影，他梦想着有一天能成为一名导演。", "Jim likes watching movies and he dreams of becoming a director one day.", ["Jim"]],
+      ["关于梦想职业，我弟弟有一种不同的想法。", "My brother has a different idea about his dream job."],
+      ["他对地球上的山脉、河流、森林及太空中的星星都很感兴趣。", "He is interested in mountains, rivers and forests on Earth, as well as stars in space."],
+      ["他对自然的秘密感到非常好奇。", "He is very curious about the secrets of nature."],
+      ["——你会分享你的观点吗？", "Will you share your opinion?"],
+      ["——当然会。", "Of course, I will."],
+      ["——看那些云。快要下雨了。", "Look at the clouds. It is going to rain."],
+      ["——别急。雨不会持续很久。", "Take it easy. The rain won't last long."],
+      ["你会选择当一名律师吗？", "Will you choose to be a lawyer?"],
+      ["她希望能鼓励孩子们学习做饭。", "She hopes to encourage kids to learn cooking."],
+      ["她的朋友和家人都为她感到自豪。", "Her friends and family are very proud of her."],
+      ["他们认为紫涵的书将会获得巨大成功。", "They think Zihan's book will be a big success.", ["Zihan"]]
+     ]
+    },
+    {
+     "name": "Developing",
+     "phrases": [
+      ["实现某人的梦想", "achieve one's dream"],
+      ["梦想", "dream about"],
+      ["为了……", "in order to"],
+      ["对……感兴趣", "become interested in ..."],
+      ["为……设计……", "design ... for ..."],
+      ["同时", "at the same time"]
+     ],
+     "sentences": [
+      ["他想帮助生病的人，而且他会进入一所医学院来实现他的梦想。", "He wants to help sick people and he will go to a medical school to achieve his dream."],
+      ["在……岁时我开始梦想做……", "I started dreaming about ... at the age of ..."],
+      ["为了使梦想实现，我将……", "In order to make it come true, I will ..."],
+      ["我非常喜欢它并且开始对飞机产生了兴趣。", "I liked it a lot and became interested in planes."],
+      ["现在我的梦想是为我们国家设计大飞机。", "Now my dream is to design great planes for our country."],
+      ["同时，我打算加入我们学校的飞机模型俱乐部。", "At the same time, I'm going to join the model plane club in my school."],
+      ["然而，我将尽我最大的努力来实现我的梦想。", "However, I will try my best to make my dream come true."]
+     ]
+    },
+    {
+     "name": "Wrapping",
+     "phrases": [
+      ["登记，报到", "check in"],
+      ["（从图书馆）借出；结账离开（旅馆等）", "check out"],
+      ["做关于……的研究", "do research in ..."],
+      ["为某人拍照", "take photos for sb."],
+      ["带着温暖的微笑", "with a warm smile"],
+      ["带领某人去某地", "lead sb. to sp."],
+      ["稍后；不久以后", "soon after"],
+      ["与某人进行有趣的对话", "have interesting conversations with sb."],
+      ["不仅……而且……", "not just ... but (also) ..."],
+      ["一个大的改变", "a big change"]
+     ],
+     "sentences": [
+      ["科学家喜欢做关于科学方面的研究。", "A scientist loves doing research in science."],
+      ["我打算和同学们一起参加一个关于“我的梦想职业”的演讲竞赛。", "I'm going to take part in a speech competition about \"My Dream Job\" with my classmates.", ["My Dream Job"]],
+      ["没问题。", "No problem."],
+      ["每天，我带着温暖的微笑迎接客人并指引他们就坐。", "Every day, I greeted guests with a warm smile and led them to their tables."],
+      ["不久以后，我在书店找到了一份新工作。", "Soon after, I found a new job at a bookstore."],
+      ["我总是和顾客分享我的阅读经历并跟他们进行有趣的对话。", "I always shared my reading experiences with my customers and had interesting conversations with them."],
+      ["这不仅仅是一次简单的工作变动，而且是我人生中的一次重大转变。", "It is not just a simple job change but a big change in my life."]
+     ]
+    }
+   ]
+  },
+  {
+   "unit": "Unit 2",
+   "sections": [
+    {
+     "name": "Preparing",
+     "phrases": [
+      ["半个多世纪", "over half a century"],
+      ["……的伟大精神", "the great spirit of"],
+      ["努力争取；为……斗争", "fight for"],
+      ["中国古典文学四大名著之一", "one of the four great classic novels of Chinese literature"],
+      ["油画", "oil painting"],
+      ["艺术形式", "form of art"],
+      ["园艺展览", "the gardening show"]
+     ],
+     "sentences": [
+      ["《黄河大合唱》能最好地表达出中国人民为祖国奋斗的伟大精神。", "Yellow River Cantata can best express the great spirit of the Chinese people to fight for the country.", ["Yellow River Cantata"]],
+      ["王羲之是一位中国书法家。《兰亭序》是他的代表作之一。", "Wang Xizhi is a Chinese calligrapher. Lanting Xu is one of his famous works.", ["Wang Xizhi", "Lanting Xu"]],
+      ["你最喜爱的艺术形式是什么？", "What's your favorite form of art?"],
+      ["——你打算去看园艺展览吗？", "Are you going to watch the gardening show?"],
+      ["——你说对了。", "That's correct."],
+      ["哇，这个公园真漂亮！", "Wow, how beautiful the park is!"],
+      ["真遗憾！/真可惜！", "What a pity!"]
+     ]
+    },
+    {
+     "name": "Exploring",
+     "phrases": [
+      ["属于；归……所有", "belong to"],
+      ["……的一个范例", "an example of"],
+      ["允许某人做某事", "allow sb. to do sth."],
+      ["心贴心地；坦诚相待地", "heart to heart"],
+      ["把……聚到一起；使……团结起来", "bring together"],
+      ["对某人要求严格", "be strict with sb."],
+      ["多次；反复地", "again and again"],
+      ["独自；单独", "all by oneself"],
+      ["在某人二十多岁的时候", "in one's twenties"],
+      ["周游；环游", "travel around"],
+      ["在某人五十五岁左右的时候", "in one's mid-fifties"],
+      ["北宋", "the Northern Song Dynasty"],
+      ["重返/返回……", "travel back to ..."],
+      ["一排；一行；一列", "a line of"],
+      ["呼喊；喊叫", "shout out"],
+      ["跟随某人做某事", "follow sb. to do sth."],
+      ["成群结队的……", "crowds of"],
+      ["一大群人", "a big crowd"],
+      ["此刻；此时此刻", "right now"],
+      ["带回到……", "bring back to ..."],
+      ["对……十分感兴趣；很喜欢", "be into sth."]
+     ],
+     "sentences": [
+      ["根据乐器种类，乐器可分为四个类型：弦乐器、打击乐器、键盘乐器和管乐器。", "According to the types of musical instruments, there are four families: string instruments, beat instruments, keyboard instruments and wind instruments."],
+      ["小提琴和二胡属于弦乐器，鼓属于打击乐器。", "The violin and erhu belong to the string instruments and the drum belongs to the beat instruments.", ["erhu"]],
+      ["音乐是一种语言。它能帮我们说出心里话，并且让我们心意相通。", "Music is a language. It can help us speak our minds and allow us to communicate heart to heart."],
+      ["音乐是一种媒介。它能把我们带入艺术的世界并能让全世界的人们团结一心。", "Music is a medium. It can take us to a world of art and bring together people all over the world."],
+      ["好的演员知道如何用眼睛来表达他们内心所想。", "Good actors know how to use their eyes to express their minds."],
+      ["但他非常努力并对自己要求十分严格。", "But he worked very hard and was very strict with himself."],
+      ["他每天起得很早，并且反复练习台词。", "He got up very early every day and practiced the lines again and again."],
+      ["熟能生巧。", "Practice makes perfect."],
+      ["然后在他二十多岁的时候，他开始周游全国去拜访著名画家并研究他们的画作。", "Then in his twenties, he began to travel around China to visit famous painters and study their paintings."],
+      ["这幅画在展示北宋时期不同的人丰富多彩的工作和休闲的日常生活方面有着极大的价值。", "The painting has great value in showing the colorful daily life of different people at work and play in the Northern Song Dynasty."],
+      ["跟着这幅画，我们可以重回北宋时期。", "With the painting, we can travel back to the Northern Song Dynasty."],
+      ["在河上，我们能看到满载游客的船只。", "On the river, we can see ships full of tourists."],
+      ["在右侧，一座巨大的城楼标示着城市大门的方向。", "On the right side, a huge gate tower marks the door to the city."],
+      ["现在跟随我去探索一些北宋其他的艺术作品吧。", "Now follow me to explore some other works of art of the Northern Song Dynasty."],
+      ["画中的一家商店向来往的人群售卖各种各样的商品。", "A shop in the painting sells all kinds of goods to crowds of people coming and going."],
+      ["她想读点什么，但此刻她没新东西可读。", "She would like to read something, but right now she has nothing new to read."],
+      ["任何人都不应该伤害它们。", "No one should harm them."],
+      ["画家能够创造真正神奇的东西。", "A painter can create something really magical."],
+      ["电影可以带我们去任何地方，从真实世界到未知世界。", "A film can take us anywhere, from the real world to the unknown."],
+      ["我用音乐表达一切。没有音乐我没法生存。", "I express everything with music. I can't live without music."],
+      ["它们能带我们去世界的任何地方，并且可以在任何时刻带我们重返历史或进入未来。", "They can take us anywhere in the world, and they can bring us back to history or into the future anytime."],
+      ["你知道，我真的非常喜欢音乐。", "You know, I'm really into music."],
+      ["这首歌多么悦耳啊！", "How sweet the song sounds!"]
+     ]
+    },
+    {
+     "name": "Developing",
+     "phrases": [
+      ["（通常用剪刀）剪下", "cut out"],
+      ["颠倒；倒转；翻转", "upside down"],
+      ["……的象征", "a symbol of"],
+      ["爱上", "fall in love with"],
+      ["由于许多原因", "for many reasons"],
+      ["一种不同类型的……", "a different type of"],
+      ["在……中受欢迎", "be popular among"],
+      ["使……令人愉快", "be / make ... pleasant to ..."]
+     ],
+     "sentences": [
+      ["人们用剪刀和纸剪出各种不同的形状。", "People use scissors and paper to cut out different shapes."],
+      ["人们也剪出汉字“福”，并且把它倒贴在门上。这象征着好运。", "They also cut out the Chinese character \"Fu\" and put it upside down on the door. It is a symbol of good luck.", ["Fu"]],
+      ["六岁时爷爷给我介绍了京剧，我马上就爱上了它。", "When I was six, my grandfather introduced Beijing opera to me, and I fell in love with it immediately.", ["Beijing opera"]],
+      ["每种颜色代表了一种不同的人物形象。", "Each color stands for a different type of character."],
+      ["京剧的唱腔在京剧爱好者中非常受欢迎。", "The singing style of Beijing opera is very popular among its fans.", ["Beijing opera"]]
+     ]
+    },
+    {
+     "name": "Wrapping",
+     "phrases": [
+      ["……的一部分", "a part of"],
+      ["一种有创造力的活动", "a creative activity"],
+      ["保持……活跃", "keep sb. / sth. active"],
+      ["使某人感到放松", "make sb. relaxed"],
+      ["与某人一起旅行", "travel with sb."],
+      ["拍……的照片", "take photos of ..."]
+     ],
+     "sentences": [
+      ["艺术是生活重要的一部分。", "Art is an important part of our life."],
+      ["艺术是一种心灵的语言。", "Art is a kind of language of the heart."],
+      ["有时艺术比语言更有感染力。", "Sometimes art can speak better than words."],
+      ["艺术能使我们思维活跃。", "Art can keep our minds active."],
+      ["她觉得音乐能使她开心和放松。", "She thinks music can make her happy and relaxed."],
+      ["小志喜欢操控电子产品，他想成为一名工程师。", "Xiaozhi likes to operate and control electronic things, and he wants to be an engineer.", ["Xiaozhi"]],
+      ["假日里，她喜欢和家人一起旅行并拍人和景的照片。", "On holidays, she likes to travel with her family and take photos of people and places."]
+     ]
+    }
+   ]
+  },
+  {
+   "unit": "Unit 3",
+   "sections": [
+    {
+     "name": "Preparing",
+     "phrases": [
+      ["量体温", "take one's temperature"],
+      ["发烧", "have a fever"],
+      ["咳嗽严重", "have a bad cough"],
+      ["吃些咳嗽药", "take some cough medicine"],
+      ["失声", "lose one's voice"],
+      ["咽喉痛", "have a sore throat"],
+      ["牙痛", "have a toothache"],
+      ["看牙医", "see the dentist"],
+      ["头痛", "have a headache"],
+      ["胃痛", "have a stomachache"],
+      ["垃圾食品", "junk food"],
+      ["看医生", "see a doctor"],
+      ["远离……", "stay away from ..."],
+      ["饮食健康", "have a healthy diet"],
+      ["锻炼", "do some exercise"],
+      ["感到恶心", "feel sick"],
+      ["感到疼痛", "feel the ache"],
+      ["一点儿不，根本不……", "not ... at all"],
+      ["休息", "take a rest"],
+      ["服药", "take some pills"],
+      ["停止做某事", "stop doing sth."]
+     ],
+     "sentences": [
+      ["我刚量了体温。我发烧了。", "I just took my temperature. I have a fever."],
+      ["我咳嗽严重，我需要吃些咳嗽药。", "I have a bad cough. I need to take some cough medicine."],
+      ["他一直咳嗽，而且失声了。他嗓子疼。", "He is coughing and losing his voice. He has a sore throat."],
+      ["她需要去看牙医。", "She needs to see the dentist."],
+      ["你怎么了？", "What's wrong with you?"],
+      ["听到这个消息我很难过。你需要去看医生。", "I'm sorry to hear that. You need to see a doctor."],
+      ["积极参加体育运动。", "Take an active part in doing sports."],
+      ["我感到很恶心，并且胃痛。", "I feel very sick and have a stomachache."],
+      ["你什么时候感到疼痛的？", "When did you feel the ache?"],
+      ["让我来给你检查一下。", "Let me examine you."],
+      ["——你中午吃了什么？", "What did you have for lunch?"],
+      ["——我吃了一些汉堡、薯条、放有胡椒粉的炸猪肉，还有一杯冷饮。", "I had some hamburgers, chips, fried pork together with some pepper and a cold drink."],
+      ["它一点也不健康。", "It's not healthy at all."],
+      ["你需要休息一下并服用一些药。", "You need to take a rest and take some pills."]
+     ]
+    },
+    {
+     "name": "Exploring",
+     "phrases": [
+      ["强健体魄", "build a strong body"],
+      ["前进；进步；进展", "move on"],
+      ["逐步地；逐渐地", "step by step"],
+      ["在大热天", "on hot days"],
+      ["休息一下", "take a break"],
+      ["写日记", "keep a diary"],
+      ["在某人看来", "in one's opinion"],
+      ["心情愉快", "in a good mood"],
+      ["和某人交流", "communicate with sb."],
+      ["确保", "make sure"],
+      ["高兴/乐意做某事", "be glad to do sth."],
+      ["偶然发现（某物）；偶然遇见（某人）", "come across"],
+      ["缺席；不在场", "be absent from"],
+      ["对……有信心", "be confident in"],
+      ["找到某人自己的优点", "find the good points in oneself"],
+      ["过着幸福的生活", "live a happy life"],
+      ["度过（难关、困境等）；通过", "get through"],
+      ["偶然；巧合", "by chance"],
+      ["自信", "feel sure of oneself"],
+      ["成功做某事", "succeed in doing sth."],
+      ["考虑到；关心；替……着想", "think about"],
+      ["似乎；好像要", "seem to"],
+      ["（尤指食物）对（某人）不适宜，使不舒服", "disagree with sb."],
+      ["生活习惯；生活方式", "living habits"],
+      ["对……有害", "be bad for"],
+      ["对……有害", "do harm to"],
+      ["更糟糕的是", "what's worse"],
+      ["摆脱", "get rid of"],
+      ["睡一会儿", "get some sleep"],
+      ["上交", "hand in"],
+      ["减肥", "lose weight"]
+     ],
+     "sentences": [
+      ["不像她，怡宁很害羞。", "Unlike her, Yining is shy.", ["Yining"]],
+      ["一方面，它能帮助强健体魄。……另一方面，它是一种休息和放松头脑的好方法。", "For one thing, it can help build a strong body. ... For another, it is a good way to rest and relax our minds."],
+      ["那就是为什么我们应该在长时间的工作或学习之后做些锻炼。", "That's why we should do some exercise after hours of work or study."],
+      ["所以，不要懒惰。", "So, don't be lazy."],
+      ["他/她可以根据你的情况给你一些建议。", "He / She can give you some advice according to your condition."],
+      ["你需要先热身再慢慢开始，然后一步步进行。", "You need to start slowly with a warm-up, and then move on step by step."],
+      ["当你感觉不舒服的时候，休息一下或者立刻停止。", "Take a break or stop right away when you feel uncomfortable."],
+      ["在我看来，保持积极的心态有让人意想不到的益处。", "In my opinion, staying positive has amazing benefits."],
+      ["心情好的时候，我可以更好地学习和工作。", "I can study and work better in a good mood."],
+      ["第二，你可以和更多的人交流，并且你不需要独自面对糟糕的情绪。", "Second, you can communicate with more people and you don't need to face bad feelings alone."],
+      ["我很高兴看到你的帖子。", "I am glad to come across your post."],
+      ["我认为保持积极的心态能带给我们很多益处。", "I think being positive can bring us a lot of benefits."],
+      ["我们可以变得更自信，有更好的成功机会。", "We can become more confident and have better chances for success."],
+      ["我从来不会缺席学校的足球比赛。", "I am never absent from the football matches in my school."],
+      ["当我踢足球的时候，我总是对自己充满信心。", "When I am playing football, I am always confident in myself."],
+      ["此外，我们需要找到自己的优点。", "Besides, we need to find the good points in ourselves."],
+      ["为了过着幸福的生活，我们必须首先爱自己。", "To live a happy life, we must first love ourselves."],
+      ["最后，如果我们确实心情不佳，我们可以把它们写下来。", "Finally, if we do have bad feelings, we can write them down."],
+      ["和我们自己交谈是一种度过艰难时光的有效方法。", "Talking to ourselves is a useful way to get through difficult moments."],
+      ["海鲜似乎不合一些人的胃口。", "Seafood may seem to disagree with some people."],
+      ["空腹做运动是不正确的。", "It is incorrect to do sports with an empty stomach."],
+      ["不正确的习惯会对人们造成很大的伤害。", "An improper habit does a lot of harm to people."],
+      ["更糟糕的是，人们将变得没有耐心，甚至会忘记重要的日子。", "What's worse, people will become impatient and they may even forget important dates."],
+      ["为了摆脱这个习惯，人们需要做些运动并且早睡。", "To get rid of the habit, people need to do some sports and sleep early."],
+      ["我们需要每天都有充足的睡眠。", "We need to get enough sleep every day."],
+      ["康康今天不必做那项工作，他可以明天上交。", "Kangkang needn't do the work today. He can hand it in tomorrow.", ["Kangkang"]],
+      ["玛丽亚和梅梅都需要减肥。", "Both Maria and Meimei need to lose weight.", ["Maria", "Meimei"]]
+     ]
+    },
+    {
+     "name": "Developing",
+     "phrases": [
+      ["健康的生活方式", "healthy lifestyles"],
+      ["另一方面", "on the other hand"],
+      ["更喜欢游泳和打篮球", "prefer swimming and basketball"]
+     ],
+     "sentences": [
+      ["另一方面，我的姐姐更喜欢游泳和打篮球。", "My sister, on the other hand, prefers swimming and basketball."],
+      ["她喜欢吃蔬菜。胡萝卜、豆荚和黄瓜是她的最爱。", "She likes to eat vegetables. Carrots, beans and cucumbers are all her favorites."],
+      ["尽管我们选择不同的运动和食物，但我们都注重健康。", "Though we choose different sports and food, we both care about being healthy."]
+     ]
+    },
+    {
+     "name": "Wrapping",
+     "phrases": [
+      ["专注于", "focus on"],
+      ["对某人微笑", "smile at sb."],
+      ["做得好", "do a great job"],
+      ["（尤指为消遣）学着做，开始做；开始从事；占用（时间）；占据（空间）", "take up"],
+      ["对……有耐心", "be patient with"],
+      ["匆忙", "in a hurry"],
+      ["使某人生气", "make sb. mad"],
+      ["保持健康", "stay fit"],
+      ["体育活动", "physical activity"],
+      ["与（某人）厮混；互相往来", "run around with sb."],
+      ["均衡的饮食", "a balanced diet"],
+      ["睡个好觉", "a good night's sleep"],
+      ["一群", "a group of"],
+      ["扩散到", "spread to"],
+      ["成千上万的", "thousands of"],
+      ["无论以何种方式；无论怎样", "no matter how"]
+     ],
+     "sentences": [
+      ["中式烹饪注重色、香、味俱全。", "Chinese cooking focuses on color, smell and taste."],
+      ["他们用酱汁使食物更美味，土豆通常被作为主食。", "They use sauces to make food taste better, and potatoes are often served as the main food."],
+      ["所以，试着对自己和周围的人微笑吧。", "So, try to smile at yourself and the people around you."],
+      ["喜欢上你的课程，你就能做得好。", "Love your classes, and you can do a great job."],
+      ["第四，开始一种爱好。", "Fourth, take up a hobby."],
+      ["第五，对一切事物有耐心。", "Fifth, be patient with everything."],
+      ["焦急极易使你生气。", "To be in a hurry can make you mad easily."],
+      ["最后，晚上睡个好觉也很重要。", "Finally, a good night's sleep is also important."],
+      ["很快，公园慢跑不断发展并传播到其他许多国家。", "Soon, Parkrun grew and spread to many other countries.", ["Parkrun"]],
+      ["公园慢跑欢迎每个人，不管他们跑得快还是慢。", "Parkrun welcomes everyone, no matter how fast or slow they are.", ["Parkrun"]]
+     ]
+    }
+   ]
+  }
+ ]
+}

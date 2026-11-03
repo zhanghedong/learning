@@ -9,6 +9,7 @@
   const REQUEUE_GAP = 4;         // 拼错的词隔 4 个再考
   const MAX_REQUEUE = 3;
   const BATCH = 20;
+  const SENTENCE_BATCH = 8;
   const RUSH_FROM = "2026-11-06";
 
   const app = document.getElementById("app");
@@ -71,6 +72,29 @@
       .replace(/\s+/g, " ").trim();
   }
 
+  // 句子比对忽略大小写、标点和这些写法差异；与 build_spelling_data.py 的 norm_sentence() 一致。
+  const CONTRACTIONS = {
+    "i'm": "i am", "it's": "it is", "what's": "what is", "that's": "that is", "he's": "he is", "she's": "she is",
+    "there's": "there is", "let's": "let us", "you're": "you are", "we're": "we are", "they're": "they are",
+    "i'll": "i will", "i've": "i have", "don't": "do not", "doesn't": "does not", "didn't": "did not",
+    "won't": "will not", "can't": "can not", "cannot": "can not", "needn't": "need not", "isn't": "is not",
+    "aren't": "are not"
+  };
+  const NUMBERS = { "5": "five", "6": "six", "25": "twenty five" };
+  const SPELLING = { colour: "color", colourful: "colorful", favourite: "favorite", favourites: "favorites", practised: "practiced" };
+
+  function normSentence(text) {
+    const t = String(text).toLowerCase().replace(/[’‘]/g, "'").replace(/["“”]/g, "").replace(/[-—–…,.!?;:()]/g, " ");
+    return t.split(/\s+/).filter(Boolean).map(w => CONTRACTIONS[w] || NUMBERS[w] || SPELLING[w] || w).join(" ");
+  }
+
+  function normFor(it, text) { return it.kind === "sentence" ? normSentence(text) : normAnswer(text); }
+
+  // 句子提示：每个词只留首字母，标点照旧。
+  function firstLetters(text) {
+    return text.split(/\s+/).map(w => w.replace(/^([^A-Za-z]*[A-Za-z])[A-Za-z'’-]*/, "$1")).join(" ");
+  }
+
   // ---------- 语音 ----------
 
   let voices = [];
@@ -98,13 +122,16 @@
     const items = data.items.map((raw, i) => Object.assign({}, raw, { order: i }));
     const itemMap = new Map(items.map(it => [it.id, it]));
     const byAnswer = new Map();
-    for (const it of items) for (const a of it.answers) if (!byAnswer.has(a)) byAnswer.set(a, it);
+    for (const it of items) if (it.kind !== "sentence") for (const a of it.answers) if (!byAnswer.has(a)) byAnswer.set(a, it);
+    // 一个词可以同时在课本词表和老师短语里。
     const units = [];
-    for (const it of items) {
-      let u = units.find(x => x.title === it.unit);
-      if (!u) units.push(u = { title: it.unit, subtitle: it.unitTitle, items: [] });
+    for (const it of items) for (const title of it.groups) {
+      let u = units.find(x => x.title === title);
+      if (!u) units.push(u = { title, items: [] });
       u.items.push(it);
     }
+    const order = t => t.startsWith("老师短语") ? 1 : t.startsWith("老师句子") ? 2 : 0;
+    units.sort((a, b) => order(a.title) - order(b.title));
     return { items, itemMap, byAnswer, units };
   }
 
@@ -155,23 +182,35 @@
       .sort((a, b) => state.items[b.id].wrong - state.items[a.id].wrong || a.order - b.order);
   }
 
-  function newItems() { return model.items.filter(it => !state.items[it.id]); }
+  // 新词分三类：老师短语（含词表里被老师点到的）、老师句子、其余课本词汇。
+  function category(it) {
+    if (it.kind === "sentence") return "sentence";
+    return it.teacher ? "teacherPhrase" : "book";
+  }
+
+  const CATEGORY = {
+    teacherPhrase: { label: "老师短语", batch: BATCH, unit: "个" },
+    sentence: { label: "老师句子", batch: SENTENCE_BATCH, unit: "句" },
+    book: { label: "课本单词", batch: BATCH, unit: "个" }
+  };
+
+  function newItems(cat) { return model.items.filter(it => !state.items[it.id] && (!cat || category(it) === cat)); }
 
   function wrongItems() {
     return model.items.filter(it => state.items[it.id] && state.items[it.id].wrong > 0)
       .sort((a, b) => state.items[b.id].wrong - state.items[a.id].wrong || a.order - b.order);
   }
 
-  // 新词要在目标日前 2 天学完，留出最后一次复查。
-  function newQuota() {
-    const left = newItems().length;
-    const days = Math.max(1, daysBetween(today(), TARGET) - 2);
-    return Math.min(left, Math.max(BATCH, Math.ceil((left + learnedToday()) / days)));
+  // 新词要在目标日前一天学完，留出最后一次复查。
+  function newQuota(cat) {
+    const left = newItems(cat).length + learnedToday(cat);
+    const days = Math.max(1, daysBetween(today(), TARGET) - 1);
+    return Math.ceil(left / days);
   }
 
-  function learnedToday() {
+  function learnedToday(cat) {
     const d = today();
-    return Object.values(state.items).filter(r => r.first === d).length;
+    return model.items.filter(it => state.items[it.id] && state.items[it.id].first === d && (!cat || category(it) === cat)).length;
   }
 
   // 记录一次作答。kind: ok / hint / wrong；只有“默写”的对才推进掌握进度。
@@ -232,10 +271,10 @@
     const card = session.card;
     const it = current();
     const entry = session.queue[session.index];
-    const typed = normAnswer(value);
+    const typed = normFor(it, value);
     if (!typed) return focusInput();
     const ok = it.answers.includes(typed);
-    if (!ok && session.mode === "write") {
+    if (!ok && session.mode === "write" && it.kind !== "sentence") {
       // 拼对了别的词（中文意思相近），不算错，提示换一个。
       const other = model.byAnswer.get(typed);
       if (other && other.id !== it.id) {
@@ -248,7 +287,7 @@
     card.kind = ok ? (card.hinted ? "hint" : "ok") : "wrong";
     card.phase = ok ? "done" : "copy";
     card.note = "";
-    record(it, card.kind, ok ? "" : typed, entry.retry > 0);
+    record(it, card.kind, ok ? "" : (it.kind === "sentence" ? value.trim() : typed), entry.retry > 0);
     if (!entry.retry) session.results[it.id] = card.kind;
     else if (!ok && session.results[it.id] !== "wrong") session.results[it.id] = "wrong";
     if (!ok && entry.retry < MAX_REQUEUE) {
@@ -277,7 +316,7 @@
   // 拼错后照着正确拼写抄一遍才能继续。
   function copyCheck(value) {
     const it = current();
-    if (it.answers.includes(normAnswer(value))) {
+    if (it.answers.includes(normFor(it, value))) {
       session.card.phase = "done";
       session.card.copied = true;
       render();
@@ -305,6 +344,13 @@
     render();
   }
 
+  function letterHint() {
+    if (session.card.phase !== "answer") return;
+    session.card.hinted = true;
+    session.card.letters = true;
+    render();
+  }
+
   function setMode(mode) {
     state.pref.mode = mode;
     save();
@@ -322,9 +368,9 @@
 
   // ---------- 拼写对比 ----------
 
-  // 最长公共子序列：标出少写/写错的字母。
-  function diff(typed, answer) {
-    const a = typed, b = answer;
+  // 最长公共子序列：标出少写/写错的部分。单词按字母比，句子按单词比。
+  function diff(typed, answer, byWord) {
+    const a = byWord ? typed.split(" ") : [...typed], b = byWord ? answer.split(" ") : [...answer];
     const dp = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
     for (let i = a.length - 1; i >= 0; i--)
       for (let j = b.length - 1; j >= 0; j--)
@@ -336,15 +382,15 @@
       else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
       else j++;
     }
-    const mark = (s, keep, cls) => [...s].map((ch, k) => keep[k] || ch === " " ? escapeHtml(ch) : `<b class="${cls}">${escapeHtml(ch)}</b>`).join("");
+    const mark = (s, keep, cls) => s.map((ch, k) => keep[k] || ch === " " ? escapeHtml(ch) : `<b class="${cls}">${escapeHtml(ch)}</b>`).join(byWord ? " " : "");
     return { typed: mark(a, keepA, "sp-extra"), answer: mark(b, keepB, "sp-miss"), same: dp[0][0] };
   }
 
   function closestAnswer(it, typed) {
-    const t = normAnswer(typed);
+    const t = normFor(it, typed);
     let best = it.answers[0], score = -1;
     for (const a of it.answers) {
-      const s = diff(t, a).same;
+      const s = diff(t, a, it.kind === "sentence").same;
       if (s > score) { score = s; best = a; }
     }
     return best;
@@ -388,7 +434,11 @@
       <div class="stat"><span class="stat-value">${started} / ${total}</span><span class="stat-label">学过至少一次</span><span class="stat-bar"><i style="width:${started / total * 100}%"></i></span></div>
       <div class="stat"><span class="stat-value">${dueItems().length} · ${wrongItems().length}</span><span class="stat-label">今天要复习 · 错过的词</span></div>
       <div class="stat"><span class="stat-value">${left > 0 ? left + " 天" : "今天"}</span><span class="stat-label">距 11 月 7 日全部掌握</span></div>
-    </div>`;
+    </div>
+    <p class="sp-breakdown">${Object.entries(CATEGORY).map(([k, c]) => {
+      const list = model.items.filter(it => category(it) === k);
+      return `${c.label} 掌握 ${list.filter(it => status(it) === "mastered").length} / ${list.length}`;
+    }).join(" · ")}</p>`;
   }
 
   function recommendations() {
@@ -402,11 +452,13 @@
     if (due.length) {
       list.push({ title: "复习到期的词 · " + due.length + " 个", text: "错得多的先考。拼对一次往后推，拼错重新排。", items: () => due, primary: !list.length });
     }
-    const fresh = newItems();
-    if (fresh.length) {
-      const quota = newQuota(), done = learnedToday();
-      const n = Math.min(BATCH, fresh.length);
-      list.push({ title: "新词一组 · " + n + " 个", text: `今天建议学 ${quota} 个新词，已学 ${done} 个；还剩 ${fresh.length} 个没学。`, items: () => shuffle(fresh.slice(0, n)), primary: !list.length });
+    // 老师的材料最可能考，排在课本单词前面。
+    for (const [cat, c] of Object.entries(CATEGORY)) {
+      const fresh = newItems(cat);
+      if (!fresh.length) continue;
+      const n = Math.min(c.batch, fresh.length);
+      list.push({ title: `${c.label}一组 · ${n} ${c.unit}`, text: `今天建议学 ${newQuota(cat)} ${c.unit}，已学 ${learnedToday(cat)} ${c.unit}；还剩 ${fresh.length} ${c.unit}没学。`,
+        items: () => shuffle(fresh.slice(0, n)), primary: !list.length });
     }
     const wrong = wrongItems().filter(it => status(it) !== "mastered");
     if (wrong.length) {
@@ -423,9 +475,9 @@
         <span class="sp-rec-go">开始 →</span>
       </button>`).join("");
     return `<section class="sp-lead">
-        <p class="eyebrow">期中英语 · Unit 1–3 单词与词组 ${model.items.length} 个</p>
-        <h2 class="lead-title">看中文，拼出英文</h2>
-        <p class="lead-text">考试时没有发音，所以默认<b>先拼再听</b>：提交后不管对错都会读一遍。拼之前点“听一下”算提示，这个词明天再考。拼错的词要照着抄一遍，过几个再考；之后隔 1、2、3 天各考一次，都对才算掌握。</p>
+        <p class="eyebrow">期中英语 · Unit 1–3 单词、短语和老师复习句子 ${model.items.length} 个</p>
+        <h2 class="lead-title">看中文，写出英文</h2>
+        <p class="lead-text">考试时没有发音，所以默认<b>先写再听</b>：提交后不管对错都会读一遍。写之前点“听一下”或看首字母算提示，明天再考。写错的要照着抄一遍，过几个再考；之后隔 1、2、3 天各考一次，都对才算掌握。句子不看大小写和标点，I'm 和 I am 都算对。</p>
       </section>
       ${statsBar()}
       <div class="section-heading"><h2>今天</h2><p>先复习，再学新词</p></div>
@@ -433,6 +485,7 @@
   }
 
   function lengthHint(it) {
+    if (it.kind === "sentence") return `<p class="sp-words">${it.answers[0].split(" ").length} 个词</p>`;
     const words = it.answers[0].split(" ");
     return `<span class="sp-slots" aria-label="${words.map(w => w.length).join("、")} 个字母">${words.map(w => `<span class="sp-slot-word">${"<i></i>".repeat(w.length)}</span>`).join("")}</span>`;
   }
@@ -443,34 +496,47 @@
     const listen = session.mode === "listen";
     const entry = session.queue[session.index];
     const showMeaning = !listen || card.phase !== "answer";
-    const tag = (it.kind === "phrase" ? "词组" : "单词") + (it.quiz ? ' · <span class="sp-quiz">小测考点</span>' : "");
+    const sentence = it.kind === "sentence";
+    const tag = (sentence ? "句子" : it.kind === "phrase" ? "短语" : "单词") + (it.quiz ? ' · <span class="sp-quiz">小测考点</span>' : "")
+      + (it.teacher ? ' · <span class="sp-teacher">老师复习</span>' : "");
+    const field = placeholder => sentence
+      ? `<textarea class="sp-input sp-input-long" rows="3" autocomplete="off" autocapitalize="sentences" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="${placeholder}" aria-label="输入英文"></textarea>`
+      : `<input class="sp-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="${placeholder}" aria-label="输入英文">`;
     let body = "";
     if (card.phase === "answer") {
-      body = `<form class="sp-form" data-form="answer">
-          <input class="sp-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" aria-label="输入英文">
+      body = `${card.letters ? `<p class="sp-letters">${escapeHtml(firstLetters(it.text))}</p>` : ""}
+        <form class="sp-form${sentence ? " sp-form-long" : ""}" data-form="answer">
+          ${field("")}
           <button class="primary-button" type="submit">提交 ⏎</button>
         </form>
         ${card.note ? `<p class="sp-note">${escapeHtml(card.note)}</p>` : ""}
         <div class="sp-tools">
           ${listen ? `<button class="secondary-button button-small" data-action="hint">🔊 再听一遍</button>`
-                   : `<button class="secondary-button button-small" data-action="hint" title="听了发音再拼，这个词明天再考">🔊 听一下${card.hinted ? "（已提示）" : "（算提示）"}</button>`}
+                   : `<button class="secondary-button button-small" data-action="hint" title="听了发音再写，明天再考">🔊 听一下${card.hinted ? "（已提示）" : "（算提示）"}</button>`}
+          ${sentence && !card.letters ? `<button class="secondary-button button-small" data-action="letters" title="显示每个词的首字母，明天再考">首字母（算提示）</button>` : ""}
           <button class="text-button button-small" data-action="giveup">不会，看答案</button>
         </div>`;
     } else {
       const answer = card.kind === "wrong" && card.typed ? closestAnswer(it, card.typed) : it.answers[0];
-      const d = card.kind === "wrong" && card.typed ? diff(card.typed, answer) : null;
-      const verdict = card.kind === "ok" ? `<p class="sp-verdict ok">✓ 拼对了</p>`
-        : card.kind === "hint" ? `<p class="sp-verdict hint">✓ 拼对了，但听了发音，明天再考一次</p>`
-        : `<p class="sp-verdict wrong">✗ ${card.typed ? "拼错了" : "没关系，记住它"}</p>`;
+      const d = card.kind === "wrong" && card.typed ? diff(normFor(it, card.typed), answer, sentence) : null;
+      const verb = sentence ? "写" : "拼";
+      const verdict = card.kind === "ok" ? `<p class="sp-verdict ok">✓ ${verb}对了</p>`
+        : card.kind === "hint" ? `<p class="sp-verdict hint">✓ ${verb}对了，但用了提示，明天再考一次</p>`
+        : `<p class="sp-verdict wrong">✗ ${card.typed ? verb + "错了" : "没关系，记住它"}</p>`;
+      // 句子：原句（带大小写和标点）放最醒目，下面按词标出差别。
+      const answerHtml = !d ? `<p class="sp-correct${sentence ? " long" : ""}">${escapeHtml(it.text)}</p>`
+        : sentence ? `<p class="sp-correct long">${escapeHtml(it.text)}</p>
+            <p class="sp-typed long">你写的：<span>${d.typed}</span></p>
+            <p class="sp-gap">漏写或写错的词：<span>${d.answer}</span></p>`
+        : `<p class="sp-typed">你写的：<span>${d.typed}</span></p><p class="sp-correct">正确：<span>${d.answer}</span></p>
+            ${answer !== normFor(it, it.text) ? `<p class="sp-full">${escapeHtml(it.text)}</p>` : ""}`;
       body = `${verdict}
         <div class="sp-answer">
-          ${d ? `<p class="sp-typed">你写的：<span>${d.typed}</span></p><p class="sp-correct">正确：<span>${d.answer}</span></p>`
-              : `<p class="sp-correct">${escapeHtml(it.text)}</p>`}
-          ${d && answer !== normAnswer(it.text) ? `<p class="sp-full">${escapeHtml(it.text)}</p>` : ""}
+          ${answerHtml}
           <p class="sp-phonetic">${it.phonetic ? escapeHtml(it.phonetic) + " · " : ""}<button class="text-button button-small" data-action="speak">🔊 再听</button></p>
         </div>
-        ${card.phase === "copy" ? `<form class="sp-form" data-form="copy">
-            <input class="sp-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="照着正确拼写输入一遍" aria-label="照着输入一遍">
+        ${card.phase === "copy" ? `<form class="sp-form${sentence ? " sp-form-long" : ""}" data-form="copy">
+            ${field("照着正确写法输入一遍")}
             <button class="primary-button" type="submit">确认 ⏎</button>
           </form>
           ${card.note ? `<p class="sp-note">${escapeHtml(card.note)}</p>` : ""}`
@@ -492,8 +558,9 @@
           </div>
         </div>
         <div class="sp-card${card.phase === "answer" ? "" : " " + card.kind}">
-          <p class="sp-tag">${tag}${listen ? " · 听写：拼错照样记下，拼对不计掌握" : ""}</p>
-          ${showMeaning ? `<p class="sp-meaning">${escapeHtml(it.meaning)}</p>` : `<button class="sp-listen" data-action="hint" aria-label="再听一遍">🔊</button>`}
+          <p class="sp-tag">${tag}${listen ? " · 听写：写错照样记下，写对不计掌握" : ""}</p>
+          ${showMeaning ? `<p class="sp-meaning${sentence ? " long" : ""}">${escapeHtml(it.meaning)}</p>` : `<button class="sp-listen" data-action="hint" aria-label="再听一遍">🔊</button>`}
+          ${showMeaning && it.names ? `<p class="sp-names">专有名词：${it.names.map(n => `<b>${escapeHtml(n)}</b>`).join("、")}</p>` : ""}
           ${card.phase === "answer" ? lengthHint(it) : ""}
           ${body}
         </div>
@@ -536,7 +603,7 @@
 
   function renderList() {
     const units = model.units.filter(u => !unitFilter || u.title === unitFilter);
-    const unitOptions = model.units.map(u => `<option value="${escapeHtml(u.title)}"${u.title === unitFilter ? " selected" : ""}>${escapeHtml(u.title)} · ${escapeHtml(u.subtitle)}</option>`).join("");
+    const unitOptions = model.units.map(u => `<option value="${escapeHtml(u.title)}"${u.title === unitFilter ? " selected" : ""}>${escapeHtml(u.title)}</option>`).join("");
     const statusOptions = Object.entries(STATUS).map(([k, v]) => `<option value="${k}"${k === statusFilter ? " selected" : ""}>${v.label}</option>`).join("");
     const groups = units.map(u => {
       const items = u.items.filter(it => !statusFilter || status(it) === statusFilter);
@@ -544,7 +611,7 @@
       if (!items.length) return "";
       return `<section class="lesson-group">
           <div class="group-head sp-group-head">
-            <span class="group-title">${escapeHtml(u.title)} · ${escapeHtml(u.subtitle)}</span>
+            <span class="group-title">${escapeHtml(u.title)}</span>
             <span class="sp-group-tools">
               <span class="group-count">${u.items.length - left} / ${u.items.length} 已掌握</span>
               ${left ? `<button class="secondary-button button-small" data-action="unit" data-unit="${escapeHtml(u.title)}">默写没掌握的 ${left} 个</button>` : ""}
@@ -557,7 +624,7 @@
       <div class="section-heading sp-filter">
         <h2>词表</h2>
         <span class="sp-filter-tools">
-          <select class="piece-select" data-filter="unit" aria-label="按单元筛选"><option value="">全部单元</option>${unitOptions}</select>
+          <select class="piece-select" data-filter="unit" aria-label="按分组筛选"><option value="">全部分组</option>${unitOptions}</select>
           <select class="piece-select" data-filter="status" aria-label="按状态筛选"><option value="">全部状态</option>${statusOptions}</select>
         </span>
       </div>
@@ -596,6 +663,7 @@
     if (a === "speak-item") return speak(model.itemMap.get(el.dataset.id).text);
     if (a === "speak") return speak(current().text);
     if (a === "hint") return hint();
+    if (a === "letters") return letterHint();
     if (a === "giveup") return giveUp();
     if (a === "next") return next();
     if (a === "mode") return setMode(el.dataset.mode);
@@ -612,6 +680,13 @@
       const value = e.target.querySelector(".sp-input").value;
       if (e.target.dataset.form === "answer") submit(value);
       else copyCheck(value);
+    });
+    // 句子输入框：回车提交，不换行。
+    app.addEventListener("keydown", e => {
+      if (e.key === "Enter" && !e.shiftKey && !e.isComposing && e.target.matches("textarea.sp-input")) {
+        e.preventDefault();
+        e.target.form.requestSubmit();
+      }
     });
     app.addEventListener("change", e => {
       if (e.target.dataset.filter === "unit") { unitFilter = e.target.value; render(); }

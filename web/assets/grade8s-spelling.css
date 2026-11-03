@@ -51,6 +51,19 @@
 .sp-tag { margin: 0; color: var(--ink-soft); font-size: 13px; }
 .sp-quiz { display: inline-block; padding: 0 6px; border-radius: 4px; background: var(--amber-bg); color: var(--amber); font-size: 12px; font-weight: 600; }
 .sp-meaning { margin: 14px 0 0; font: 600 30px/1.5 var(--serif); }
+.sp-meaning.long { font-size: 22px; line-height: 1.6; text-align: left; }
+.sp-names { margin: 8px 0 0; color: var(--ink-soft); font-size: 14px; }
+.sp-names b { color: var(--blue); font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+.sp-teacher { display: inline-block; padding: 0 6px; border-radius: 4px; background: var(--blue-bg); color: var(--blue); font-size: 12px; font-weight: 600; }
+.sp-words { margin: 14px 0 0; color: var(--ink-soft); font-size: 13px; }
+.sp-letters { margin: 14px 0 0; color: var(--amber); font: 600 20px/1.6 ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .06em; }
+.sp-form-long { max-width: none; flex-direction: column; align-items: stretch; }
+.sp-form-long .primary-button { align-self: flex-end; }
+.sp-input-long { min-height: 108px; font-size: 19px; line-height: 1.5; text-align: left; resize: vertical; }
+.sp-typed.long, .sp-correct.long { font-size: 17px; line-height: 1.7; text-align: left; letter-spacing: 0; }
+.sp-typed.long { font-size: 15px; }
+.sp-gap { color: var(--ink-soft); font: 15px/1.7 ui-monospace, "SF Mono", Menlo, monospace; text-align: left; }
+.sp-breakdown { margin: -22px 0 30px; color: var(--ink-soft); font-size: 13px; }
 .sp-listen { width: 88px; height: 88px; margin-top: 14px; border: 1px solid #b9ccd7; border-radius: 50%; background: var(--blue-bg); font-size: 38px; cursor: pointer; }
 
 .sp-slots { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; margin: 18px 0 0; }
@@ -88,7 +101,7 @@
 .sp-correct { color: var(--ink); font-weight: 700; }
 .sp-extra { color: var(--seal); font-weight: 700; }
 .sp-miss { color: var(--seal); background: var(--seal-bg); border-bottom: 2px solid var(--seal); }
-.sp-full { color: var(--ink-soft); font-size: 15px; }
+.sp-full { color: var(--ink-soft); font-size: 15px; line-height: 1.6; }
 .sp-phonetic { color: var(--ink-soft); font-size: 15px; }
 .sp-sub { margin: 10px 0 0; color: var(--ink-soft); font-size: 13px; }
 .sp-card .lead-actions { justify-content: center; margin-top: 18px; }
