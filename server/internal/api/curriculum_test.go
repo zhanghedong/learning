@@ -10,8 +10,8 @@ func TestAllCurriculumProgress(t *testing.T) {
 	f := setup(t)
 	f.register("curriculum@example.com")
 	token := f.login("curriculum@example.com", "test-password-123")["token"].(string)
-	if len(contentDecks) != 11 {
-		t.Fatalf("want 11 decks, got %d", len(contentDecks))
+	if len(contentDecks) != 14 {
+		t.Fatalf("want 14 decks, got %d", len(contentDecks))
 	}
 	for key, deck := range contentDecks {
 		t.Run(key, func(t *testing.T) {
@@ -39,7 +39,7 @@ func TestAllCurriculumProgress(t *testing.T) {
 		})
 	}
 	summaries := f.request("GET", "/api/v1/progress", token, nil, 200)["decks"].([]any)
-	if len(summaries) != 11 {
+	if len(summaries) != 14 {
 		t.Fatal(len(summaries))
 	}
 }

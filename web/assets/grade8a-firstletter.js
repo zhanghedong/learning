@@ -1,15 +1,25 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "../../../assets/data/pep-chinese-grade8a-midterm-firstletter.json";
-  const STORAGE_KEY = "pep_chinese_grade8a_firstletter_v1";
-  const PINYIN_KEY = "pep_chinese_grade8a_firstletter_pinyin";
-  const DECK_KEY = "textbooks/pep/chinese/grade8a-midterm-firstletter";
+  // 页面可在 #app 上用 data-* 覆盖这些设置（四年级背诵页复用本脚本）。
+  const CONFIG = Object.assign({
+    src: "../../../assets/data/pep-chinese-grade8a-midterm-firstletter.json",
+    storage: "pep_chinese_grade8a_firstletter_v1",
+    deck: "textbooks/pep/chinese/grade8a-midterm-firstletter",
+    app: "pep-chinese-grade8a-midterm-firstletter",
+    title: "八上语文期中首字母默背",
+    eyebrow: "期中背诵 · 第三、六单元",
+    final: "2026-11-05"
+  }, document.getElementById("app").dataset);
+  const DATA_URL = CONFIG.src;
+  const STORAGE_KEY = CONFIG.storage;
+  const PINYIN_KEY = CONFIG.storage.replace(/_v\d+$/, "") + "_pinyin";
+  const DECK_KEY = CONFIG.deck;
   const MAX_WRONG = 3;          // 第 3 次输错就显示红字
   const CLEAN_DAYS = 2;         // 红字句要在不同的 2 天各背对一次才出列
   const MAX_REDO = 3;           // 同一次练习里一句最多连续重背 3 次
   const STALE_DAYS = 2;
-  const FINAL_FROM = "2026-11-05";
+  const FINAL_FROM = CONFIG.final || "9999-12-31";  // 不设考试日就不出“考前总复习”
   const SEGMENT_MIN = 40;
   // 多音字、通假字：除课本读音外也接受这些首字母，不因读音卡住背诵。
   const ALT_LETTERS = {
@@ -588,7 +598,7 @@
         <span class="fl-rec-go">开始 →</span>
       </button>`).join("");
     return `<section class="fl-lead">
-        <p class="eyebrow">期中背诵 · 第三、六单元 ${model.pieces.length} 篇（含课外古诗词 ${model.pieces.filter(p => p.extra).length} 首）</p>
+        <p class="eyebrow">${escapeHtml(CONFIG.eyebrow)} ${model.pieces.length} 篇${model.pieces.some(p => p.extra) ? `（含课外古诗词 ${model.pieces.filter(p => p.extra).length} 首）` : ""}</p>
         <h2 class="lead-title">想起下一个字，输入它的拼音首字母</h2>
         <p class="lead-text">按对了字就出现；错 1–2 次后想起是<b class="c-amber">橙色</b>，第 ${MAX_WRONG} 次错会显示<b class="c-red">红字</b>。红字所在的句子要在两天里各背对一次才算过。</p>
       </section>
@@ -899,8 +909,8 @@
     if (window.ReviewSync) {
       window.ReviewSync.init({
         deckKey: DECK_KEY,
-        title: "八上语文期中首字母默背",
-        app: "pep-chinese-grade8a-midterm-firstletter",
+        title: CONFIG.title,
+        app: CONFIG.app,
         getData: () => ({ status: state, pref: { version: 1 } }),
         applyData: applySyncData
       });

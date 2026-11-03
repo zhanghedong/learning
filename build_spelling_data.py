@@ -4,6 +4,9 @@ Sources: the textbook word list (vocabulary_u1_u3.json) and the teacher's review
 sheets transcribed in sources/renai-english-grade8s-teacher-review.json.
 
 Usage: python3 -I build_spelling_data.py ~/Downloads/vocabulary_u1_u3.json
+
+Textbook mode (units with vocabulary and sentences, e.g. grade 4):
+  python3 -I build_spelling_data.py sources/english-grade4a.json web/assets/data/english-grade4a-spelling.json
 """
 import json
 import re
@@ -21,7 +24,12 @@ SPLITS = {
 # Accepted answers that can't be derived mechanically.
 ANSWERS = {
     "buy sb. sth. (buy sth. for sb.)": ["buy sb sth", "buy sth for sb"],
+    "IT (=Information Technology)": ["it", "information technology"],
+    "a.m.": ["a m", "am"],
+    "favorite": ["favorite", "favourite"],
 }
+# Proper nouns shown with the Chinese prompt in textbook mode: sentence -> names
+NAMES = {"Li Li gets up at 7:20 a.m. She has breakfast at 7:40 a.m.": ["Li Li"]}
 
 
 def norm(text):
@@ -46,7 +54,7 @@ SPELLING = {"colour": "color", "colourful": "colorful", "favourite": "favorite",
 
 
 def norm_sentence(text):
-    t = text.lower().replace("’", "'").replace("‘", "'")
+    t = text.lower().replace("’", "'").replace("‘", "'").replace("a.m.", "am").replace("p.m.", "pm")
     t = re.sub(r"[\"“”]", "", t)
     t = re.sub(r"[-—–…,.!?;:()]", " ", t)
     words = []
@@ -91,8 +99,45 @@ def slug(text):
     return re.sub(r"[^a-z]+", "-", norm(text).replace("'", "")).strip("-")
 
 
-def main(src):
+def unique(base, used):
+    uid, n = base, 2
+    while uid in used:
+        uid, n = f"{base}-{n}", n + 1
+    used.add(uid)
+    return uid
+
+
+def build_textbook(data, out):
+    """Units with vocabulary (words/phrases) and sentences, no teacher material."""
+    items, used = [], set()
+    for unit in data["units"]:
+        n = re.sub(r"\D", "", unit["unit"])
+        group = f"{unit['unit']} · {unit['title']}"
+        for v in unit["vocabulary"]:
+            display = v["item"].strip()
+            acc = answers(display)
+            items.append({"id": unique(f"u{n}-{slug(display)}", used), "unit": unit["unit"], "unitTitle": unit["title"],
+                          "groups": [group], "text": display, "answers": acc, "meaning": v["meaning"].strip(),
+                          "phonetic": v.get("phonetic", ""), "kind": "phrase" if " " in acc[0] else "word"})
+        for row in unit.get("sentences", []):
+            acc = sentence_answers(row["sentence"])
+            rec = {"id": unique(f"s{n}-" + "-".join(acc[0].replace("'", "").split()[:6]), used), "unit": unit["unit"],
+                   "unitTitle": unit["title"], "groups": [f"{unit['unit']} · 句子"], "text": row["sentence"],
+                   "answers": acc, "meaning": row["meaning"], "phonetic": "", "kind": "sentence"}
+            if row["sentence"] in NAMES:
+                rec["names"] = NAMES[row["sentence"]]
+            items.append(rec)
+    Path(out).write_text(json.dumps({"version": 1, "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    counts = {}
+    for it in items:
+        counts[it["kind"]] = counts.get(it["kind"], 0) + 1
+    print(f"{len(items)} items {counts} -> {out}")
+
+
+def main(src, out=OUT):
     data = json.loads(Path(src).read_text(encoding="utf-8"))
+    if "notebook_title" not in data:
+        return build_textbook(data, out)
     items, by_answer, used = [], {}, set()
 
     def add(unit, title, display, meaning, phonetic, kind, source=""):
@@ -174,4 +219,4 @@ def main(src):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(*sys.argv[1:3])

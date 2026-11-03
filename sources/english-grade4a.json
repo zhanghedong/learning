@@ -1,0 +1,153 @@
+{
+ "title": "四年级上册英语 · 单词、短语和句子",
+ "units": [
+  {
+   "unit": "Unit 1",
+   "title": "Our School",
+   "vocabulary": [
+    {"item": "sport", "phonetic": "/spɔːt/", "type": "word", "meaning": "n. 体育运动"},
+    {"item": "computer", "phonetic": "/kəmˈpjuːtə(r)/", "type": "word", "meaning": "n. 计算机，电脑"},
+    {"item": "IT (=Information Technology)", "phonetic": "/ˌaɪ ˈtiː/", "type": "phrase", "meaning": "n. 信息技术"},
+    {"item": "class", "phonetic": "/klɑːs/", "type": "word", "meaning": "n. 班级；课"},
+    {"item": "library", "phonetic": "/ˈlaɪbrəri/", "type": "word", "meaning": "n. 图书馆"},
+    {"item": "cousin", "phonetic": "/ˈkʌzn/", "type": "word", "meaning": "n. 表（堂）兄弟姐妹"},
+    {"item": "classroom", "phonetic": "/ˈklɑːsruːm/", "type": "word", "meaning": "n. 教室"},
+    {"item": "blackboard", "phonetic": "/ˈblækbɔːd/", "type": "word", "meaning": "n. 黑板"},
+    {"item": "nice", "phonetic": "/naɪs/", "type": "word", "meaning": "adj. 漂亮的；好的"},
+    {"item": "window", "phonetic": "/ˈwɪndəʊ/", "type": "word", "meaning": "n. 窗户"},
+    {"item": "clean", "phonetic": "/kliːn/", "type": "word", "meaning": "adj. 干净的 v. 打扫"},
+    {"item": "desk", "phonetic": "/desk/", "type": "word", "meaning": "n. 书桌"},
+    {"item": "chair", "phonetic": "/ʧeə(r)/", "type": "word", "meaning": "n. 椅子"},
+    {"item": "run", "phonetic": "/rʌn/", "type": "word", "meaning": "v. 跑"},
+    {"item": "jump", "phonetic": "/ʤʌmp/", "type": "word", "meaning": "v. 跳"},
+    {"item": "sing", "phonetic": "/sɪŋ/", "type": "word", "meaning": "v. 唱歌"},
+    {"item": "dance", "phonetic": "/dɑːns/", "type": "word", "meaning": "v. 跳舞"},
+    {"item": "grade", "phonetic": "/ɡreɪd/", "type": "word", "meaning": "n. 年级"},
+    {"item": "same", "phonetic": "/seɪm/", "type": "word", "meaning": "adj. 同一的；相同的"},
+    {"item": "bright", "phonetic": "/braɪt/", "type": "word", "meaning": "adj. 明亮的"}
+   ],
+   "sentences": [
+    {"sentence": "We can play sports there.", "meaning": "我们可以在那里做运动。"},
+    {"sentence": "Which class are you in?", "meaning": "你在哪个班级？"},
+    {"sentence": "I'm in Class One, Grade Four.", "meaning": "我在四年级一班。"},
+    {"sentence": "Look at the windows. They are clean and bright.", "meaning": "看这些窗户。它们又干净又明亮。"},
+    {"sentence": "I can read books in the library.", "meaning": "我可以在图书馆看书。"}
+   ]
+  },
+  {
+   "unit": "Unit 2",
+   "title": "Daily Life",
+   "vocabulary": [
+    {"item": "daily", "phonetic": "/ˈdeɪli/", "type": "word", "meaning": "adj. 每日的"},
+    {"item": "life", "phonetic": "/laɪf/", "type": "word", "meaning": "n. 生活；生命"},
+    {"item": "at", "phonetic": "/æt/", "type": "word", "meaning": "prep. 在（某具体时间/地点）"},
+    {"item": "bus", "phonetic": "/bʌs/", "type": "word", "meaning": "n. 公共汽车"},
+    {"item": "car", "phonetic": "/kɑː(r)/", "type": "word", "meaning": "n. 小汽车；轿车"},
+    {"item": "a.m.", "phonetic": "/ˌeɪ ˈem/", "type": "word", "meaning": "n. 上午"},
+    {"item": "when", "phonetic": "/wen/", "type": "word", "meaning": "adv. 什么时候"},
+    {"item": "breakfast", "phonetic": "/ˈbrekfəst/", "type": "word", "meaning": "n. 早餐"},
+    {"item": "get up", "phonetic": "/ɡet ʌp/", "type": "phrase", "meaning": "v. 起床"},
+    {"item": "lunch", "phonetic": "/lʌnʧ/", "type": "word", "meaning": "n. 午餐"},
+    {"item": "home", "phonetic": "/həʊm/", "type": "word", "meaning": "n. 家 adv. 到家"},
+    {"item": "bed", "phonetic": "/bed/", "type": "word", "meaning": "n. 床"},
+    {"item": "sweep", "phonetic": "/swiːp/", "type": "word", "meaning": "v. 扫"},
+    {"item": "floor", "phonetic": "/flɔː(r)/", "type": "word", "meaning": "n. 地板；层"},
+    {"item": "chore", "phonetic": "/ʧɔː(r)/", "type": "word", "meaning": "n. 家务"},
+    {"item": "toy", "phonetic": "/tɔɪ/", "type": "word", "meaning": "n. 玩具"},
+    {"item": "wash", "phonetic": "/wɒʃ/", "type": "word", "meaning": "v. 洗"},
+    {"item": "toilet", "phonetic": "/ˈtɔɪlət/", "type": "word", "meaning": "n. 卫生间；厕所"},
+    {"item": "often", "phonetic": "/ˈɒfn/", "type": "word", "meaning": "adv. 经常"},
+    {"item": "day", "phonetic": "/deɪ/", "type": "word", "meaning": "n. 一天；白天"},
+    {"item": "sometimes", "phonetic": "/ˈsʌmtaɪmz/", "type": "word", "meaning": "adv. 有时"},
+    {"item": "ball", "phonetic": "/bɔːl/", "type": "word", "meaning": "n. 球"},
+    {"item": "swim", "phonetic": "/swɪm/", "type": "word", "meaning": "v. 游泳"},
+    {"item": "pick up", "phonetic": "/pɪk ʌp/", "type": "phrase", "meaning": "v. 收拾；拾起"},
+    {"item": "full", "phonetic": "/fʊl/", "type": "word", "meaning": "adj. 满的；饱的"}
+   ],
+   "sentences": [
+    {"sentence": "When do you get up?", "meaning": "你什么时候起床？"},
+    {"sentence": "I get up at 7:30 a.m.", "meaning": "我在上午7:30起床。"},
+    {"sentence": "Li Li gets up at 7:20 a.m. She has breakfast at 7:40 a.m.", "meaning": "莉莉在上午7:20起床。她在7:40吃早餐。"},
+    {"sentence": "Let's do some chores together.", "meaning": "让我们一起做家务吧。"},
+    {"sentence": "I can pick up the toys.", "meaning": "我会收拾玩具。"},
+    {"sentence": "I often run on the sports ground.", "meaning": "我经常在操场上跑步。"}
+   ]
+  },
+  {
+   "unit": "Unit 3",
+   "title": "Our Hobbies",
+   "vocabulary": [
+    {"item": "hobby", "phonetic": "/ˈhɒbi/", "type": "word", "meaning": "n. 爱好"},
+    {"item": "draw", "phonetic": "/drɔː/", "type": "word", "meaning": "v. 画"},
+    {"item": "photo", "phonetic": "/ˈfəʊtəʊ/", "type": "word", "meaning": "n. 照片"},
+    {"item": "read", "phonetic": "/riːd/", "type": "word", "meaning": "v. 读；阅读"},
+    {"item": "very", "phonetic": "/ˈveri/", "type": "word", "meaning": "adv. 非常"},
+    {"item": "much", "phonetic": "/mʌʧ/", "type": "word", "meaning": "adv. 非常 adj. 许多的"},
+    {"item": "under", "phonetic": "/ˈʌndə(r)/", "type": "word", "meaning": "prep. 在……下面"},
+    {"item": "tree", "phonetic": "/triː/", "type": "word", "meaning": "n. 树"},
+    {"item": "watch", "phonetic": "/wɒʧ/", "type": "word", "meaning": "v. 观看；注视"},
+    {"item": "learn", "phonetic": "/lɜːn/", "type": "word", "meaning": "v. 学习"},
+    {"item": "also", "phonetic": "/ˈɔːlsəʊ/", "type": "word", "meaning": "adv. 也"},
+    {"item": "listen", "phonetic": "/ˈlɪsn/", "type": "word", "meaning": "v. 听"},
+    {"item": "music", "phonetic": "/ˈmjuːzɪk/", "type": "word", "meaning": "n. 音乐"},
+    {"item": "kung fu", "phonetic": "/ˌkʌŋ ˈfuː/", "type": "phrase", "meaning": "n. 功夫"},
+    {"item": "collect", "phonetic": "/kəˈlekt/", "type": "word", "meaning": "v. 收集"},
+    {"item": "stamp", "phonetic": "/stæmp/", "type": "word", "meaning": "n. 邮票"},
+    {"item": "basketball", "phonetic": "/ˈbɑːskɪtbɔːl/", "type": "word", "meaning": "n. 篮球"},
+    {"item": "China", "phonetic": "/ˈʧaɪnə/", "type": "word", "meaning": "n. 中国"},
+    {"item": "a lot", "phonetic": "/ə lɒt/", "type": "phrase", "meaning": "n./adv. 许多"}
+   ],
+   "sentences": [
+    {"sentence": "What's your hobby?", "meaning": "你的爱好是什么？"},
+    {"sentence": "My hobby is drawing.", "meaning": "我的爱好是画画。"},
+    {"sentence": "Kung fu is my hobby now.", "meaning": "功夫现在是我的爱好。"},
+    {"sentence": "What do you like doing?", "meaning": "你喜欢做什么？"},
+    {"sentence": "I like watching birds.", "meaning": "我喜欢观鸟。"},
+    {"sentence": "I can learn a lot from the books.", "meaning": "我能从书中学到很多知识。"}
+   ]
+  },
+  {
+   "unit": "Unit 4",
+   "title": "Chinese Festivals",
+   "vocabulary": [
+    {"item": "festival", "phonetic": "/ˈfestɪvl/", "type": "word", "meaning": "n. 节日"},
+    {"item": "Spring Festival", "phonetic": "/sprɪŋ ˈfestɪvl/", "type": "phrase", "meaning": "n. 春节"},
+    {"item": "come", "phonetic": "/kʌm/", "type": "word", "meaning": "v. 来；到"},
+    {"item": "new", "phonetic": "/njuː/", "type": "word", "meaning": "adj. 新的"},
+    {"item": "year", "phonetic": "/jɪə(r)/", "type": "word", "meaning": "n. 年；岁"},
+    {"item": "rice", "phonetic": "/raɪs/", "type": "word", "meaning": "n. 米；米饭"},
+    {"item": "cake", "phonetic": "/keɪk/", "type": "word", "meaning": "n. 蛋糕；饼"},
+    {"item": "say", "phonetic": "/seɪ/", "type": "word", "meaning": "v. 说"},
+    {"item": "them", "phonetic": "/ðem/", "type": "word", "meaning": "pron. 他们/她们/它们（宾格）"},
+    {"item": "money", "phonetic": "/ˈmʌni/", "type": "word", "meaning": "n. 钱"},
+    {"item": "boat", "phonetic": "/bəʊt/", "type": "word", "meaning": "n. 小船"},
+    {"item": "see", "phonetic": "/siː/", "type": "word", "meaning": "v. 看见"},
+    {"item": "try", "phonetic": "/traɪ/", "type": "word", "meaning": "v. 尝试"},
+    {"item": "dear", "phonetic": "/dɪə(r)/", "type": "word", "meaning": "adj. 亲爱的"},
+    {"item": "favorite", "phonetic": "/ˈfeɪvərɪt/", "type": "word", "meaning": "adj. 最喜欢的 n. 最喜欢的人或物"},
+    {"item": "moon", "phonetic": "/muːn/", "type": "word", "meaning": "n. 月亮"},
+    {"item": "put up", "phonetic": "/pʊt ʌp/", "type": "phrase", "meaning": "v. 张贴"},
+    {"item": "luck", "phonetic": "/lʌk/", "type": "word", "meaning": "n. 运气"},
+    {"item": "lucky", "phonetic": "/ˈlʌki/", "type": "word", "meaning": "adj. 幸运的"},
+    {"item": "buy", "phonetic": "/baɪ/", "type": "word", "meaning": "v. 买"},
+    {"item": "dumpling", "phonetic": "/ˈdʌmplɪŋ/", "type": "word", "meaning": "n. 饺子"},
+    {"item": "gala", "phonetic": "/ˈɡɑːlə/", "type": "word", "meaning": "n. 盛会；庆典"},
+    {"item": "dragon", "phonetic": "/ˈdræɡən/", "type": "word", "meaning": "n. 龙"},
+    {"item": "lantern", "phonetic": "/ˈlæntən/", "type": "word", "meaning": "n. 灯笼"},
+    {"item": "riddle", "phonetic": "/ˈrɪdl/", "type": "word", "meaning": "n. 谜语"},
+    {"item": "Lantern Festival", "phonetic": "/ˈlæntən ˈfestɪvl/", "type": "phrase", "meaning": "n. 元宵节"},
+    {"item": "Dragon Boat Festival", "phonetic": "/ˈdræɡən bəʊt ˈfestɪvl/", "type": "phrase", "meaning": "n. 端午节"},
+    {"item": "Mid-Autumn Festival", "phonetic": "/mɪd ˈɔːtəm ˈfestɪvl/", "type": "phrase", "meaning": "n. 中秋节"},
+    {"item": "mooncake", "phonetic": "/ˈmuːnkeɪk/", "type": "word", "meaning": "n. 月饼"}
+   ],
+   "sentences": [
+    {"sentence": "What's the Spring Festival?", "meaning": "什么是春节？"},
+    {"sentence": "It's Chinese New Year.", "meaning": "它是中国的新年。"},
+    {"sentence": "We have a big family dinner together.", "meaning": "我们一起吃丰盛的年夜饭。"},
+    {"sentence": "What do you do on the Lantern Festival?", "meaning": "元宵节你们做什么？"},
+    {"sentence": "We guess lantern riddles.", "meaning": "我们猜灯谜。"},
+    {"sentence": "My favorite festival is the Mid-Autumn Festival.", "meaning": "我最喜欢的节日是中秋节。"}
+   ]
+  }
+ ]
+}

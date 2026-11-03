@@ -1,0 +1,326 @@
+{
+ "version": 1,
+ "pieces": [
+  {
+   "id": "p1",
+   "unit": "第一单元",
+   "lesson": "《观潮》",
+   "title": "观潮（第3-4自然段）",
+   "author": "赵宗成、朱明元",
+   "type": "课文选段背诵",
+   "poem": false,
+   "content": "午后一点左右，从远处传来隆隆的响声，好像响雷滚动。顿时人声鼎沸，有人喊道：“潮来了！”我们踮着脚往东望去，江面还是风平浪静，看不出有什么变化。过了一会儿，响声越来越大，只见东边水天相接的地方出现了一条白线，人群又沸腾起来。那条白线很快地向我们移来，逐渐拉长，变粗，横贯江面。再近些，只见白浪翻滚，形成一堵两丈多高的水墙。浪潮越来越近，犹如千万匹白色战马齐头并进，浩浩荡荡地飞奔而来；那声音如同山崩地裂，好像大地都被震得颤动起来。",
+   "paragraphs": [
+    {
+     "label": "第3自然段",
+     "summary": "远听潮声与远观潮线",
+     "end": 111
+    },
+    {
+     "label": "第4自然段",
+     "summary": "近观水墙与万马奔腾",
+     "end": 214
+    }
+   ],
+   "letters": "whydzycyccllldxshxxlgddsrsdfyrhdcllwmdzjwdwqjmhsfpljkbcysmbhglyhexsylydzjdbstxjddfcxlytbxrqyftqlntbxhkdxwmylzjlcbchgjmzjxzjblfgxcydlzdgdsqlcylyjyrqwpbszmqtbjhhdddfbelnsyrtsbdlhxdddbzdcdql",
+   "pinyin": "wǔ hòu yī diǎn zuǒ yòu cóng yuǎn chù chuán lái lóng lóng de xiǎng shēng hǎo xiàng xiǎng léi gǔn dòng dùn shí rén shēng dǐng fèi yǒu rén hǎn dào cháo lái le wǒ men diǎn zhe jiǎo wǎng dōng wàng qù jiāng miàn hái shì fēng píng làng jìng kàn bù chū yǒu shén me biàn huà guò le yī huì er xiǎng shēng yuè lái yuè dà zhǐ jiàn dōng biān shuǐ tiān xiāng jiē de dì fāng chū xiàn le yī tiáo bái xiàn rén qún yòu fèi téng qǐ lái nà tiáo bái xiàn hěn kuài dì xiàng wǒ men yí lái zhú jiàn lā cháng biàn cū héng guàn jiāng miàn zài jìn xiē zhǐ jiàn bái làng fān gǔn xíng chéng yī dǔ liǎng zhàng duō gāo de shuǐ qiáng làng cháo yuè lái yuè jìn yóu rú qiān wàn pǐ bái sè zhàn mǎ qí tóu bìng jìn hào hào dàng dàng dì fēi bēn ér lái nà shēng yīn rú tóng shān bēng dì liè hǎo xiàng dà dì dōu bèi zhèn de chàn dòng qǐ lái",
+   "keys": [
+    {
+     "prompt": "描写钱塘江大潮潮来时声音巨大如山崩地裂的句子",
+     "sentence": "那声音如同山崩地裂，好像大地都被震得颤动起来。"
+    },
+    {
+     "prompt": "描写大潮远看形状像一条白线的句子",
+     "sentence": "只见东边水天相接的地方出现了一条白线，人群又沸腾起来。"
+    },
+    {
+     "prompt": "描写大潮近看犹如万马奔腾气势磅礴的句子",
+     "sentence": "浪潮越来越近，犹如千万匹白色战马齐头并进，浩浩荡荡地飞奔而来"
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "unit": "第一单元",
+   "lesson": "语文园地一",
+   "title": "赠刘景文",
+   "author": "苏轼",
+   "type": "古诗背诵",
+   "poem": true,
+   "content": "荷尽已无擎雨盖，菊残犹有傲霜枝。一年好景君须记，最是橙黄橘绿时。",
+   "paragraphs": [],
+   "letters": "hjywqygjcyyaszynhjjxjzschjls",
+   "pinyin": "hé jìn yǐ wú qíng yǔ gài jú cán yóu yǒu ào shuāng zhī yī nián hǎo jǐng jūn xū jì zuì shì chéng huáng jú lǜ shí",
+   "keys": [
+    {
+     "prompt": "描写荷败菊残却仍有傲霜风骨的诗句",
+     "sentence": "荷尽已无擎雨盖，菊残犹有傲霜枝。"
+    },
+    {
+     "prompt": "苏轼劝勉好友一年中最美好的景象是在初冬的诗句",
+     "sentence": "一年好景君须记，最是橙黄橘绿时。"
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "unit": "第二单元",
+   "lesson": "语文园地二",
+   "title": "日积月累·名言警句（为学治学）",
+   "author": "诸子圣贤",
+   "type": "名句背诵",
+   "poem": false,
+   "content": "博学之，审问之，慎思之，明辨之，笃行之。智能之士，不学不成，不问不知。人非生而知之者，孰能无惑？善疑者，不疑人之所疑，而疑人之所不疑。",
+   "paragraphs": [],
+   "letters": "bxzswzsszmbzdxzznzsbxbcbwbzrfsezzzsnwhsyzbyrzsyeyrzsby",
+   "pinyin": "bó xué zhī shěn wèn zhī shèn sī zhī míng biàn zhī dǔ xíng zhī zhì néng zhī shì bù xué bù chéng bù wèn bù zhī rén fēi shēng ér zhī zhī zhě shú néng wú huò shàn yí zhě bù yí rén zhī suǒ yí ér yí rén zhī suǒ bù yí",
+   "keys": [
+    {
+     "prompt": "说明学习要广泛涉猎、详细考问、慎重思考、明确辨析、切实履行的名言",
+     "sentence": "博学之，审问之，慎思之，明辨之，笃行之。"
+    },
+    {
+     "prompt": "强调人不可能是天生就知道知识、谁能没有疑惑的名言",
+     "sentence": "人非生而知之者，孰能无惑？"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "unit": "第三单元",
+   "lesson": "《古诗三首》",
+   "title": "暮江吟",
+   "author": "白居易",
+   "type": "古诗背诵",
+   "poem": true,
+   "content": "一道残阳铺水中，半江瑟瑟半江红。可怜九月初三夜，露似真珠月似弓。",
+   "paragraphs": [],
+   "letters": "ydcypszbjssbjhkljycsylszzysg",
+   "pinyin": "yī dào cán yáng pū shuǐ zhōng bàn jiāng sè sè bàn jiāng hóng kě lián jiǔ yuè chū sān yè lù sì zhēn zhū yuè sì gōng",
+   "keys": [
+    {
+     "prompt": "描写夕阳西照下江水呈现出碧绿与红艳交相辉映的诗句",
+     "sentence": "一道残阳铺水中，半江瑟瑟半江红。"
+    },
+    {
+     "prompt": "运用比喻描写九月初三夜露水与新月的诗句",
+     "sentence": "可怜九月初三夜，露似真珠月似弓。"
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "unit": "第三单元",
+   "lesson": "《古诗三首》",
+   "title": "题西林壁",
+   "author": "苏轼",
+   "type": "古诗背诵及默写",
+   "poem": true,
+   "content": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
+   "paragraphs": [],
+   "letters": "hkclccfyjgdgbtbslszmmzyszcsz",
+   "pinyin": "héng kàn chéng lǐng cè chéng fēng yuǎn jìn gāo dī gè bù tóng bù shí lú shān zhēn miàn mù zhǐ yuán shēn zài cǐ shān zhōng",
+   "keys": [
+    {
+     "prompt": "描写从不同角度看庐山呈现不同姿态的诗句",
+     "sentence": "横看成岭侧成峰，远近高低各不同。"
+    },
+    {
+     "prompt": "蕴含“当局者迷，旁观者清”哲理的经典诗句",
+     "sentence": "不识庐山真面目，只缘身在此山中。"
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "unit": "第三单元",
+   "lesson": "《古诗三首》",
+   "title": "雪梅",
+   "author": "卢钺",
+   "type": "古诗背诵",
+   "poem": true,
+   "content": "梅雪争春未肯降，骚人阁笔费评章。梅须逊雪三分白，雪却输梅一段香。",
+   "paragraphs": [],
+   "letters": "mxzcwkxsrgbfpzmxxxsfbxqsmydx",
+   "pinyin": "méi xuě zhēng chūn wèi kěn xiáng sāo rén gé bǐ fèi píng zhāng méi xū xùn xuě sān fēn bái xuě què shū méi yī duàn xiāng",
+   "keys": [
+    {
+     "prompt": "说明梅与雪各有短长、取长补短的千古名句",
+     "sentence": "梅须逊雪三分白，雪却输梅一段香。"
+    }
+   ]
+  },
+  {
+   "id": "p7",
+   "unit": "第三单元",
+   "lesson": "语文园地三",
+   "title": "日积月累·气象谚语",
+   "author": "劳动人民",
+   "type": "谚语背诵",
+   "poem": false,
+   "content": "立了秋，把扇丢。二八月，乱穿衣。夏雨少，秋霜早。八月里来雁门开，雁儿脚上带霜来。一场秋雨一场寒，十场秋雨要穿棉。八月暖，九月温，十月还有小阳春。",
+   "paragraphs": [],
+   "letters": "llqbsdebylcyxysqszbyllymkyejsdslycqyychscqyycmbynjywsyhyxyc",
+   "pinyin": "lì le qiū bǎ shàn diū èr bā yuè luàn chuān yī xià yǔ shǎo qiū shuāng zǎo bā yuè lǐ lái yàn mén kāi yàn ér jiǎo shàng dài shuāng lái yī cháng qiū yǔ yī cháng hán shí cháng qiū yǔ yào chuān mián bā yuè nuǎn jiǔ yuè wēn shí yuè hái yǒu xiǎo yáng chūn",
+   "keys": [
+    {
+     "prompt": "描写秋天每下一场雨天气就变冷一些的著名谚语",
+     "sentence": "一场秋雨一场寒，十场秋雨要穿棉。"
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "unit": "第四单元",
+   "lesson": "《精卫填海》",
+   "title": "精卫填海",
+   "author": "《山海经》",
+   "type": "文言文全篇背诵",
+   "poem": false,
+   "content": "炎帝之少女，名曰女娃。女娃游于东海，溺而不返，故为精卫，常衔西山之木石，以堙于东海。",
+   "paragraphs": [],
+   "letters": "ydzsnmynwnwyydhnebfgwjwcxxszmsyyydh",
+   "pinyin": "yán dì zhī shào nǚ míng yuē nǚ wá nǚ wá yóu yú dōng hǎi nì ér bù fǎn gù wéi jīng wèi cháng xián xī shān zhī mù shí yǐ yīn yú dōng hǎi",
+   "keys": [
+    {
+     "prompt": "描写精卫鸟坚韧不拔誓将东海填平的句子",
+     "sentence": "常衔西山之木石，以堙于东海。"
+    },
+    {
+     "prompt": "交代女娃身份与遇难原因的句子",
+     "sentence": "炎帝之少女，名曰女娃。女娃游于东海，溺而不返，故为精卫"
+    }
+   ]
+  },
+  {
+   "id": "p9",
+   "unit": "第六单元",
+   "lesson": "语文园地六",
+   "title": "黄鹤楼送孟浩然之广陵",
+   "author": "李白",
+   "type": "古诗背诵",
+   "poem": true,
+   "content": "故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流。",
+   "paragraphs": [],
+   "letters": "grxchhlyhsyxyzgfyybkjwjcjtjl",
+   "pinyin": "gù rén xī cí huáng hè lóu yān huā sān yuè xià yáng zhōu gū fān yuǎn yǐng bì kōng jìn wéi jiàn cháng jiāng tiān jì liú",
+   "keys": [
+    {
+     "prompt": "交代送别地点、时间及目的地的诗句",
+     "sentence": "故人西辞黄鹤楼，烟花三月下扬州。"
+    },
+    {
+     "prompt": "表达对友人依依不舍与深厚情谊的目送诗句",
+     "sentence": "孤帆远影碧空尽，唯见长江天际流。"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "unit": "第七单元",
+   "lesson": "《王戎不取道旁李》",
+   "title": "王戎不取道旁李",
+   "author": "刘义庆",
+   "type": "文言文全篇背诵",
+   "poem": false,
+   "content": "王戎七岁，尝与诸小儿游。看道边李树多子折枝，诸小儿竞走取之，唯戎不动。人问之，答曰：“树在道边而多子，此必苦李。”取之，信然。",
+   "paragraphs": [],
+   "letters": "wrqscyzxeykdblsdzzzzxejzqzwrbdrwzdyszdbedzcbklqzxr",
+   "pinyin": "wáng róng qī suì cháng yǔ zhū xiǎo ér yóu kàn dào biān lǐ shù duō zǐ zhé zhī zhū xiǎo ér jìng zǒu qǔ zhī wéi róng bù dòng rén wèn zhī dá yuē shù zài dào biān ér duō zǐ cǐ bì kǔ lǐ qǔ zhī xìn rán",
+   "keys": [
+    {
+     "prompt": "王戎推断道边李树之李必为苦李的句子",
+     "sentence": "树在道边而多子，此必苦李。"
+    },
+    {
+     "prompt": "描写诸小儿争先恐后去摘李子而王戎独不动的句子",
+     "sentence": "诸小儿竞走取之，唯戎不动。"
+    }
+   ]
+  },
+  {
+   "id": "p11",
+   "unit": "第八单元",
+   "lesson": "《延安，我把你追寻》",
+   "title": "延安，我把你追寻（节选）",
+   "author": "祁念曾",
+   "type": "现代诗背诵",
+   "poem": false,
+   "content": "像翩翩归来的燕子，在追寻昔日的春光；像茁壮成长的小树，在追寻雨露和太阳。追寻你，延河叮咚的流水，追寻你，枣园梨花的清香，追寻你，南泥湾开荒的镢头，追寻你，杨家岭讲话的会场。啊！延安，我把你追寻，追寻信念，追寻金色的理想；追寻温暖，追寻明媚的春光；追寻光明，追寻火红的太阳！",
+   "paragraphs": [],
+   "letters": "xppgldyzzzxxrdcgxzzczdxszzxylhtyzxnyhdddlszxnzylhdqxzxnnnwkhdjtzxnyjljhdhcayawbnzxzxxnzxjsdlxzxwnzxmmdcgzxgmzxhhdty",
+   "pinyin": "xiàng piān piān guī lái de yàn zi zài zhuī xún xī rì de chūn guāng xiàng zhuó zhuàng chéng zhǎng de xiǎo shù zài zhuī xún yǔ lù hé tài yáng zhuī xún nǐ yán hé dīng dōng de liú shuǐ zhuī xún nǐ zǎo yuán lí huā de qīng xiāng zhuī xún nǐ nán ní wān kāi huāng de jué tóu zhuī xún nǐ yáng jiā lǐng jiǎng huà de huì chǎng a yán ān wǒ bǎ nǐ zhuī xún zhuī xún xìn niàn zhuī xún jīn sè de lǐ xiǎng zhuī xún wēn nuǎn zhuī xún míng mèi de chūn guāng zhuī xún guāng míng zhuī xún huǒ hóng de tài yáng",
+   "keys": [
+    {
+     "prompt": "表达追寻延安精神具体内涵的经典诗句",
+     "sentence": "追寻信念，追寻金色的理想；追寻温暖，追寻明媚的春光；追寻光明，追寻火红的太阳！"
+    }
+   ]
+  },
+  {
+   "id": "p12",
+   "unit": "第八单元",
+   "lesson": "《古诗三首》",
+   "title": "凉州词",
+   "author": "王翰",
+   "type": "古诗背诵",
+   "poem": true,
+   "content": "葡萄美酒夜光杯，欲饮琵琶马上催。醉卧沙场君莫笑，古来征战几人回？",
+   "paragraphs": [],
+   "letters": "ptmjygbyyppmsczwscjmxglzzjrh",
+   "pinyin": "pú táo měi jiǔ yè guāng bēi yù yǐn pí pá mǎ shàng cuī zuì wò shā chǎng jūn mò xiào gǔ lái zhēng zhàn jǐ rén huí",
+   "keys": [
+    {
+     "prompt": "描写将士视死如归豪放悲壮气概的诗句",
+     "sentence": "醉卧沙场君莫笑，古来征战几人回？"
+    }
+   ]
+  },
+  {
+   "id": "p13",
+   "unit": "第八单元",
+   "lesson": "《古诗三首》",
+   "title": "出塞",
+   "author": "王昌龄",
+   "type": "古诗背诵及默写",
+   "poem": true,
+   "content": "秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山。",
+   "paragraphs": [],
+   "letters": "qsmyhsgwlczrwhdslcfjzbjhmdys",
+   "pinyin": "qín shí míng yuè hàn shí guān wàn lǐ cháng zhēng rén wèi huán dàn shǐ lóng chéng fēi jiàng zài bù jiào hú mǎ dù yīn shān",
+   "keys": [
+    {
+     "prompt": "表达渴望英勇善战的将领守卫边疆、保家卫国的诗句",
+     "sentence": "但使龙城飞将在，不教胡马度阴山。"
+    },
+    {
+     "prompt": "烘托边塞征战漫长沉重氛围的开篇名句",
+     "sentence": "秦时明月汉时关，万里长征人未还。"
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "unit": "第八单元",
+   "lesson": "《古诗三首》",
+   "title": "夏日绝句",
+   "author": "李清照",
+   "type": "古诗背诵及默写",
+   "poem": true,
+   "content": "生当作人杰，死亦为鬼雄。至今思项羽，不肯过江东。",
+   "paragraphs": [],
+   "letters": "sdzrjsywgxzjsxybkgjd",
+   "pinyin": "shēng dāng zuò rén jié sǐ yì wéi guǐ xióng zhì jīn sī xiàng yǔ bù kěn guò jiāng dōng",
+   "keys": [
+    {
+     "prompt": "借赞颂项羽英雄气概来讽刺南宋统治者苟且偷安的诗句",
+     "sentence": "至今思项羽，不肯过江东。"
+    },
+    {
+     "prompt": "树立人生崇高价值取向、浩气长存的千古名句",
+     "sentence": "生当作人杰，死亦为鬼雄。"
+    }
+   ]
+  }
+ ]
+}

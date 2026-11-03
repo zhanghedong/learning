@@ -1,16 +1,27 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "../../../assets/data/renai-english-grade8s-midterm-spelling.json";
-  const STORAGE_KEY = "renai_english_grade8s_spelling_v1";
-  const DECK_KEY = "textbooks/renai/english/grade8s-midterm-spelling";
-  const TARGET = "2026-11-07";   // 考前一天全部掌握
+  // 页面可在 #app 上用 data-* 覆盖这些设置（四年级拼写页复用本脚本）。
+  const CONFIG = Object.assign({
+    src: "../../../assets/data/renai-english-grade8s-midterm-spelling.json",
+    storage: "renai_english_grade8s_spelling_v1",
+    deck: "textbooks/renai/english/grade8s-midterm-spelling",
+    app: "renai-english-grade8s-midterm-spelling",
+    title: "八上英语期中拼写",
+    eyebrow: "期中英语 · Unit 1–3 单词、短语和老师复习句子",
+    sentenceLabel: "老师句子",
+    target: "2026-11-07"
+  }, document.getElementById("app").dataset);
+  const DATA_URL = CONFIG.src;
+  const STORAGE_KEY = CONFIG.storage;
+  const DECK_KEY = CONFIG.deck;
+  const TARGET = CONFIG.target;  // 考前一天全部掌握；为空则不设截止日
   const STEPS = [1, 2, 3];       // 拼错后隔 1、2、3 天各考一次，都对才算掌握
   const REQUEUE_GAP = 4;         // 拼错的词隔 4 个再考
   const MAX_REQUEUE = 3;
   const BATCH = 20;
   const SENTENCE_BATCH = 8;
-  const RUSH_FROM = "2026-11-06";
+  const RUSH_FROM = TARGET ? addDays(TARGET, -1) : "";
 
   const app = document.getElementById("app");
   const toastEl = document.getElementById("toast");
@@ -42,7 +53,7 @@
   // 复习日不晚于目标日，保证考前都轮到。
   function clampDue(day) {
     const d = today();
-    return d < TARGET && day > TARGET ? TARGET : day;
+    return TARGET && d < TARGET && day > TARGET ? TARGET : day;
   }
 
   function escapeHtml(value) {
@@ -84,7 +95,7 @@
   const SPELLING = { colour: "color", colourful: "colorful", favourite: "favorite", favourites: "favorites", practised: "practiced" };
 
   function normSentence(text) {
-    const t = String(text).toLowerCase().replace(/[’‘]/g, "'").replace(/["“”]/g, "").replace(/[-—–…,.!?;:()]/g, " ");
+    const t = String(text).toLowerCase().replace(/[’‘]/g, "'").replace(/a\.m\./g, "am").replace(/p\.m\./g, "pm").replace(/["“”]/g, "").replace(/[-—–…,.!?;:()]/g, " ");
     return t.split(/\s+/).filter(Boolean).map(w => CONTRACTIONS[w] || NUMBERS[w] || SPELLING[w] || w).join(" ");
   }
 
@@ -190,7 +201,7 @@
 
   const CATEGORY = {
     teacherPhrase: { label: "老师短语", batch: BATCH, unit: "个" },
-    sentence: { label: "老师句子", batch: SENTENCE_BATCH, unit: "句" },
+    sentence: { label: CONFIG.sentenceLabel, batch: SENTENCE_BATCH, unit: "句" },
     book: { label: "课本单词", batch: BATCH, unit: "个" }
   };
 
@@ -203,6 +214,7 @@
 
   // 新词要在目标日前一天学完，留出最后一次复查。
   function newQuota(cat) {
+    if (!TARGET) return CATEGORY[cat].batch;
     const left = newItems(cat).length + learnedToday(cat);
     const days = Math.max(1, daysBetween(today(), TARGET) - 1);
     return Math.ceil(left / days);
@@ -433,27 +445,30 @@
       <div class="stat"><span class="stat-value">${mastered} / ${total}</span><span class="stat-label">已掌握</span><span class="stat-bar"><i style="width:${mastered / total * 100}%"></i></span></div>
       <div class="stat"><span class="stat-value">${started} / ${total}</span><span class="stat-label">学过至少一次</span><span class="stat-bar"><i style="width:${started / total * 100}%"></i></span></div>
       <div class="stat"><span class="stat-value">${dueItems().length} · ${wrongItems().length}</span><span class="stat-label">今天要复习 · 错过的词</span></div>
-      <div class="stat"><span class="stat-value">${left > 0 ? left + " 天" : "今天"}</span><span class="stat-label">距 11 月 7 日全部掌握</span></div>
+      ${TARGET ? `<div class="stat"><span class="stat-value">${left > 0 ? left + " 天" : "今天"}</span><span class="stat-label">距 ${+TARGET.slice(5, 7)} 月 ${+TARGET.slice(8)} 日全部掌握</span></div>`
+               : `<div class="stat"><span class="stat-value">${learnedToday()}</span><span class="stat-label">今天学的新词</span></div>`}
     </div>
     <p class="sp-breakdown">${Object.entries(CATEGORY).map(([k, c]) => {
       const list = model.items.filter(it => category(it) === k);
-      return `${c.label} 掌握 ${list.filter(it => status(it) === "mastered").length} / ${list.length}`;
-    }).join(" · ")}</p>`;
+      return list.length ? `${c.label} 掌握 ${list.filter(it => status(it) === "mastered").length} / ${list.length}` : "";
+    }).filter(Boolean).join(" · ")}</p>`;
   }
 
   function recommendations() {
     const d = today();
     const list = [];
     const due = dueItems();
-    if (d >= RUSH_FROM) {
+    if (RUSH_FROM && d >= RUSH_FROM) {
       const pending = model.items.filter(it => status(it) !== "mastered" || (state.items[it.id] && state.items[it.id].wrong));
       if (pending.length) list.push({ title: "考前过一遍 · " + pending.length + " 个", text: "没掌握的词和所有错过的词，各默写一遍。", items: () => shuffle(pending), primary: true });
     }
     if (due.length) {
       list.push({ title: "复习到期的词 · " + due.length + " 个", text: "错得多的先考。拼对一次往后推，拼错重新排。", items: () => due, primary: !list.length });
     }
-    // 老师的材料最可能考，排在课本单词前面。
-    for (const [cat, c] of Object.entries(CATEGORY)) {
+    // 老师的材料最可能考，排在课本单词前面；没有老师材料时先学单词再练句子。
+    const order = model.items.some(it => it.teacher) ? ["teacherPhrase", "sentence", "book"] : ["book", "sentence"];
+    for (const cat of order) {
+      const c = CATEGORY[cat];
       const fresh = newItems(cat);
       if (!fresh.length) continue;
       const n = Math.min(c.batch, fresh.length);
@@ -475,7 +490,7 @@
         <span class="sp-rec-go">开始 →</span>
       </button>`).join("");
     return `<section class="sp-lead">
-        <p class="eyebrow">期中英语 · Unit 1–3 单词、短语和老师复习句子 ${model.items.length} 个</p>
+        <p class="eyebrow">${escapeHtml(CONFIG.eyebrow)} ${model.items.length} 个</p>
         <h2 class="lead-title">看中文，写出英文</h2>
         <p class="lead-text">考试时没有发音，所以默认<b>先写再听</b>：提交后不管对错都会读一遍。写之前点“听一下”或看首字母算提示，明天再考。写错的要照着抄一遍，过几个再考；之后隔 1、2、3 天各考一次，都对才算掌握。句子不看大小写和标点，I'm 和 I am 都算对。</p>
       </section>
@@ -739,8 +754,8 @@
     if (window.ReviewSync) {
       window.ReviewSync.init({
         deckKey: DECK_KEY,
-        title: "八上英语期中拼写",
-        app: "renai-english-grade8s-midterm-spelling",
+        title: CONFIG.title,
+        app: CONFIG.app,
         getData: () => state,
         applyData: applySyncData
       });

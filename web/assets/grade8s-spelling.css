@@ -159,3 +159,15 @@
   .sp-row { break-inside: avoid; grid-template-columns: minmax(0, 1fr) auto; }
 }
 .sp-seal { background: var(--blue); font-family: var(--sans); font-size: 17px; }
+
+/* iPad：按钮连点不触发双击缩放；横屏时卡片收紧，输入框在屏幕键盘上方也看得到。 */
+.sp-practice button, .sp-rec, .sp-speak { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+@media (min-width: 768px) {
+  .sp-practice .button-small, .sp-mode button { min-height: 44px; font-size: 15px; }
+  .sp-form .primary-button { min-height: 52px; padding-inline: 20px; font-size: 16px; }
+}
+@media (orientation: landscape) and (max-height: 900px) {
+  .sp-card { padding: 20px 28px; }
+  .sp-meaning { margin-top: 8px; }
+  .sp-form { margin-top: 14px; }
+}

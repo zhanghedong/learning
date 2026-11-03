@@ -1,0 +1,1751 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "u1-sport",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "sport",
+   "answers": [
+    "sport"
+   ],
+   "meaning": "n. 体育运动",
+   "phonetic": "/spɔːt/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-computer",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "computer",
+   "answers": [
+    "computer"
+   ],
+   "meaning": "n. 计算机，电脑",
+   "phonetic": "/kəmˈpjuːtə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-it-information-technology",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "IT (=Information Technology)",
+   "answers": [
+    "it",
+    "information technology"
+   ],
+   "meaning": "n. 信息技术",
+   "phonetic": "/ˌaɪ ˈtiː/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-class",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "class",
+   "answers": [
+    "class"
+   ],
+   "meaning": "n. 班级；课",
+   "phonetic": "/klɑːs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-library",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "library",
+   "answers": [
+    "library"
+   ],
+   "meaning": "n. 图书馆",
+   "phonetic": "/ˈlaɪbrəri/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-cousin",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "cousin",
+   "answers": [
+    "cousin"
+   ],
+   "meaning": "n. 表（堂）兄弟姐妹",
+   "phonetic": "/ˈkʌzn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-classroom",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "classroom",
+   "answers": [
+    "classroom"
+   ],
+   "meaning": "n. 教室",
+   "phonetic": "/ˈklɑːsruːm/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-blackboard",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "blackboard",
+   "answers": [
+    "blackboard"
+   ],
+   "meaning": "n. 黑板",
+   "phonetic": "/ˈblækbɔːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-nice",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "nice",
+   "answers": [
+    "nice"
+   ],
+   "meaning": "adj. 漂亮的；好的",
+   "phonetic": "/naɪs/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-window",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "window",
+   "answers": [
+    "window"
+   ],
+   "meaning": "n. 窗户",
+   "phonetic": "/ˈwɪndəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-clean",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "clean",
+   "answers": [
+    "clean"
+   ],
+   "meaning": "adj. 干净的 v. 打扫",
+   "phonetic": "/kliːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-desk",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "desk",
+   "answers": [
+    "desk"
+   ],
+   "meaning": "n. 书桌",
+   "phonetic": "/desk/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-chair",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "chair",
+   "answers": [
+    "chair"
+   ],
+   "meaning": "n. 椅子",
+   "phonetic": "/ʧeə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-run",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "run",
+   "answers": [
+    "run"
+   ],
+   "meaning": "v. 跑",
+   "phonetic": "/rʌn/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-jump",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "jump",
+   "answers": [
+    "jump"
+   ],
+   "meaning": "v. 跳",
+   "phonetic": "/ʤʌmp/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-sing",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "sing",
+   "answers": [
+    "sing"
+   ],
+   "meaning": "v. 唱歌",
+   "phonetic": "/sɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-dance",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "dance",
+   "answers": [
+    "dance"
+   ],
+   "meaning": "v. 跳舞",
+   "phonetic": "/dɑːns/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-grade",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "grade",
+   "answers": [
+    "grade"
+   ],
+   "meaning": "n. 年级",
+   "phonetic": "/ɡreɪd/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-same",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "same",
+   "answers": [
+    "same"
+   ],
+   "meaning": "adj. 同一的；相同的",
+   "phonetic": "/seɪm/",
+   "kind": "word"
+  },
+  {
+   "id": "u1-bright",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · Our School"
+   ],
+   "text": "bright",
+   "answers": [
+    "bright"
+   ],
+   "meaning": "adj. 明亮的",
+   "phonetic": "/braɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "s1-we-can-play-sports-there",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · 句子"
+   ],
+   "text": "We can play sports there.",
+   "answers": [
+    "we can play sports there"
+   ],
+   "meaning": "我们可以在那里做运动。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s1-which-class-are-you-in",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · 句子"
+   ],
+   "text": "Which class are you in?",
+   "answers": [
+    "which class are you in"
+   ],
+   "meaning": "你在哪个班级？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s1-i-am-in-class-one-grade",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · 句子"
+   ],
+   "text": "I'm in Class One, Grade Four.",
+   "answers": [
+    "i am in class one grade four"
+   ],
+   "meaning": "我在四年级一班。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s1-look-at-the-windows-they-are",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · 句子"
+   ],
+   "text": "Look at the windows. They are clean and bright.",
+   "answers": [
+    "look at the windows they are clean and bright"
+   ],
+   "meaning": "看这些窗户。它们又干净又明亮。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s1-i-can-read-books-in-the",
+   "unit": "Unit 1",
+   "unitTitle": "Our School",
+   "groups": [
+    "Unit 1 · 句子"
+   ],
+   "text": "I can read books in the library.",
+   "answers": [
+    "i can read books in the library"
+   ],
+   "meaning": "我可以在图书馆看书。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "u2-daily",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "daily",
+   "answers": [
+    "daily"
+   ],
+   "meaning": "adj. 每日的",
+   "phonetic": "/ˈdeɪli/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-life",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "life",
+   "answers": [
+    "life"
+   ],
+   "meaning": "n. 生活；生命",
+   "phonetic": "/laɪf/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-at",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "at",
+   "answers": [
+    "at"
+   ],
+   "meaning": "prep. 在（某具体时间/地点）",
+   "phonetic": "/æt/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-bus",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "bus",
+   "answers": [
+    "bus"
+   ],
+   "meaning": "n. 公共汽车",
+   "phonetic": "/bʌs/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-car",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "car",
+   "answers": [
+    "car"
+   ],
+   "meaning": "n. 小汽车；轿车",
+   "phonetic": "/kɑː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-a-m",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "a.m.",
+   "answers": [
+    "a m",
+    "am"
+   ],
+   "meaning": "n. 上午",
+   "phonetic": "/ˌeɪ ˈem/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-when",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "when",
+   "answers": [
+    "when"
+   ],
+   "meaning": "adv. 什么时候",
+   "phonetic": "/wen/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-breakfast",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "breakfast",
+   "answers": [
+    "breakfast"
+   ],
+   "meaning": "n. 早餐",
+   "phonetic": "/ˈbrekfəst/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-get-up",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "get up",
+   "answers": [
+    "get up"
+   ],
+   "meaning": "v. 起床",
+   "phonetic": "/ɡet ʌp/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-lunch",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "lunch",
+   "answers": [
+    "lunch"
+   ],
+   "meaning": "n. 午餐",
+   "phonetic": "/lʌnʧ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-home",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "home",
+   "answers": [
+    "home"
+   ],
+   "meaning": "n. 家 adv. 到家",
+   "phonetic": "/həʊm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-bed",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "bed",
+   "answers": [
+    "bed"
+   ],
+   "meaning": "n. 床",
+   "phonetic": "/bed/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sweep",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "sweep",
+   "answers": [
+    "sweep"
+   ],
+   "meaning": "v. 扫",
+   "phonetic": "/swiːp/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-floor",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "floor",
+   "answers": [
+    "floor"
+   ],
+   "meaning": "n. 地板；层",
+   "phonetic": "/flɔː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-chore",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "chore",
+   "answers": [
+    "chore"
+   ],
+   "meaning": "n. 家务",
+   "phonetic": "/ʧɔː(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-toy",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "toy",
+   "answers": [
+    "toy"
+   ],
+   "meaning": "n. 玩具",
+   "phonetic": "/tɔɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-wash",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "wash",
+   "answers": [
+    "wash"
+   ],
+   "meaning": "v. 洗",
+   "phonetic": "/wɒʃ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-toilet",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "toilet",
+   "answers": [
+    "toilet"
+   ],
+   "meaning": "n. 卫生间；厕所",
+   "phonetic": "/ˈtɔɪlət/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-often",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "often",
+   "answers": [
+    "often"
+   ],
+   "meaning": "adv. 经常",
+   "phonetic": "/ˈɒfn/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-day",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "day",
+   "answers": [
+    "day"
+   ],
+   "meaning": "n. 一天；白天",
+   "phonetic": "/deɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-sometimes",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "sometimes",
+   "answers": [
+    "sometimes"
+   ],
+   "meaning": "adv. 有时",
+   "phonetic": "/ˈsʌmtaɪmz/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-ball",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "ball",
+   "answers": [
+    "ball"
+   ],
+   "meaning": "n. 球",
+   "phonetic": "/bɔːl/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-swim",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "swim",
+   "answers": [
+    "swim"
+   ],
+   "meaning": "v. 游泳",
+   "phonetic": "/swɪm/",
+   "kind": "word"
+  },
+  {
+   "id": "u2-pick-up",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "pick up",
+   "answers": [
+    "pick up"
+   ],
+   "meaning": "v. 收拾；拾起",
+   "phonetic": "/pɪk ʌp/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u2-full",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · Daily Life"
+   ],
+   "text": "full",
+   "answers": [
+    "full"
+   ],
+   "meaning": "adj. 满的；饱的",
+   "phonetic": "/fʊl/",
+   "kind": "word"
+  },
+  {
+   "id": "s2-when-do-you-get-up",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "When do you get up?",
+   "answers": [
+    "when do you get up"
+   ],
+   "meaning": "你什么时候起床？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s2-i-get-up-at-7-30",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "I get up at 7:30 a.m.",
+   "answers": [
+    "i get up at 7 30 am"
+   ],
+   "meaning": "我在上午7:30起床。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s2-li-li-gets-up-at-7",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "Li Li gets up at 7:20 a.m. She has breakfast at 7:40 a.m.",
+   "answers": [
+    "li li gets up at 7 20 am she has breakfast at 7 40 am"
+   ],
+   "meaning": "莉莉在上午7:20起床。她在7:40吃早餐。",
+   "phonetic": "",
+   "kind": "sentence",
+   "names": [
+    "Li Li"
+   ]
+  },
+  {
+   "id": "s2-let-us-do-some-chores-together",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "Let's do some chores together.",
+   "answers": [
+    "let us do some chores together"
+   ],
+   "meaning": "让我们一起做家务吧。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s2-i-can-pick-up-the-toys",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "I can pick up the toys.",
+   "answers": [
+    "i can pick up the toys"
+   ],
+   "meaning": "我会收拾玩具。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s2-i-often-run-on-the-sports",
+   "unit": "Unit 2",
+   "unitTitle": "Daily Life",
+   "groups": [
+    "Unit 2 · 句子"
+   ],
+   "text": "I often run on the sports ground.",
+   "answers": [
+    "i often run on the sports ground"
+   ],
+   "meaning": "我经常在操场上跑步。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "u3-hobby",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "hobby",
+   "answers": [
+    "hobby"
+   ],
+   "meaning": "n. 爱好",
+   "phonetic": "/ˈhɒbi/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-draw",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "draw",
+   "answers": [
+    "draw"
+   ],
+   "meaning": "v. 画",
+   "phonetic": "/drɔː/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-photo",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "photo",
+   "answers": [
+    "photo"
+   ],
+   "meaning": "n. 照片",
+   "phonetic": "/ˈfəʊtəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-read",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "read",
+   "answers": [
+    "read"
+   ],
+   "meaning": "v. 读；阅读",
+   "phonetic": "/riːd/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-very",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "very",
+   "answers": [
+    "very"
+   ],
+   "meaning": "adv. 非常",
+   "phonetic": "/ˈveri/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-much",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "much",
+   "answers": [
+    "much"
+   ],
+   "meaning": "adv. 非常 adj. 许多的",
+   "phonetic": "/mʌʧ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-under",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "under",
+   "answers": [
+    "under"
+   ],
+   "meaning": "prep. 在……下面",
+   "phonetic": "/ˈʌndə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-tree",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "tree",
+   "answers": [
+    "tree"
+   ],
+   "meaning": "n. 树",
+   "phonetic": "/triː/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-watch",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "watch",
+   "answers": [
+    "watch"
+   ],
+   "meaning": "v. 观看；注视",
+   "phonetic": "/wɒʧ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-learn",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "learn",
+   "answers": [
+    "learn"
+   ],
+   "meaning": "v. 学习",
+   "phonetic": "/lɜːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-also",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "also",
+   "answers": [
+    "also"
+   ],
+   "meaning": "adv. 也",
+   "phonetic": "/ˈɔːlsəʊ/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-listen",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "listen",
+   "answers": [
+    "listen"
+   ],
+   "meaning": "v. 听",
+   "phonetic": "/ˈlɪsn/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-music",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "music",
+   "answers": [
+    "music"
+   ],
+   "meaning": "n. 音乐",
+   "phonetic": "/ˈmjuːzɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-kung-fu",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "kung fu",
+   "answers": [
+    "kung fu"
+   ],
+   "meaning": "n. 功夫",
+   "phonetic": "/ˌkʌŋ ˈfuː/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u3-collect",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "collect",
+   "answers": [
+    "collect"
+   ],
+   "meaning": "v. 收集",
+   "phonetic": "/kəˈlekt/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-stamp",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "stamp",
+   "answers": [
+    "stamp"
+   ],
+   "meaning": "n. 邮票",
+   "phonetic": "/stæmp/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-basketball",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "basketball",
+   "answers": [
+    "basketball"
+   ],
+   "meaning": "n. 篮球",
+   "phonetic": "/ˈbɑːskɪtbɔːl/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-china",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "China",
+   "answers": [
+    "china"
+   ],
+   "meaning": "n. 中国",
+   "phonetic": "/ˈʧaɪnə/",
+   "kind": "word"
+  },
+  {
+   "id": "u3-a-lot",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · Our Hobbies"
+   ],
+   "text": "a lot",
+   "answers": [
+    "a lot"
+   ],
+   "meaning": "n./adv. 许多",
+   "phonetic": "/ə lɒt/",
+   "kind": "phrase"
+  },
+  {
+   "id": "s3-what-is-your-hobby",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "What's your hobby?",
+   "answers": [
+    "what is your hobby"
+   ],
+   "meaning": "你的爱好是什么？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s3-my-hobby-is-drawing",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "My hobby is drawing.",
+   "answers": [
+    "my hobby is drawing"
+   ],
+   "meaning": "我的爱好是画画。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s3-kung-fu-is-my-hobby-now",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "Kung fu is my hobby now.",
+   "answers": [
+    "kung fu is my hobby now"
+   ],
+   "meaning": "功夫现在是我的爱好。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s3-what-do-you-like-doing",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "What do you like doing?",
+   "answers": [
+    "what do you like doing"
+   ],
+   "meaning": "你喜欢做什么？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s3-i-like-watching-birds",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "I like watching birds.",
+   "answers": [
+    "i like watching birds"
+   ],
+   "meaning": "我喜欢观鸟。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s3-i-can-learn-a-lot-from",
+   "unit": "Unit 3",
+   "unitTitle": "Our Hobbies",
+   "groups": [
+    "Unit 3 · 句子"
+   ],
+   "text": "I can learn a lot from the books.",
+   "answers": [
+    "i can learn a lot from the books"
+   ],
+   "meaning": "我能从书中学到很多知识。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "u4-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "festival",
+   "answers": [
+    "festival"
+   ],
+   "meaning": "n. 节日",
+   "phonetic": "/ˈfestɪvl/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-spring-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "Spring Festival",
+   "answers": [
+    "spring festival"
+   ],
+   "meaning": "n. 春节",
+   "phonetic": "/sprɪŋ ˈfestɪvl/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u4-come",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "come",
+   "answers": [
+    "come"
+   ],
+   "meaning": "v. 来；到",
+   "phonetic": "/kʌm/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-new",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "new",
+   "answers": [
+    "new"
+   ],
+   "meaning": "adj. 新的",
+   "phonetic": "/njuː/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-year",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "year",
+   "answers": [
+    "year"
+   ],
+   "meaning": "n. 年；岁",
+   "phonetic": "/jɪə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-rice",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "rice",
+   "answers": [
+    "rice"
+   ],
+   "meaning": "n. 米；米饭",
+   "phonetic": "/raɪs/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-cake",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "cake",
+   "answers": [
+    "cake"
+   ],
+   "meaning": "n. 蛋糕；饼",
+   "phonetic": "/keɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-say",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "say",
+   "answers": [
+    "say"
+   ],
+   "meaning": "v. 说",
+   "phonetic": "/seɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-them",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "them",
+   "answers": [
+    "them"
+   ],
+   "meaning": "pron. 他们/她们/它们（宾格）",
+   "phonetic": "/ðem/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-money",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "money",
+   "answers": [
+    "money"
+   ],
+   "meaning": "n. 钱",
+   "phonetic": "/ˈmʌni/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-boat",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "boat",
+   "answers": [
+    "boat"
+   ],
+   "meaning": "n. 小船",
+   "phonetic": "/bəʊt/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-see",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "see",
+   "answers": [
+    "see"
+   ],
+   "meaning": "v. 看见",
+   "phonetic": "/siː/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-try",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "try",
+   "answers": [
+    "try"
+   ],
+   "meaning": "v. 尝试",
+   "phonetic": "/traɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-dear",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "dear",
+   "answers": [
+    "dear"
+   ],
+   "meaning": "adj. 亲爱的",
+   "phonetic": "/dɪə(r)/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-favorite",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "favorite",
+   "answers": [
+    "favorite",
+    "favourite"
+   ],
+   "meaning": "adj. 最喜欢的 n. 最喜欢的人或物",
+   "phonetic": "/ˈfeɪvərɪt/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-moon",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "moon",
+   "answers": [
+    "moon"
+   ],
+   "meaning": "n. 月亮",
+   "phonetic": "/muːn/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-put-up",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "put up",
+   "answers": [
+    "put up"
+   ],
+   "meaning": "v. 张贴",
+   "phonetic": "/pʊt ʌp/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u4-luck",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "luck",
+   "answers": [
+    "luck"
+   ],
+   "meaning": "n. 运气",
+   "phonetic": "/lʌk/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-lucky",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "lucky",
+   "answers": [
+    "lucky"
+   ],
+   "meaning": "adj. 幸运的",
+   "phonetic": "/ˈlʌki/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-buy",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "buy",
+   "answers": [
+    "buy"
+   ],
+   "meaning": "v. 买",
+   "phonetic": "/baɪ/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-dumpling",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "dumpling",
+   "answers": [
+    "dumpling"
+   ],
+   "meaning": "n. 饺子",
+   "phonetic": "/ˈdʌmplɪŋ/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-gala",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "gala",
+   "answers": [
+    "gala"
+   ],
+   "meaning": "n. 盛会；庆典",
+   "phonetic": "/ˈɡɑːlə/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-dragon",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "dragon",
+   "answers": [
+    "dragon"
+   ],
+   "meaning": "n. 龙",
+   "phonetic": "/ˈdræɡən/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-lantern",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "lantern",
+   "answers": [
+    "lantern"
+   ],
+   "meaning": "n. 灯笼",
+   "phonetic": "/ˈlæntən/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-riddle",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "riddle",
+   "answers": [
+    "riddle"
+   ],
+   "meaning": "n. 谜语",
+   "phonetic": "/ˈrɪdl/",
+   "kind": "word"
+  },
+  {
+   "id": "u4-lantern-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "Lantern Festival",
+   "answers": [
+    "lantern festival"
+   ],
+   "meaning": "n. 元宵节",
+   "phonetic": "/ˈlæntən ˈfestɪvl/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u4-dragon-boat-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "Dragon Boat Festival",
+   "answers": [
+    "dragon boat festival"
+   ],
+   "meaning": "n. 端午节",
+   "phonetic": "/ˈdræɡən bəʊt ˈfestɪvl/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u4-mid-autumn-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "Mid-Autumn Festival",
+   "answers": [
+    "mid autumn festival"
+   ],
+   "meaning": "n. 中秋节",
+   "phonetic": "/mɪd ˈɔːtəm ˈfestɪvl/",
+   "kind": "phrase"
+  },
+  {
+   "id": "u4-mooncake",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · Chinese Festivals"
+   ],
+   "text": "mooncake",
+   "answers": [
+    "mooncake"
+   ],
+   "meaning": "n. 月饼",
+   "phonetic": "/ˈmuːnkeɪk/",
+   "kind": "word"
+  },
+  {
+   "id": "s4-what-is-the-spring-festival",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "What's the Spring Festival?",
+   "answers": [
+    "what is the spring festival"
+   ],
+   "meaning": "什么是春节？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s4-it-is-chinese-new-year",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "It's Chinese New Year.",
+   "answers": [
+    "it is chinese new year"
+   ],
+   "meaning": "它是中国的新年。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s4-we-have-a-big-family-dinner",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "We have a big family dinner together.",
+   "answers": [
+    "we have a big family dinner together"
+   ],
+   "meaning": "我们一起吃丰盛的年夜饭。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s4-what-do-you-do-on-the",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "What do you do on the Lantern Festival?",
+   "answers": [
+    "what do you do on the lantern festival"
+   ],
+   "meaning": "元宵节你们做什么？",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s4-we-guess-lantern-riddles",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "We guess lantern riddles.",
+   "answers": [
+    "we guess lantern riddles"
+   ],
+   "meaning": "我们猜灯谜。",
+   "phonetic": "",
+   "kind": "sentence"
+  },
+  {
+   "id": "s4-my-favorite-festival-is-the-mid",
+   "unit": "Unit 4",
+   "unitTitle": "Chinese Festivals",
+   "groups": [
+    "Unit 4 · 句子"
+   ],
+   "text": "My favorite festival is the Mid-Autumn Festival.",
+   "answers": [
+    "my favorite festival is the mid autumn festival"
+   ],
+   "meaning": "我最喜欢的节日是中秋节。",
+   "phonetic": "",
+   "kind": "sentence"
+  }
+ ]
+}

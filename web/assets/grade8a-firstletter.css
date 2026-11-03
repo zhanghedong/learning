@@ -158,3 +158,19 @@ kbd { display: inline-block; min-width: 26px; padding: 1px 7px; border: 1px soli
   .fl-mistake { break-inside: avoid; }
   .fl-mistake-char { width: 52px; height: 52px; font-size: 34px; }
 }
+
+/* iPad：屏幕键盘固定在底部，横屏时也能一直按到；按键连点不触发双击缩放。 */
+.fl-practice button { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.fl-keyboard {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  padding-bottom: calc(14px + env(safe-area-inset-bottom));
+  box-shadow: 0 -10px 24px rgba(37, 39, 36, .08);
+}
+@media (orientation: landscape) and (max-height: 900px) {
+  .fl-text { padding: 20px 28px; font-size: 30px; }
+  .fl-key { height: 48px; }
+  .fl-key-row + .fl-key-row { margin-top: 6px; }
+  .fl-keyboard { margin-top: 12px; padding-top: 10px; }
+}

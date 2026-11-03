@@ -1,0 +1,301 @@
+{
+  "deckKey": "textbooks/pep/chinese/grade4a-characters",
+  "kind": "flashcards",
+  "title": "四上语文字词",
+  "subject": "chinese",
+  "app": "zwk4a",
+  "source": "web/textbooks/pep/chinese/grade4a-characters.html",
+  "units": [
+    {
+      "unit": "第一单元",
+      "lessons": [
+        {
+          "lesson": "《观潮》",
+          "words": [
+            [
+              "奇观",
+              "qí guān"
+            ],
+            [
+              "顿时",
+              "dùn shí"
+            ],
+            [
+              "风平浪静",
+              "fēng píng làng jìng"
+            ],
+            [
+              "逐渐",
+              "zhú jiàn"
+            ],
+            [
+              "齐头并进",
+              "qí tóu bìng jìn"
+            ],
+            [
+              "浩浩荡荡",
+              "hào hào dàng dàng"
+            ],
+            [
+              "山崩地裂",
+              "shān bēng dì liè"
+            ],
+            [
+              "霎时",
+              "shà shí"
+            ]
+          ]
+        },
+        {
+          "lesson": "《繁星》",
+          "words": [
+            [
+              "繁星",
+              "fán xīng"
+            ],
+            [
+              "密密麻麻",
+              "mì mì má má"
+            ],
+            [
+              "摇摇欲坠",
+              "yáo yáo yù zhuì"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第二单元",
+      "lessons": [
+        {
+          "lesson": "《一个豆荚里的五粒豆》",
+          "words": [
+            [
+              "舒适",
+              "shū shì"
+            ],
+            [
+              "揭晓",
+              "jiē xiǎo"
+            ]
+          ]
+        },
+        {
+          "lesson": "《夜间飞行的秘密》",
+          "words": [
+            [
+              "蝙蝠",
+              "biān fú"
+            ],
+            [
+              "证明",
+              "zhèng míng"
+            ],
+            [
+              "研究",
+              "yán jiū"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第三单元",
+      "lessons": [
+        {
+          "lesson": "《古诗三首》",
+          "words": [
+            [
+              "瑟瑟",
+              "sè sè"
+            ],
+            [
+              "缘",
+              "yuán"
+            ]
+          ]
+        },
+        {
+          "lesson": "《爬山虎的脚》",
+          "words": [
+            [
+              "嫩绿",
+              "nèn lǜ"
+            ],
+            [
+              "均匀",
+              "jūn yún"
+            ]
+          ]
+        },
+        {
+          "lesson": "《蟋蟀的住宅》",
+          "words": [
+            [
+              "住宅",
+              "zhù zhái"
+            ],
+            [
+              "慎重",
+              "shèn zhòng"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第四单元",
+      "lessons": [
+        {
+          "lesson": "《盘古开天地》",
+          "words": [
+            [
+              "宇宙",
+              "yǔ zhòu"
+            ],
+            [
+              "精疲力竭",
+              "jīng pí lì jié"
+            ]
+          ]
+        },
+        {
+          "lesson": "《精卫填海》",
+          "words": [
+            [
+              "溺水",
+              "nì shuǐ"
+            ]
+          ]
+        },
+        {
+          "lesson": "《普罗米修斯》",
+          "words": [
+            [
+              "敬佩",
+              "jìng pèi"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第五单元",
+      "lessons": [
+        {
+          "lesson": "《麻雀》",
+          "words": [
+            [
+              "无可奈何",
+              "wú kě nài hé"
+            ]
+          ]
+        },
+        {
+          "lesson": "《爬天都峰》",
+          "words": [
+            [
+              "鼓舞",
+              "gǔ wǔ"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第六单元",
+      "lessons": [
+        {
+          "lesson": "《长城》",
+          "words": [
+            [
+              "崇山峻岭",
+              "chóng shān jùn lǐng"
+            ],
+            [
+              "堡垒",
+              "bǎo lěi"
+            ]
+          ]
+        },
+        {
+          "lesson": "《颐和园》",
+          "words": [
+            [
+              "金碧辉煌",
+              "jīn bì huī huáng"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第七单元",
+      "lessons": [
+        {
+          "lesson": "《牛和鹅》",
+          "words": [
+            [
+              "无缘无故",
+              "wú yuán wú gù"
+            ]
+          ]
+        },
+        {
+          "lesson": "《一只窝囊的大老虎》",
+          "words": [
+            [
+              "通情达理",
+              "tōng qíng dá lǐ"
+            ]
+          ]
+        },
+        {
+          "lesson": "《王戎不取道旁李》",
+          "words": [
+            [
+              "竞走",
+              "jìng zǒu"
+            ],
+            [
+              "信然",
+              "xìn rán"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "unit": "第八单元",
+      "lessons": [
+        {
+          "lesson": "《为中华之崛起而读书》",
+          "words": [
+            [
+              "崛起",
+              "jué qǐ"
+            ],
+            [
+              "若有所思",
+              "ruò yǒu suǒ sī"
+            ]
+          ]
+        },
+        {
+          "lesson": "《古诗三首》",
+          "words": [
+            [
+              "醉卧",
+              "zuì wò"
+            ],
+            [
+              "沙场",
+              "shā chǎng"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
