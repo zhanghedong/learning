@@ -174,8 +174,18 @@
   }
   .exp{max-width:86%;margin:14px auto 0;color:#6f665b;font-size:16px;line-height:1.6;text-align:center}
   button,select,.card{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+  /* 释义→词语：正面显示释义（词本身遮成～），格子提示字数，可点开首字母提示 */
+  .clue{display:flex;flex-direction:column;align-items:center;gap:16px;padding:0 26px;text-align:center}
+  .clue-text{font-size:clamp(20px,5.6vw,28px);line-height:1.6;color:var(--ink)}
+  .slots{display:flex;gap:6px}
+  .slots i{width:30px;height:30px;border:1.5px dashed var(--seal-soft);border-radius:4px;display:flex;align-items:center;justify-content:center;
+    font-style:normal;font-size:16px;font-weight:600;color:var(--seal);font-family:"Helvetica Neue",Arial,sans-serif}
+  .hint-btn{font-size:13px;color:var(--ink-soft);background:none;border:1px solid var(--line);border-radius:99px;padding:5px 14px;cursor:pointer}
+  .back-py{color:var(--seal);font-size:clamp(18px,5vw,26px);font-weight:600;margin-top:10px;text-align:center;
+    font-family:"Helvetica Neue","Segoe UI",Arial,sans-serif}
   @media(min-width:768px){
     .wrap{max-width:860px}
+    .clue-text{font-size:32px}.slots i{width:40px;height:40px;font-size:20px}.back-py{font-size:32px}
     .card{max-height:58vh}
     .pinyin{font-size:56px}
     .word.len1{font-size:150px}.word.len2{font-size:120px}.word.len3{font-size:96px}.word.len4{font-size:84px}.word.lenL{font-size:60px}
@@ -211,7 +221,7 @@
   <div class="controls">
     <select id="unitSel"></select>
     <select id="lessonSel"></select>
-    <button class="btn" id="dirBtn" title="切换拼音/汉字方向">拼音→汉字</button>
+    <button class="btn" id="dirBtn" title="切换练习方式">拼音→词语</button>
     <button class="btn" id="allBtn" title="浏览全部(含已掌握)">全部</button>
     <button class="btn icon-btn" id="shuffleBtn" title="随机打乱"><svg class="flat-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 3h5v5"></path><path d="M4 20 21 3"></path><path d="M21 16v5h-5"></path><path d="M15 15l6 6"></path><path d="M4 4l5 5"></path></svg><span class="sr-only">随机</span></button>
   </div>
@@ -307,42 +317,67 @@ const DATA = [
      [
       "奇观",
       "qí guān",
-      "奇特罕见的壮丽景象。"
+      "奇特罕见而令人惊叹的壮丽景象。"
+     ],
+     [
+      "据说",
+      "jù shuō",
+      "根据别人说；听说。"
+     ],
+     [
+      "人山人海",
+      "rén shān rén hǎi",
+      "指人群聚集得像山和海一样，形容聚集的人极多。"
      ],
      [
       "顿时",
       "dùn shí",
-      "立刻，一下子。"
+      "立刻；一下子。"
      ],
      [
       "风平浪静",
       "fēng píng làng jìng",
-      "没有风浪，水面很平静。比喻平静无事。"
+      "没有风浪，水面很平静。形容平静无事。"
      ],
      [
       "逐渐",
       "zhú jiàn",
-      "渐渐，一步一步地改变。"
+      "渐渐；一步步地。"
      ],
      [
       "齐头并进",
       "qí tóu bìng jìn",
-      "多方面同时进行，或不分先后同时前进。"
+      "多方面同时前进。"
      ],
      [
       "浩浩荡荡",
       "hào hào dàng dàng",
-      "形容水势广阔浩大，也形容气势雄壮。"
+      "形容水势广阔浩大，或形容规模宏大、气势磅礴。"
      ],
      [
       "山崩地裂",
       "shān bēng dì liè",
-      "山岳倒塌，大地开裂。形容响声巨大或变化剧烈。"
+      "山岳倒塌，大地开裂。形容声音巨大或变化剧烈。"
      ],
      [
       "霎时",
       "shà shí",
-      "极短的时间，片刻。"
+      "极短的时间；片刻。"
+     ],
+     [
+      "余波",
+      "yú bō",
+      "指风浪停止后留下的波浪，比喻事情结束后留下的影响。"
+     ],
+     [
+      "盐官",
+      "yán guān",
+      "地名，位于浙江省海宁市，著名的观潮胜地。"
+     ],
+     [
+      "人声鼎沸",
+      "rén shēng dǐng fèi",
+      "人群发出的声音像水在鼎里沸腾一样，形容人声喧闹。"
      ]
     ]
    },
@@ -357,12 +392,102 @@ const DATA = [
      [
       "密密麻麻",
       "mì mì má má",
-      "形容又多又密。"
+      "形容密集拥挤，空间空隙极小。"
      ],
      [
-      "摇摇欲坠",
-      "yáo yáo yù zhuì",
-      "形容极其不稳固，危险得马上就要掉下来。"
+      "忘记",
+      "wàng jì",
+      "经历过的事物在脑海中印象消失。"
+     ],
+     [
+      "谈话",
+      "tán huà",
+      "两个人或多个人在一起交谈。"
+     ],
+     [
+      "渐渐",
+      "jiàn jiàn",
+      "表示程度或数量逐步缓慢增减。"
+     ],
+     [
+      "模糊",
+      "mó hu",
+      "不分明；不清楚。"
+     ],
+     [
+      "周围",
+      "zhōu wéi",
+      "环绕着中心部分的区域。"
+     ],
+     [
+      "飞舞",
+      "fēi wǔ",
+      "在空中轻盈盘旋飘舞。"
+     ],
+     [
+      "柔和",
+      "róu hé",
+      "温和而不强烈，舒适适中。"
+     ],
+     [
+      "梦幻",
+      "mèng huàn",
+      "虚幻的梦境，形容美妙奇特。"
+     ],
+     [
+      "怀抱",
+      "huái bào",
+      "胸前环抱的范围，比喻温暖的庇护。"
+     ],
+     [
+      "沉睡",
+      "chén shuì",
+      "进入深沉的睡眠状态。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《现代诗二首》",
+    "words": [
+     [
+      "归巢",
+      "guī cháo",
+      "鸟兽回到自己的巢穴。"
+     ],
+     [
+      "芦苇",
+      "lú wěi",
+      "多年生水生或湿生高大禾草。"
+     ],
+     [
+      "一瞬",
+      "yí shùn",
+      "一转眼，形容时间极短暂。"
+     ],
+     [
+      "霸占",
+      "bà zhàn",
+      "强行占据或独占。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地一",
+    "words": [
+     [
+      "鸦雀无声",
+      "yā què wú shēng",
+      "连乌鸦麻雀的声音也没有，形容非常安静。"
+     ],
+     [
+      "窃窃私语",
+      "qiè qiè sī yǔ",
+      "背地里小声说话交谈。"
+     ],
+     [
+      "低声细语",
+      "dī shēng xì yǔ",
+      "形容说话的声音轻细微弱。"
      ]
     ]
    }
@@ -375,14 +500,64 @@ const DATA = [
     "lesson": "《一个豆荚里的五粒豆》",
     "words": [
      [
+      "暖洋洋",
+      "nuǎn yáng yáng",
+      "形容温暖舒适的感觉。"
+     ],
+     [
       "舒适",
       "shū shì",
-      "舒服适意。"
+      "舒服适意，感到惬意。"
      ],
      [
       "揭晓",
       "jiē xiǎo",
-      "公布（事情的结果）。"
+      "公布或弄清楚事情的结果。"
+     ],
+     [
+      "身份",
+      "shēn fèn",
+      "人在社会上或法律上的地位或资格。"
+     ],
+     [
+      "暖和",
+      "nuǎn huo",
+      "气候或环境不冷不热，气候温和。"
+     ],
+     [
+      "的确",
+      "dí què",
+      "完全确实，毫无疑问。"
+     ],
+     [
+      "曾经",
+      "céng jīng",
+      "表示过去发生过某种行为或情况。"
+     ],
+     [
+      "打滚",
+      "dǎ gǔn",
+      "躺在地上翻滚。"
+     ],
+     [
+      "水沟",
+      "shuǐ gōu",
+      "排水或灌溉的水道。"
+     ],
+     [
+      "注视",
+      "zhù shì",
+      "集中目光密切凝视。"
+     ],
+     [
+      "豌豆",
+      "wān dòu",
+      "一种常见的一年生或越年生草本植物及其食用种子。"
+     ],
+     [
+      "囚犯",
+      "qiú fàn",
+      "关押在监狱里的犯罪分子。"
      ]
     ]
    },
@@ -390,19 +565,159 @@ const DATA = [
     "lesson": "《夜间飞行的秘密》",
     "words": [
      [
-      "蝙蝠",
-      "biān fú",
-      "一种头部像老鼠、夜间飞行吃昆虫的哺乳动物。"
+      "蚊子",
+      "wén zi",
+      "昆虫，雌虫吸食人畜血液。"
+     ],
+     [
+      "即使",
+      "jí shǐ",
+      "连词，表示假设的让步。"
+     ],
+     [
+      "问题",
+      "wèn tí",
+      "需要解答或研究解决的疑难事物。"
+     ],
+     [
+      "绳子",
+      "shéng zi",
+      "用股线扭结而成的柔软长条物。"
+     ],
+     [
+      "苍蝇",
+      "cāng ying",
+      "常见昆虫，能传染多种疾病。"
      ],
      [
       "证明",
       "zhèng míng",
-      "用可靠的凭据断定某事是真的。"
+      "用可靠的材料或事实断定真实的凭据。"
+     ],
+     [
+      "相互",
+      "xiāng hù",
+      "两方面彼此对待。"
+     ],
+     [
+      "配合",
+      "pèi hé",
+      "分工合作，相互协调。"
      ],
      [
       "研究",
       "yán jiū",
-      "探求事物的真相、性质、规律等。"
+      "深入探求事物的本质和规律。"
+     ],
+     [
+      "类似",
+      "lèi sì",
+      "大致相像；相近。"
+     ],
+     [
+      "能够",
+      "néng gòu",
+      "表示具备某种能力或可能性。"
+     ],
+     [
+      "蝙蝠",
+      "biān fú",
+      "能在夜间依靠超声波飞行的哺乳动物。"
+     ],
+     [
+      "障碍",
+      "zhàng ài",
+      "阻挡通行的事物，比喻工作或思维中的阻力。"
+     ],
+     [
+      "荧屏",
+      "yíng píng",
+      "显示图像的荧光屏幕。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《方帽子店》",
+    "words": [
+     [
+      "帽子",
+      "mào zi",
+      "戴在头上保暖、遮阳或起装饰作用的用品。"
+     ],
+     [
+      "脑袋",
+      "nǎo dai",
+      "人的头部。"
+     ],
+     [
+      "舒服",
+      "shū fu",
+      "身体或精神感到轻松愉快。"
+     ],
+     [
+      "假如",
+      "jiǎ rú",
+      "连词，假使、如果。"
+     ],
+     [
+      "设法",
+      "shè fǎ",
+      "想尽办法解决困难。"
+     ],
+     [
+      "懂事",
+      "dǒng shì",
+      "能够理解长辈意图，知晓事理。"
+     ],
+     [
+      "一溜烟",
+      "yí liù yān",
+      "形容跑得飞快，瞬间不见踪影。"
+     ],
+     [
+      "各式各样",
+      "gè shì gè yàng",
+      "多种多样，品种形态丰富。"
+     ],
+     [
+      "摆放",
+      "bǎi fàng",
+      "把物品陈列安放。"
+     ],
+     [
+      "玻璃",
+      "bō li",
+      "一种透明质硬的建筑材料。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《田忌赛马》",
+    "words": [
+     [
+      "胸有成竹",
+      "xiōng yǒu chéng zhú",
+      "画竹子前心里已有竹子的形象。比喻做事前已有成熟的筹划。"
+     ],
+     [
+      "策划",
+      "cè huà",
+      "谋划筹办事项。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地二",
+    "words": [
+     [
+      "提纲",
+      "tí gāng",
+      "写作或讲话的要点大纲。"
+     ],
+     [
+      "俱乐部",
+      "jù lè bù",
+      "进行社交、娱乐或体育活动的场所。"
      ]
     ]
    }
@@ -415,14 +730,14 @@ const DATA = [
     "lesson": "《古诗三首》",
     "words": [
      [
-      "瑟瑟",
-      "sè sè",
-      "形容未受到夕阳照射的江水所呈现的碧绿色。"
+      "残阳",
+      "cán yáng",
+      "傍晚落日的余晖。"
      ],
      [
-      "缘",
-      "yuán",
-      "因为。"
+      "瑟瑟",
+      "sè sè",
+      "形容碧绿的颜色（诗中“半江～～半江红”）。"
      ]
     ]
    },
@@ -430,14 +745,64 @@ const DATA = [
     "lesson": "《爬山虎的脚》",
     "words": [
      [
+      "爬山虎",
+      "pá shān hǔ",
+      "一种沿墙壁向上攀援生长的植物。"
+     ],
+     [
+      "操场",
+      "cāo chǎng",
+      "供体育锻炼及集会的场地。"
+     ],
+     [
       "嫩绿",
       "nèn lǜ",
-      "浅绿而鲜嫩的颜色。"
+      "浅绿色，形容植物新叶鲜嫩。"
+     ],
+     [
+      "新鲜",
+      "xīn xiān",
+      "事物出现不久，清洁无污染。"
      ],
      [
       "均匀",
       "jūn yún",
-      "分布或分配在各部分数量相同。"
+      "分布或时间间隔大小一致。"
+     ],
+     [
+      "空隙",
+      "kòng xì",
+      "中间空开的狭窄缝隙。"
+     ],
+     [
+      "叶柄",
+      "yè bǐng",
+      "植物连接叶片和茎干的细柄。"
+     ],
+     [
+      "触角",
+      "chù jiǎo",
+      "昆虫等头部的感觉器官，此处指爬山虎的细丝。"
+     ],
+     [
+      "弯曲",
+      "wān qū",
+      "不直，呈现弧形。"
+     ],
+     [
+      "痕迹",
+      "hén jì",
+      "事物留下的印迹。"
+     ],
+     [
+      "瞧不起",
+      "qiáo bu qǐ",
+      "轻视、看不起。"
+     ],
+     [
+      "牢固",
+      "láo gù",
+      "坚固结实，不易松动。"
      ]
     ]
    },
@@ -447,12 +812,67 @@ const DATA = [
      [
       "住宅",
       "zhù zhái",
-      "住房，居所。"
+      "居住的房子或穴居处。"
      ],
      [
-      "慎重",
-      "shèn zhòng",
-      "谨慎认真，不冒失。"
+      "选择",
+      "xuǎn zé",
+      "挑选决定。"
+     ],
+     [
+      "住址",
+      "zhù zhǐ",
+      "居住的地址。"
+     ],
+     [
+      "大厅",
+      "dà tīng",
+      "宽敞的主房间。"
+     ],
+     [
+      "柔弱",
+      "róu ruò",
+      "软弱不够坚强。"
+     ],
+     [
+      "平坦",
+      "píng tǎn",
+      "地势平整没有凹凸。"
+     ],
+     [
+      "光滑",
+      "guāng huá",
+      "物体表面平滑不粗糙。"
+     ],
+     [
+      "修理",
+      "xiū lǐ",
+      "整治损坏的部位使之恢复完好。"
+     ],
+     [
+      "重要",
+      "zhòng yào",
+      "具有重大影响或决定性作用。"
+     ],
+     [
+      "增长",
+      "zēng zhǎng",
+      "增加变多。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地三",
+    "words": [
+     [
+      "鸟巢",
+      "niǎo cháo",
+      "鸟类搭建栖息产卵的巢穴。"
+     ],
+     [
+      "马厩",
+      "mǎ jiù",
+      "饲养喂马的房屋。"
      ]
     ]
    }
@@ -470,9 +890,54 @@ const DATA = [
       "天地万物的总称。"
      ],
      [
+      "黑乎乎",
+      "hēi hū hū",
+      "形容颜色很黑或光线十分暗淡。"
+     ],
+     [
+      "翻身",
+      "fān shēn",
+      "躺着改变身体方向。"
+     ],
+     [
+      "下降",
+      "xià jiàng",
+      "位置由高向低移动。"
+     ],
+     [
       "精疲力竭",
       "jīng pí lì jié",
       "精力消耗殆尽，形容非常疲劳。"
+     ],
+     [
+      "飘动",
+      "piāo dòng",
+      "在空中随风摇摆晃动。"
+     ],
+     [
+      "照耀",
+      "zhào yào",
+      "强光照射远方。"
+     ],
+     [
+      "四肢",
+      "sì zhī",
+      "人体及动物的双手与双脚。"
+     ],
+     [
+      "奔流不息",
+      "bēn liú bù xī",
+      "江河急流汹涌，永不停止。"
+     ],
+     [
+      "茂盛",
+      "mào shèng",
+      "植物生长得极其繁茂充沛。"
+     ],
+     [
+      "整个",
+      "zhěng gè",
+      "全部；整体。"
      ]
     ]
    },
@@ -483,6 +948,11 @@ const DATA = [
       "溺水",
       "nì shuǐ",
       "淹没在水中。"
+     ],
+     [
+      "衔树枝",
+      "xián shù zhī",
+      "用嘴夹住树枝。"
      ]
     ]
    },
@@ -490,9 +960,104 @@ const DATA = [
     "lesson": "《普罗米修斯》",
     "words": [
      [
+      "喷射",
+      "pēn shè",
+      "液体或气体以强大压力急剧涌出。"
+     ],
+     [
+      "气急败坏",
+      "qì jí bài huài",
+      "呼吸急促，表情恼怒狼狈不安。"
+     ],
+     [
+      "严厉",
+      "yán lì",
+      "严肃非常，绝不宽容。"
+     ],
+     [
+      "立即",
+      "lì jí",
+      "马上，毫无延误。"
+     ],
+     [
+      "执行",
+      "zhí xíng",
+      "实施付诸行动。"
+     ],
+     [
       "敬佩",
       "jìng pèi",
       "敬重佩服。"
+     ],
+     [
+      "坚定",
+      "jiān dìng",
+      "立场意志坚强毫不动摇。"
+     ],
+     [
+      "忍受",
+      "rěn shòu",
+      "把苦难折磨勉强承受下来。"
+     ],
+     [
+      "遭受",
+      "zāo shòu",
+      "受到（不幸或损害）。"
+     ],
+     [
+      "尽管",
+      "jǐn guǎn",
+      "连词，表示转折关系。"
+     ],
+     [
+      "屈服",
+      "qū fú",
+      "面对强暴压力妥协低头。"
+     ],
+     [
+      "肝脏",
+      "gān zàng",
+      "人体重要的消化代谢器官。"
+     ],
+     [
+      "获得",
+      "huò dé",
+      "取得或得到。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《女娲补天》",
+    "words": [
+     [
+      "惊慌失措",
+      "jīng huāng shī cuò",
+      "吓得慌了手脚不知如何是好。"
+     ],
+     [
+      "冶炼",
+      "yě liàn",
+      "用火高温提炼金属或矿石。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地四",
+    "words": [
+     [
+      "牡丹",
+      "mǔ dan",
+      "中国传统名花，素有花王之称。"
+     ],
+     [
+      "魂飞魄散",
+      "hún fēi pò sàn",
+      "吓得魂魄都飞散了，形容惊恐万分。"
+     ],
+     [
+      "欣喜若狂",
+      "xīn xǐ ruò kuáng",
+      "高兴得像发狂一样，形容高兴到了极点。"
      ]
     ]
    }
@@ -505,9 +1070,69 @@ const DATA = [
     "lesson": "《麻雀》",
     "words": [
      [
+      "麻雀",
+      "má què",
+      "常见小型鸟类。"
+     ],
+     [
+      "悄悄",
+      "qiāo qiāo",
+      "声音极小或行动不声张。"
+     ],
+     [
+      "猛烈",
+      "měng liè",
+      "力量气势凶猛剧烈。"
+     ],
+     [
       "无可奈何",
       "wú kě nài hé",
-      "没有办法，没有任何办法可想。"
+      "没有办法，对局面无能为力。"
+     ],
+     [
+      "身躯",
+      "shēn qū",
+      "身体躯干。"
+     ],
+     [
+      "掩护",
+      "yǎn hù",
+      "采取行动保护同伴免受伤害。"
+     ],
+     [
+      "紧张",
+      "jǐn zhāng",
+      "精神情绪高度绷紧不安。"
+     ],
+     [
+      "浑身",
+      "hún shēn",
+      "全身上下。"
+     ],
+     [
+      "牺牲",
+      "xī shēng",
+      "为正义事业献出生命。"
+     ],
+     [
+      "庞大",
+      "páng dà",
+      "形体体积极其巨大。"
+     ],
+     [
+      "强大",
+      "qiáng dà",
+      "力量雄厚，坚强有力。"
+     ],
+     [
+      "力量",
+      "lì liang",
+      "人或事物所具有的力气或作用。"
+     ],
+     [
+      "勇气",
+      "yǒng qì",
+      "面对危险不退缩的气概。"
      ]
     ]
    },
@@ -515,9 +1140,44 @@ const DATA = [
     "lesson": "《爬天都峰》",
     "words": [
      [
+      "石级",
+      "shí jí",
+      "石头砌成的阶梯台阶。"
+     ],
+     [
+      "发颤",
+      "fā chàn",
+      "发抖打颤。"
+     ],
+     [
+      "年纪",
+      "nián jì",
+      "人的岁数。"
+     ],
+     [
+      "奋力",
+      "fèn lì",
+      "充分鼓起力量。"
+     ],
+     [
+      "猴子",
+      "hóu zi",
+      "灵长类哺乳动物。"
+     ],
+     [
+      "纪念",
+      "jì niàn",
+      "用事物留作对过去人或事的追念。"
+     ],
+     [
+      "笑呵呵",
+      "xiào hē hē",
+      "形容非常欢快地笑。"
+     ],
+     [
       "鼓舞",
       "gǔ wǔ",
-      "振奋，鼓励。"
+      "激励振作士气。"
      ]
     ]
    }
@@ -535,9 +1195,64 @@ const DATA = [
       "高大险峻的山岭。"
      ],
      [
-      "堡垒",
-      "bǎo lěi",
-      "防御用的坚固建筑物。"
+      "盘旋",
+      "pán xuán",
+      "环绕盘曲回旋。"
+     ],
+     [
+      "扩建",
+      "kuò jiàn",
+      "扩充原有规模进行修建。"
+     ],
+     [
+      "修筑",
+      "xiū zhù",
+      "修建建筑工程。"
+     ],
+     [
+      "平整",
+      "píng zhěng",
+      "平坦整齐。"
+     ],
+     [
+      "打仗",
+      "dǎ zhàng",
+      "进行战争交锋。"
+     ],
+     [
+      "自然",
+      "zì rán",
+      "自然界；天然存在、不经人工的环境和事物。"
+     ],
+     [
+      "当地",
+      "dāng dì",
+      "某事件发生的所在地区。"
+     ],
+     [
+      "耗费",
+      "hào fèi",
+      "消耗使用大量人力物力。"
+     ],
+     [
+      "大量",
+      "dà liàng",
+      "数目或数量极其庞大。"
+     ],
+     [
+      "智慧",
+      "zhì huì",
+      "辨析判断创造发明的能力。"
+     ],
+     [
+      "工程",
+      "gōng chéng",
+      "大型土木建造建设工作。"
+     ],
+     [
+      "奇迹",
+      "qí jì",
+      "极为罕见难能可贵的非凡成就。"
      ]
     ]
    },
@@ -545,9 +1260,79 @@ const DATA = [
     "lesson": "《颐和园》",
     "words": [
      [
+      "柱子",
+      "zhù zi",
+      "建筑物中承受重量的直立长条构件。"
+     ],
+     [
+      "栏杆",
+      "lán gān",
+      "道路或桥梁边防护安全用的围栏。"
+     ],
+     [
+      "神清气爽",
+      "shén qīng qì shuǎng",
+      "神志清爽，心情极其舒畅。"
+     ],
+     [
+      "建筑",
+      "jiàn zhù",
+      "人工修建的房屋桥梁等构筑物。"
+     ],
+     [
+      "耸立",
+      "sǒng lì",
+      "高高地直立着。"
+     ],
+     [
       "金碧辉煌",
       "jīn bì huī huáng",
-      "形容建筑物等装饰华丽，光彩耀眼。"
+      "形容建筑物装饰精美丰富，光彩夺目。"
+     ],
+     [
+      "隐隐约约",
+      "yǐn yǐn yuē yuē",
+      "看起来或听起来不十分清晰微弱。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《秦兵马俑》",
+    "words": [
+     [
+      "享誉",
+      "xiǎng yù",
+      "享有盛名与良好声誉。"
+     ],
+     [
+      "惟妙惟肖",
+      "wéi miào wéi xiào",
+      "形容雕刻或摹仿得极其逼真传神。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地六",
+    "words": [
+     [
+      "志存高远",
+      "zhì cún gāo yuǎn",
+      "胸怀远大志向。"
+     ],
+     [
+      "精忠报国",
+      "jīng zhōng bào guó",
+      "竭尽忠诚报效国家。"
+     ],
+     [
+      "秉公执法",
+      "bǐng gōng zhí fǎ",
+      "坚持公正公平原则执行法律规章。"
+     ],
+     [
+      "刚正不阿",
+      "gāng zhèng bù ē",
+      "刚强正直，绝不阿谀奉承。"
      ]
     ]
    }
@@ -560,9 +1345,59 @@ const DATA = [
     "lesson": "《牛和鹅》",
     "words": [
      [
+      "虽然",
+      "suī rán",
+      "连词，承认前面事实同时引出转折。"
+     ],
+     [
+      "拳头",
+      "quán tou",
+      "五指卷曲紧握的手。"
+     ],
+     [
+      "故意",
+      "gù yì",
+      "有意识蓄意地去行事。"
+     ],
+     [
+      "神气",
+      "shén qì",
+      "神情得意或自豪威风。"
+     ],
+     [
+      "忙乱",
+      "máng luàn",
+      "事情多而慌乱无序。"
+     ],
+     [
+      "鞋子",
+      "xié zi",
+      "穿在脚上便于行走的用品。"
+     ],
+     [
+      "助威",
+      "zhù wēi",
+      "声援呐喊以增加士气。"
+     ],
+     [
+      "胳膊",
+      "gē bo",
+      "肩膀至手腕的人体上肢。"
+     ],
+     [
+      "纷纷",
+      "fēn fēn",
+      "多而杂乱地接连发生。"
+     ],
+     [
+      "可笑",
+      "kě xiào",
+      "令人滑稽发笑。"
+     ],
+     [
       "无缘无故",
       "wú yuán wú gù",
-      "没有任何原因或理由。"
+      "没有任何缘由或因由。"
      ]
     ]
    },
@@ -570,9 +1405,84 @@ const DATA = [
     "lesson": "《一只窝囊的大老虎》",
     "words": [
      [
+      "文艺",
+      "wén yì",
+      "文学与艺术的统称。"
+     ],
+     [
+      "表演",
+      "biǎo yǎn",
+      "在舞台或观众面前演示展示。"
+     ],
+     [
+      "角色",
+      "jué sè",
+      "戏剧电影中扮演的特定人物。"
+     ],
+     [
+      "排练",
+      "pái liàn",
+      "演习排演节目。"
+     ],
+     [
+      "主意",
+      "zhǔ yi",
+      "解决问题的想法主张。"
+     ],
+     [
       "通情达理",
       "tōng qíng dá lǐ",
-      "懂得道理，说话做事合情合理。"
+      "懂道理合乎情理，十分体谅他人。"
+     ],
+     [
+      "充分",
+      "chōng fèn",
+      "足够完备。"
+     ],
+     [
+      "提示",
+      "tí shì",
+      "给出点拨提醒。"
+     ],
+     [
+      "演技",
+      "yǎn jì",
+      "表演的技巧才能。"
+     ],
+     [
+      "撤换",
+      "chè huàn",
+      "撤下并更换别的人或物。"
+     ],
+     [
+      "等候",
+      "děng hòu",
+      "等待候盼。"
+     ],
+     [
+      "哄堂大笑",
+      "hōng táng dà xiào",
+      "整屋子的人同时爆发出大笑声。"
+     ],
+     [
+      "垂头丧气",
+      "chuí tóu sàng qì",
+      "低着头神情沮丧情绪低落。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《陀螺》",
+    "words": [
+     [
+      "挑衅",
+      "tiǎo xìn",
+      "借故借端引起冲突闹事。"
+     ],
+     [
+      "溃败",
+      "kuì bài",
+      "（军队）被打垮而四处逃散。"
      ]
     ]
    },
@@ -582,12 +1492,37 @@ const DATA = [
      [
       "竞走",
       "jìng zǒu",
-      "争着跑过去（古义）。"
+      "古义指争相奔跑，今义指体育比赛项目。"
+     ]
+    ]
+   },
+   {
+    "lesson": "语文园地七",
+    "words": [
+     [
+      "辣椒",
+      "là jiāo",
+      "常见带有辛辣味道的蔬菜或调味品。"
      ],
      [
-      "信然",
-      "xìn rán",
-      "的确如此。"
+      "莲藕",
+      "lián ǒu",
+      "莲的地下肥大根茎，可食用。"
+     ],
+     [
+      "打头阵",
+      "dǎ tóu zhèn",
+      "比喻率先冲在最前面行动。"
+     ],
+     [
+      "挑大梁",
+      "tiāo dà liáng",
+      "比喻承担最重要关键的工作或责任。"
+     ],
+     [
+      "碰钉子",
+      "pèng dīng zi",
+      "比喻遭到拒绝或受挫折。"
      ]
     ]
    }
@@ -597,17 +1532,152 @@ const DATA = [
   "unit": "第八单元",
   "lessons": [
    {
+    "lesson": "《我将无我，不负人民》",
+    "words": [
+     [
+      "主席",
+      "zhǔ xí",
+      "会议或机构最高领导人。"
+     ],
+     [
+      "举行",
+      "jǔ xíng",
+      "开展进行会议或活动。"
+     ],
+     [
+      "心情",
+      "xīn qíng",
+      "感情情绪状态。"
+     ],
+     [
+      "补充",
+      "bǔ chōng",
+      "进一步添加完善不足。"
+     ],
+     [
+      "激动",
+      "jī dòng",
+      "情绪高涨十分兴奋。"
+     ],
+     [
+      "状态",
+      "zhuàng tài",
+      "人或事物展现的情形状况。"
+     ],
+     [
+      "奉献",
+      "fèng xiàn",
+      "无私付出贡献。"
+     ],
+     [
+      "运动员",
+      "yùn dòng yuán",
+      "从事体育运动竞技的专业人员。"
+     ],
+     [
+      "训练",
+      "xùn liàn",
+      "有计划、有步骤地使人掌握某种本领。"
+     ],
+     [
+      "建设",
+      "jiàn shè",
+      "创立并修建事业工程。"
+     ],
+     [
+      "勤劳",
+      "qín láo",
+      "辛勤努力不怕劳苦。"
+     ],
+     [
+      "邀请",
+      "yāo qǐng",
+      "尊称请人出席做客。"
+     ]
+    ]
+   },
+   {
     "lesson": "《为中华之崛起而读书》",
     "words": [
      [
       "崛起",
       "jué qǐ",
-      "兴起，指国家或民族兴盛起来。"
+      "兴起，高高耸立或迅速强大。"
+     ],
+     [
+      "严肃",
+      "yán sù",
+      "态度神情庄重严厉。"
+     ],
+     [
+      "干脆",
+      "gān cuì",
+      "爽快利落，毫不犹豫。"
+     ],
+     [
+      "默默",
+      "mò mò",
+      "不声不响，无声地。"
      ],
      [
       "若有所思",
       "ruò yǒu suǒ sī",
       "好像在思考着什么。"
+     ],
+     [
+      "清晰",
+      "qīng xī",
+      "清楚明确不模糊。"
+     ],
+     [
+      "离开",
+      "lí kāi",
+      "跟人、物或地方分开。"
+     ],
+     [
+      "随便",
+      "suí biàn",
+      "不加限制顺其自然。"
+     ],
+     [
+      "忘怀",
+      "wàng huái",
+      "忘掉置之脑后。"
+     ],
+     [
+      "非凡",
+      "fēi fán",
+      "超越寻常极其出众。"
+     ],
+     [
+      "惩处",
+      "chéng chǔ",
+      "惩罚处罚。"
+     ],
+     [
+      "训斥",
+      "xùn chì",
+      "严厉批评责骂。"
+     ],
+     [
+      "燃烧",
+      "rán shāo",
+      "着火发热发光。"
+     ],
+     [
+      "响亮",
+      "xiǎng liàng",
+      "声音宏大清脆。"
+     ]
+    ]
+   },
+   {
+    "lesson": "《延安，我把你追寻》",
+    "words": [
+     [
+      "追寻",
+      "zhuī xún",
+      "追溯寻找目标或精神。"
      ]
     ]
    },
@@ -615,14 +1685,9 @@ const DATA = [
     "lesson": "《古诗三首》",
     "words": [
      [
-      "醉卧",
-      "zuì wò",
-      "酒醉后躺着。"
-     ],
-     [
-      "沙场",
-      "shā chǎng",
-      "战场。"
+      "催促",
+      "cuī cù",
+      "叫人加快速度做某事。"
      ]
     ]
    }
@@ -745,8 +1810,20 @@ function render(){
   const f=document.getElementById("frontContent"), b=document.getElementById("backContent");
   const wordHTML=`<div class="word ${lenClass(w.word.length)}">${w.word}</div>`;
   const pinyinHTML=`<div class="pinyin">${w.py}</div>`;
-  f.innerHTML=pref.dir===0 ? pinyinHTML : wordHTML;
-  b.innerHTML=(pref.dir===0 ? wordHTML : pinyinHTML)+(w.exp?`<div class="exp">${w.exp}</div>`:"");
+  if(pref.dir===2){
+    // 释义里出现词本身时遮掉，免得直接看到答案
+    const clue=(w.exp||"").split(w.word).join("～".repeat(w.word.length));
+    const initials=w.py.split(/\s+/).map(s=>s.normalize("NFD")[0]);
+    f.innerHTML=`<div class="clue"><div class="clue-text">${clue}</div>`+
+      `<div class="slots">${[...w.word].map(()=>"<i></i>").join("")}</div>`+
+      `<button class="hint-btn" type="button">提示首字母</button></div>`;
+    f.querySelector(".hint-btn").onclick=e=>{e.stopPropagation();
+      f.querySelectorAll(".slots i").forEach((el,i)=>el.textContent=initials[i]||"");e.currentTarget.remove()};
+    b.innerHTML=wordHTML+`<div class="back-py">${w.py}</div>`+(w.exp?`<div class="exp">${w.exp}</div>`:"");
+  }else{
+    f.innerHTML=pref.dir===0 ? pinyinHTML : wordHTML;
+    b.innerHTML=(pref.dir===0 ? wordHTML : pinyinHTML)+(w.exp?`<div class="exp">${w.exp}</div>`:"");
+  }
 
   const tag=`${w.unit} · ${w.lesson}`;
   document.getElementById("tagF").textContent=tag;
@@ -776,8 +1853,9 @@ document.getElementById("gotBtn").onclick=()=>mark("got");
 document.getElementById("reviewBtn").onclick=()=>mark("review");
 
 const dirBtn=document.getElementById("dirBtn");
-function refreshDir(){dirBtn.textContent=pref.dir===0?"拼音→汉字":"汉字→拼音";dirBtn.classList.toggle("on",pref.dir===1);}
-dirBtn.onclick=()=>{pref.dir=pref.dir?0:1;save(LS_PREF,pref);refreshDir();render()};
+const DIR_NAMES=["拼音→词语","词语→拼音","释义→词语"];
+function refreshDir(){if(!(pref.dir in DIR_NAMES))pref.dir=0;dirBtn.textContent=DIR_NAMES[pref.dir];dirBtn.classList.toggle("on",pref.dir!==0);}
+dirBtn.onclick=()=>{pref.dir=(pref.dir+1)%DIR_NAMES.length;save(LS_PREF,pref);refreshDir();render()};
 
 const allBtn=document.getElementById("allBtn");
 allBtn.onclick=()=>{pref.peekAll=!pref.peekAll;save(LS_PREF,pref);
@@ -795,7 +1873,7 @@ function scopeName(){
   const ui=+unitSel.value, li=+lessonSel.value;
   if(ui<0) return "全部单元";
   if(li<0) return DATA[ui].unit;
-  return DATA[ui].unit+" · "+DATA[ui].lessons[li].lesson.match(/第\d+课/)[0];
+  return DATA[ui].unit+" · "+DATA[ui].lessons[li].lesson;
 }
 document.getElementById("resetBtn").onclick=()=>{
   document.getElementById("dlgBody").innerHTML=
