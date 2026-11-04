@@ -439,7 +439,8 @@
   function statsBar() {
     const total = model.items.length;
     const mastered = model.items.filter(it => status(it) === "mastered").length;
-    const started = Object.keys(state.items).length;
+    const learned = list => list.filter(it => state.items[it.id]).length;
+    const started = learned(model.items);
     const left = daysBetween(today(), TARGET);
     return `<div class="stats-grid sp-stats">
       <div class="stat"><span class="stat-value">${mastered} / ${total}</span><span class="stat-label">已掌握</span><span class="stat-bar"><i style="width:${mastered / total * 100}%"></i></span></div>
@@ -450,7 +451,7 @@
     </div>
     <p class="sp-breakdown">${Object.entries(CATEGORY).map(([k, c]) => {
       const list = model.items.filter(it => category(it) === k);
-      return list.length ? `${c.label} 掌握 ${list.filter(it => status(it) === "mastered").length} / ${list.length}` : "";
+      return list.length ? `${c.label} ${list.length} 个：学过 ${learned(list)}，掌握 ${list.filter(it => status(it) === "mastered").length}` : "";
     }).filter(Boolean).join(" · ")}</p>`;
   }
 
@@ -472,7 +473,7 @@
       const fresh = newItems(cat);
       if (!fresh.length) continue;
       const n = Math.min(c.batch, fresh.length);
-      list.push({ title: `${c.label}一组 · ${n} ${c.unit}`, text: `今天建议学 ${newQuota(cat)} ${c.unit}，已学 ${learnedToday(cat)} ${c.unit}；还剩 ${fresh.length} ${c.unit}没学。`,
+      list.push({ title: `${c.label}一组 · ${n} ${c.unit}`, text: `今天建议学 ${newQuota(cat)} ${c.unit}，今天已学 ${learnedToday(cat)} ${c.unit}；还剩 ${fresh.length} ${c.unit}没学。`,
         items: () => shuffle(fresh.slice(0, n)), primary: !list.length });
     }
     const wrong = wrongItems().filter(it => status(it) !== "mastered");
