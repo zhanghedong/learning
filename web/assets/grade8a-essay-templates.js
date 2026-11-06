@@ -1,9 +1,11 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "../../../assets/data/pep-chinese-grade8a-essay-templates.json";
-  const STORAGE_KEY = "pep_chinese_grade8a_essay_templates_v1";
-  const SECTIONS = [["essay", "范文"], ["swaps", "换题表"], ["skeleton", "骨架"], ["lines", "好句"]];
+  // 八上、四上共用本脚本：body 上的 data-src / data-key 指定数据和存档，缺省为八上
+  const DATA_URL = document.body.dataset.src || "../../../assets/data/pep-chinese-grade8a-essay-templates.json";
+  const STORAGE_KEY = document.body.dataset.key || "pep_chinese_grade8a_essay_templates_v1";
+  const NUM = "一二三四五六七八";
+  let SECTIONS = [["essay", "范文"], ["swaps", "换题表"], ["skeleton", "骨架"], ["lines", "好句"]];
   const PEEK = 8;  // 遮住背时露出的字数
 
   const app = document.getElementById("app");
@@ -59,31 +61,26 @@
       const total = t.essay.paras.length;
       return `<button class="et-theme" data-action="open" data-id="${t.id}">
           <span class="et-theme-head"><span class="et-theme-name">${escapeHtml(t.name)}</span><span class="status-chip ${n === total ? "status-mastered" : n ? "status-learning" : "status-new"}">${n === total ? "已背会" : "背了 " + n + "/" + total + " 段"}</span></span>
-          <span class="et-theme-essay">范文：《${escapeHtml(t.essay.title)}》</span>
+          <span class="et-theme-essay">${t.unit ? escapeHtml(t.unit) + " · " : ""}范文：《${escapeHtml(t.essay.title)}》</span>
           <span class="et-theme-titles">能写：${t.titles.map(escapeHtml).join("、")}</span>
         </button>`;
     }).join("");
     return `<section class="et-intro">
-        <h2 class="lead-title">背 4 篇，应对大多数记叙文题</h2>
+        <h2 class="lead-title">${escapeHtml(data.ui.lead)}</h2>
         <ul class="et-howto">${data.howto.map(h => `<li>${rich(h)}</li>`).join("")}</ul>
       </section>
       <div class="et-theme-grid">${cards}</div>
       <section class="et-plan">
-        <h3 class="et-h3">考前 7 天怎么背</h3>
+        <h3 class="et-h3">${escapeHtml(data.ui.planTitle)}</h3>
         <table class="et-table"><tbody>${data.plan.map(r => `<tr><th>${escapeHtml(r[0])}</th><td>${escapeHtml(r[1])}</td></tr>`).join("")}</tbody></table>
       </section>
       <section class="et-plan">
         <h3 class="et-h3">拿到题目，用哪一篇？</h3>
         <table class="et-table">
           <thead><tr><th>题目里有……</th><th>用</th></tr></thead>
-          <tbody>
-            <tr><td>芬芳、温暖、爱、背影、亲人、我想对你说</td><td>范文一（亲情）</td></tr>
-            <tr><td>老师、身边的人、平凡人、坚持、感谢</td><td>范文二（老师）</td></tr>
-            <tr><td>成长、长大、担当、山水、经历、那一次</td><td>范文三（成长）</td></tr>
-            <tr><td>窗外、风景、发现、美、光、懂了</td><td>范文四（风景）</td></tr>
-          </tbody>
+          <tbody>${data.pick.map(r => `<tr><td>${escapeHtml(r[0])}</td><td>${escapeHtml(r[1])}</td></tr>`).join("")}</tbody>
         </table>
-        <p class="et-note">两篇都能用时，选自己背得最熟的那篇。</p>
+        <p class="et-note">${escapeHtml(data.ui.pickNote)}</p>
       </section>`;
   }
 
@@ -96,7 +93,7 @@
     else if (section === "skeleton") body = renderSkeleton(t);
     else body = renderLines(t);
     return `<div class="et-wrap">
-        <p class="eyebrow">范文${"一二三四"[idx]} · ${escapeHtml(t.name)}</p>
+        <p class="eyebrow">范文${NUM[idx]} · ${escapeHtml(t.name)}${t.unit ? " · " + escapeHtml(t.unit) : ""}</p>
         <p class="et-fits">能写的题目：${t.titles.map(x => `<span class="et-chip">${escapeHtml(x)}</span>`).join("")}</p>
         <div class="et-segs">${tabs}</div>
         ${body}
@@ -126,21 +123,20 @@
         <h3 class="et-essay-title">${escapeHtml(t.essay.title)}</h3>
         ${paras}
       </article>
-      <p class="et-note">加粗的句子是点题句，换题目时就改这几句（看“换题表”）。第 ③ 段最长，是得分关键，要背得最熟。</p>`;
+      <p class="et-note">${escapeHtml(t.essay.tip || data.ui.essayTip)}</p>`;
   }
 
   function renderSwaps(t) {
-    return `<p class="et-note top">故事（第 ②③ 段）不用改，只替换开头和结尾。感悟段（④）里的点题句也照着改一下。</p>
+    return `<p class="et-note top">${escapeHtml(t.swapNote || data.ui.swapNote)}</p>
       ${t.swaps.map(s => `<div class="et-swap">
           <h4>《${escapeHtml(s.title)}》</h4>
-          <div class="et-swap-row"><span>开头改成</span><p>${escapeHtml(s.open)}</p></div>
-          <div class="et-swap-row"><span>结尾改成</span><p>${escapeHtml(s.close)}</p></div>
+          ${swapRows(s).map(r => `<div class="et-swap-row"><span>${escapeHtml(r[0])}</span><p>${escapeHtml(r[1])}</p></div>`).join("")}
           ${s.note ? `<p class="et-note">${escapeHtml(s.note)}</p>` : ""}
         </div>`).join("")}`;
   }
 
   function renderSkeleton(t) {
-    return `<p class="et-note top">这是范文的“骨架”。括号里换成自己的内容，就是一篇新作文。考场上先在草稿纸上按这五行列提纲。</p>
+    return `<p class="et-note top">${escapeHtml(data.ui.skeletonNote)}</p>
       <ol class="et-skeleton">${t.skeleton.map(s => `<li>${escapeHtml(s.replace(/^[①②③④⑤]\s*/, ""))}</li>`).join("")}</ol>`;
   }
 
@@ -149,15 +145,18 @@
       <ul class="et-lines">${t.lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul>`;
   }
 
-  // 打印：四篇范文＋换题表＋骨架，一个主题一组
+  // 换题表每行：默认是开头＋结尾，也可在数据里用 rows 自定义 [[标签, 内容], ...]
+  function swapRows(s) { return s.rows || [["开头改成", s.open], ["结尾改成", s.close]]; }
+
+  // 打印：全部范文＋换题表＋骨架，一个主题一组
   function renderPrint() {
     return `<h1 class="pr-title">${escapeHtml(data.title)}</h1>
       ${data.themes.map((t, i) => `<section class="pr-theme">
-          <h2>范文${"一二三四"[i]} · ${escapeHtml(t.name)}：《${escapeHtml(t.essay.title)}》</h2>
+          <h2>范文${NUM[i]} · ${escapeHtml(t.name)}：《${escapeHtml(t.essay.title)}》</h2>
           <p class="pr-fits">能写：${t.titles.map(escapeHtml).join("、")}</p>
           ${t.essay.paras.map(p => `<p class="pr-label">${escapeHtml(p.label)}</p>` + p.text.split("\n").map(s => `<p class="pr-para">${rich(s)}</p>`).join("")).join("")}
-          <h3>换题表</h3>
-          ${t.swaps.map(s => `<p class="pr-swap"><b>《${escapeHtml(s.title)}》</b>开头：${escapeHtml(s.open)}<br>结尾：${escapeHtml(s.close)}${s.note ? `<br><i>${escapeHtml(s.note)}</i>` : ""}</p>`).join("")}
+          <h3>${escapeHtml(SECTIONS[1][1])}</h3>
+          ${t.swaps.map(s => `<p class="pr-swap"><b>《${escapeHtml(s.title)}》</b>${swapRows(s).map(r => escapeHtml(r[0].replace(/改成$/, "")) + "：" + escapeHtml(r[1])).join("<br>")}${s.note ? `<br><i>${escapeHtml(s.note)}</i>` : ""}</p>`).join("")}
           <h3>骨架</h3>
           <ol class="pr-skeleton">${t.skeleton.map(s => `<li>${escapeHtml(s.replace(/^[①②③④⑤]\s*/, ""))}</li>`).join("")}</ol>
         </section>`).join("")}`;
@@ -220,6 +219,7 @@
       app.innerHTML = `<div class="fatal-error">${escapeHtml(error.message)}<br>请通过网站地址打开本页，而不是直接双击文件。</div>`;
       return;
     }
+    if (data.ui.sections) SECTIONS = SECTIONS.map(([k, label]) => [k, data.ui.sections[k] || label]);
     load();
     bind();
     render();
