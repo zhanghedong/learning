@@ -1,0 +1,93 @@
+/* 作文模板：在 grade8a-recitations.css 的基础上补充 */
+
+b { font-weight: 700; }
+.print-only { display: none; }
+.et-print { width: auto; padding: 0 12px; font-size: 13px; font-weight: 700; }
+
+/* 总览 */
+.et-intro { margin-bottom: 20px; padding: 26px 30px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.et-howto { margin: 14px 0 0; padding-left: 22px; font-size: 15px; line-height: 1.9; }
+.et-howto li + li { margin-top: 4px; }
+.et-theme-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.et-theme { display: flex; flex-direction: column; gap: 8px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); text-align: left; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease; }
+.et-theme:hover { border-color: var(--seal-soft); box-shadow: var(--shadow); }
+.et-theme-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.et-theme-name { font: 600 22px/1.4 var(--kai); }
+.et-theme-essay { color: var(--seal); font-size: 14px; font-weight: 700; }
+.et-theme-titles { color: var(--ink-soft); font-size: 13px; line-height: 1.7; }
+.et-plan { margin-top: 26px; }
+.et-h3 { margin: 0 0 10px; padding-left: 10px; border-left: 4px solid var(--seal); font: 600 20px/1.4 var(--kai); }
+.et-table { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 14px; }
+.et-table th, .et-table td { padding: 9px 12px; border: 1px solid var(--line); line-height: 1.7; text-align: left; vertical-align: top; }
+.et-table tbody th { width: 96px; white-space: nowrap; color: var(--seal); }
+.et-table thead th { background: var(--surface-soft); color: var(--seal); font-size: 13px; }
+.et-note { margin: 10px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.8; }
+.et-note.top { margin: 0 0 14px; }
+
+/* 主题页 */
+.et-wrap { max-width: 820px; margin: 0 auto; }
+.et-fits { margin: 0 0 14px; line-height: 2.1; color: var(--ink-soft); font-size: 13px; }
+.et-chip { display: inline-block; margin: 0 6px 0 0; padding: 1px 10px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface); color: var(--ink); font-size: 13px; line-height: 1.8; }
+.et-segs { display: grid; grid-template-columns: repeat(4, 1fr); margin-bottom: 18px; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; }
+.et-seg { min-height: 42px; border: 0; background: var(--surface); font-size: 15px; font-weight: 600; cursor: pointer; }
+.et-seg + .et-seg { border-left: 1px solid var(--line-strong); }
+.et-seg.active { background: var(--seal); color: #fff; }
+
+.et-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.et-meta { color: var(--ink-soft); font-size: 13px; }
+.et-meta b { color: var(--good); }
+.et-essay { padding: 8px 26px 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); }
+.et-essay-title { margin: 16px 0 6px; text-align: center; font: 600 24px/1.5 var(--kai); }
+.et-row { padding: 14px 0; border-top: 1px dashed var(--line); }
+.et-essay-title + .et-row { border-top: 0; }
+.et-row-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.et-label { color: var(--seal); font-size: 13px; font-weight: 700; }
+.et-learn { display: inline-flex; align-items: center; gap: 5px; color: var(--ink-soft); font-size: 13px; cursor: pointer; white-space: nowrap; }
+.et-learn input { width: 17px; height: 17px; accent-color: var(--good); }
+.et-para { margin: 0; text-indent: 2em; font: 19px/2 var(--kai); }
+.et-para b { color: var(--seal); font-weight: 600; text-decoration: underline; text-decoration-color: var(--seal-soft); text-underline-offset: 5px; }
+.et-para[data-action] { cursor: pointer; }
+.et-para.hidden { color: var(--ink); }
+.et-dots { color: var(--line-strong); font-family: var(--sans); font-size: 14px; }
+
+.et-swap { margin-top: 12px; padding: 16px 20px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.et-swap h4 { margin: 0 0 8px; font: 600 19px/1.5 var(--kai); color: var(--seal); }
+.et-swap-row { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 10px; padding: 6px 0; }
+.et-swap-row span { color: var(--ink-soft); font-size: 13px; font-weight: 700; line-height: 2; }
+.et-swap-row p { margin: 0; font: 17px/1.9 var(--kai); }
+
+.et-skeleton, .et-lines { margin: 0; padding: 16px 20px 16px 44px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); font: 18px/2 var(--kai); }
+.et-skeleton { list-style: none; padding-left: 20px; counter-reset: sk; }
+.et-skeleton li { counter-increment: sk; position: relative; padding-left: 34px; }
+.et-skeleton li::before { content: counter(sk); position: absolute; left: 0; top: 7px; width: 24px; height: 24px; border-radius: 50%; background: var(--seal-bg); color: var(--seal); font: 700 13px/24px var(--sans); text-align: center; }
+.et-skeleton li + li, .et-lines li + li { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.et-skeleton li + li::before { top: 17px; }
+
+@media (max-width: 700px) {
+  .et-intro { padding: 20px 16px; }
+  .et-theme-grid { grid-template-columns: 1fr; }
+  .et-essay { padding: 4px 14px 12px; }
+  .et-para { font-size: 18px; }
+  .et-swap { padding: 14px; }
+  .et-swap-row { grid-template-columns: 1fr; gap: 0; }
+  .tabs .tab-button { padding-inline: 10px; }
+}
+
+/* 打印：A4，四篇范文＋换题表＋骨架 */
+@media print {
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+  .app-shell, .toast { display: none !important; }
+  .print-only { display: block; }
+  body { background: #fff; color: #000; }
+  .pr-title { margin: 0 0 6mm; text-align: center; font: 600 20pt/1.4 var(--kai); }
+  .pr-theme + .pr-theme { break-before: page; }
+  .pr-theme h2 { margin: 0 0 2mm; font: 600 15pt/1.5 var(--kai); }
+  .pr-theme h3 { margin: 5mm 0 2mm; font: 600 12pt/1.5 var(--sans); break-after: avoid; }
+  .pr-fits { margin: 0 0 3mm; color: #555; font-size: 9.5pt; }
+  .pr-para { margin: 0 0 2mm; text-indent: 2em; font: 12pt/1.85 var(--kai); }
+  .pr-label { margin: 1mm 0 0; color: #a6382d; font: 700 8.5pt/1.6 var(--sans); break-after: avoid; }
+  .pr-para b { text-decoration: underline; }
+  .pr-swap { margin: 0 0 2mm; font: 10.5pt/1.7 var(--kai); break-inside: avoid; }
+  .pr-swap i { color: #555; font-style: normal; font-size: 9pt; }
+  .pr-skeleton { margin: 0; padding-left: 6mm; font: 10.5pt/1.7 var(--kai); }
+}
